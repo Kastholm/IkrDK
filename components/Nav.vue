@@ -1,7 +1,7 @@
 <template>
-  <header class="relative h-fit sm:max-w-full max-w-[80px]">
+  <header class="relative h-fit sm:max-w-full max-w-[40px]">
 <nav clasS="relative flex justify-center items-center">
- <ul class="flex gap-14 absolute p-6 font-semibold">
+ <ul class="flex gap-14 absolute sm:p-6 font-semibold ">
     <li><NuxtLink to="/">HJEM</NuxtLink></li>
     <li><NuxtLink to="#">SAMARBEJDE</NuxtLink></li>
     <li><NuxtLink to="#">YDELSER</NuxtLink></li>

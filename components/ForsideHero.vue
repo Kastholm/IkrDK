@@ -7,19 +7,19 @@
    <div class="w-full h-[400px] bg-[#256c2b] absolute bottom-0 ">
     <div class=" bg-[#000000] w-[10%] h-[600px] top-0 absolute z-30 opacity-20 clip handrespons">
    </div>
-   <img src="https://i.ibb.co/q9Jd6px/Jesper-cropped.png" alt="" class="sm:h-[450px] h-48 absolute bottom-0 z-50 right-0 sm:translate-x-0 ">
+   <img src="https://i.ibb.co/MMGXgxy/Jesper-Z-frit-230x540px.png" alt="" class="sm:h-[450px] h-64 absolute bottom-0 z-50 right-3 sm:right-12 sm:translate-x-0 ">
    <div class=" bg-gradient-header w-[100%] h-[60px] absolute bottom-0 z-30"></div>
    
  </div>
  <div class="flex justify-end">
     <div class="bg-[#3a5246] sm:h-[500px] h-[630px] sm:w-[90%] absolute bottom-0 z-10 rounded-sm ">
         <article class="flex flex-col gap-10 justify-center sm:ml-28 ml-5 sm:mt-36 mt-5 text-white">
-        <h1 class="text-5xl font-semibold tracking-wider">Dialog er nøgleordet...</h1>
+        <h1 class=" font-semibold tracking-wider">Dialog er nøgleordet...</h1>
         <p class=" w-[90%] sm:max-w-[700px]">I et samarbejde med IKR vil du opleve at få en aktiv medspiller med erfaring, kompetence og konkrete løsninger som kommer din organisation til gode. På kort og på langt sigt.</p>
         </article>
-        <article class="flex flex-col sm:items-end w-[80%] ml-5 sm:ml-0 mt-5 sm:-translate-y-14 gap-3 font-semibold italic text-[#151414]">
+        <article class="flex flex-col sm:items-end w-[80%] sm:ml-0 mt-5 translate-y-10 sm:-translate-y-36 gap-3 ml-24 font-semibold italic text-[#151414] sm:max-w-full max-w-[100px]">
             <p>Jesper Zangenberg<br> Indehaver & CEO </p>
-            <p>Ring til Jesper: <a class="not-italic underline underline-offset-4" href="telto: +45 12 34 56 78 ">+45 12 34 56 78 </a></p>
+            <p class=" text-[22px]">Ring til Jesper: <br> <a class="not-italic underline underline-offset-4" href="telto: +45 12 34 56 78 ">+45 12 34 56 78 </a></p>
         </article>
     </div>
    </div>

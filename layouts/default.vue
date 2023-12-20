@@ -10,7 +10,9 @@
   body {
     margin: 0;
     padding: 0;
+    font-family: Opel Sans;
   }
+
 
   html {
     height: 100%;
@@ -30,13 +32,54 @@
     font-family:;
   }
 
+  h1 {
+    font-size: 64px;
+    font-weight: bold;
+  }
+
   h2 {
-    font-size: 38px;
+    font-size: 48px;
     font-weight: bold;
   }
 
   h4 {
-    font-size: 25px;
+    font-size: 34px;
+    font-weight: 600;
+  }
+
+  h5 {
+    font-size: 23px;
+    font-weight: 600;
+  }
+
+  h3{
+    font-size: 34px;
+    font-weight: 650;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 24px;
+    font-weight: medium;
+  }
+
+  @media only screen and (max-width: 767px) {
+    h2 {
+    font-size: 32px;
+    font-weight: bold;
+    min-width: 320px;
+  }
+
+  h1 {
+    font-size: 54px;
+    font-weight: bold;
+  }
+
+  h4 {
+    font-size: 38px;
     font-weight: 600;
   }
 
@@ -56,37 +99,6 @@
 
   p {
     font-size: 20px;
-    font-weight: medium;
-  }
-
-  @media only screen and (max-width: 767px) {
-    h2 {
-    font-size: 32px;
-    font-weight: bold;
-    min-width: 320px;
-  }
-
-  h4 {
-    font-size: 38px;
-    font-weight: 600;
-  }
-
-  h5 {
-    font-size: 23px;
-    font-weight: 600;
-  }
-
-  h3{
-    font-size: 34px;
-    font-weight: 650;
-  }
-
-  a {
-    font-size: 18px;
-  }
-
-  p {
-    font-size: 19px;
     font-weight: 600;
     min-width: 280px;
   }

@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: 'Opel Sans Bold';
+    src: url('~static/fonts/Opel-Sans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Opel Sans Bold Italic';
+    src: url('~static/fonts/Opel-Sans-Bold-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Opel Sans Italic';
+    src: url('~static/fonts/Opel-Sans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Opel Sans Regular';
+    src: url('~static/fonts/Opel-Sans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

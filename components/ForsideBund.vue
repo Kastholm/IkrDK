@@ -1,12 +1,12 @@
 <template>
 <main class=" overflow-x-hidden">
   <section class="w-full flex justify-center mt-40 max-h-[390px] relative">
-    <div class="bgimg flex flex-col sm:flex-row justify-around items-center gap-3 rounded-md max-w-full sm:max-w-[1000px] ">
-        <div class="flex flex-col mb-20 sm:ml-20 sm:mt-0 mt-14 gap-5 sm:text-start text-center ">
+    <div class="bgimg flex flex-col sm:flex-row justify-around items-center max-w-full sm:max-w-full">
+        <div class="flex flex-col mb-20 sm:ml-20 sm:mt-0 gap-10 sm:text-start text-center sm:-translate-y-5 ">
         <h4> Tæt på det hele</h4>
-        <p class="w-[90%] max-w-[600px] font-semibold"> Som en del af godset Hørbygård i Nordvestsjælland har IKR udgangspunkt fra det gamle kampestenshus. Midt i den skønneste natur, nær skov og fjord. 5 minutter til motorvejen til København og 30 minutter til færgen til Århus. Tæt på det hele – også vores kunder.</p>
+        <p class="w-[90%] m-auto sm:m-0 ikrfont max-w-[700px] font-semibold"> Som en del af godset Hørbygård i Nordvestsjælland har IKR udgangspunkt fra det gamle kampestenshus. Midt i den skønneste natur, nær skov og fjord. 5 minutter til motorvejen til København og 30 minutter til færgen til Århus. Tæt på det hele – også vores kunder.</p>
         </div>
-        <img src="https://i.ibb.co/db0jP2z/IKR-0009.jpg" class="max-w-[400px] max-h-[280px] sm:mr-16 rounded-sm sm:-translate-y-0 -translate-y-12" alt="">
+        <img src="https://i.ibb.co/db0jP2z/IKR-0009.jpg" class="sm:max-w-[500px] max-h-[400px] sm:mr-16 rounded-sm mt-10 sm:mt-0  -translate-y-12 sm:-translate-y-14 " alt="">
     </div>
     
   </section>
@@ -27,10 +27,14 @@
 </script>
 
 <style>
+
+.ikrfont {
+  font-size: 24px;
+}
 .bgimg {
-    background-image: url('https://i.ibb.co/98TPJyR/IKR-gr-n-baggrund-4000x2200px-2-2-1.jpg');
-    height:353px;
-    width:70%;
+    background-image: url('https://i.ibb.co/jTpr9xR/IKR-gr-n-baggrund-4000x1000px-1.jpg');
+    height:500px;
+    width:100%;
     background-size: contain;
     background-repeat: no-repeat;
 }

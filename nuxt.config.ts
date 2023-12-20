@@ -3,13 +3,15 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
-
-  modules: ["@nuxtjs/tailwindcss"]
-})
+  css: [
+    '@/static/css/custom-font.css',
+    // ... other CSS files if needed
+  ],
+  modules: ['@nuxtjs/tailwindcss'],
+});

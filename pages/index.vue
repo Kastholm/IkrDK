@@ -11,26 +11,26 @@
    </div>
 
    <div class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white sm:mt-10 sm:-translate-y-0 -translate-y-20 "> 
-    <div class="card flex flex-col justify-center items-center gap-[46px]">
+    <div class="card flex flex-col justify-center items-center gap-[56px]">
         <h3 class="max-w-[90%] leading-10 overskrift-underline"> ØKONOMISKE ANALYSER
         </h3>
-        <p class="max-w-[90%] max-h-[150px] mt-1 -translate-y-4">Analyser på tværs af jeres indkøb er fremragende værktøjer til at finde nye muligheder for øget økonomisk råderum.</p>
+        <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">Analyser på tværs af jeres indkøb er fremragende værktøjer til at finde nye muligheder for øget økonomisk råderum.</p>
         <div class="flex w-full justify-end mr-10 underline underline-offset-4">
             <a class="text-end italic -translate-y-3">Læs mere..</a>
         </div>
     </div>
-    <div class="card flex flex-col justify-center items-center gap-[35px]">
+    <div class="card flex flex-col justify-center items-center gap-[45px]">
         <h3 class="max-w-[90%] leading-10 overskrift-underline"> UDBUD OG KONKURRENCE
         </h3>
-        <p class="max-w-[90%] max-h-[150px] mt-1">En analyse af jeres nuværende udbudsmateriale danner baggrund for en vurdering af potentielle gevinster ved fornyede konkurrenceudsættelse. </p>
+        <p class="max-w-[90%] cardfont max-h-[150px] mt-1 -translate-y-3">En analyse af jeres nuværende udbudsmateriale danner baggrund for en vurdering af potentielle gevinster ved fornyede konkurrenceudsættelse. </p>
         <div class="flex w-full justify-end mr-10 underline underline-offset-4">
             <a class="text-end italic -translate-y-3">Læs mere..</a>
         </div>
     </div>
-    <div class="card flex flex-col justify-center items-center gap-[40px]">
-        <h3 class="max-w-[90%] leading-10 overskrift-underline"> AFTALE OPFØLGNING
+    <div class="card flex flex-col justify-center items-center gap-[45px]">
+        <h3 class="max-w-[90%] leading-10 overskrift-underline "> AFTALE OPFØLGNING
         </h3>
-        <p class="max-w-[90%] max-h-[150px] mt-1">Aftalestyring og opfølgning på aftaler giver fornyet forhandlingsstyrke med dertil hørende aftaleoptimeringer. Ved at arbejde målrettet forbedres resultaterne.</p>
+        <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-3">Aftalestyring og opfølgning på aftaler giver fornyet forhandlingsstyrke med dertil hørende aftaleoptimeringer. Ved at arbejde målrettet forbedres resultaterne.</p>
         <div class="flex w-full justify-end mr-10 underline underline-offset-4">
             <a class="text-end italic -translate-y-3">Læs mere..</a>
         </div>
@@ -62,6 +62,9 @@
 
 }
 
+.cardfont{
+    font-size:22px
+}
 .overskrift-underline {
     position: relative;
 }
