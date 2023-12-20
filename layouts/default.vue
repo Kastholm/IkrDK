@@ -58,4 +58,37 @@
     font-size: 20px;
     font-weight: medium;
   }
+
+  @media only screen and (max-width: 767px) {
+    h2 {
+    font-size: 32px;
+    font-weight: bold;
+    min-width: 320px;
+  }
+
+  h4 {
+    font-size: 38px;
+    font-weight: 600;
+  }
+
+  h5 {
+    font-size: 23px;
+    font-weight: 600;
+  }
+
+  h3{
+    font-size: 34px;
+    font-weight: 650;
+  }
+
+  a {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 19px;
+    font-weight: 600;
+    min-width: 280px;
+  }
+}
   </style>

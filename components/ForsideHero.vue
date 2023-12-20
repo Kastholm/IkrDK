@@ -1,29 +1,30 @@
 <template>
-
-<div class="relative h-[800px] mt-0 z-10 header-img">
+<main>
+ <div class="relative h-[800px] mt-0 z-10 header-img max-w-[2000px] w-full m-auto">
    <div>
-    <img src="https://i.ibb.co/MGXRBFt/FORSIDE-h-nd.png" class="left-[325px] h-[500px] scale-[2.0] absolute -translate-y-16 z-20" alt="">
+    <img src="https://i.ibb.co/MGXRBFt/FORSIDE-h-nd.png" class="hidden sm:visible left-[405px] h-[500px] scale-[2.1] absolute -translate-y-12 z-20" alt="">
    </div>
    <div class="w-full h-[400px] bg-[#256c2b] absolute bottom-0 ">
-    <div class=" bg-[#000000] w-[10%] h-[600px] top-0 absolute z-30 opacity-20 clip">
+    <div class=" bg-[#000000] w-[10%] h-[600px] top-0 absolute z-30 opacity-20 clip sm:visible hidden">
    </div>
-   <img src="https://i.ibb.co/q9Jd6px/Jesper-cropped.png" alt="" class="h-96 absolute bottom-0 z-50 right-0">
+   <img src="https://i.ibb.co/q9Jd6px/Jesper-cropped.png" alt="" class="sm:h-96 h-48 absolute bottom-0 z-50 right-0 sm:translate-x-0 ">
    <div class=" bg-gradient-header w-[100%] h-[60px] absolute bottom-0 z-30"></div>
    
-</div>
-   <div class="flex justify-end">
-    <div class="bg-[#3a5246] h-[500px] w-[90%] absolute bottom-0 z-10 rounded-sm ">
-        <article class="flex flex-col gap-10 justify-center ml-28 mt-36 text-white">
+ </div>
+ <div class="flex justify-end">
+    <div class="bg-[#3a5246] sm:h-[500px] h-[630px] sm:w-[90%] absolute bottom-0 z-10 rounded-sm ">
+        <article class="flex flex-col gap-10 justify-center sm:ml-28 ml-5 sm:mt-36 mt-5 text-white">
         <h1 class="text-5xl font-semibold tracking-wider">Dialog er nøgleordet...</h1>
-        <p class="text-xl max-w-[700px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut malesuada nulla, at eleifend nulla. Donec luctus rutrum turpis malesuada condimentum. Donec suscipit elit a nisl laoreet consectetur. Integer sed blandit ipsum. Pellentesque porttitor ligula arcu, eget suscipit mauris consectetur ut.</p>
+        <p class=" w-[90%] sm:max-w-[700px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut malesuada nulla, at eleifend nulla. Donec luctus rutrum turpis malesuada condimentum. Donec suscipit elit a nisl laoreet consectetur. Integer sed blandit ipsum. Pellentesque porttitor ligula arcu, eget suscipit mauris consectetur ut.</p>
         </article>
-        <article class="flex flex-col items-end w-[80%] -translate-y-5 gap-3 font-semibold italic text-[#151414]">
+        <article class="flex flex-col sm:items-end w-[80%] ml-5 sm:ml-0 mt-5 sm:-translate-y-14 gap-3 font-semibold italic text-[#151414]">
             <p>Jesper Zangenberg<br> Stifter & CEO </p>
             <p>Ring til Jesper: <a class="not-italic underline underline-offset-4" href="telto: +45 12 34 56 78 ">+45 12 34 56 78 </a></p>
         </article>
     </div>
    </div>
-</div>
+ </div>
+</main>
 </template>
 
 <script>

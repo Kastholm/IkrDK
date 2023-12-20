@@ -1,5 +1,5 @@
 <template>
-  <header class="relative h-fit w-full">
+  <header class="relative h-fit sm:max-w-full max-w-[80px]">
 <nav clasS="relative flex justify-center items-center">
  <ul class="flex gap-14 absolute p-6 font-semibold">
     <li><NuxtLink to="/">HJEM</NuxtLink></li>

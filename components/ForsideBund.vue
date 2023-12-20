@@ -1,24 +1,25 @@
 <template>
+<main class=" overflow-x-hidden">
   <section class="w-full flex justify-center mt-40 max-h-[390px] relative">
-    <div class="bgimg flex flex-col sm:flex-row justify-around items-center gap-3 rounded-md">
-        <div class="flex flex-col mb-20 ml-20 gap-5">
+    <div class="bgimg flex flex-col sm:flex-row justify-around items-center gap-3 rounded-md max-w-full sm:max-w-[1000px] ">
+        <div class="flex flex-col mb-20 sm:ml-20 gap-5 sm:text-start text-center ">
         <h4> Tæt på naturen</h4>
-        <p class="max-w-[90%] font-semibold"> IKR har hovedkontor på det idylliske Hørbygaard Gods i Nordvestsjælland. Ro og nærværer nøglebegrebet der giver medarbejderne trivles og koncentration.</p>
+        <p class="w-[90%] max-w-[600px] font-semibold"> IKR har hovedkontor på det idylliske Hørbygaard Gods i Nordvestsjælland. Ro og nærværer nøglebegrebet der giver medarbejderne trivles og koncentration.</p>
         </div>
-        <img src="https://i.ibb.co/db0jP2z/IKR-0009.jpg" class="max-w-[400px] max-h-[280px] sm:mr-16 rounded-sm" alt="">
+        <img src="https://i.ibb.co/db0jP2z/IKR-0009.jpg" class="max-w-[400px] max-h-[280px] sm:mr-16 rounded-sm sm:-translate-y-0 -translate-y-12" alt="">
     </div>
     
   </section>
 
-  <section class="flex justify-center w-full relative">
-<figure class="h-[200px] min-h-[200px] w-[180px] bg-[#2c2c2c] clip3 absolute left-0 top-0 -translate-y-5"></figure>
- <div class="flex flex-col mt-20 gap-5 w-[60%]">
+  <section class="flex justify-center w-full relative sm:mt-0 mt-72">
+<figure class="h-[200px] min-h-[200px] w-[180px] bg-[#2c2c2c] clip3 absolute left-0 top-0 -translate-y-36 sm:-translate-y-5"></figure>
+ <div class="flex flex-col mt-20 items-center gap-5 w-[60%] sm:text-start text-center">
     <h2>🙷 IKRs assistanse har givet os skarpere performance og compliance.. 🙷</h2>
     <p> Læs hvordan nogle af vores kunder har vurderet samarbejdet og de resultater processen har givet.</p>
     <NuxtLink to="#" class="font-semibold underline underline-offset-2"> Se mere her </NuxtLink>
  </div>
   </section>
-
+</main>
 </template>
 
 <script>
@@ -32,6 +33,12 @@
     width:70%;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 767px) {
+    .bgimg {
+        background-image: none;
+    }
 }
 
 .clip3 {
