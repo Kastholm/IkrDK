@@ -2,7 +2,7 @@
 <main>
  <div class="relative h-[800px] mt-0 z-10 header-img max-w-[2000px] w-full m-auto">
    <div>
-    <img src="https://i.ibb.co/MGXRBFt/FORSIDE-h-nd.png" class=" handrespons left-[405px] h-[500px] scale-[2.1] absolute -translate-y-12 z-20" alt="">
+    <img src="https://i.ibb.co/MGXRBFt/FORSIDE-h-nd.png" class=" handrespons left-[325px] top-0 h-[500px] scale-[2.1] absolute -translate-y-16 z-20" alt="">
    </div>
    <div class="w-full h-[400px] bg-[#256c2b] absolute bottom-0 ">
     <div class=" bg-[#000000] w-[10%] h-[600px] top-0 absolute z-30 opacity-20 clip handrespons">
