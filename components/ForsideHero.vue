@@ -2,12 +2,12 @@
 <main>
  <div class="relative h-[800px] mt-0 z-10 header-img max-w-[2000px] w-full m-auto">
    <div>
-    <img src="https://i.ibb.co/MGXRBFt/FORSIDE-h-nd.png" class="hidden sm:visible left-[405px] h-[500px] scale-[2.1] absolute -translate-y-12 z-20" alt="">
+    <img src="https://i.ibb.co/MGXRBFt/FORSIDE-h-nd.png" class=" handrespons left-[405px] h-[500px] scale-[2.1] absolute -translate-y-12 z-20" alt="">
    </div>
    <div class="w-full h-[400px] bg-[#256c2b] absolute bottom-0 ">
-    <div class=" bg-[#000000] w-[10%] h-[600px] top-0 absolute z-30 opacity-20 clip sm:visible hidden">
+    <div class=" bg-[#000000] w-[10%] h-[600px] top-0 absolute z-30 opacity-20 clip handrespons">
    </div>
-   <img src="https://i.ibb.co/q9Jd6px/Jesper-cropped.png" alt="" class="sm:h-96 h-48 absolute bottom-0 z-50 right-0 sm:translate-x-0 ">
+   <img src="https://i.ibb.co/q9Jd6px/Jesper-cropped.png" alt="" class="sm:h-[450px] h-48 absolute bottom-0 z-50 right-0 sm:translate-x-0 ">
    <div class=" bg-gradient-header w-[100%] h-[60px] absolute bottom-0 z-30"></div>
    
  </div>
@@ -34,6 +34,12 @@ export default {
 </script>
 
 <style>
+@media only screen and (max-width: 767px) {
+    .handrespons {
+        display: none;
+    }
+}
+ 
 .clip {
     clip-path: polygon(1% 0, 100% 0, 100% 87%, 0% 100%);
 }

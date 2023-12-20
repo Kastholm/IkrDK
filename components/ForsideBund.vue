@@ -14,7 +14,7 @@
   <section class="flex justify-center w-full relative sm:mt-0 mt-72">
 <figure class="h-[200px] min-h-[200px] w-[180px] bg-[#2c2c2c] clip3 absolute left-0 top-0 -translate-y-36 sm:-translate-y-5"></figure>
  <div class="flex flex-col mt-20 items-center gap-5 w-[60%] sm:text-start text-center">
-    <h2>🙷 IKRs assistanse har givet os skarpere performance og compliance.. 🙷</h2>
+    <h2>🙷 IKRs assistance har givet os skarpere performance og compliance.. 🙷</h2>
     <p> Læs hvordan nogle af vores kunder har vurderet samarbejdet og de resultater processen har givet.</p>
     <NuxtLink to="#" class="font-semibold underline underline-offset-2"> Se mere her </NuxtLink>
  </div>
