@@ -2,9 +2,9 @@
 <main class=" overflow-x-hidden">
   <section class="w-full flex justify-center mt-40 max-h-[390px] relative">
     <div class="bgimg flex flex-col sm:flex-row justify-around items-center gap-3 rounded-md max-w-full sm:max-w-[1000px] ">
-        <div class="flex flex-col mb-20 sm:ml-20 gap-5 sm:text-start text-center ">
-        <h4> Tæt på naturen</h4>
-        <p class="w-[90%] max-w-[600px] font-semibold"> IKR har hovedkontor på det idylliske Hørbygaard Gods i Nordvestsjælland. Ro og nærværer nøglebegrebet der giver medarbejderne trivles og koncentration.</p>
+        <div class="flex flex-col mb-20 sm:ml-20 sm:mt-0 mt-14 gap-5 sm:text-start text-center ">
+        <h4> Tæt på det hele</h4>
+        <p class="w-[90%] max-w-[600px] font-semibold"> Som en del af godset Hørbygård i Nordvestsjælland har IKR udgangspunkt fra det gamle kampestenshus. Midt i den skønneste natur, nær skov og fjord. 5 minutter til motorvejen til København og 30 minutter til færgen til Århus. Tæt på det hele – også vores kunder.</p>
         </div>
         <img src="https://i.ibb.co/db0jP2z/IKR-0009.jpg" class="max-w-[400px] max-h-[280px] sm:mr-16 rounded-sm sm:-translate-y-0 -translate-y-12" alt="">
     </div>

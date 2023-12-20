@@ -15,10 +15,10 @@
     <div class="bg-[#3a5246] sm:h-[500px] h-[630px] sm:w-[90%] absolute bottom-0 z-10 rounded-sm ">
         <article class="flex flex-col gap-10 justify-center sm:ml-28 ml-5 sm:mt-36 mt-5 text-white">
         <h1 class="text-5xl font-semibold tracking-wider">Dialog er nøgleordet...</h1>
-        <p class=" w-[90%] sm:max-w-[700px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut malesuada nulla, at eleifend nulla. Donec luctus rutrum turpis malesuada condimentum. Donec suscipit elit a nisl laoreet consectetur. Integer sed blandit ipsum. Pellentesque porttitor ligula arcu, eget suscipit mauris consectetur ut.</p>
+        <p class=" w-[90%] sm:max-w-[700px]">I et samarbejde med IKR vil du opleve at få en aktiv medspiller med erfaring, kompetence og konkrete løsninger som kommer din organisation til gode. På kort og på langt sigt.</p>
         </article>
         <article class="flex flex-col sm:items-end w-[80%] ml-5 sm:ml-0 mt-5 sm:-translate-y-14 gap-3 font-semibold italic text-[#151414]">
-            <p>Jesper Zangenberg<br> Stifter & CEO </p>
+            <p>Jesper Zangenberg<br> Indehaver & CEO </p>
             <p>Ring til Jesper: <a class="not-italic underline underline-offset-4" href="telto: +45 12 34 56 78 ">+45 12 34 56 78 </a></p>
         </article>
     </div>
