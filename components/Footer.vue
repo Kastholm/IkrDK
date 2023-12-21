@@ -25,9 +25,11 @@
             <h5>Email</h5>
             <p class="mt-4">test@ikr.dk</p>
          </div>
-         
         </div>
+        <div class="flex flex-col gap-10">
         <button class="text-white bg-[#2c2c2c] h-[60px] w-[350px] rounded-sm"><h5>KONTAKT OS</h5></button>
+        <img src="https://i.ibb.co/6wp7Hr0/display.png">
+        </div>     
     </div>
     <div class="h-10"></div>
   </footer>
