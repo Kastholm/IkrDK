@@ -18,8 +18,8 @@
         <p class=" w-[90%] sm:max-w-[700px]">I et samarbejde med IKR vil du opleve at få en aktiv medspiller med erfaring, kompetence og konkrete løsninger som kommer din organisation til gode. På kort og på langt sigt.</p>
         </article>
         <article class="flex flex-col sm:items-end w-[80%] sm:ml-0 mt-5 translate-y-10 sm:-translate-y-36 gap-3 ml-24 font-semibold italic text-[#151414] sm:max-w-full max-w-[100px]">
-            <p>Jesper Zangenberg<br> Indehaver & CEO </p>
-            <p class=" text-[22px]">Ring til Jesper: <br> <a class="not-italic underline underline-offset-4" href="telto: +45 12 34 56 78 ">+45 12 34 56 78 </a></p>
+            <p class="text-[20px]">Jesper Zangenberg<br> Indehaver & CEO </p>
+            <p class=" text-[17px]">Ring til Jesper: <br> <a class="not-italic underline underline-offset-4" href="telto: +45 12 34 56 78 ">+45 12 34 56 78 </a></p>
         </article>
     </div>
    </div>
