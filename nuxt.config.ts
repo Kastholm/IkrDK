@@ -9,9 +9,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  css: [
-    '@/static/css/custom-font.css',
-    // ... other CSS files if needed
-  ],
   modules: ['@nuxtjs/tailwindcss'],
 });
