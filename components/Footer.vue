@@ -4,7 +4,7 @@
         <img src="https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg" class="max-w-[390px]">
         
         <div class="flex flex-col gap-2 max-w-[250px]">
-         <div class="flex gap-2 flex-col items-center justify-center text-center">
+         <div class="flex gap-2 flex-col items-start justify-center text-center">
             <h5 class="mb-2">Links</h5>
             <p>Hjem</p>
             <p>Samarbejde </p>

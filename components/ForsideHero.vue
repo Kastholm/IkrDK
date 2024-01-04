@@ -1,25 +1,26 @@
 <template>
 <main>
  <div class="relative max-h-[800px] h-[800px] mt-0 z-10 header-img max-w-[2000px] w-full m-auto">
+    <p class="text-white text-[80px] font-bold absolute left-20 top-16 z-50 leading-[80px] header-text-respons">Fokus på <br>økonomisk råderum..</p>
    <div class="max-h-[800px] max-w-[2000px] w-full h-[800px] ">
     <img src="https://i.ibb.co/SfjKPHk/FORSIDE-h-nd.png" class=" handrespons handrespons2 top-[10%] left-[40%] max-h-[341px] absolute z-20" alt="">
    </div>
-   <div class="w-full h-[400px] bg-[#256c2b] absolute bottom-0 ">
+   <div class="w-full h-[400px] bg-[#1a5b0b] absolute bottom-0 ">
     <div class=" bg-[#000000] w-[10%] h-[600px] top-0 absolute z-30 opacity-20 clip handrespons">
    </div>
-   <img src="https://i.ibb.co/MMGXgxy/Jesper-Z-frit-230x540px.png" alt="" class="sm:h-[450px] h-64 absolute bottom-0 z-50 right-3 sm:right-12 sm:translate-x-0 ">
+   <img src="https://i.ibb.co/MMGXgxy/Jesper-Z-frit-230x540px.png" alt="" class="sm:h-[450px] person-respons h-64 absolute bottom-0 z-50 right-3 sm:right-12 sm:translate-x-0 ">
    <div class=" bg-gradient-header w-[100%] h-[60px] absolute bottom-0 z-30"></div>
    
  </div>
  <div class="flex justify-end">
-    <div class="bg-[#3a5246] sm:h-[500px] h-[630px] sm:w-[90%] absolute bottom-0 z-10 rounded-sm ">
-        <article class="flex flex-col gap-10 justify-center sm:ml-28 ml-5 sm:mt-36 mt-5 text-white">
+    <div class="bg-[#0a3700e2] sm:h-[500px] h-[630px] sm:w-[90%] absolute bottom-0 z-10 rounded-sm ">
+        <article class="flex flex-col gap-10 justify-center sm:ml-28 ml-5 sm:mt-28 mt-5 text-white">
         <h1 class=" font-semibold tracking-wider">Dialog er nøgleordet...</h1>
-        <p class=" w-[90%] sm:max-w-[700px]">I et samarbejde med IKR vil du opleve at få en aktiv medspiller med erfaring, kompetence og konkrete løsninger som kommer din organisation til gode. På kort og på langt sigt.</p>
+        <p class=" w-[90%] sm:max-w-[700px] mb-7">I et samarbejde med IKR vil du opleve at få en aktiv medspiller med erfaring, kompetence og konkrete løsninger som kommer din organisation til gode. På kort og på langt sigt.</p>
         </article>
-        <article class="flex flex-col sm:items-end w-[80%] sm:ml-0 mt-5 translate-y-10 sm:-translate-y-36 gap-3 ml-24 font-semibold italic text-[#151414] sm:max-w-full max-w-[100px]">
-            <p class="text-[20px]">Jesper Zangenberg<br> Indehaver & CEO </p>
-            <p class=" text-[17px]">Ring til Jesper: <br> <a class="not-italic underline underline-offset-4" href="telto: +45 12 34 56 78 ">+45 12 34 56 78 </a></p>
+        <article id="person-text-container-respons" class="flex flex-col sm:items-end w-[80%] sm:ml-0 mt-5 translate-y-10 sm:-translate-y-36 gap-3 ml-24 font-semibold italic text-[#151414] sm:max-w-full max-w-[100px]">
+            <p class="text-[20px] person-text-respons">Jesper Zangenberg<br> Indehaver & CEO </p>
+            <p class=" text-[17px] person-text-respons">Ring til Jesper: <br> <a class="person-text-respons not-italic underline underline-offset-4" href="telto: +45 12 34 56 78 ">+45 12 34 56 78 </a></p>
         </article>
     </div>
    </div>
@@ -82,6 +83,35 @@ export default {
     }
 }
 
+@media screen and (min-width: 640px) and (max-width: 1355px) {
+  .person-respons {
+        right: 10px;
+        height: 340px;
+        bottom: 0;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1355px) {
+  #person-text-container-respons {
+        
+        transform: translatey(-80px);
+        gap: 0px;
+        width: 85%;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1355px) {
+  .person-text-respons {
+        font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1820px) {
+  .header-text-respons {
+        transform: translatex(100px);
+  }
+}
+
 
  
 .clip {
@@ -95,6 +125,6 @@ export default {
 }
 
 .bg-gradient-header {
-    background: linear-gradient(to bottom, rgba(37, 108, 43, 1), rgba(255, 255, 255, 0.1));
+    background: linear-gradient(to bottom, rgba(37, 108, 43, 1), rgba(255, 255, 255, 0.435));
 }
 </style>
