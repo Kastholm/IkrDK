@@ -1,11 +1,12 @@
 <template>
 <div class="slider sm:max-w-full max-w-[330px]">
 	<div class="slide-track">
+		<div class="slide" height="100" width="50"></div>
 		<div class="slide">
-			<img src="https://i.ibb.co/M2vWvD5/Esbjerg-Kommune.jpg" height="100" width="135" alt="CBS - Copenhagen Business School" />
+			<img src="https://i.ibb.co/M2vWvD5/Esbjerg-Kommune.jpg" height="100" width="100" alt="CBS - Copenhagen Business School" />
 		</div>
 		<div class="slide">
-			<img src="https://i.ibb.co/2cbx3XJ/Frederikssund-Kommune.png" height="100" width="220" alt="Frederikssund Kommune" />
+			<img src="https://i.ibb.co/2cbx3XJ/Frederikssund-Kommune.png" height="100" width="160" alt="Frederikssund Kommune" />
 		</div>
 		<div class="slide">
 			<img src="https://i.ibb.co/rFtNdWq/K-benhavns-Professionh-jskole.png" height="100" width="300" alt="Koebenhavns Professionhoejskole" />
@@ -20,17 +21,20 @@
 			<img src="https://i.ibb.co/h9gFkL0/N-stved-Kommune.jpg" height="100" width="250" alt="Naestved Kommune" />
 		</div>
 		<div class="slide">
-			<img src="https://i.ibb.co/YRWwqcS/S-nderborg-Kommune.jpg" height="100" width="200" alt="Soenderborg Kommune" />
+			<img src="https://i.ibb.co/YRWwqcS/S-nderborg-Kommune.jpg" height="100" width="180" alt="Soenderborg Kommune" />
 		</div>
 		<div class="slide">
-			<img src="https://i.ibb.co/fd96LDM/University-College-Nord.jpg" height="100" width="150" alt="University College" />
+			<img src="https://i.ibb.co/fd96LDM/University-College-Nord.jpg" height="100" width="130" alt="University College" />
 		</div>
 		<div class="slide">
-			<img src="https://i.ibb.co/CW3xgLP/Vejle-Kommune.png" height="100" width="250" alt="Vejle Kommune" />
+			<img src="https://i.ibb.co/CW3xgLP/Vejle-Kommune.png" height="100" width="170" alt="Vejle Kommune" />
 		</div>
 		<div class="slide">
 			<img src="https://i.ibb.co/BKr0QnP/Vordingborg-Kommune.png" height="100" width="250" alt="Vordingborg Kommune" />
 		</div>
+		<div class="slide" height="100" width="250"></div>
+		<div class="slide" height="100" width="50"></div>
+		
 	</div>
 </div>
   </template>
@@ -49,7 +53,7 @@ $animationSpeed: 40s;
 
 @keyframes scroll {
 	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-250px * 7))}
+	100% { transform: translateX(calc(-320px * 7))}
 }
 
 .slider {
@@ -62,8 +66,8 @@ $animationSpeed: 40s;
 	.slide-track {
 		animation: scroll $animationSpeed linear infinite;
 		display: flex;
-		width: calc(250px * 14);
-		gap: 100px;
+		width: calc(350px * 18);
+		gap: 80px;
 	}
 	.slide {
 		height: 100px;
