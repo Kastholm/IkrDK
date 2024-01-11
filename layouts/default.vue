@@ -55,6 +55,14 @@ h3 {
   font-weight: 650;
 }
 
+ul {
+  font-size: 20px;
+}
+
+li {
+  font-size: 26px;
+}
+
 a {
   font-size: 19px;
 }

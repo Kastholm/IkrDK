@@ -1,36 +1,36 @@
 <template>
-<div class="slider sm:max-w-full max-w-[330px]">
+<div class="slider sm:max-w-full max-w-[330px] border-t-2 border-b-2 pt-4 mb-40">
 	<div class="slide-track">
 		<div class="slide" height="100" width="50"></div>
 		<div class="slide">
-			<img src="https://i.ibb.co/M2vWvD5/Esbjerg-Kommune.jpg" height="100" width="100" alt="CBS - Copenhagen Business School" />
+			<img src="https://i.ibb.co/8xNTWrG/esbjerg-250x100px.jpg" height="100" width="250" alt="Esbjerg Kommune" />
 		</div>
 		<div class="slide">
-			<img src="https://i.ibb.co/2cbx3XJ/Frederikssund-Kommune.png" height="100" width="160" alt="Frederikssund Kommune" />
+			<img src="https://i.ibb.co/RDH8dfq/frederikssund-250x100px.jpg" height="100" width="250" alt="Frederikssund Kommune" />
 		</div>
 		<div class="slide">
-			<img src="https://i.ibb.co/rFtNdWq/K-benhavns-Professionh-jskole.png" height="100" width="300" alt="Koebenhavns Professionhoejskole" />
+			<img src="https://i.ibb.co/cLsv71v/KPH-250x100px.jpg" height="100" width="250" alt="Koebenhavns Professionhoejskole" />
 		</div>
 		<div class="slide">
-			<img src="https://i.ibb.co/MhK4Czr/CBS-Copenhagen-Business-School.png" height="100" width="300" alt="" />
+			<img src="https://i.ibb.co/hDc0srv/cbs-250x100px.jpg" height="100" width="250" alt="CBS - Copenhagen Business School" />
 		</div>
 		<div class="slide">
-			<img src="https://i.ibb.co/8BSQT97/kriminalforsorgen.png" height="100" width="300" alt="Kriminalforsorgen" />
+			<img src="https://i.ibb.co/tPyCqWN/Kriminalforsorgen-250x100px.jpg" height="100" width="250" alt="Kriminalforsorgen" />
 		</div>
 		<div class="slide">
-			<img src="https://i.ibb.co/h9gFkL0/N-stved-Kommune.jpg" height="100" width="250" alt="Naestved Kommune" />
+			<img src="https://i.ibb.co/PhVYkyb/n-stved-250x100px.jpg" height="100" width="250" alt="Naestved Kommune" />
 		</div>
 		<div class="slide">
-			<img src="https://i.ibb.co/YRWwqcS/S-nderborg-Kommune.jpg" height="100" width="180" alt="Soenderborg Kommune" />
+			<img src="https://i.ibb.co/ZY2Q4YL/s-nderborg-250x100px.jpg" height="100" width="250" alt="Soenderborg Kommune" />
 		</div>
 		<div class="slide">
-			<img src="https://i.ibb.co/fd96LDM/University-College-Nord.jpg" height="100" width="130" alt="University College" />
+			<img src="https://i.ibb.co/K6wxtz0/UCN-250x100px.jpg" height="100" width="250" alt="University College Nord" />
 		</div>
 		<div class="slide">
-			<img src="https://i.ibb.co/CW3xgLP/Vejle-Kommune.png" height="100" width="170" alt="Vejle Kommune" />
+			<img src="https://i.ibb.co/ggrWNvk/vejle-250x100px.jpg" height="100" width="250" alt="Vejle Kommune" />
 		</div>
 		<div class="slide">
-			<img src="https://i.ibb.co/BKr0QnP/Vordingborg-Kommune.png" height="100" width="250" alt="Vordingborg Kommune" />
+			<img src="https://i.ibb.co/s1Yx8w0/vordingborg-250x100px.jpg" height="100" width="250" alt="Vordingborg Kommune" />
 		</div>
 		<div class="slide" height="100" width="250"></div>
 		<div class="slide" height="100" width="50"></div>
@@ -57,7 +57,8 @@ $animationSpeed: 40s;
 }
 
 .slider {
-	height: 100px;
+	height: 150px;
+	max-height: 130px;
 	margin: auto;
 	overflow:hidden;
 	position: relative;

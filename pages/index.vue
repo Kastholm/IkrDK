@@ -10,21 +10,21 @@
     <p class=" max-w-[60%]">Overblik giver styrke til at opnå forandring. Med falkeblik kan du fokusere i det store perspektiv og være med til at finde nye veje og løsninger i en foranderlig verden.</p>
    </div>
 
-   <div class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white sm:mt-10 sm:-translate-y-0 -translate-y-20 "> 
+   <div class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white sm:mt-10 2xl:mt-0 sm:-translate-y-0 -translate-y-20 "> 
     <div class="card flex flex-col justify-center items-center gap-[56px]">
         <h3 class="max-w-[90%] leading-10 overskrift-underline"> ØKONOMISKE ANALYSER
         </h3>
         <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">Analyser på tværs af jeres indkøb er fremragende værktøjer til at finde nye muligheder for øget økonomisk råderum.</p>
         <div class="flex w-full justify-end mr-10 underline underline-offset-4">
-            <a class="text-end italic -translate-y-3">Læs mere..</a>
+            <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>
         </div>
     </div>
     <div class="card flex flex-col justify-center items-center gap-[45px]">
-        <h3 class="max-w-[90%] leading-10 overskrift-underline"> UDBUD OG KONKURRENCE
+        <h3 class="max-w-[90%] leading-10 overskrift-underline "> UDBUD OG KONKURRENCE
         </h3>
         <p class="max-w-[90%] cardfont max-h-[150px] mt-1 -translate-y-3">En analyse af jeres nuværende udbudsmateriale danner baggrund for en vurdering af potentielle gevinster ved fornyede konkurrenceudsættelse. </p>
         <div class="flex w-full justify-end mr-10 underline underline-offset-4">
-            <a class="text-end italic -translate-y-3">Læs mere..</a>
+            <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>
         </div>
     </div>
     <div class="card flex flex-col justify-center items-center gap-[45px]">
@@ -32,14 +32,14 @@
         </h3>
         <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-3">Aftalestyring og opfølgning på aftaler giver fornyet forhandlingsstyrke med dertil hørende aftaleoptimeringer. Ved at arbejde målrettet forbedres resultaterne.</p>
         <div class="flex w-full justify-end mr-10 underline underline-offset-4">
-            <a class="text-end italic -translate-y-3">Læs mere..</a>
+            <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>
         </div>
     </div>
    </div>
 </section>
 
 <ForsideBund />
-<LogoKarrusel class="translate-y-20 border-t-[#2c2c2c] border-[0px] border-b-[#2c2c2c] min-h-[300px]" />
+<LogoKarrusel class="translate-y-20 border-t-[#2c2c2c] border-[0px] border-b-[#2c2c2c]" />
 <div></div>
 </main>
 
@@ -49,7 +49,7 @@
 
 </script>
 
-<style scoped>
+<style>
 .kommentar::before {
     content: '';
     position: absolute;

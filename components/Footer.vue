@@ -1,5 +1,5 @@
 <template>
-  <footer class="block min-h-[200px]">
+  <footer class="block min-h-[200px] mt-40">
     <div class="flex-col gap-10 sm:gap-0 sm:flex-row flex w-full justify-around items-center">
         <img src="https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg" class="max-w-[390px]">
         
