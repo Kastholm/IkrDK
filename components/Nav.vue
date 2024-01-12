@@ -4,8 +4,8 @@
  <ul class="flex gap-8 absolute sm:p-6 font-semibold z-50">
     <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="/">HJEM</NuxtLink></li>
     <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="/samarbejde">SAMARBEJDE</NuxtLink></li>
-    <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="#">YDELSER</NuxtLink></li>
-    <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="#">VI ER</NuxtLink></li>
+    <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="/ydelser">YDELSER</NuxtLink></li>
+    <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="/vi-er">VI ER</NuxtLink></li>
     <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="#">FAQ</NuxtLink></li>
     <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="#">KONTAKT</NuxtLink></li>
  </ul>

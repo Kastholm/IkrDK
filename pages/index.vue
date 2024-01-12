@@ -3,6 +3,7 @@
  <ForsideHero />
 <section>
  <div class="flex flex-col h-[400px] w-full gap-5 justify-center items-center sm:mt-20 mt-60 relative sm:mb-0 mb-44">
+    <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0"></figure>
     <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-20"></figure>
     <div class="max-w-[72%] sm:max-w-[60%] kommentar relative">
      <h2 class=" sm:max-w-[85%]"> I opnår øget økonomisk råderum fordi I får et konkret helhedsbillede at styre efter.</h2>
@@ -82,6 +83,10 @@
 
 .clip2 {
     clip-path: polygon(0 51%, 100% 0, 100% 51%, 0% 100%);
+}
+
+.clip4 {
+    clip-path: polygon(0 35%, 63% 0, 63% 65%, 0 100%);
 }
 
 @media only screen and (max-width: 767px) {
