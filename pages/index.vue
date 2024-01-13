@@ -6,13 +6,13 @@
     <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0"></figure>
     <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-20"></figure>
     <div class="max-w-[72%] sm:max-w-[60%] kommentar relative">
-     <h2 class=" sm:max-w-[85%]"> I opnår øget økonomisk råderum fordi I får et konkret helhedsbillede at styre efter.</h2>
+     <h2 class=" sm:max-w-[88%] "> I opnår øget økonomisk råderum fordi I får et konkret helhedsbillede at styre efter.</h2>
     </div>
     <p class=" max-w-[60%]">Overblik giver styrke til at opnå forandring. Med falkeblik kan du fokusere i det store perspektiv og være med til at finde nye veje og løsninger i en foranderlig verden.</p>
    </div>
 
    <div class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white sm:mt-10 2xl:mt-0 sm:-translate-y-0 -translate-y-20 "> 
-    <div class="card flex flex-col justify-center items-center gap-[56px]">
+    <div class="card flex flex-col justify-center items-center gap-[56px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer">
         <h3 class="max-w-[90%] leading-10 overskrift-underline"> ØKONOMISKE ANALYSER
         </h3>
         <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">Analyser på tværs af jeres indkøb er fremragende værktøjer til at finde nye muligheder for øget økonomisk råderum.</p>
@@ -20,7 +20,7 @@
             <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>
         </div>
     </div>
-    <div class="card flex flex-col justify-center items-center gap-[45px]">
+    <div class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer">
         <h3 class="max-w-[90%] leading-10 overskrift-underline "> UDBUD OG KONKURRENCE
         </h3>
         <p class="max-w-[90%] cardfont max-h-[150px] mt-1 -translate-y-3">En analyse af jeres nuværende udbudsmateriale danner baggrund for en vurdering af potentielle gevinster ved fornyede konkurrenceudsættelse. </p>
@@ -28,7 +28,7 @@
             <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>
         </div>
     </div>
-    <div class="card flex flex-col justify-center items-center gap-[45px]">
+    <div class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer">
         <h3 class="max-w-[90%] leading-10 overskrift-underline "> AFTALE OPFØLGNING
         </h3>
         <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-3">Aftalestyring og opfølgning på aftaler giver fornyet forhandlingsstyrke med dertil hørende aftaleoptimeringer. Ved at arbejde målrettet forbedres resultaterne.</p>

@@ -12,7 +12,7 @@ Opsigelse eller forlængelse af aftaler i forhold til aftalebetingelser overvåg
    </div>
 
    <div class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white sm:mt-10 2xl:mt-0 sm:-translate-y-0 -translate-y-20 "> 
-    <div class="card flex flex-col justify-center items-center gap-[56px]">
+    <div class="card flex flex-col justify-center items-center gap-[56px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer">
         <h3 class="max-w-[90%] leading-10 overskrift-underline"> ØKONOMISKE ANALYSER
         </h3>
         <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">Analyser på tværs af jeres indkøb er fremragende værktøjer til at finde nye muligheder for øget økonomisk råderum.</p>
@@ -20,7 +20,7 @@ Opsigelse eller forlængelse af aftaler i forhold til aftalebetingelser overvåg
             <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>
         </div>
     </div>
-    <div class="card flex flex-col justify-center items-center gap-[45px]">
+    <div class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer">
         <h3 class="max-w-[90%] leading-10 overskrift-underline "> UDBUD OG KONKURRENCE
         </h3>
         <p class="max-w-[90%] cardfont max-h-[150px] mt-1 -translate-y-3">En analyse af jeres nuværende udbudsmateriale danner baggrund for en vurdering af potentielle gevinster ved fornyede konkurrenceudsættelse. </p>
@@ -28,7 +28,7 @@ Opsigelse eller forlængelse af aftaler i forhold til aftalebetingelser overvåg
             <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>
         </div>
     </div>
-    <div class="card flex flex-col justify-center items-center gap-[45px]">
+    <div class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer">
         <h3 class="max-w-[90%] leading-10 overskrift-underline "> AFTALE OPFØLGNING
         </h3>
         <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-3">Aftalestyring og opfølgning på aftaler giver fornyet forhandlingsstyrke med dertil hørende aftaleoptimeringer. Ved at arbejde målrettet forbedres resultaterne.</p>
@@ -41,7 +41,7 @@ Opsigelse eller forlængelse af aftaler i forhold til aftalebetingelser overvåg
    <div class="flex w-full relative mt-36 gap-10 2xl:gap-40 justify-center">
     <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[135px]"></figure>
     <img src="https://i.ibb.co/cJs7Wtc/samarbejde-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50">
-    <article class="w-[40%] flex flex-col gap-5">
+    <article class="w-[40%] flex flex-col gap-5 -translate-y-5">
 <h2 class="">Vi gør fordelene synlige fra dag 1</h2>
 <p>Jeres succes er vores succes. Selv om det lyder som en gammel traver, er der sandhed i ordene. Når vi indgår et samarbejde, er det med jeres behov, mål og ønsker i fokus. Forventninger afstemmes og processen aftales inden vi sætter i gang – så er tilliden på plads og alle kender vejen frem.
 Vores konsulenter er spydspidserne i arbejdet.
@@ -50,7 +50,7 @@ Vores konsulenter er spydspidserne i arbejdet.
   </div>
   <div class="flex w-full relative mt-36 gap-10 2xl:gap-40 justify-center">
    
-    <article class="w-[40%] flex flex-col gap-5">
+    <article class="w-[40%] flex flex-col gap-5 -translate-y-5">
 <h2 class="">Vi gør fordelene synlige fra dag 1</h2>
 <p>Jeres succes er vores succes. Selv om det lyder som en gammel traver, er der sandhed i ordene. Når vi indgår et samarbejde, er det med jeres behov, mål og ønsker i fokus. Forventninger afstemmes og processen aftales inden vi sætter i gang – så er tilliden på plads og alle kender vejen frem.
 Vores konsulenter er spydspidserne i arbejdet.
@@ -60,7 +60,8 @@ Vores konsulenter er spydspidserne i arbejdet.
   </div>
 
   <YdelserBund />
-
+  <LogoKarrusel class="translate-y-20 border-t-[#2c2c2c] border-[0px] border-b-[#2c2c2c]" />
+<div></div>
 </main>
 </template>
 

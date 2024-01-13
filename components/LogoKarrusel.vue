@@ -32,8 +32,7 @@
 		<div class="slide">
 			<img src="https://i.ibb.co/s1Yx8w0/vordingborg-250x100px.jpg" height="100" width="250" alt="Vordingborg Kommune" />
 		</div>
-		<div class="slide" height="100" width="250"></div>
-		<div class="slide" height="100" width="50"></div>
+		
 		
 	</div>
 </div>
@@ -53,7 +52,7 @@ $animationSpeed: 40s;
 
 @keyframes scroll {
 	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-320px * 7))}
+	100% { transform: translateX(calc(-150px * 7))}
 }
 
 .slider {

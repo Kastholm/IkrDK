@@ -1,6 +1,6 @@
 <template>
 <main>
- <div class="relative max-h-[800px] sm:max-h-[900px] h-[800px] sm:h-[900px] z-10 header-img max-w-[2000px] w-full m-auto">
+ <div class="relative max-h-[800px] sm:max-h-[900px] h-[800px] sm:h-[900px] z-10 header-img max-w-[2000px] w-full m-auto overlay">
     <p class="text-white text-[40px] sm:text-[80px] font-bold absolute left-[20px] sm:left-[140px] top-3 sm:top-28 z-50 leading-0 whitespace-nowrap sm:leading-[80px] header-text-respons">Fokus på <br>økonomisk råderum..</p>
    <div class="max-h-[800px] max-w-[2000px] w-full h-[800px] ">
     <img src="https://i.ibb.co/pXTDRjq/Loes-haand.png" class=" handrespons handrespons2 top-[14.6%] left-[38.5%] h-[341px] absolute z-40" alt="">
@@ -16,7 +16,7 @@
         </article>
         <article class="flex text-start sm:text-end flex-col sm:items-end w-[78%] 2xl:w-[82%] ml-5 sm:ml-0 sm:mt-5 mt-[70px] sm:translate-y-4 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px]">
             <p class="text-[20px] 2xl:text-[23px]">Jesper Zangenberg<br> Indehaver & CEO </p>
-            <p class=" text-[17px] 2xl:text-[21px] ">Ring til Jesper:  <a class="person-text-respons not-italic hover:underline hover:underline-offset-4" href="telto: +45 12 34 56 78 ">+45 12 34 56 78 </a></p>
+            <p class=" text-[20px] 2xl:text-[21px] ">Ring til Jesper:  <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 12 34 56 78 ">+45 12 34 56 78 </a></p>
         </article>
     </div>
    </div>
@@ -115,5 +115,16 @@ export default {
 .bg-gradient-header {
     background: #114d07 linear-gradient(to top, rgb(139, 162, 139), rgba(31, 115, 31, 0.8) 30%, rgba(17, 77, 7, 1) 100%);
     
+}
+
+.overlay::before {
+  content: '';
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+
 }
 </style>
