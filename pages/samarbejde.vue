@@ -10,11 +10,11 @@
 Vores konsulenter er spydspidserne i arbejdet med at løse jeres udfordringer. Mange års erfaring og vundet viden gør dem i stand til at gennemskue aftalernes kompleksitet. Konsulenterne skærer igennem, forenkler og fornyer indgroet vanetænkning og uhensigtsmæssige kontraktforhold og arbejdsgange. Med ansvar og ejerskab på opgaven.
 </p>
     </article>
-    <img src="https://i.ibb.co/cJs7Wtc/samarbejde-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50">
+    <img src="https://i.ibb.co/cJs7Wtc/samarbejde-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50 shadow-2xl">
   </div>
 
   <div class="flex w-full relative mt-36 gap-20 2xl:gap-40 justify-center">
-    <img src="https://i.ibb.co/dkQpQmZ/samarbejde-billed-2.jpg" alt="" class= "max-h-[320px] rounded-md z-50 sm:translate-y-5 ">
+    <img src="https://i.ibb.co/dkQpQmZ/samarbejde-billed-2.jpg" alt="" class= "max-h-[320px] rounded-md z-50 sm:translate-y-5 shadow-2xl">
     <article class="w-[45%] flex flex-col gap-5 border-[#256c2b] border-[6px] p-5 rounded-xl translate-y-5">
 <h2 class="">Ved et samarbejde med <span class="text-[#256c2b]"> IKR </span> kan I opnå følgende:</h2>
 

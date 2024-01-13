@@ -40,7 +40,7 @@ Opsigelse eller forlængelse af aftaler i forhold til aftalebetingelser overvåg
 
    <div class="flex w-full relative mt-36 gap-10 2xl:gap-40 justify-center">
     <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[135px]"></figure>
-    <img src="https://i.ibb.co/cJs7Wtc/samarbejde-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50">
+    <img src="https://i.ibb.co/cJs7Wtc/samarbejde-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50 shadow-2xl">
     <article class="w-[40%] flex flex-col gap-5 -translate-y-5">
 <h2 class="">Vi gør fordelene synlige fra dag 1</h2>
 <p>Jeres succes er vores succes. Selv om det lyder som en gammel traver, er der sandhed i ordene. Når vi indgår et samarbejde, er det med jeres behov, mål og ønsker i fokus. Forventninger afstemmes og processen aftales inden vi sætter i gang – så er tilliden på plads og alle kender vejen frem.
@@ -56,7 +56,7 @@ Vores konsulenter er spydspidserne i arbejdet.
 Vores konsulenter er spydspidserne i arbejdet.
 </p>
     </article>
-    <img src="https://i.ibb.co/cJs7Wtc/samarbejde-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50">
+    <img src="https://i.ibb.co/cJs7Wtc/samarbejde-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50 shadow-2xl">
   </div>
 
   <YdelserBund />

@@ -6,7 +6,7 @@
     <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="/samarbejde">SAMARBEJDE</NuxtLink></li>
     <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="/ydelser">YDELSER</NuxtLink></li>
     <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="/vi-er">VI ER</NuxtLink></li>
-    <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="#">FAQ</NuxtLink></li>
+    <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="/faq">FAQ</NuxtLink></li>
     <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="#">KONTAKT</NuxtLink></li>
  </ul>
  <img src="https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg" class="absolute left-16 h-[100px] w-fit top-3" alt="#">
