@@ -3,14 +3,16 @@
   <section class="bar-sections">
 <h4 class="mmd-text"> FAQ <span class="text-[#256c2b]">:</span></h4>
 
-<div class="bar" id="bar1">
-      <h3 class="header" @click="toggleBar('bar1')">ANALYSER<br> <span  style="font-size: 16px;"> ▼ </span></h3>
-  <div class="content">
+<div class="bar"  id="bar1">
+    <div @click="toggleBar('bar1')" class="flex justify-center items-center translate-y-3">
+      <h3 class="header">ANALYSER<br> <span  style="font-size: 16px;"> ▼ </span></h3>
+    </div>
+  <div  class="content" >
     <div class="bar-flex">
 
-      <div class="baranalyser" id="bar1.1">
-            <h6 class="header" @click="toggleBar('bar1.1')"><strong class="text-[35px]">+</strong> Hvad er en strategisk analyse?</h6>
-       <div class="content" @click="toggleBar('bar1.1')">
+      <div class="baranalyser"  id="bar1.1">
+            <h6 class="header"  @click="toggleBar('bar1.1')"><strong class="text-[35px]">+</strong> Hvad er en strategisk analyse?</h6>
+       <div class="content"  @click="toggleBar('bar1.1')">
         <div class="bar-flex2">
          <p class="bar-lille-text">IKR udfører forskellige typer af indkøbsanalyser, hvor vi prioriterer validitet for at sikre, at analyserne leder til fremtidige besparelser og handlingsplaner. <br>
 Analysen tager højde for flere forskellige faktorer, såsom hvor ofte en bestemt type produkt eller tjeneste købes, mængden af varer eller tjenester, der købes på en given tid, de samlede omkostninger ved indkøb af varer eller tjenester, evaluering af leverandørernes priser, leveringstider, kvalitet af produkter og tjenester og deres generelle performance og feedback fra medarbejdere eller kunder, som kan bruges til at evaluere produktkvalitet, kundetilfredshed og andre faktorer.
@@ -89,7 +91,7 @@ I optimeringsanalysen kigger vi på:
 </div>
 
 <div class="bar" id="bar2">
-      <h3 class="header" @click="toggleBar('bar2')">LEVERANDØRER & KONTRAKTER<br> <span  style="font-size: 16px;"> ▼ </span></h3>
+      <h3 class="header translate-y-3" @click="toggleBar('bar2')">LEVERANDØRER & KONTRAKTER<br> <span  style="font-size: 16px;"> ▼ </span></h3>
   <div class="content">
     <div class="bar-flex">
       <div class="baranalyser" id="bar7">
@@ -106,7 +108,7 @@ I optimeringsanalysen kigger vi på:
 </div>
 
 <div class="bar" id="bar3">
-      <h3 class="header" @click="toggleBar('bar3')">ØGET ØKONOMISK RÅDERUM<br> <span  style="font-size: 16px;"> ▼ </span></h3>
+      <h3 class="header translate-y-3 " @click="toggleBar('bar3')">ØGET ØKONOMISK RÅDERUM<br> <span  style="font-size: 16px;"> ▼ </span></h3>
   <div class="content">
     <div class="bar-flex">
       <div class="baranalyser" id="bar3.1">
@@ -123,7 +125,7 @@ I optimeringsanalysen kigger vi på:
 </div>
 
 <div class="bar" id="bar4">
-      <h3 class="header" @click="toggleBar('bar4')">DRIFT & CONTROLLING<br> <span  style="font-size: 16px;"> ▼ </span></h3>
+      <h3 class="header translate-y-3" @click="toggleBar('bar4')">DRIFT & CONTROLLING<br> <span  style="font-size: 16px;"> ▼ </span></h3>
   <div class="content">
     <div class="bar-flex">
       <div class="baranalyser" id="bar4.1">
@@ -140,7 +142,7 @@ I optimeringsanalysen kigger vi på:
 </div>
 
 <div class="bar" id="bar5">
-      <h3 class="header" @click="toggleBar('bar5')">INDKØB & UDBUD<br> <span  style="font-size: 16px;"> ▼ </span></h3>
+      <h3 class="header translate-y-3" @click="toggleBar('bar5')">INDKØB & UDBUD<br> <span  style="font-size: 16px;"> ▼ </span></h3>
   <div class="content">
     <div class="bar-flex">
 
@@ -214,8 +216,8 @@ align-items: center;
  
 
 .bar {
-  width: 80%;
-  height: 60px;
+  width: 50%;
+  height: 80px;
   background-color: #0a3700;
   color: white;
   cursor: pointer;
@@ -224,6 +226,7 @@ align-items: center;
   border-radius: 10px;
   color: rgb(255, 255, 255);
   line-height: 20px;
+  
 }
 
 .baranalyser {
@@ -273,7 +276,8 @@ align-items: center;
 
 .bar.active {
   height: auto; /* Adjust the height as needed */
-  padding-bottom: 50px
+  padding-bottom: 50px;
+  width: 80%;
 }
 
 .baranalyser.active {

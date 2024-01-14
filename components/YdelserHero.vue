@@ -57,7 +57,7 @@ export default {
     clip-path: polygon(1% 0, 100% 0, 100% 87%, 0% 100%);
 }
 .header-img {
-    background-image: url('https://i.ibb.co/nR1Sdyq/topbillede-ydelser-1.jpg');
+    background-image: url('https://i.ibb.co/0jf2dW1/Billede-1-ydelser-min-1.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
