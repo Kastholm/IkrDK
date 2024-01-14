@@ -14,7 +14,7 @@ Vores konsulenter er spydspidserne i arbejdet med at løse jeres udfordringer. M
   </div>
 
   <div class="flex w-full relative mt-36 gap-20 2xl:gap-40 justify-center">
-    <img src="https://i.ibb.co/bs8KZ9M/Samarbejde-h-jformat-1.jpg" alt="" class= "max-h-[690px] rounded-md z-50 sm:translate-y-5 shadow-2xl">
+    <img src="https://i.ibb.co/bs8KZ9M/Samarbejde-h-jformat-1.jpg" alt="" class= "max-h-[770px] rounded-md z-50 sm:translate-y-5 shadow-2xl">
     <article class="w-[45%] flex flex-col gap-5 p-5 rounded-xl translate-y-5">
 <h2 class="">Ved et samarbejde med <span class="text-[#256c2b]"> IKR </span> kan I opnå følgende:</h2>
 
