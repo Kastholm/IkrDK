@@ -10,7 +10,7 @@
     <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="#">KONTAKT</NuxtLink></li>
  </ul>
  <img src="https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg" class="absolute left-16 h-[100px] w-fit top-3" alt="#">
- <p class="absolute right-16 font-semibold top-3 p-6 cursor-pointer">Dansk🠻</p>
+ <p class="absolute right-16 font-semibold top-3 p-6 cursor-pointer text-[#919995]">Dansk</p>
 
 </nav>
   </header>

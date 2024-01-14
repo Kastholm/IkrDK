@@ -33,7 +33,7 @@ Analysen tager højde for flere forskellige faktorer, såsom hvor ofte en bestem
       </div>
 
       <div class="baranalyser baranalyser3" id="bar1.3">
-            <h6 class="header" @click="toggleBar('bar1.3')"><strong class="text-[35px]">+</strong> Hvad er en foranalyse?</h6>
+            <h6 class="header" @click="toggleBar('bar1.3')"><strong class="text-[35px]">+</strong> Hvad er en for analyse?</h6>
        <div class="content" @click="toggleBar('bar1.3')">
         <div class="bar-flex2">
          <p class="bar-lille-text">Foranalysen ligger før den reelle projektstart. IKR afdækker hvilke muligheder og potentiale der er for et kommende projekt. Foranalysen tager udgangspunkt i en konkret problemstilling hvor Kunden ønsker at vurdere omfanget af opgaven. Formålet med foranalysen er, at identificere muligheder for at reducere omkostningerne og forbedre effektiviteten i forsyningskæden eller andre operationelle processer.
@@ -56,7 +56,7 @@ En grundig spend analyse kan give Kunden et solidt grundlag for at træffe infor
       </div>
 
       <div class="baranalyser5 baranalyser " id="bar1.5">
-            <h6 class="header" @click="toggleBar('bar1.5')"><strong class="text-[35px]">+</strong> Hvad er en indkøbsanalyse?</h6>
+            <h6 class="header" @click="toggleBar('bar1.5')"><strong class="text-[35px]">+</strong> Hvad er en indkøbs analyse?</h6>
        <div class="content" @click="toggleBar('bar1.5')">
         <div class="bar-flex2">
          <p class="bar-lille-text">Indkøbsanalyser hjælper Kunderne med at træffe mere informerede beslutninger om indkøb, identificere potentielle besparelser og forbedringer i indkøbsprocesserne og opnå bedre kontrol over omkostninger.
@@ -66,7 +66,7 @@ En grundig spend analyse kan give Kunden et solidt grundlag for at træffe infor
       </div>
 
       <div class="baranalyser6 baranalyser " id="bar1.6">
-            <h6 class="header" @click="toggleBar('bar1.6')"><strong class="text-[35px]">+</strong> Hvad er en optimeringsanalyse?</h6>
+            <h6 class="header" @click="toggleBar('bar1.6')"><strong class="text-[35px]">+</strong> Hvad er en optimerings analyse?</h6>
        <div class="content" @click="toggleBar('bar1.6')">
         <div class="bar-flex2">
          <p class="bar-lille-text -translate-y-10">Optimeringsanalysen har til formål at belyse hvilke områder, hvor der er potentiale for at kunne optimere. Optimeringen kan både være i forhold til at sikre optimale priser via konkurrenceudsættelse eller være optimering inden for allerede indgåede aftaler. Optimering kan tage udgangspunkt i ændring af processer eller vilkår i kontrakten som giver en bedre anvendelse af ressourcer.

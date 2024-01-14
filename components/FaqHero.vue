@@ -8,7 +8,7 @@
  <div class="flex justify-end">
     <div class="sm:bg-[#0a3700] bg-[#0a3700] sm:h-[350px] h-[500px] sm:w-[90%] absolute bottom-40 z-20 rounded-sm ">
         <article class="flex flex-col gap-10 justify-center sm:ml-28 ml-5 sm:mt-8 mt-5 text-white">
-        <h1 class=" font-semibold tracking-wider leading-[65px] max-w-[900px]">Vi gør det nemt for din virksomhed.. Spørg bare..</h1>
+        <h1 class=" font-semibold tracking-wider leading-[65px] max-w-[900px]">Vi gør det nemt for din virksomhed - spørg bare..</h1>
         <p class=" w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-7">”Komplekse forretningsområder er en stor del af vores konsulenters arbejde hver eneste dag.” </p>
         </article>
         
