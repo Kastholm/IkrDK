@@ -1,7 +1,7 @@
 <template>
 <main>
  <div class="relative max-h-[800px] sm:max-h-[900px] h-[800px] sm:h-[900px] z-10 header-img max-w-[2000px] w-full m-auto overlay">
-  <p class="text-white text-[40px] sm:text-[80px] font-bold absolute left-[20px] sm:left-[140px] top-3 sm:top-28 z-50 leading-0 whitespace-nowrap sm:leading-[80px] header-text-respons">IKR er jeres <br>arbejdende hænder..</p>
+  
    <div class="w-full h-[450px] bg-[#1a5b0b] bg-gradient-header absolute bottom-0 ">
    <img src="https://i.ibb.co/DYkgKFk/Henrik.png" alt="" class="sm:h-[450px] person-respons h-64 absolute bottom-0 z-50 right-3 sm:right-12 sm:translate-x-0 "> 
  </div>
@@ -13,7 +13,7 @@
         </article>
         <article class="flex text-start sm:text-end flex-col sm:items-end w-[78%] 2xl:w-[82%] ml-5 sm:ml-0 sm:mt-12 mt-[70px] gap-3 italic  text-[#000000] sm:max-w-full max-w-[100px]">
           <p class="text-[20px] 2xl:text-[23px]">Henrik Nielsen<br> Direktør IKR</p>
-            <p class=" text-[20px] 2xl:text-[21px]">Ring til Henrik:  <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] scale border-black" href="tel: +45 41 31 55 69 ">+45 41 31 55 69</a></p>
+            <p class=" text-[20px] 2xl:text-[21px]">Ring til Henrik:  <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 41 31 55 69 ">+45 41 31 55 69</a></p>
         </article>
     </div>
    </div>

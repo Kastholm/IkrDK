@@ -103,7 +103,7 @@ export default {
     clip-path: polygon(1% 0, 100% 0, 100% 87%, 0% 100%);
 }
 .header-img {
-    background-image: url('https://i.ibb.co/9y9pKN5/samarbejde-topbillede-1.jpg');
+    background-image: url('https://i.ibb.co/3fx2ft5/samarbejde-topbillede-3.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;

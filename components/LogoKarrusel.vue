@@ -12,7 +12,7 @@
 			<img src="https://i.ibb.co/cLsv71v/KPH-250x100px.jpg" height="100" width="250" alt="Koebenhavns Professionhoejskole" />
 		</div>
 		<div class="slide">
-			<img src="https://i.ibb.co/hDc0srv/cbs-250x100px.jpg" height="100" width="250" alt="CBS - Copenhagen Business School" />
+			<img src="https://i.ibb.co/k074mxB/cbs2-250x100px.jpg" height="100" width="250" alt="CBS - Copenhagen Business School" />
 		</div>
 		<div class="slide">
 			<img src="https://i.ibb.co/tPyCqWN/Kriminalforsorgen-250x100px.jpg" height="100" width="250" alt="Kriminalforsorgen" />
