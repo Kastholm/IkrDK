@@ -94,15 +94,30 @@ I optimeringsanalysen kigger vi på:
       <h3 class="header translate-y-3" @click="toggleBar('bar2')">LEVERANDØRER & KONTRAKTER<br> <span  style="font-size: 16px;"> ▼ </span></h3>
   <div class="content">
     <div class="bar-flex">
-      <div class="baranalyser" id="bar7">
-            <h6 class="header" @click="toggleBar('bar2.1')"><strong class="text-[35px]">+</strong> Hvad er en strategisk analyse?</h6>
+      <div class="baranalyser baranalyser7" id="bar2.1">
+            <h6 class="header" @click="toggleBar('bar2.1')"><strong class="text-[35px]">+</strong> Hvad er kontraktstyring?</h6>
        <div class="content" @click="toggleBar('bar2.1')">
         <div class="bar-flex2">
-         <p class="bar-lille-text">Indkøbsanalyser kan hjælpe Kunden med at træffe mere informerede beslutninger om indkøb, identificere potentielle besparelser og forbedringer i deres indkøbsprocesser og opnå bedre kontrol over deres omkostninger. Hermed lægges bunden for at opnå øget økonomisk råderum.
+         <p class="bar-lille-text">Få kontrol over jeres kontrakter, aftaler og økonomiske forpligtigelser. Ved at have kontrol over jeres aftaler er der penge at spare. I får indsigt og står bedre i forhold til forhandlinger med leverandørerne fremadrettet. Hertil sikre I jer at I har tidssvarende aftale og betaler for det I har brug for.
          </p>
         </div>
        </div>
      </div>
+
+     <div class="baranalyser"  id="bar2.2">
+            <h6 class="header"  @click="toggleBar('bar2.2')"><strong class="text-[35px]">+</strong> Hvad er en strategisk analyse?</h6>
+       <div class="content"  @click="toggleBar('bar2.2')">
+        <div class="bar-flex2">
+         <p class="bar-lille-text">IKR udfører forskellige typer af indkøbsanalyser, hvor vi prioriterer validitet for at sikre, at analyserne leder til fremtidige besparelser og handlingsplaner. <br>
+Analysen tager højde for flere forskellige faktorer, såsom hvor ofte en bestemt type produkt eller tjeneste købes, mængden af varer eller tjenester, der købes på en given tid, de samlede omkostninger ved indkøb af varer eller tjenester, evaluering af leverandørernes priser, leveringstider, kvalitet af produkter og tjenester og deres generelle performance og feedback fra medarbejdere eller kunder, som kan bruges til at evaluere produktkvalitet, kundetilfredshed og andre faktorer.
+
+         </p>
+        </div>
+       </div>
+     </div>
+
+
+
    </div>
   </div>
 </div>
@@ -302,6 +317,10 @@ align-items: center;
 
 .baranalyser6.active {
   height: 590px; /* Adjust the height as needed */
+}
+
+.baranalyser7.active {
+  height: 350px; /* Adjust the height as needed */
 }
 
 .bar.active .content {
