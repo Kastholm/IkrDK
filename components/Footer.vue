@@ -19,11 +19,11 @@
         <div class="flex flex-col gap-5 max-w-[250px] text-center">
          <div class="flex flex-col">
             <h5>Adresse</h5>
-            <p class="mt-4">Adressen sidder her </p>
+            <p class="mt-4">Tuse Næs Vej 7A, 4300 Holbæk, Denmark</p>
          </div>
          <div class="flex flex-col mt-6">
             <h5>Email</h5>
-            <p class="mt-4">test@ikr.dk</p>
+            <p class="mt-4">mail@ikrcg.com</p>
          </div>
         </div>
         <div class="flex flex-col gap-10">

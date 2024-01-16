@@ -3,7 +3,7 @@
  <div class="relative max-h-[800px] sm:max-h-[900px] h-[800px] sm:h-[900px] z-10 header-img max-w-[2000px] w-full m-auto overlay">
     
    <div class="w-full h-[450px] bg-[#1a5b0b] bg-gradient-header absolute bottom-0 ">
-   <img src="https://i.ibb.co/dQRHJhB/bertram-og-troels.png" alt="" class="sm:h-[450px] person-respons h-64 absolute bottom-0 z-50 right-3 sm:right-12 sm:translate-x-0 "> 
+   <img src="https://i.ibb.co/dQRHJhB/bertram-og-troels.png" alt="" class="sm:h-[450px]  person-respons h-64 absolute bottom-0 z-50 right-3 sm:right-12 sm:translate-x-0 "> 
  </div>
  <div class="flex justify-end">
     <div class="sm:bg-[#0a3700] bg-[#0a3700] sm:h-[350px] h-[500px] sm:w-[90%] absolute bottom-40 z-20 rounded-sm ">
@@ -11,7 +11,7 @@
         <h1 class=" font-semibold tracking-wider leading-[65px] max-w-[900px]">IKR optimerer jeres arbejdsproces</h1>
         <p class=" w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-7">I et samarbejde med IKR opnår I fuld gennemsigtighed i jeres indkøbsaftaler således, at I fastholder fokus på vedligeholdelse af hver aftale, der forbliver aktiv og målrettet efter jeres behov. </p>
         </article>
-        <article class="flex text-start sm:text-end flex-col sm:items-end w-[78%] 2xl:w-[82%] ml-5 sm:ml-0 sm:mt-12 mt-[70px] sm:translate-y-4 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px]">
+        <article class="flex text-start sm:text-end flex-col sm:items-end w-[78%] 2xl:w-[78%] ml-5 sm:ml-0 sm:mt-12 mt-[70px] sm:translate-y-4 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px]">
             <p class="text-[20px] 2xl:text-[23px]">Troels Oberlin, Konsulent -  <a href="tel: +45 40 79 68 72" class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black"> Tlf. 40 79 68 72 </a> </p>
             <p class=" text-[20px] 2xl:text-[23px] ">Bertram Ordrup Christensen, Projektleder -  <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 71 99 07 61 ">Tlf. 71 99 07 61 </a></p>
         </article>

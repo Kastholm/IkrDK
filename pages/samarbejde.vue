@@ -6,8 +6,7 @@
     <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-20"></figure>
     <article class="w-[40%] flex flex-col gap-5 -translate-y-5">
 <h2 class="">Vi gør fordelene synlige fra dag 1</h2>
-<p>Jeres succes er vores succes. Selv om det lyder som en gammel traver, er der sandhed i ordene. Når vi indgår et samarbejde, er det med jeres behov, mål og ønsker i fokus. Forventninger afstemmes og processen aftales inden vi sætter i gang – så er tilliden på plads og alle kender vejen frem.
-Vores konsulenter er spydspidserne i arbejdet med at løse jeres udfordringer. Mange års erfaring og vundet viden gør dem i stand til at gennemskue aftalernes kompleksitet. Konsulenterne skærer igennem, forenkler og fornyer indgroet vanetænkning og uhensigtsmæssige kontraktforhold og arbejdsgange. Med ansvar og ejerskab på opgaven.
+<p>Jeres succes er vores succes. Når vi indgår et samarbejde, er det med jeres behov, mål og ønsker i fokus. Forventninger afstemmes og processen aftales inden vi sætter i gang – så er tilliden på plads og alle kender vejen frem. Mange års erfaring og vundet viden gør, at vores konsulenter evner at gennemskue aftalernes kompleksitet. De skærer igennem, forenkler og fornyer indgroet vanetænkning og uhensigtsmæssige kontraktforhold og arbejdsgange. Med ansvar og ejerskab på opgaven.
 </p>
     </article>
     <img src="https://i.ibb.co/cJs7Wtc/samarbejde-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50 shadow-2xl">
@@ -44,7 +43,32 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
+@keyframes slideDown {
+  0% {
+    opacity: 0.9;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.clip2 {
+    clip-path: polygon(0 51%, 100% 0, 100% 51%, 0% 100%);
+}
+
+.clip4 {
+    clip-path: polygon(0 35%, 63% 0, 63% 65%, 0 100%);
+}
+
+main {
+  opacity: 0;
+  animation: slideDown 0.7s ease-out forwards;
+}
+
 .clip2 {
     clip-path: polygon(0 51%, 100% 0, 100% 51%, 0% 100%);
 }

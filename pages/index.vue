@@ -22,7 +22,8 @@
           </div>
       </div>
     </NuxtLink>
-         <div class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer">
+  <NuxtLink to="udbudUnderside">
+    <div class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer">
         <h3 class="max-w-[90%] leading-10 overskrift-underline "> UDBUD OG KONKURRENCE
         </h3>
         <p class="max-w-[90%] cardfont max-h-[150px] mt-1 -translate-y-3">En analyse af jeres nuværende udbudsmateriale danner baggrund for en vurdering af potentielle gevinster ved fornyede konkurrenceudsættelse. </p>
@@ -30,7 +31,9 @@
             <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>
         </div>
     </div>
-    <div class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer">
+  </NuxtLink>
+  <NuxtLink to="aftaleUnderside">
+    <div class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer ">
         <h3 class="max-w-[90%] leading-10 overskrift-underline "> AFTALE OPFØLGNING
         </h3>
         <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-3">Aftalestyring og opfølgning på aftaler giver fornyet forhandlingsstyrke med dertil hørende aftaleoptimeringer. Ved at arbejde målrettet forbedres resultaterne.</p>
@@ -38,7 +41,9 @@
             <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>
         </div>
     </div>
-   </div>
+  </NuxtLink>
+  
+</div>
 </section>
 
 <ForsideBund />
@@ -53,7 +58,23 @@
 
 </script>
 
-<style>
+<style scoped>
+@keyframes slideDown {
+  0% {
+    opacity: 0.9;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main {
+  opacity: 0;
+  animation: slideDown 0.7s ease-out forwards;
+}
+
 .kommentar::before {
     content: '';
     position: absolute;
@@ -80,6 +101,7 @@
     height:3px;
     background-color: white;
     bottom: 0;
+    font-weight: 600px;
     transform:translatey(3px) translatex(-4px);
 
 }

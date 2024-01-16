@@ -7,6 +7,8 @@
 </template>
   
   <style>
+
+
 body {
   margin: 0;
   padding: 0;
@@ -69,6 +71,11 @@ a {
 
 p {
   font-size: 24px;
+  font-weight: medium;
+}
+
+label {
+  font-size: 23px;
   font-weight: medium;
 }
 

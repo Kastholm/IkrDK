@@ -4,7 +4,7 @@
 
   <div class="flex w-full relative mt-36 gap-20 2xl:gap-40 justify-center">
     
-    <img src="https://i.ibb.co/5GcgYV2/Vi-er-team2-75.webp" alt="" class= "max-h-[750px] 2xl:max-h-[600px] rounded-md z-50 shadow-2xl">
+    <img src="https://i.ibb.co/5GcgYV2/Vi-er-team2-75.webp" alt="" class= "h-[900px] 2xl:max-h-[600px] rounded-md z-50 shadow-2xl">
     <article class="w-[40%] flex flex-col gap-5 -translate-y-5">
 <h2 class="">Vi gør fordelene synlige fra dag 1</h2>
 <p class="2xl:leading-[42px]">I mere end tyve år har IKR hjulpet offentlige og private kunder som 100% uvildig rådgiver og katalysator for en positiv udvikling. Som dedikerede partnere, investerer vi i vores kunders udfordringer og er med på sidelinjen på hele rejsen.
@@ -18,7 +18,7 @@ Med et unikt koncept og et kompetent team af specialister skaber vi gennemsigtig
 
 <div class="flex w-full relative mt-36 gap-16 2xl:gap-40 justify-center">
     <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[135px]"></figure>
-    
+    <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0 sm:-translate-y-80"></figure>
     <article class="w-[40%] flex flex-col gap-5 -translate-y-3">
 <h2 class=""><span class="text-[#256c2b]"> IKR </span> ER:</h2>
 <ul class="flex-col flex gap-8">
@@ -28,7 +28,7 @@ Med et unikt koncept og et kompetent team af specialister skaber vi gennemsigtig
   <li><span class="text-[#256c2b] font-bold">Kontraktstyring </span> – jeres aftaler spores, overvåges og evalueres løbende af vores styringsteam. Med fingeren på pulsen sikrer I at alt hele kontraktperioden går som aftalt.  </li>
 </ul>
     </article>
-    <img src="https://i.ibb.co/0JqqVRp/vi-er-maud2-75.webp" alt="" class= "max-h-[700px] 2xl:max-h-[600px] rounded-md z-50 shadow-2xl">
+    <img src="https://i.ibb.co/KWsT29g/port-VI-ER.jpg" alt="" class= "max-h-[600px] 2xl:max-h-[700px] rounded-md z-50 shadow-2xl">
   </div>
   <Vi-erBund />
   <LogoKarrusel class="translate-y-20 border-t-[#2c2c2c] border-[0px] border-b-[#2c2c2c]" />
@@ -42,6 +42,28 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+@keyframes slideDown {
+  0% {
+    opacity: 0.9;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
+main {
+  opacity: 0;
+  animation: slideDown 0.7s ease-out forwards;
+}
+
+.clip2 {
+    clip-path: polygon(0 51%, 100% 0, 100% 51%, 0% 100%);
+}
+
+.clip4 {
+    clip-path: polygon(0 35%, 63% 0, 63% 65%, 0 100%);
+}
 </style>
