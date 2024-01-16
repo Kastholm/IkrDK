@@ -1,9 +1,9 @@
 <template>
 <main>
- <div class="relative max-h-[800px] sm:max-h-[900px] h-[800px] sm:h-[900px] z-10 header-img max-w-[2000px] w-full m-auto overlay">
+ <div class="relative max-h-[800px] sm:max-h-[900px] mt-28 h-[800px] sm:h-[900px] z-10 header-img max-w-[2000px] w-full m-auto overlay">
     
    <div class="w-full h-[450px] bg-[#1a5b0b] bg-gradient-header absolute bottom-0 ">
-   <img src="https://i.ibb.co/dQRHJhB/bertram-og-troels.png" alt="" class="sm:h-[450px]  person-respons h-64 absolute bottom-0 z-50 right-3 sm:right-12 sm:translate-x-0 "> 
+   <img src="https://i.ibb.co/zZWmChp/bertram-og-troels-NY.png" alt="" class="sm:h-[450px]  person-respons h-64 absolute bottom-0 z-50 right-3 sm:right-12 sm:translate-x-0 "> 
  </div>
  <div class="flex justify-end">
     <div class="sm:bg-[#0a3700] bg-[#0a3700] sm:h-[350px] h-[500px] sm:w-[90%] absolute bottom-40 z-20 rounded-sm ">

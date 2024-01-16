@@ -1,17 +1,22 @@
 <template>
 <main>
- <div class="relative max-h-[800px] sm:max-h-[900px] h-[800px] sm:h-[900px] z-10 header-img max-w-[2000px] w-full m-auto overlay">
+ <div class="relative max-h-[800px] sm:max-h-[900px] mt-28 h-[800px] sm:h-[900px] z-10 header-img max-w-[2000px] w-full m-auto overlay">
     
    <div class="w-full h-[450px] bg-[#1a5b0b] bg-gradient-header absolute bottom-0 ">
-    
+    <img src="https://i.ibb.co/kcH3WFd/Topbillede-FAQ.png" alt="" class="sm:h-[450px] person-respons h-64 absolute bottom-0 z-50 right-3 sm:right-12 sm:translate-x-0 ">
  </div>
  <div class="flex justify-end">
     <div class="sm:bg-[#0a3700] bg-[#0a3700] sm:h-[350px] h-[500px] sm:w-[90%] absolute bottom-40 z-20 rounded-sm ">
-        <article class="flex flex-col gap-10 justify-center sm:ml-28 ml-5 sm:mt-8 mt-5 text-white">
-        <h1 class=" font-semibold tracking-wider leading-[65px] max-w-[900px]">Vi gør det nemt for din virksomhed - spørg bare..</h1>
-        <p class=" w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-7">Tekst kommer.. </p>
+        <article class="flex flex-col gap-5 justify-center sm:ml-28 ml-5 sm:mt-8 mt-5 text-white">
+        <h1 class=" font-semibold tracking-wider leading-[65px] max-w-[900px]">Spørg os – eller kig nærmere her</h1>
+        <p class=" w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-7">Kompleksiteten er stor og begreberne kan synes mange. Vi har samlet nogle af de mest frekvente
+spørgsmål her – og ellers må du ikke tøve med at kontakte os, hvis du har spørgsmål som du
+mangler svar på.</p>
         </article>
-        
+        <article class="flex text-start sm:text-end flex-col sm:items-end w-[74%] 2xl:w-[75%] ml-5 sm:ml-0 sm:mt-8 mt-[70px] gap-3 italic text-[#000000] sm:max-w-full max-w-[100px]">
+            <p class="text-[20px] 2xl:text-[23px]">Jakob XXX<br> Indkøbsspecialist</p>
+            <p class=" text-[20px] 2xl:text-[21px] ">Ring til Jakob:  <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 00 00 00 00 ">+45 00 00 00 00 </a></p>
+        </article>
     </div>
    </div>
  </div>

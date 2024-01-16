@@ -7,7 +7,6 @@
     <NuxtLink to="oekonomiskeAnalyser"><li class="border-[2.5px] border-solid border-white min-w-[280px] transition-all hover:scale-110 font-semibold text-center px-10 min py-5 hover:bg-[#0a3700c4] text-[20px] shadow-2xl rounded-xl">Økonomiske Analyser</li></NuxtLink>
     <NuxtLink to="udbudUnderside"><li class="border-[2.5px] border-solid border-white min-w-[280px] transition-all hover:scale-110 font-semibold px-10 py-5 hover:bg-[#0a3700c4] text-[20px] shadow-2xl rounded-xl">Udbud & Konkurrence</li></NuxtLink>
     <NuxtLink to="aftaleUnderside"><li class="border-[2.5px] border-solid border-white min-w-[280px] transition-all hover:scale-110 font-semibold text-center px-10 py-5 bg-[#0a3700c4] text-[20px] shadow-2xl rounded-xl">Aftaleopfølgning</li></NuxtLink>
-    <img src="https://i.ibb.co/q0hMZFF/IKR-Black-Logo-2400x1800.png" class="absolute h-[200px] right-0 translate-x-60">
   </ul>
  </div>
 </div>

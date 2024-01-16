@@ -61,7 +61,7 @@ Opsigelse eller forlængelse af aftaler i forhold til aftalebetingelser overvåg
 <p>IKR tager den konstruktive dialog med leverandørerne for at sikre den aftalte kvalitet og pris. Aftaler som skal opsiges eller forlænges identificeres og varetages, så dyre og ufordelagtige aftaleforlængelser undgås og unødvendige omkostninger skæres væk. 
 </p>
     </article>
-    <img src="https://i.ibb.co/cJs7Wtc/samarbejde-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50 shadow-2xl">
+    <img src="https://i.ibb.co/y0T5FtG/Ydelser-NYT-foto-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50 shadow-2xl">
   </div>
 
   <YdelserBund />

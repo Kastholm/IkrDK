@@ -24,12 +24,12 @@ opnå et mere tilpasset sortiment og sikre, at pris og leveringsbetingelser bliv
 konkurrence. IKR har mangeårig erfaring med konkurrenceudsættelse og udformning af
 udbudsmateriale.</p>
     </article>
-   <img src="https://i.ibb.co/cJs7Wtc/samarbejde-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50 shadow-2xl">
+   <img src="https://i.ibb.co/SNt2D5Y/Udbud-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50 shadow-2xl">
   </div>
     </article>
 
     <div class="flex w-full relative mt-36 gap-20 2xl:gap-40 justify-center">
-      <img src="https://i.ibb.co/cJs7Wtc/samarbejde-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50 shadow-2xl">
+      <img src="https://i.ibb.co/qBj18Lc/Udbud-billede-2-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50 shadow-2xl">
     <article class="w-[39%] flex flex-col gap-5 -translate-y-5">
       <h2 class="">Viden giver fordele</h2>
       <p>På baggrund af den viden der er opnået gennem analysen, kan IKR assistere i forbindelse med ny

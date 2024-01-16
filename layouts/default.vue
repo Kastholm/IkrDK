@@ -66,7 +66,7 @@ li {
 }
 
 a {
-  font-size: 19px;
+  font-size: 20px;
 }
 
 p {

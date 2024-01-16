@@ -8,7 +8,7 @@
   <main class="sm:flex sm:flex-row flex flex-col relative">
     <section class="w-full sm:w-[55%] h-[600px] relative z-50">
       <div
-        class="absolute w-[500px] h-[700px] bg-[#256c2b] left-40 container-respons rounded-b-2xl shadow-2xl shadow-[#00000050]"
+        class="absolute w-[500px] h-[733px] bg-[#256c2b] left-40 container-respons rounded-b-2xl shadow-2xl shadow-[#00000050]"
       >
         <div
           class="flex flex-col text-white h-full items-center justify-evenly gap-10 -translate-y-4"
@@ -25,7 +25,7 @@
                 ><p>Ring på telefon: <br />+45 88 27 63 33</p></a
               >
             </div>
-            <div class="w-full flex items-center gap-7">
+            <div class="w-full flex items-center gap-7 hover:underline">
               <img
                 src="https://i.ibb.co/z54gmW8/icons8-email-64-2.png"
                 alt=""

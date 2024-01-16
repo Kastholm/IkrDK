@@ -1,6 +1,6 @@
 <template>
 <main>
- <div class="relative max-h-[800px] sm:max-h-[900px] h-[800px] sm:h-[900px] z-10 header-img max-w-[2000px] w-full m-auto overlay">
+ <div class="relative max-h-[800px] sm:max-h-[900px] h-[800px] mt-28 sm:h-[900px] z-10 header-img max-w-[2000px] w-full m-auto overlay">
     
    <div class="w-full h-[450px] bg-[#1a5b0b] bg-gradient-header absolute bottom-0 ">
    <img src="https://i.ibb.co/FYwFpYk/jakob-ny.png" alt="" class="sm:h-[450px] person-respons h-64 absolute bottom-0 z-50 right-3 sm:right-6 sm:translate-x-0 "> 
@@ -12,8 +12,8 @@
         <p class=" w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-7">”Komplekse forretningsområder er en stor del af vores konsulenters arbejde hver eneste dag.” </p>
         </article>
         <article class="flex text-start sm:text-end flex-col sm:items-end w-[74%] 2xl:w-[75%] ml-5 sm:ml-0 sm:mt-12 mt-[70px] sm:translate-y-4 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px]">
-            <p class="text-[20px] 2xl:text-[23px]">Jakob XXX<br> Indkøbsspecialist</p>
-            <p class=" text-[20px] 2xl:text-[21px] ">Ring til Jakob:  <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 00 00 00 00 ">+45 00 00 00 00 </a></p>
+            <p class="text-[20px] 2xl:text-[23px]">Jacob Kofod<br> Director of Operations – COO – Driftsdirektør</p>
+            <p class=" text-[20px] 2xl:text-[21px] ">Ring til Jakob:  <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 40 70 45 03 ">+45 40 70 45 03 </a></p>
         </article>
     </div>
    </div>

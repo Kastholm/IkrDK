@@ -6,7 +6,7 @@
         <h4 class="bund-overskrift-respons bg-[#86ab7f] max-w-[281px] rounded-2xl py-3 px-5 bg-opacity-50"> Tæt på det hele</h4>
         <p class="w-[90%] m-auto sm:m-0 ikrfont max-w-[700px] font-semibold bund-text-respons bg-[#86ab7f] rounded-2xl py-3 px-5 bg-opacity-50"> Som en del af godset Hørbygård i Nordvestsjælland har IKR udgangspunkt fra det gamle kampestenshus. Midt i den skønneste natur, nær skov og fjord. <br> 5 minutter til motorvejen til København og 30 minutter til færgen til Århus. Tæt på det hele – også vores kunder.</p>
         </div>
-        <img src="https://i.ibb.co/db0jP2z/IKR-0009.jpg" class="bund-billede-respons sm:max-w-[500px] max-h-[400px] sm:mr-16 rounded-md mt-10 sm:mt-0 shadow-2xl" alt="">
+        <img src="https://i.ibb.co/yWyDnYq/Stenhus-og-slot.jpg" class="bund-billede-respons sm:max-w-[500px] max-h-[400px] sm:mr-16 rounded-md mt-10 sm:mt-0 shadow-2xl" alt="">
     </div>
     
   </section>
