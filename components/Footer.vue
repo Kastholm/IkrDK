@@ -19,15 +19,15 @@
         <div class="flex flex-col  max-w-[250px] text-center">
          <div class="flex flex-col">
             <h5>Adresse</h5>
-            <p class="mt-4">Tuse Næs Vej 7A, 4300 Holbæk, Denmark</p>
+            <p class="mt-4 text-[20px]">Tuse Næs Vej 7A, 4300 Holbæk, Denmark</p>
          </div>
          <div class="flex flex-col mt-6">
             <h5>Telefon</h5>
-            <a href="tel:+45 88 27 63 33"><p class="mt-4">+45 88 27 63 33</p></a>
+            <a href="tel:+45 88 27 63 33"><p class="mt-4 text-[20px] hover:underline hover:underline-offset-4">+45 88 27 63 33</p></a>
          </div>
          <div class="flex flex-col mt-6">
             <h5>Email</h5>
-            <a href="mailto:mail@ikrcg.com"><p class="mt-4">mail@ikrcg.com</p></a>
+            <a href="mailto:mail@ikrcg.com"><p class="mt-4 text-[20px] hover:underline hover:underline-offset-4">mail@ikrcg.com</p></a>
          </div>
         </div>
         <div class="flex flex-col gap-10">

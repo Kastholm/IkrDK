@@ -83,7 +83,7 @@ label {
   h2 {
     font-size: 32px;
     font-weight: bold;
-    min-width: 320px;
+    
   }
 
   h1 {
