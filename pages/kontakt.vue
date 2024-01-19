@@ -5,7 +5,7 @@
   <figure
     class="h-[300px] min-h-[300px] respons w-[250px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-10"
   ></figure>
-  <main class="sm:flex sm:flex-row flex flex-col relative">
+  <main class="sm:flex sm:flex-row flex flex-col relative mt-28">
     <section class="w-full sm:w-[55%] h-[600px] relative z-50">
       <div
         class="absolute w-[500px] h-[733px] bg-[#256c2b] left-40 container-respons rounded-b-2xl shadow-2xl shadow-[#00000050]"

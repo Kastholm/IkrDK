@@ -12,7 +12,7 @@
         <p class=" w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-7">I et samarbejde med IKR opnår I fuld gennemsigtighed i jeres indkøbsaftaler således, at I fastholder fokus på vedligeholdelse af hver aftale, der forbliver aktiv og målrettet efter jeres behov. </p>
         </article>
         <article class="flex text-start sm:text-end flex-col sm:items-end w-[78%] 2xl:w-[78%] ml-5 sm:ml-0 sm:mt-12 mt-[70px] sm:translate-y-4 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px]">
-            <p class="text-[20px] 2xl:text-[23px]">Troels Oberlin, Konsulent -  <a href="tel: +45 40 79 68 72" class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black"> Tlf. 40 79 68 72 </a> </p>
+            <p class="text-[20px] 2xl:text-[23px]">Troels Oberlin, dataanalyse/indkøbsspecialist -  <a href="tel: +45 40 79 68 72" class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black"> Tlf. 40 79 68 72 </a> </p>
             <p class=" text-[20px] 2xl:text-[23px] ">Bertram Ordrup Christensen, Projektleder -  <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 71 99 07 61 ">Tlf. 71 99 07 61 </a></p>
         </article>
     </div>
@@ -68,14 +68,5 @@ export default {
     
 }
 
-.overlay::before {
-  content: '';
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
 
-}
 </style>

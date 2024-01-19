@@ -1,20 +1,30 @@
 <template>
   <section class="fixed top-0 z-50 w-screen respons-desktop">
-  <header class="relative h-fit sm:max-w-full max-w-[40px] z-50  ">
-<nav clasS="relative flex justify-center items-center border-[#256c2b] border-b-4 max-h-[200px]">
- <ul class="flex gap-8 absolute sm:p-6 font-semibold z-50">
-    <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="/">HJEM</NuxtLink></li>
-    <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="/samarbejde">SAMARBEJDE</NuxtLink></li>
-    <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="/ydelser">YDELSER</NuxtLink></li>
-    <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="/vi-er">VI ER</NuxtLink></li>
-    <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="/faq">FAQ</NuxtLink></li>
-    <li class="hover:underline hover:decoration-[1.5px] hover:underline-offset-4"><NuxtLink to="/kontakt">KONTAKT</NuxtLink></li>
- </ul>
- <NuxtLink to="/"><img src="https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg" class="absolute left-16 h-[100px] w-fit top-3" alt="#"></NuxtLink>
- <p class="absolute right-16 font-semibold top-3 p-6 cursor-pointer text-[#919995]">Dansk</p>
-
-</nav>
-
+  <header class="relative h-fit sm:max-w-full max-w-[40px] z-50">
+    <nav class="relative flex justify-center items-center border-[#256c2b] border-b-4 max-h-[200px]">
+      <ul class="flex gap-8 absolute sm:p-6 font-semibold z-50 translate-y-6 mr-20">
+        <li :class="{ 'active-link': $route.path === '/' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/">HJEM</NuxtLink>
+        </li>
+        <li :class="{ 'active-link': $route.path === '/samarbejde' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/samarbejde">SAMARBEJDE</NuxtLink>
+        </li>
+        <li :class="{ 'active-link': $route.path === '/ydelser' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/ydelser">YDELSER</NuxtLink>
+        </li>
+        <li :class="{ 'active-link': $route.path === '/vi-er' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/vi-er">VI ER</NuxtLink>
+        </li>
+        <li :class="{ 'active-link': $route.path === '/faq' }" class="hover:underline hover:decoration-[2px] decoration-[#256c2b] hover:underline-offset-4">
+          <NuxtLink to="/faq">FAQ</NuxtLink>
+        </li>
+        <li class="translate-x-20 hover:scale-110 transition-all cursor-pointer bg-[#256c2b] text-white px-4 rounded-md">
+          <NuxtLink to="/kontakt">KONTAKT</NuxtLink>
+        </li>
+      </ul>
+      <NuxtLink to="/"><img src="https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg" class="absolute left-16 h-[90px] w-fit top-3" alt="#"></NuxtLink>
+      <p class="absolute right-16 font-semibold top-3 p-6 cursor-pointer text-[#919995]">Dansk</p>
+    </nav>
   </header>
 </section>
 
@@ -63,6 +73,13 @@ body, ul, li {
       padding: 0;
       list-style: none;
     }
+
+    .active-link {
+    /* Add your styles for the active link, such as underline or different color */
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    /* Add any other styles you want for the active link */
+  }
 
     @media screen and (max-width: 767px) {
   

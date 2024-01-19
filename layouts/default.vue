@@ -27,6 +27,17 @@ nav {
   background-color: white;
 }
 
+.overlay::before {
+  content: '';
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.372);
+
+}
+
 /* Global Font opsat korrekt her til alt content for nu */
 * {
   font-family: "Opel Sans Regular", fallback-font, sans-serif;
@@ -48,7 +59,7 @@ h4 {
 }
 
 h5 {
-  font-size: 23px;
+  font-size: 19px;
   font-weight: 600;
 }
 
@@ -66,7 +77,7 @@ li {
 }
 
 a {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p {

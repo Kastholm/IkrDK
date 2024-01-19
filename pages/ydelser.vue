@@ -1,7 +1,7 @@
 <template>
     <main class="flex flex-col justify-center">
     <YdelserHero />
-    <div class="flex flex-col h-[400px] w-full gap-5 justify-center items-center sm:mt-40 mt-60 relative sm:mb-0 mb-44">
+    <div class="flex flex-col h-[400px] w-full gap-5 justify-center items-center sm:mt-28 mt-60 relative sm:mb-0 mb-44">
     <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0"></figure>
     <div class="max-w-[72%] sm:max-w-[60%] kommentar relative">
      <h2 class=" sm:max-w-[85%]"> IKR er med hele vejen – også hvis der skal tages en risiko </h2>
