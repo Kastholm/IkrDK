@@ -15,7 +15,7 @@
         <li :class="{ 'active-link': $route.path === '/vi-er' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
           <NuxtLink to="/vi-er">VI ER</NuxtLink>
         </li>
-        <li :class="{ 'active-link': $route.path === '/faq' }" class="hover:underline hover:decoration-[2px] decoration-[#256c2b] hover:underline-offset-4">
+        <li :class="{ 'active-link': $route.path === '/faq' }" class="hover:underline hover:decoration-[2px] decoration-black hover:underline-offset-4">
           <NuxtLink to="/faq">FAQ</NuxtLink>
         </li>
         <li class="translate-x-20 hover:scale-110 transition-all cursor-pointer bg-[#256c2b] text-white px-4 rounded-md">
