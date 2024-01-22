@@ -1,6 +1,6 @@
 <template>
     <FaqHero />
-  <section class="bar-sections relative">
+  <section class="bar-sections relative z-40">
     <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0 sm:-translate-y-6 z-0"></figure>
     <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-20 z-0"></figure>
 <h4 class="mmd-text"> FAQ </h4>
