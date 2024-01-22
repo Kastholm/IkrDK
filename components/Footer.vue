@@ -1,11 +1,11 @@
 <template>
-  <footer class="block min-h-[200px] mt-40">
+  <footer class="block min-h-[200px] mt-40 bg-[#256c2b] pt-5 text-white">
     <div class="flex-col gap-10 sm:gap-0 sm:flex-row flex w-full justify-around items-end">
         <NuxtLink to="/"><img src="https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg" class="h-[90px]"></NuxtLink>
         
         <div class="flex flex-col gap-2 max-w-[250px]">
          <div class="flex gap-2 flex-col items-start justify-center text-center">
-            <h5 class="mb-2">Links</h5>
+            
             <NuxtLink class="text-[18px] hover:underline hover:underline-offset-4" to="/">Hjem</NuxtLink>
             <NuxtLink class="text-[18px] hover:underline hover:underline-offset-4" to="samarbejde">Samarbejde </NuxtLink>
             <NuxtLink class="text-[18px] hover:underline hover:underline-offset-4" to="ydelser">Ydelser </NuxtLink>
@@ -18,15 +18,15 @@
         </div>
         <div class="flex flex-col  max-w-[250px] text-left">
          <div class="flex flex-col">
-            <h5>Adresse</h5>
+            
             <p class="mt-4 text-[20px]">Tuse Næs Vej 7A, 4300 Holbæk, Denmark</p>
          </div>
          <div class="flex flex-col mt-6">
-            <h5>Telefon</h5>
+      
             <a href="tel:+45 88 27 63 33"><p class="mt-4 text-[18px] hover:underline hover:underline-offset-4">+45 88 27 63 33</p></a>
          </div>
          <div class="flex flex-col mt-6">
-            <h5>Email</h5>
+            
             <a href="mailto:mail@ikrcg.com"><p class="mt-4 text-[18px] hover:underline hover:underline-offset-4">mail@ikrcg.com</p></a>
          </div>
         </div>

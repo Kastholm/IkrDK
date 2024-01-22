@@ -13,7 +13,7 @@
 spørgsmål her – og ellers må du ikke tøve med at kontakte os, hvis du har spørgsmål som du
 mangler svar på.</p>
         </article>
-        <article class="flex text-start sm:text-end flex-col sm:items-end w-[60%] 2xl:w-[68%] ml-5 sm:ml-0 sm:mt-0 mt-[70px] gap-2 italic text-[#000000] sm:max-w-full max-w-[100px]">
+        <article class="flex text-start sm:text-end flex-col sm:items-end w-[60%] 2xl:w-[68%] ml-5 sm:ml-0 sm:mt-0 mt-[70px] gap-1 italic text-[#000000] sm:max-w-full max-w-[100px]">
           <p class="text-[20px] 2xl:text-[23px]">Heidi Vinding, Indkøbsspecialist  </p>
             <p class="text-[20px] 2xl:text-[23px]">Maud Kofod, Indkøbskoordinator  </p>
             <p class=" text-[20px] 2xl:text-[23px] ">Pia Lawson, Seniorrådgiver </p>
