@@ -3,7 +3,7 @@
  <div class="relative max-h-[800px] sm:max-h-[900px] sm:mt-28 h-[800px] sm:h-[900px] z-10 header-img max-w-[2000px] w-full m-auto overlay">
     
    <div class="w-full h-[450px] bg-[#1a5b0b] bg-gradient-header absolute bottom-0 ">
-    <img src="https://i.ibb.co/kcH3WFd/Topbillede-FAQ.png" alt="" class="sm:h-[450px] person-respons h-64 absolute bottom-0 z-50 right-3 sm:right-12 sm:translate-x-0 ">
+    <img src="https://i.ibb.co/pjqK5HW/pia-heidi-maud.png" alt="" class="sm:h-[450px] person-respons h-64 absolute bottom-0 z-50 right-3 sm:right-2 sm:translate-x-0 ">
  </div>
  <div class="flex justify-end">
     <div class="sm:bg-[#0a3700] bg-[#0a3700] sm:h-[350px] h-[500px] sm:w-[90%] absolute bottom-40 z-20 rounded-sm ">
@@ -13,9 +13,11 @@
 spørgsmål her – og ellers må du ikke tøve med at kontakte os, hvis du har spørgsmål som du
 mangler svar på.</p>
         </article>
-        <article class="flex text-start sm:text-end flex-col sm:items-end w-[74%] 2xl:w-[75%] ml-5 sm:ml-0 sm:mt-8 mt-[70px] gap-3 italic text-[#000000] sm:max-w-full max-w-[100px]">
-            <p class="text-[20px] 2xl:text-[23px]">Heidi Vinding<br> Konsulent</p>
-            <p class=" text-[20px] 2xl:text-[21px] ">Ring til Heidi:  <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 88 27 63 23 ">+45 88 27 63 23 </a></p>
+        <article class="flex text-start sm:text-end flex-col sm:items-end w-[60%] 2xl:w-[75%] ml-5 sm:ml-0 sm:mt-0 mt-[70px] gap-2 italic text-[#000000] sm:max-w-full max-w-[100px]">
+          <p class="text-[20px] 2xl:text-[23px]">Heidi Vinding, indkøbsspecialist  </p>
+            <p class="text-[20px] 2xl:text-[23px]">Christoffer Mattiasson, analyse/rådgiver  </p>
+            <p class=" text-[20px] 2xl:text-[23px] ">Bertram Ordrup Christensen, Projektleder </p>
+            <p class=" text-[20px] 2xl:text-[21px]">Ring til Driftcenteret:  <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 41 31 55 69 ">+45 88 27 63 23</a></p>
         </article>
     </div>
    </div>

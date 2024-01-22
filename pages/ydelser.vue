@@ -47,7 +47,7 @@ Opsigelse eller forlængelse af aftaler i forhold til aftalebetingelser overvåg
 
    <div class="flex w-full relative mt-36 gap-10 2xl:gap-40 justify-center">
     <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[135px]"></figure>
-    <img src="https://i.ibb.co/7vKgPkz/Billede-2-ydelser.jpg" alt="" class= "max-h-[520px] rounded-md z-50 shadow-2xl">
+    <img src="https://i.ibb.co/QHhwXT7/Maud-ved-tastatur.jpg" alt="" class= "max-h-[520px] rounded-md z-50 shadow-2xl">
     <article class="w-[40%] flex flex-col gap-5 -translate-y-5">
 <h2 class="">Gennemsigtighed og overblik er nøglebegreber</h2>
 <p>Jeres indkøbsaftaler bør være så gennemsigtige som muligt. Ved at analysere aftalerne og deres flow i den samlede livscyklus, finder vi de punkter som bør revurderes, genforhandles og forbedres således, at alle aftaler bliver reelle og optimale – tilpasset jeres behov.

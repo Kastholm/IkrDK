@@ -3,7 +3,7 @@
   <section class="bar-sections relative">
     <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0 sm:-translate-y-6 z-0"></figure>
     <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-20 z-0"></figure>
-<h4 class="mmd-text"> FAQ <span class="text-[#256c2b]">:</span></h4>
+<h4 class="mmd-text"> FAQ </h4>
 
 <div class="bar z-50"  id="bar1">
     <div @click="toggleBar('bar1')" class="flex justify-center items-center translate-y-3">
@@ -17,7 +17,7 @@
        <div class="content"  @click="toggleBar('bar1.1')">
         <div class="bar-flex2">
          <p class="bar-lille-text">IKR udfører forskellige typer af indkøbsanalyser, hvor vi prioriterer validitet for at sikre, at analyserne leder til fremtidige besparelser og handlingsplaner. <br>
-Analysen tager højde for flere forskellige faktorer, såsom hvor ofte en bestemt type produkt eller tjeneste købes, mængden af varer eller tjenester, der købes på en given tid, de samlede omkostninger ved indkøb af varer eller tjenester, evaluering af leverandørernes priser, leveringstider, kvalitet af produkter og tjenester og deres generelle performance og feedback fra medarbejdere eller kunder, som kan bruges til at evaluere produktkvalitet, kundetilfredshed og andre faktorer.
+         Analysen tager højde for flere forskellige faktorer, såsom hvor ofte en bestemt type produkt eller tjeneste købes, mængden af varer eller tjenester, der købes på en given tid, de samlede omkostninger ved indkøb af varer eller tjenester, evaluering af leverandørernes priser, leveringstider, kvalitet af produkter og tjenester og deres generelle performance og feedback fra medarbejdere eller kunder, som kan bruges til at evaluere produktkvalitet, kundetilfredshed og andre faktorer.
 
          </p>
         </div>

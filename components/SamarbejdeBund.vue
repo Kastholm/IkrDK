@@ -12,7 +12,7 @@
   </section>
 
   <section class="flex justify-center w-full relative sm:mt-20 mt-40 lg:mt-10">
-<figure class="h-[200px] min-h-[200px] w-[180px bg-[#2c2c2c] clip3 absolute left-0 top-0 -translate-y-36 sm:-translate-y-5 "></figure>
+<figure class="h-[200px] min-h-[200px] w-[180px] bg-[#2c2c2c] clip3 absolute left-0 top-0 -translate-y-36 sm:-translate-y-5 "></figure>
  <div class="flex flex-col mt-20 items-center gap-5 w-[60%] sm:text-start text-center md:mt-0 2xl:mt-28">
     <h2>🙷 IKRs assistance har givet os skarpere performance og compliance.. 🙷</h2>
     <p> Læs hvordan nogle af vores kunder har vurderet samarbejdet og de resultater processen har givet.</p>
@@ -32,7 +32,7 @@
   font-size: 24px;
 }
 .bgimg {
-    background-image: url('https://i.ibb.co/jTpr9xR/IKR-gr-n-baggrund-4000x1000px-1.jpg');
+    background-image: url('https://i.ibb.co/C7BQF8Y/IKR-gr-n-baggrund-4000x1000px-NY.jpg');
     height:560px;
     width:100%;
     min-height: 560px;

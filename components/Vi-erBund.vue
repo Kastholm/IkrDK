@@ -32,7 +32,7 @@
   font-size: 24px;
 }
 .bgimg {
-    background-image: url('https://i.ibb.co/jTpr9xR/IKR-gr-n-baggrund-4000x1000px-1.jpg');
+    background-image: url('https://i.ibb.co/C7BQF8Y/IKR-gr-n-baggrund-4000x1000px-NY.jpg');
     height:560px;
     width:100%;
     min-height: 560px;

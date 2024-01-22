@@ -3,8 +3,8 @@
   <section class="w-full flex justify-center items-center mt-20 2xl:mt-40 relative">
     <div class="bgimg flex flex-col sm:flex-row justify-around 2xl:justify-center items-center max-w-full sm:max-w-full gap-[0px] 2xl:gap-[400px]">
         <div class="flex flex-col mb-20 sm:ml-20 sm:mt-0 gap-4 bund-container-respons sm:text-start text-center translate-y-6">
-        <h4 class="bund-overskrift-respons bg-[#86ab7f] max-w-[281px] rounded-2xl py-3 px-5 bg-opacity-50"> Tæt på det hele</h4>
-        <p class="w-[90%] m-auto sm:m-0 ikrfont max-w-[700px] font-semibold bund-text-respons bg-[#86ab7f] rounded-2xl py-3 px-5 bg-opacity-50"> Som en del af godset Hørbygård i Nordvestsjælland har IKR udgangspunkt fra det gamle kampestenshus. Midt i den skønneste natur, nær skov og fjord. 5 minutter til motorvejen til København og 30 minutter til færgen til Århus. Tæt på det hele – også vores kunder.</p>
+        <h4 class="bund-overskrift-respons max-w-[281px] rounded-2xl py-3 px-5 "> Tæt på det hele</h4>
+        <p class="w-[90%] m-auto sm:m-0 ikrfont max-w-[700px] font-semibold bund-text-respons rounded-2xl py-3 px-5 "> Som en del af godset Hørbygård i Nordvestsjælland har IKR udgangspunkt fra det gamle kampestenshus. Midt i den skønneste natur, nær skov og fjord. 5 minutter til motorvejen til København og 30 minutter til færgen til Århus. Tæt på det hele – også vores kunder.</p>
         </div>
         <img src="https://i.ibb.co/yWyDnYq/Stenhus-og-slot.jpg" class="bund-billede-respons sm:max-w-[500px] max-h-[400px] sm:mr-16 rounded-md mt-10 sm:mt-0 shadow-2xl " alt="">
     </div>
@@ -32,7 +32,7 @@
   font-size: 24px;
 }
 .bgimg {
-    background-image: url('https://i.ibb.co/jTpr9xR/IKR-gr-n-baggrund-4000x1000px-1.jpg');
+    background-image: url('https://i.ibb.co/C7BQF8Y/IKR-gr-n-baggrund-4000x1000px-NY.jpg');
     height:560px;
     width:100%;
     min-height: 560px;
