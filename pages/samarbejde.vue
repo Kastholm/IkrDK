@@ -2,16 +2,6 @@
     <main class="flex flex-col justify-center">
   <SamarbejdeHero />
 <section class="flex flex-col ">
-  <div class="flex w-full relative mt-10 sm:mt-36 gap-10 2xl:gap-40 justify-center">
-    <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[5px] "></figure>
-    <article class="sm:w-[40%] w-[85%] flex flex-col gap-5  sm:-translate-y-5">
-<h2 class="">Vi gør fordelene synlige fra dag 1</h2>
-<p>Jeres succes er vores succes. Når vi indgår et samarbejde, er det med jeres behov, mål og ønsker i fokus. Forventninger afstemmes og processen aftales inden vi sætter i gang – så er tilliden på plads og alle kender vejen frem. Mange års erfaring og vundet viden gør, at vores konsulenter evner at gennemskue aftalernes kompleksitet. De skærer igennem, forenkler og fornyer indgroet vanetænkning og uhensigtsmæssige kontraktforhold og arbejdsgange. Med ansvar og ejerskab på opgaven.
-</p>
-    </article>
-    <img src="https://i.ibb.co/cJs7Wtc/samarbejde-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50 shadow-2xl respons-mobi">
-  </div>
-
   <div class="flex w-full relative mt-5 sm:mt-20 gap-20 2xl:gap-40 justify-center">
     <img src="https://i.ibb.co/bs8KZ9M/Samarbejde-h-jformat-1.jpg" alt="" class= "max-h-[770px] rounded-md z-50 sm:translate-y-5 shadow-2xl respons-mobi">
     <article class="sm:w-[45%] w-[90%] flex flex-col gap-5 p-5 rounded-xl translate-y-5">
@@ -19,16 +9,35 @@
 
 <ul class="flex flex-col gap-4 min-h-[258px]">
     <li class="bulletpoint relative ml-16"> Øge jeres økonomiske råderum</li>
+    <li class="bulletpoint relative ml-16"> Overblikket over realiserbare muligheder</li>
+    <li class="bulletpoint relative ml-16"> Få dokumentation for opnåede resultater</li>
+    <li class="bulletpoint relative ml-16"> Udnytte rammevilkår fuldt ud i kontrakterne</li>
     <li class="bulletpoint relative ml-16"> Opnå overblik over den samlede aftaleportefølje</li>
     <li class="bulletpoint relative ml-16"> Forvente et fald i fakturamængder</li>
     <li class="bulletpoint relative ml-16"> Få behovstilpasset jeres sortimenter</li>
     <li class="bulletpoint relative ml-16"> Formindske antal kontrakter</li>
     <li class="bulletpoint relative ml-16"> Få bedre priser med færre leverandører</li>
-    <li class="bulletpoint relative ml-16"> Udnytte rammevilkår i kontrakter</li>
-    <li class="bulletpoint relative ml-16"> Få dokumentation for opnåede resultater</li>
 </ul> 
     </article>
   </div>
+
+  <div class="flex w-full relative mt-10 sm:mt-36 gap-10 2xl:gap-40 justify-center">
+    <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[5px] "></figure>
+    <article class="sm:w-[40%] w-[85%] flex flex-col gap-5  sm:-translate-y-5">
+<h2 class="">Jeres succes er vores succes</h2>
+<ul class="flex flex-col gap-4 min-h-[258px]">
+    <li class="bulletpoint relative ml-16"> Vi gør fordelene synlige fra dag ét</li>
+    <li class="bulletpoint relative ml-16"> Jeres behov, mål og ønsker er fokus </li>
+    <li class="bulletpoint relative ml-16"> Forventninger afstemmes, og processen aftales inden vi sætter i gang</li>
+    <li class="bulletpoint relative ml-16"> Med tilliden på plads, kender alle vejen frem</li>
+</ul> 
+<p>Mange års erfaring og vundet viden gør, at vores Specialister evner at gennemskue aftalernes kompleksitet. De skærer igennem, forenkler og fornyer indgroet vanetænkning og uhensigtsmæssige kontraktforhold og arbejdsgange. Med ansvar og ejerskab på opgaven.
+</p>
+    </article>
+    <img src="https://i.ibb.co/cJs7Wtc/samarbejde-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50 shadow-2xl respons-mobi">
+  </div>
+
+  
 </section>
 
   <SamarbejdeBund />

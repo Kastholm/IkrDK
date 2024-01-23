@@ -6,11 +6,17 @@
     
     <img src="https://i.ibb.co/5GcgYV2/Vi-er-team2-75.webp" alt="" class= "h-[900px] 2xl:max-h-[600px] rounded-md z-50 shadow-2xl">
     <article class="w-[40%] flex flex-col gap-5 -translate-y-5">
-<h2 class="">Vi gør fordelene synlige fra dag 1</h2>
-<p class="2xl:leading-[42px]">I mere end tyve år har IKR hjulpet offentlige og private kunder som 100% uvildig rådgiver og katalysator for en positiv udvikling. Som dedikerede partnere, investerer vi i vores kunders udfordringer og er med på sidelinjen på hele rejsen.
-Med afsæt i kunders behov og hidtidige situation finder vi nye veje, besparelser og effektiviseringer i indkøbs- og udbudsfunktionen i den givne virksomhed eller organisation.
-Med kunder i Danmark og Sverige har vi gennem årene opnået ekspertise, indsigt og erfaring med at sikre fordelagtige aftaler, følge op på de eksisterende og ofte, genforhandle disse til bedre vilkår og priser.
-Med et unikt koncept og et kompetent team af specialister skaber vi gennemsigtighed i jeres aftaler – fra start til slut. Det skaber overblik at have ”hånd-i-hanke” med sine kontrakter – og som oftest et øget økonomisk råderum på grund af de opnåede fordele.
+<h2 class="">I mere end 20 år har IKR hjulpet som uvildig rådgiver</h2>
+<p class="2xl:leading-[42px]">Været 100% loyal og uvildig som rådgiver og katalysator for en positiv udvikling. 
+<br><br>
+Hjulpet både offentlige og private kunder. Det har skabet overblik at have ”hånd-i-hanke” med sine kontrakter – og som oftest et øget økonomisk råderum, på grund af de opnåede fordele.
+<br><br>
+Som dedikerede uvildig partner, investerer vi i vores kunders udfordringer og er med på sidelinjen på hele rejsen. 
+<br><br>
+I behov og hidtidige situation, finder vi de nye veje til det økonomisk råderum.
+<br><br>
+Med kunder i Danmark og Sverige har vi gennem årene opnået ekspertise, indsigt og erfaring med at sikre fordelagtige aftaler, følge op på de eksisterende og ofte, genforhandle disse til bedre vilkår og priser. 
+
 
 </p>
 </article>
@@ -20,7 +26,7 @@ Med et unikt koncept og et kompetent team af specialister skaber vi gennemsigtig
     <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[135px]"></figure>
     <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0 sm:-translate-y-80"></figure>
     <article class="w-[40%] flex flex-col gap-5 -translate-y-3">
-<h2 class=""><span class="text-[#256c2b]"> IKR </span> ER:</h2>
+<h2 class=""> I<span class="text-[#256c2b]"> IKR </span> betragter vi os som en samarbejdspartner – vi er:</h2>
 <ul class="flex-col flex gap-8">
   <li><span class="text-[#256c2b] font-bold">Indkøbsspecialister</span> – vi forstår markedet, kender kunde/leverandørforhold – og de rigtige priser.</li>
   <li><span class="text-[#256c2b] font-bold">Udbuds- og indkøbsekspertise</span> – vi hjælper ifbm. udformning og eksekvering af konkurrencedygtige udbud.</li>

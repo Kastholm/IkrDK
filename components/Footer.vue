@@ -1,7 +1,7 @@
 <template>
   <footer class="block min-h-[200px] mt-40 bg-[#256c2b] pt-5 text-white">
     <div class="flex-col gap-10 sm:gap-0 sm:flex-row flex w-full justify-around items-end">
-        <NuxtLink to="/"><img src="https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg" class="h-[90px]"></NuxtLink>
+        <NuxtLink to="/"><img src="https://i.ibb.co/d6cpnRb/IKR-Inverted-Color-2400x1800-1.png" class="h-[150px]"></NuxtLink>
         
         <div class="flex flex-col gap-2 max-w-[250px]">
          <div class="flex gap-2 flex-col items-start justify-center text-center">

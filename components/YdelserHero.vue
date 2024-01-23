@@ -8,8 +8,8 @@
  <div class="flex justify-end">
     <div class="sm:bg-[#0a3700] bg-[#0a3700] sm:h-[350px] h-[500px] sm:w-[90%] absolute bottom-40 z-20 rounded-sm ">
         <article class="flex flex-col gap-10 justify-center sm:ml-28 ml-5 sm:mt-8 mt-5 text-white">
-        <h1 class=" font-semibold tracking-wider leading-[65px] max-w-[900px]">IKR optimerer jeres arbejdsproces</h1>
-        <p class=" w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-7">I et samarbejde med IKR opnår I fuld gennemsigtighed i jeres indkøbsaftaler således, at I fastholder fokus på vedligeholdelse af hver aftale, der forbliver aktiv og målrettet efter jeres behov. </p>
+        <h1 class=" font-semibold tracking-wider leading-[65px] max-w-[900px]">IKR optimerer jeres mulige økonomiske råderum</h1>
+        <p class=" w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-7">I et samarbejde med IKR opnår I den fulde gennemsigtighed og potentiale i jeres indkøbsaftaler. I fastholder fokus på de økonomiske realiserbare muligheder i aftalerne. </p>
         </article>
         <article class="flex text-start sm:text-end flex-col sm:items-end w-[65%] 2xl:w-[71%] ml-5 sm:ml-0 sm:mt-8 mt-[70px] gap-3 italic text-[#000000] sm:max-w-full max-w-[100px]">
             <p class="text-[20px] 2xl:text-[23px]">Troels Oberlin, dataanalyse/indkøbsspecialist -  <a href="tel: +45 40 79 68 72" class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black"> Tlf. 40 79 68 72 </a> </p>
