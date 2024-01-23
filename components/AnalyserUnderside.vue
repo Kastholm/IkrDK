@@ -8,14 +8,16 @@
          <div class="max-w-[72%] sm:max-w-[100%] relative">
           <h2 class=" w-full text-[80px]"> Økonomiske analyser</h2>
          </div>
-     <p class=" max-w-[90%] kommentar2">Overblik giver styrke til at opnå forandring. Med falkeblik kan du fokusere i det store perspektiv og være med til at finde nye veje og løsninger i en foranderlig verden.</p>
+     <p class=" max-w-[90%] kommentar2">Overblikket og gennemsigtigheden, i et flere årig perspektiv, giver styrke til at opnå et helhedsbillede. Med falkeblik kan du fokusere i det store perspektiv og være med til at finde nye veje og løsninger i en foranderlig verden <br>”Analyserne ift. realiserbare muligheder, kan være brede og omfatte mange varer og tjenesteydelseskategorier, men også smalle, og alene indeholde et enkelt område eller få kategoriområder. ”</p>
         </div>
 
   <div class="flex w-full relative mt-36 gap-20 2xl:gap-40 justify-center">
     <article class="w-[40%] flex flex-col gap-5 -translate-y-5">
-      <h2 class="">Analyse er vejen til øget råderum</h2>
-      <p>Gennem analyser af den samlede indkøbsvolumen i både varer og tjenesteydelser, finder vi erfaringsmæssigt en del nye muligheder for øget økonomisk råderum. Både gennem direkte besparelser, men også via forbedringer og ændrede aftalevilkår, ligesom direkte spild identificeres og elimineres.
-         Gennem en løbende styring, overvågning og tilpasning af jeres aftaler opnår I en optimal indkøbsstruktur og reduceret risiko.</p>
+      <h2 class="">Analyse er vejen til øget økonomisk råderum</h2>
+      <p>Gennem analyser af den samlede indkøbsvolumen i både varer og tjenesteydelser, finder vi erfaringsmæssigt en del nye muligheder for øget økonomisk råderum. 
+Både gennem direkte besparelser, men også via forbedringer og ændrede aftalevilkår.
+Gennem en løbende styring, overvågning og tilpasning af jeres aftaler opnår I en optimal indkøbsstruktur og reduceret risiko. <br> IKR kalder det ”Level 2” controlling.
+</p>
     </article>
    <img src="https://i.ibb.co/ZfDHL6h/analyser-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-40 shadow-2xl">
   </div>
@@ -25,7 +27,12 @@
       <img src="https://i.ibb.co/Hq8000Y/analyse-billede-2-1.png" alt="" class= "max-h-[400px] rounded-md z-40 shadow-2xl">
     <article class="w-[39%] flex flex-col gap-5 -translate-y-5">
       <h2 class="">Fra analyse til handling</h2>
-      <p>Når analysefasen er afsluttet modtager I en rapport som indeholder en realiseringsstrategi som I kan bruge som del af et beslutningsgrundlag omkring jeres fremtidige indkøbsaftaler. Drift af indkøbsaftaler, konkurrenceudsættelse eller etablering af nye adfærdsmønstre kan være relevante spørgsmål, ligesom rapporten kan anvendes til organisatoriske beslutninger.</p>
+      <p>- Hvor er det realiserbare økonomiske råderum?
+<br><br>
+Når analysefasen er afsluttet modtager I en rapport som indeholder en realiseringsstrategi for det økonomiske råderum, som I kan bruge som del af et beslutningsgrundlag omkring jeres fremtidige indkøbsaftaler. 
+
+Drift af indkøbsaftaler, konkurrenceudsættelse eller etablering af nye adfærdsmønstre kan være relevante spørgsmål, ligesom rapporten kan anvendes til organisatoriske beslutninger.
+</p>
     </article>
    
   </div>
@@ -48,7 +55,7 @@ export default {
     height:7px;
     background-color:#256c2b;
     position: absolute;
-    bottom: 132px;
+    bottom: 0px;
     left:0;
 }
 </style>

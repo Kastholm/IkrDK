@@ -8,21 +8,18 @@
          <div class="max-w-[72%] sm:max-w-[100%] relative">
           <h2 class=" w-full text-[80px]"> Udbud & konkurrence</h2>
          </div>
-     <p class=" max-w-[90%] kommentar2">Opgaverne for indkøbsfunktionen kan synes uoverskuelig, fordi presset, kompleksiteten og
-lovgrundlaget i de mange aftaler er omfattende, samtidig med at tidsfrister og budgetter skal
-overholdes. Kravene til indsats er store og tilliden til leverandørerne skal bibeholdes i et reelt og
-ærligt samarbejde. Som indkøber kan det ofte synes vanskeligt at lykkes, fordi omstændighederne gennem en
-kontraktperiode på 5-6 år kan ændre sig.</p>
+     <p class=" max-w-[90%] kommentar2">Opgaverne for indkøbsfunktionen kan synes uoverskuelig, fordi presset, kompleksiteten og lovgrundlaget i de mange aftaler er omfattende, samtidig med at tidsfrister og budgetter skal overholdes. Kravene til indsats er store og tilliden til leverandørerne skal bibeholdes i et reelt og ærligt samarbejde. Som indkøber kan det ofte synes vanskeligt at lykkes, fordi omstændighederne gennem en kontraktperiode på 5-6 år ændrer sig.</p>
         </div>
 
   <div class="flex w-full relative mt-36 gap-20 2xl:gap-40 justify-center">
     <article class="w-[40%] flex flex-col gap-5 -translate-y-5">
       <h2 class="">Hvem laver jeres udbud?</h2>
-      <p>Ud fra analysen er det muligt at identificere udbudsområder, som bør konkurrenceudsættes ud fra
-en række parametre. Et eksempel kunne være, at man ønsker at reducere antallet af leverandører,
-opnå et mere tilpasset sortiment og sikre, at pris og leveringsbetingelser bliver udsat for ny
-konkurrence. IKR har mangeårig erfaring med konkurrenceudsættelse og udformning af
-udbudsmateriale.</p>
+      <p>Ud fra analysen er det muligt at identificere udbudsområder, som bør konkurrenceudsættes ud fra en række parametre. 
+<br><br>
+Et eksempel kunne være, at man ønsker at reducere antallet af leverandører, opnå et mere tilpasset sortiment og sikre, at pris og leveringsbetingelser bliver udsat for ny konkurrence. 
+<br><br>
+IKR har mangeårig erfaring med konkurrenceudsættelse og udformning af bl.a. kravsspecifikationer.
+</p>
     </article>
    <img src="https://i.ibb.co/SNt2D5Y/Udbud-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-40 shadow-2xl">
   </div>
@@ -32,9 +29,7 @@ udbudsmateriale.</p>
       <img src="https://i.ibb.co/qBj18Lc/Udbud-billede-2-1.jpg" alt="" class= "max-h-[450px] rounded-md z-40 shadow-2xl">
     <article class="w-[39%] flex flex-col gap-5 -translate-y-5">
       <h2 class="">Viden giver fordele</h2>
-      <p>På baggrund af den viden der er opnået gennem analysen, kan IKR assistere i forbindelse med ny
-konkurrenceudsættelse på områder der kræver øjeblikkelig handling eller hvor det er en fordel at
-udbuddet formuleres af en uvildig partner.</p>
+      <p>På baggrund af den viden og gennemsigtighed, der er opnået gennem analysen, kan IKR assistere i forbindelse med ny konkurrenceudsættelse på områder, som kræver øjeblikkelig handling, eller hvor det er en fordel at udbuddet formuleres af en uvildig partner.På baggrund af den viden og gennemsigtighed, der er opnået gennem analysen, kan IKR assistere i forbindelse med ny konkurrenceudsættelse på områder, som kræver øjeblikkelig handling, eller hvor det er en fordel at udbuddet formuleres af en uvildig partner.</p>
     </article>
    
   </div>

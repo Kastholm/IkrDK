@@ -35,12 +35,11 @@
     </div>
   </NuxtLink>
   <NuxtLink to="aftaleUnderside">
-    <div class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer ">
-        <h3 class="max-w-[90%] leading-10 overskrift-underline "> AFTALE OPFØLGNING
+    <div class="card flex flex-col justify-center items-center gap-[55px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer ">
+        <h3 class="max-w-[90%] w-[90%] leading-10 overskrift-underline mt-9"> AFTALESTYRING
         </h3>
-        <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-3">Aftaleimplementering, 
-aftaleopfølgning, giver det økonomiske råderum
-Løbende ”Level 2” controlling er værktøjet.
+        <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">Aftaleimplementering, 
+aftaleopfølgning, giver det økonomiske råderum, løbende systematisk kontrol er et must.
 </p>
         <div class="flex w-full justify-end mr-10 underline underline-offset-4">
             <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>

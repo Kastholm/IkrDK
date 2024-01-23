@@ -2,18 +2,25 @@
     <main class="flex flex-col justify-center">
     <YdelserHero />
     <div class="">
-    <div class="flex flex-col h-[300px] w-full gap-5 justify-center items-center sm:mt-5 mt-60 relative sm:mb-0 mb-44">
-      <div class="max-w-[72%] sm:max-w-[60%] kommentar relative">
-     <h2 class=" sm:max-w-[100%] "> ”Hvad er realiserbare muligheder”</h2>
+    <div class="flex flex-col h-[300px] w-full gap-5 justify-center items-center sm:mt-16 mt-60 relative sm:mb-0 mb-44">
+      <div class="max-w-[72%] sm:max-w-[60%] sm:w-[1200px] kommentar relative">
+     <h2 class=" sm:max-w-[100%] "> ”Hvad er realiserbare muligheder?”</h2>
     </div>
-    <p class=" max-w-[60%]">Konkrete aftaleområder tager altid afsæt i de tre faser: Økonomisk analyse, udbud og konkurrence og aftalestyring. Aftaleområder kunne være:</p>
+    <p class=" max-w-[60%]">Konkrete aftaleområder tager altid afsæt i de tre faser: Økonomisk analyse, udbud og konkurrence og aftalestyring. Aftaleområder kunne være:<br>
+
+En samlet økonomisk råderumsanalyse…. ”hvad er realiserbare muligheder”.
+<br>
+Ét konkret område som: Kopi print eller Fødevarer og Forbrugsvarer eller Transport/busser eller Biler og m.m.
+</p>
   </div>
-      <div class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white sm:mb-28 sm:mt-0 2xl:mt-0 sm:-translate-y-0 -translate-y-20 "> 
+  <div class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white 2xl:mt-0 sm:-translate-y-0 -translate-y-20 mb-16 mt-5"> 
     <NuxtLink to="oekonomiskeAnalyser">
       <div class="card flex flex-col justify-center items-center gap-[56px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer">
         <h3 class="max-w-[90%] leading-10 overskrift-underline"> ØKONOMISKE ANALYSER
         </h3>
-        <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">Analyser på tværs af jeres indkøb er fremragende værktøjer til at finde nye muligheder for øget økonomisk råderum.</p>
+        <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">Analyserne skaber overblik og realiserbare muligheder for at finde økonomisk råderum. 
+          Få startet en analyse hos IKR idag.
+        </p>
           <div class="flex w-full justify-end mr-10 underline underline-offset-4">
             <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>
           </div>
@@ -23,17 +30,19 @@
     <div class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer">
         <h3 class="max-w-[90%] leading-10 overskrift-underline "> UDBUD OG KONKURRENCE
         </h3>
-        <p class="max-w-[90%] cardfont max-h-[150px] mt-1 -translate-y-3">En analyse af jeres nuværende udbudsmateriale danner baggrund for en vurdering af potentielle gevinster ved fornyede konkurrenceudsættelse. </p>
+        <p class="max-w-[90%] cardfont max-h-[150px] mt-1 -translate-y-3">Den økonomisk analyse og kravspecifikationen, danner baggrund for fremtidige økonomisk råderum ved ny konkurrenceudsættelse. </p>
         <div class="flex w-full justify-end mr-10 underline underline-offset-4">
             <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>
         </div>
     </div>
   </NuxtLink>
   <NuxtLink to="aftaleUnderside">
-    <div class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer ">
-        <h3 class="max-w-[90%] leading-10 overskrift-underline "> AFTALE OPFØLGNING
+    <div class="card flex flex-col justify-center items-center gap-[55px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer ">
+        <h3 class="max-w-[90%] w-[90%] leading-10 overskrift-underline mt-9"> AFTALESTYRING
         </h3>
-        <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-3">Aftalestyring og opfølgning på aftaler giver fornyet forhandlingsstyrke med dertil hørende aftaleoptimeringer. Ved at arbejde målrettet forbedres resultaterne.</p>
+        <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">Aftaleimplementering, 
+aftaleopfølgning, giver det økonomiske råderum, løbende systematisk kontrol er et must.
+</p>
         <div class="flex w-full justify-end mr-10 underline underline-offset-4">
             <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>
         </div>
@@ -42,9 +51,9 @@
   
 </div>
 <div class="relative w-full h-[500px] flex flex-col justify-center items-center">
-    <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0 "></figure>
+    <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0"></figure>
    <div class="max-w-[72%] sm:max-w-[60%] kommentar relative">
-     <h2 class=" sm:max-w-[85%]"> IKR er med hele vejen – også hvis der skal tages en risiko </h2>
+     <h2 class=" sm:w-[1200px] "> <span class="text-[#256c2b]"> IKR </span> er med hele vejen</h2>
     </div>
     <p class=" w-[60%] max-w-[1200px]">IKR sørger for, ved en driftsaftale, at der løbende tilpasses og forbedres samt følges op på aftalerne gennem dels ”Level 2” controlling, dels konstruktive samtaler med jeres leverandører.
     </p> 
@@ -58,7 +67,7 @@
    </div>
   </div>
 
-   <div class="flex w-full relative mt-[700px] gap-10 2xl:gap-40 justify-center">
+   <div class="flex w-full relative mt-[100px] gap-10 2xl:gap-40 justify-center">
     <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[135px]"></figure>
     <img src="https://i.ibb.co/QHhwXT7/Maud-ved-tastatur.jpg" alt="" class= "max-h-[520px] rounded-md z-50 shadow-2xl">
     <article class="w-[40%] flex flex-col gap-5 -translate-y-5">
