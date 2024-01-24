@@ -31,7 +31,7 @@
     <li class="bulletpoint relative ml-16"> Forventninger afstemmes, og processen aftales inden vi sætter i gang</li>
     <li class="bulletpoint relative ml-16"> Med tilliden på plads, kender alle vejen frem</li>
 </ul> 
-<p>Mange års erfaring og vundet viden gør, at vores Specialister evner at gennemskue aftalernes kompleksitet. De skærer igennem, forenkler og fornyer indgroet vanetænkning og uhensigtsmæssige kontraktforhold og arbejdsgange. Med ansvar og ejerskab på opgaven.
+<p>Mange års erfaring og vundet viden gør, at vores specialister evner at gennemskue aftalernes kompleksitet. De skærer igennem, forenkler og fornyer indgroet vanetænkning og uhensigtsmæssige kontraktforhold og arbejdsgange. Med ansvar og ejerskab på opgaven.
 </p>
     </article>
     <img src="https://i.ibb.co/cJs7Wtc/samarbejde-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50 shadow-2xl respons-mobi">

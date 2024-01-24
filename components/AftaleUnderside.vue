@@ -18,7 +18,7 @@ Ved at kickstarte jeres aftaleimplementering, styring og opfølgning får I et l
     <article class="w-[40%] flex flex-col gap-5 -translate-y-5">
       <h2 class="">Besparelser – hvert år</h2>
       <p>At sikre det økonomisk råderum hvert år, kræver systematiske månedlige og årlige kontroller. <br>
-Vi i IKR kalder det ”Level 2” controlling. <br> Kontrol ned på varelinje niveau. <br> Priskontrol, sammenholdt med aftalen, og evt. E-portal kontrol på ordrenummer niveau.
+Hos IKR kalder vi det ”Level 2” controlling. <br> Kontrol ned på varelinje niveau. <br> Priskontrol, sammenholdt med aftalen, og evt. E-portal kontrol på ordrenummer niveau.
 </p>
     </article>
    <img src="https://i.ibb.co/ZMJvNV1/driftpiger-aftaleopf-lgning-1.jpg" alt="" class= "max-h-[400px] rounded-md z-40 shadow-2xl">

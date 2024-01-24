@@ -9,11 +9,11 @@
 <h2 class="">I mere end 20 år har IKR hjulpet som uvildig rådgiver</h2>
 <p class="2xl:leading-[42px]">Været 100% loyal og uvildig som rådgiver og katalysator for en positiv udvikling. IKR har skabt økonomisk råderum for mere end ¾ mia. kr. for vores samarbejdspartnere, siden 2002. 
 <br><br>
-Hjulpet både offentlige og private kunder. Det har skabet overblik at have ”hånd-i-hanke” med sine kontrakter – og som oftest et øget økonomisk råderum, på grund af de opnåede fordele.
+IKR hjælper både offentlige og private kunder. Det har skabt overblik at have ”hånd-i-hanke” med sine kontrakter – og som oftest et øget økonomisk råderum, på grund af de opnåede fordele.
 <br><br>
 Som dedikerede uvildig partner, investerer vi i vores kunders udfordringer og er med på sidelinjen på hele rejsen. 
 <br><br>
-I behov og hidtidige situation, finder vi de nye veje til det økonomisk råderum.
+I behov og i den hidtidige situation, finder vi nye veje til det økonomisk råderum.
 <br><br>
 Med kunder i Danmark og Sverige har vi gennem årene opnået ekspertise, indsigt og erfaring med at sikre fordelagtige aftaler, følge op på de eksisterende og ofte, genforhandle disse til bedre vilkår og priser. 
 
@@ -33,7 +33,7 @@ Med kunder i Danmark og Sverige har vi gennem årene opnået ekspertise, indsigt
   <li><span class="text-[#256c2b] font-bold ">Forhandlingseksperter </span> – fordi vi kender markedet og dets aktører, kan vi sikre favorable vilkår og priser – uden at de positive relationer går tabt.</li>
   <li><span class="text-[#256c2b] font-bold">Kontraktstyring </span> – jeres aftaler spores, overvåges og evalueres løbende af vores styringsteam. Med fingeren på pulsen sikrer I at alt hele kontraktperioden går som aftalt.  </li>
 </ul>
-<p>- Med IKR som samarbejdspartner skal ”en plus en blive til tre”</p>
+<p>Med IKR som samarbejdspartner skal ”en plus en blive til tre”.</p>
     </article>
     <img src="https://i.ibb.co/KWsT29g/port-VI-ER.jpg" alt="" class= "max-h-[600px] 2xl:max-h-[700px] rounded-md z-50 shadow-2xl">
   </div>

@@ -8,7 +8,7 @@
          <div class="max-w-[72%] sm:max-w-[100%] relative">
           <h2 class=" w-full text-[80px]"> Udbud & konkurrence</h2>
          </div>
-     <p class=" max-w-[90%] kommentar2">Opgaverne for indkøbsfunktionen kan synes uoverskuelig, fordi presset, kompleksiteten og lovgrundlaget i de mange aftaler er omfattende, samtidig med at tidsfrister og budgetter skal overholdes. Kravene til indsats er store og tilliden til leverandørerne skal bibeholdes i et reelt og ærligt samarbejde. Som indkøber kan det ofte synes vanskeligt at lykkes, fordi omstændighederne gennem en kontraktperiode på 5-6 år ændrer sig.</p>
+     <p class=" max-w-[90%] kommentar2">Opgaverne for indkøbsfunktionen kan synes uoverskuelige, fordi presset, kompleksiteten og lovgrundlaget i de mange aftaler er omfattende, samtidig med at tidsfrister og budgetter skal overholdes. Kravene til indsats er store og tilliden til leverandørerne skal bibeholdes i et reelt og ærligt samarbejde. Som indkøber kan det ofte synes vanskeligt at lykkes, fordi omstændighederne gennem en kontraktperiode på 5-6 år ændrer sig.</p>
         </div>
 
   <div class="flex w-full relative mt-36 gap-20 2xl:gap-40 justify-center">
@@ -29,7 +29,7 @@ IKR har mangeårig erfaring med konkurrenceudsættelse og udformning af bl.a. kr
       <img src="https://i.ibb.co/qBj18Lc/Udbud-billede-2-1.jpg" alt="" class= "max-h-[450px] rounded-md z-40 shadow-2xl">
     <article class="w-[39%] flex flex-col gap-5 -translate-y-5">
       <h2 class="">Viden giver fordele</h2>
-      <p>På baggrund af den viden og gennemsigtighed, der er opnået gennem analysen, kan IKR assistere i forbindelse med ny konkurrenceudsættelse på områder, som kræver øjeblikkelig handling, eller hvor det er en fordel at udbuddet formuleres af en uvildig partner.På baggrund af den viden og gennemsigtighed, der er opnået gennem analysen, kan IKR assistere i forbindelse med ny konkurrenceudsættelse på områder, som kræver øjeblikkelig handling, eller hvor det er en fordel at udbuddet formuleres af en uvildig partner.</p>
+      <p>På baggrund af den viden og gennemsigtighed, der er opnået gennem analysen, kan IKR assistere i forbindelse med ny konkurrenceudsættelse på områder, som kræver øjeblikkelig handling, eller hvor det er en fordel at udbuddet formuleres af en uvildig partner. </p>
     </article>
    
   </div>

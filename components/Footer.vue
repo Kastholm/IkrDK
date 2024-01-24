@@ -19,7 +19,7 @@
         <div class="flex flex-col  max-w-[250px] text-left">
          <div class="flex flex-col">
             
-            <p class="mt-4 text-[20px]">Tuse Næs Vej 7A, 4300 Holbæk, Denmark</p>
+            <p class="mt-4 text-[20px]">Tuse Næs Vej 7A,<br> DK-4300 Holbæk</p>
          </div>
          <div class="flex flex-col mt-6">
       
