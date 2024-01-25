@@ -9,7 +9,7 @@
 
 <ul class="flex flex-col gap-4 min-h-[258px]">
     <li class="bulletpoint relative ml-16"> Øge jeres økonomiske råderum</li>
-    <li class="bulletpoint relative ml-16"> Overblikket over realiserbare muligheder</li>
+    <li class="bulletpoint relative ml-16"> Overblik over realiserbare muligheder</li>
     <li class="bulletpoint relative ml-16"> Få dokumentation for opnåede resultater</li>
     <li class="bulletpoint relative ml-16"> Udnytte rammevilkår fuldt ud i kontrakterne</li>
     <li class="bulletpoint relative ml-16"> Opnå overblik over den samlede aftaleportefølje</li>
@@ -24,9 +24,8 @@
   <div class="flex w-full relative mt-10 sm:mt-36 gap-10 2xl:gap-40 justify-center">
     <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[5px] "></figure>
     <article class="sm:w-[40%] w-[85%] flex flex-col gap-5  sm:-translate-y-5">
-<h2 class="">Jeres succes er vores succes</h2>
+<h2 class="">Vi gør fordelene synlige fra dag ét</h2>
 <ul class="flex flex-col gap-4 min-h-[258px]">
-    <li class="bulletpoint relative ml-16"> Vi gør fordelene synlige fra dag ét</li>
     <li class="bulletpoint relative ml-16"> Jeres behov, mål og ønsker er fokus </li>
     <li class="bulletpoint relative ml-16"> Forventninger afstemmes, og processen aftales inden vi sætter i gang</li>
     <li class="bulletpoint relative ml-16"> Med tilliden på plads, kender alle vejen frem</li>

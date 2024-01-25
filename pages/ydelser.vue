@@ -3,7 +3,7 @@
     <YdelserHero />
     <div class="">
     <div class="flex flex-col h-[300px] w-full gap-5 justify-center items-center sm:mt-16 mt-60 relative sm:mb-0 mb-44">
-      <div class="max-w-[72%] sm:max-w-[60%] sm:w-[1200px] kommentar relative">
+      <div class="max-w-[72%] sm:max-w-[60%] sm:w-[1200px]  relative">
      <h2 class=" sm:max-w-[100%] "> ”Hvad er realiserbare muligheder?”</h2>
     </div>
     <p class=" max-w-[60%]">Konkrete aftaleområder tager altid afsæt i de tre faser: Økonomisk analyse, udbud og konkurrence og aftalestyring. Aftaleområder kunne være:<br>
@@ -38,7 +38,7 @@ En samlet økonomisk råderumsanalyse…. ”hvad er realiserbare muligheder”.
   </NuxtLink>
   <NuxtLink to="aftaleUnderside">
     <div class="card flex flex-col justify-center items-center gap-[55px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer ">
-        <h3 class="max-w-[90%] w-[90%] leading-10 overskrift-underline mt-9"> AFTALESTYRING
+        <h3 class="max-w-[90%] w-[90%] leading-10 overskrift-underline"> AFTALESTYRING & -OPFØLGNING
         </h3>
         <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">Aftaleimplementering, 
 aftaleopfølgning, giver det økonomiske råderum, løbende systematisk kontrol er et must.
@@ -52,7 +52,7 @@ aftaleopfølgning, giver det økonomiske råderum, løbende systematisk kontrol 
 </div>
 <div class="relative w-full h-[500px] flex flex-col justify-center items-center">
     <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0"></figure>
-   <div class="max-w-[72%] sm:max-w-[60%] kommentar relative">
+   <div class="max-w-[72%] sm:max-w-[60%] relative">
      <h2 class=" sm:w-[1200px] "> <span class="text-[#256c2b]"> IKR </span> er med hele vejen</h2>
     </div>
     <p class=" w-[60%] max-w-[1200px]">IKR sørger for, ved en driftsaftale, at der løbende tilpasses og forbedres samt følges op på aftalerne gennem dels ”Level 2” controlling, dels konstruktive samtaler med jeres leverandører.

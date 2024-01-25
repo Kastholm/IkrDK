@@ -28,8 +28,8 @@ Med kunder i Danmark og Sverige har vi gennem årene opnået ekspertise, indsigt
     <article class="w-[40%] flex flex-col gap-5 -translate-y-3">
 <h2 class=""> I<span class="text-[#256c2b]"> IKR </span> betragter vi os som en samarbejdspartner – vi er:</h2>
 <ul class="flex-col flex gap-8">
-  <li><span class="text-[#256c2b] font-bold">Indkøbsspecialister</span> – vi forstår markedet, kender kunde/leverandørforhold – og de rigtige priser.</li>
   <li><span class="text-[#256c2b] font-bold">Udbuds- og indkøbsekspertise</span> – vi hjælper ifbm. udformning og eksekvering af konkurrencedygtige udbud.</li>
+  <li><span class="text-[#256c2b] font-bold">Indkøbsspecialister</span> – vi forstår markedet, kender kunde/leverandørforhold – og de rigtige priser.</li>
   <li><span class="text-[#256c2b] font-bold ">Forhandlingseksperter </span> – fordi vi kender markedet og dets aktører, kan vi sikre favorable vilkår og priser – uden at de positive relationer går tabt.</li>
   <li><span class="text-[#256c2b] font-bold">Kontraktstyring </span> – jeres aftaler spores, overvåges og evalueres løbende af vores styringsteam. Med fingeren på pulsen sikrer I at alt hele kontraktperioden går som aftalt.  </li>
 </ul>

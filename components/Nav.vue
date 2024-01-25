@@ -18,12 +18,16 @@
         <li :class="{ 'active-link': $route.path === '/faq' }" class="hover:underline hover:decoration-[2px] decoration-black hover:underline-offset-4">
           <NuxtLink to="/faq">FAQ</NuxtLink>
         </li>
-        <li class="translate-x-40 hover:scale-110 transition-all cursor-pointer bg-[#256c2b] text-white px-4 rounded-md">
+        <li class="translate-x-64 hover:scale-110 transition-all cursor-pointer bg-[#256c2b] text-white px-4 rounded-md">
           <NuxtLink to="/kontakt">KONTAKT</NuxtLink>
         </li>
       </ul>
-      <NuxtLink to="/"><img src="https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg" class="absolute left-16 h-[90px] w-fit top-3" alt="#"></NuxtLink>
-      <p class="absolute right-16 font-semibold top-3 p-6 cursor-pointer text-[#919995]">Dansk</p>
+      <NuxtLink to="/"><img src="https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg" class="absolute left-24 h-[90px] w-fit top-3" alt="#"></NuxtLink>
+      <div class="absolute right-16 font-semibold top-3 p-6 cursor-pointer text-[#919995] flex gap-3">
+      <img src="https://i.ibb.co/P1yfgVt/Flag-of-the-United-Kingdom-3-5-svg.webp" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all">
+      <img src="https://i.ibb.co/jZs3yf6/Dansk-flag383594.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all">
+      <img src="https://i.ibb.co/bHq9yTg/Svensk-flag693684.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all">
+    </div>
     </nav>
   </header>
 </section>
