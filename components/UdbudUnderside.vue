@@ -8,7 +8,7 @@
          <div class="max-w-[72%] sm:max-w-[100%] relative">
           <h2 class=" w-full text-[80px]"> Udbud & konkurrence</h2>
          </div>
-     <p class=" max-w-[90%] kommentar2">Opgaverne for indkøbsfunktionen kan synes uoverskuelige, fordi presset, kompleksiteten og lovgrundlaget i de mange aftaler er omfattende, samtidig med at tidsfrister og budgetter skal overholdes. Kravene til indsats er store og tilliden til leverandørerne skal bibeholdes i et reelt og ærligt samarbejde. Som indkøber kan det ofte synes vanskeligt at lykkes, fordi omstændighederne gennem en kontraktperiode på 5-6 år ændrer sig.</p>
+     <p class=" max-w-[90%]">Opgaverne for indkøbsfunktionen kan synes uoverskuelige, fordi presset, kompleksiteten og lovgrundlaget i de mange aftaler er omfattende, samtidig med at tidsfrister og budgetter skal overholdes. Kravene til indsats er store og tilliden til leverandørerne skal bibeholdes i et reelt og ærligt samarbejde. Som indkøber kan det ofte synes vanskeligt at lykkes, fordi omstændighederne gennem en kontraktperiode på 5-6 år ændrer sig.</p>
         </div>
 
   <div class="flex w-full relative mt-36 gap-20 2xl:gap-40 justify-center">

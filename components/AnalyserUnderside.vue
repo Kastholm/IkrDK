@@ -8,7 +8,7 @@
          <div class="max-w-[72%] sm:max-w-[100%] relative">
           <h2 class=" w-full text-[80px]"> Økonomiske analyser</h2>
          </div>
-     <p class=" max-w-[90%] kommentar2">Overblikket og gennemsigtigheden, i et flere årig perspektiv, giver styrke til at opnå et helhedsbillede. Med falkeblik kan du fokusere i det store perspektiv og være med til at finde nye veje og løsninger i en foranderlig verden <br>”Analyserne ift. realiserbare muligheder, kan være brede og omfatte mange varer og tjenesteydelseskategorier, men også smalle, og alene indeholde et enkelt område eller få kategoriområder. ”</p>
+     <p class=" max-w-[90%]">Overblikket og gennemsigtigheden, i et flere årig perspektiv, giver styrke til at opnå et helhedsbillede. Med falkeblik kan du fokusere i det store perspektiv og være med til at finde nye veje og løsninger i en foranderlig verden <br>”Analyserne ift. realiserbare muligheder, kan være brede og omfatte mange varer og tjenesteydelseskategorier, men også smalle, og alene indeholde et enkelt område eller få kategoriområder. ”</p>
         </div>
 
   <div class="flex w-full relative mt-36 gap-20 2xl:gap-40 justify-center">

@@ -8,7 +8,7 @@
          <div class="max-w-[72%] sm:max-w-[100%] relative">
           <h2 class=" w-full text-[80px]"> Aftalestyring</h2>
          </div>
-     <p class=" max-w-[90%] kommentar2">Aftaleimplementering, styring og opfølgning er en kontinuerlig proces, og helt afgørende i forhold til samarbejdet med såvel interne interessenter og leverandører – og helt basalt i forhold til den succes analyse og konkurrenceudsættelsen har synliggjort I kan opnå. 
+     <p class=" max-w-[90%]">Aftaleimplementering, styring og opfølgning er en kontinuerlig proces, og helt afgørende i forhold til samarbejdet med såvel interne interessenter og leverandører – og helt basalt i forhold til den succes analyse og konkurrenceudsættelsen har synliggjort I kan opnå. 
 <br><br>
 Ved at kickstarte jeres aftaleimplementering, styring og opfølgning får I et løbende overblik, ligesom vi tilbyder en række værktøjer tilpasset jeres organisation.
 </p>
