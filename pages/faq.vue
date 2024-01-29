@@ -28,7 +28,26 @@
             <h6 class="header" @click="toggleBar('bar1.2')"><strong class="text-[35px]">+</strong> Hvad er økonomisk råderumsanalyse?</h6>
        <div class="content" @click="toggleBar('bar1.2')">
         <div class="bar-flex2">
-         <p class="bar-lille-text">Indkøbsanalyser kan hjælpe Kunden med at træffe mere informerede beslutninger om indkøb, identificere potentielle besparelser og forbedringer i deres indkøbsprocesser og opnå bedre kontrol over deres omkostninger. Hermed lægges bunden for at opnå øget økonomisk råderum.
+         <p class="bar-lille-text">I IKR bruger vi begrebet økonomisk råderumsanalyse som et ”paraply begreb”. Dette ift. at kunder, virksomheder og organisationer, via de besparelser, de kan gøre indenfor indkøb af vare- og tjenesteydelser, naturligt kan bruges på andre ting eller forhold som organisationen finder nødvendig. Med andre ord, hvis det ved køb er muligt at købe ”det samme”, i rette kvalitet, så ser IKR ingen relationelle grunde til, at betale det mere. Pengene gøres derved frit disponibel for virksomheden. <br><br>
+
+Formålet er at identificere de faktorer, der kan påvirke virksomhedens økonomiske handlefrihed – indenfor indkøb af vare- og tjenesteydelser. <br><br>
+
+Råderumsanalysen er nyttig for ledelsen, da den giver et helhedsbillede af organisatoriske forhold og hjælper med at træffe fakta baseret beslutninger. 
+ 
+
+         </p>
+        </div>
+       </div> 
+      </div>
+
+      <div class="baranalyser5 baranalyser " id="bar1.5">
+            <h6 class="header" @click="toggleBar('bar1.5')"><strong class="text-[35px]">+</strong> Hvad er en indkøbsanalyse?</h6>
+       <div class="content" @click="toggleBar('bar1.5')">
+        <div class="bar-flex2">
+         <p class="bar-lille-text">En veludført indkøbsanalyse kan hjælpe kunden/virksomheder med at identificere muligheder for omkostningsreduktion, forbedre samarbejdet med leverandører og øge effektiviteten i hele indkøbsprocessen.  <br><br>
+
+Kunden/virksomheden kan dermed træffe mere faktabaserede beslutninger om indkøb, identificere potentielle besparelser og forbedringer i indkøbsprocesserne og opnå bedre kontrol over omkostninger.
+
          </p>
         </div>
        </div> 
@@ -52,16 +71,6 @@
 Det involverer indsamling af data om Kundens indkøb og udgifter, og derefter analysering af disse data for at identificere muligheder for omkostnings-besparelser og optimering af forsyningskæden.
 
 En grundig spend analyse kan give Kunden et solidt grundlag for at træffe informerede beslutninger om, hvordan de kan optimere deres udgifter og forsyningskæde. Spend analysen kan også hjælpe med at identificere risici i forsyningskæden, for eksempel ved at identificere leverandører, der er særligt sårbare over for forstyrrelser.
-         </p>
-        </div>
-       </div> 
-      </div>
-
-      <div class="baranalyser5 baranalyser " id="bar1.5">
-            <h6 class="header" @click="toggleBar('bar1.5')"><strong class="text-[35px]">+</strong> Hvad er en indkøbsanalyse?</h6>
-       <div class="content" @click="toggleBar('bar1.5')">
-        <div class="bar-flex2">
-         <p class="bar-lille-text">Indkøbsanalyser hjælper Kunderne med at træffe mere informerede beslutninger om indkøb, identificere potentielle besparelser og forbedringer i indkøbsprocesserne og opnå bedre kontrol over omkostninger.
          </p>
         </div>
        </div> 
@@ -96,6 +105,34 @@ I optimeringsanalysen kigger vi på:
       <h3 class="header translate-y-3" @click="toggleBar('bar2')">LEVERANDØRER & KONTRAKTER<br> <span  style="font-size: 16px;"> ▼ </span></h3>
   <div class="content">
     <div class="bar-flex">
+
+      <div class="baranalyser baranalyser9"  id="bar2.3">
+            <h6 class="header"  @click="toggleBar('bar2.3')"><strong class="text-[35px]">+</strong> Hvad er leverandør styring?</h6>
+       <div class="content"  @click="toggleBar('bar2.3')">
+        <div class="bar-flex2">
+         <p class="bar-lille-text">Vi sikrer gennemsigtighed i leverandørforholdet.  Inden for indkøb er der to niveauer af compliance:
+<br><br>
+Compliance 1:
+Køber vi de aftalte varer eller tjenesteydelserne hos den aftalte leverandører?
+<br><br>
+Compliance 2:
+Køber vi så de konkrete varer og tjenesteydelser hos de leverandører, vi har en aftale med?
+<br><br>
+Vi ser ofte at Kunden køber den rigtige kategori af varer eller tjenesteydelser hos den rigtige leverandører og at det derfor ser ud til at aftalen anvendes optimalt. Dette er compliance 1 niveauet.
+<br><br>
+I den dybdegående controlling går vi ned på varelinjeniveau. Her ser vi på om det er den aftalte varer eller ydelse som er købt hos den leverandør som Kunden har en aftale med.  Controlling af aftaleoverholdelse på varelinjeniveau er compliance 2 niveauet.
+<br><br>
+Vi har lavet analyser for Kunder hvor deres complience 1 niveau lå omkring 80 procent. Dermed køber Kunden varer og tjenesteydelser hos de leverandører de havde en aftale med. 
+Når analysen gik ned i complience 2 niveauet og analyserede, om de så faktisk var de varer og tjenesteydelser som Kunden havde en aftale med leverandøren om, der blev indkøbt, faldt complience 2 niveauet til 30 procent. 
+<br><br>Konklusionen er, at Kunden købte varerne hos den rigtige leverandør, men Kunden købte ikke de rigtige varer hos den rigtige leverandør.
+Ved at sikre at Kunden fremadrettet køber de rigtige varer og tjenesteydelser hos den rigtige leverandør opnås besparelser.
+
+
+         </p>
+        </div>
+       </div>
+     </div>
+
       <div class="baranalyser baranalyser7" id="bar2.1">
             <h6 class="header" @click="toggleBar('bar2.1')"><strong class="text-[35px]">+</strong> Hvad er kontraktstyring?</h6>
        <div class="content" @click="toggleBar('bar2.1')">
@@ -123,46 +160,6 @@ Vores erfaring er at vi i gennemsnit får udleveret 20 kontrakter, men at vi, ua
        </div>
      </div>
 
-     <div class="baranalyser baranalyser8"  id="bar2.2">
-            <h6 class="header"  @click="toggleBar('bar2.2')"><strong class="text-[35px]">+</strong> Hvad er overblik over kontrakter?</h6>
-       <div class="content"  @click="toggleBar('bar2.2')">
-        <div class="bar-flex2">
-         <p class="bar-lille-text">Tekst kommer..
-
-         </p>
-        </div>
-       </div>
-     </div>
-
-     <div class="baranalyser baranalyser9"  id="bar2.3">
-            <h6 class="header"  @click="toggleBar('bar2.3')"><strong class="text-[35px]">+</strong> Hvad er leverandør styring ?</h6>
-       <div class="content"  @click="toggleBar('bar2.3')">
-        <div class="bar-flex2">
-         <p class="bar-lille-text">Vi sikrer gennemsigtighed i leverandørforholdet.  Inden for indkøb er der to niveauer af compliance:
-<br><br>
-Compliance 1:
-Køber vi de aftalte varer eller tjenesteydelserne hos den aftalte leverandører?
-<br><br>
-Compliance 2:
-Køber vi så de konkrete varer og tjenesteydelser hos de leverandører, vi har en aftale med?
-<br><br>
-Vi ser ofte at Kunden køber den rigtige kategori af varer eller tjenesteydelser hos den rigtige leverandører og at det derfor ser ud til at aftalen anvendes optimalt. Dette er compliance 1 niveauet.
-<br><br>
-I den dybdegående controlling går vi ned på varelinjeniveau. Her ser vi på om det er den aftalte varer eller ydelse som er købt hos den leverandør som Kunden har en aftale med.  Controlling af aftaleoverholdelse på varelinjeniveau er compliance 2 niveauet.
-<br><br>
-Vi har lavet analyser for Kunder hvor deres complience 1 niveau lå omkring 80 procent. Dermed køber Kunden varer og tjenesteydelser hos de leverandører de havde en aftale med. 
-Når analysen gik ned i complience 2 niveauet og analyserede, om de så faktisk var de varer og tjenesteydelser som Kunden havde en aftale med leverandøren om, der blev indkøbt, faldt complience 2 niveauet til 30 procent. 
-<br><br>Konklusionen er, at Kunden købte varerne hos den rigtige leverandør, men Kunden købte ikke de rigtige varer hos den rigtige leverandør.
-Ved at sikre at Kunden fremadrettet køber de rigtige varer og tjenesteydelser hos den rigtige leverandør opnås besparelser.
-
-
-         </p>
-        </div>
-       </div>
-     </div>
-
-
-
    </div>
   </div>
 </div>
@@ -186,25 +183,7 @@ Beregning af besparelsespotentiale: Hos IKR hjælper vi Kunden med at beregne be
        </div>
      </div>
 
-     <div class="baranalyser baranalyser8"  id="bar3.2">
-            <h6 class="header"  @click="toggleBar('bar3.2')"><strong class="text-[35px]">+</strong> Hvad er besparelsesberegninger?</h6>
-       <div class="content"  @click="toggleBar('bar3.2')">
-        <div class="bar-flex2">
-         <p class="bar-lille-text">Tekst kommer..
-         </p>
-        </div>
-       </div>
-     </div>
-
-     <div class="baranalyser baranalyser8"  id="bar3.3">
-            <h6 class="header"  @click="toggleBar('bar3.3')"><strong class="text-[35px]">+</strong> Hvad er økonomisk råderum?</h6>
-       <div class="content"  @click="toggleBar('bar3.3')">
-        <div class="bar-flex2">
-         <p class="bar-lille-text">Tekst kommer..
-         </p>
-        </div>
-       </div>
-     </div>
+     
 
    </div>
   </div>
@@ -219,91 +198,253 @@ Beregning af besparelsespotentiale: Hos IKR hjælper vi Kunden med at beregne be
     <h6 class="header" @click="toggleBar('bar4.1')"><strong class="text-[35px]">+</strong> Hvad er driftsstyrring af kopi og print?</h6>
     <div class="content" @click="toggleBar('bar4.1')">
         <div class="bar-flex2">
-            <p class="bar-lille-text">Tekst kommer..</p>
+            <p class="bar-lille-text">Driftsstyring af kopi og print refererer til styringen og optimeringen af de processer, der er forbundet med kopimaskiner og printere i en organisation. Dette område af driftsstyring fokuserer på at forbedre effektiviteten, reducere omkostninger og øge pålideligheden af kopierings- og printinfrastrukturen. <br><br>
+
+Effektiv driftsstyring af kopi og print er afgørende for at sikre, at organisationen maksimerer effektiviteten og reducerer de samlede omkostninger ved kopiering og udskrivning. <br><br>
+
+Her er nogle vigtige elementer, der indgår i driftsstyring af kopi og print: <br><br>
+
+1.  Udstyrsovervågning:  Implementering af overvågningsværktøjer for at holde styr på kopimaskiners og printeres ydeevne. Dette kan omfatte overvågning af forbrugsstoffer som toner og papir samt detektering af fejl og driftsproblemer.
+<br><br>
+2.  Ressourceallokering:  Effektiv styring af ressourcer som papir, blæk eller toner for at undgå spild og sikre, at der altid er tilstrækkelige forsyninger.
+<br><br>
+3.   Brugerstyring:  Implementering af systemer til styring af brugerrettigheder og adgang til kopimaskiner og printere. Dette kan omfatte begrænsning af adgangen til farveprint, dobbeltsidet udskrivning og andre funktioner.
+<br><br>
+4.   Omkostningsstyring:  Overvågning og kontrol af omkostningerne ved kopiering og udskrivning. Dette kan omfatte kvantificering af udskriftsforbrug, beregning af omkostninger pr. side og implementering af politikker for omkostningsbesparelser.
+<br><br>
+5.   Miljøvenlige initiativer: Implementering af grønne og bæredygtige praksisser, såsom dobbeltsidet udskrivning, valg af miljøvenlige materialer og reduktion af energiforbruget.
+<br><br>
+6.   Automatisering:  Brug af automatisering for at forenkle og strømline kopierings- og udskrivningsprocesserne. Dette kan omfatte automatiske opgaver som påfyldning af toner, fjernovervågning af udstyret og automatisk fakturering.
+<br><br>
+7.   Sikkerhed:  Implementering af sikkerhedsforanstaltninger for at beskytte fortrolige oplysninger, der udskrives eller kopieres. Dette kan omfatte brugergodkendelse, datakryptering og sikker sletning af midlertidige filer.
+<br><br>
+8.   Regnskabsføring:  Tracking og rapportering af udskriftsomkostninger på individuel eller afdelingsniveau. Dette kan hjælpe med at identificere områder for omkostningsreduktion eller optimering.
+</p>
         </div>
     </div>
 </div>
 
-<div class="baranalyser baranalyser8" id="bar4.2">
+<div class="baranalyser baranalyser11" id="bar4.2">
     <h6 class="header" @click="toggleBar('bar4.2')"><strong class="text-[35px]">+</strong> Hvad er driftsstyring af vare- og tjenesteydelser?</h6>
     <div class="content" @click="toggleBar('bar4.2')">
         <div class="bar-flex2">
-            <p class="bar-lille-text">Tekst kommer..</p>
+            <p class="bar-lille-text">Driftsstyring af varer og tjenesteydelser refererer til processen med at planlægge, implementere og optimere de daglige operationer og aktiviteter, der er involveret i levering af produkter og tjenesteydelser. Formålet med driftsstyring er at sikre effektivitet, kvalitet, omkostningskontrol og kundetilfredshed. Dette koncept omfatter en bred vifte af funktioner og opgaver, og nøgleelementerne kan variere afhængigt af typen af virksomhed. <br><br>
+
+Effektiv driftsstyring er afgørende for virksomhedens succes, da det påvirker både omkostninger og kunde-/brugertilfredshed. Det indebærer en konstant evaluering og optimering af processer for at tilpasse sig ændrede markedsforhold og kundekrav.
+<br><br>
+Her er nogle grundlæggende aspekter af driftsstyring af varer og tjenesteydelser:
+<br><br>
+1.  Planlægning: Udvikling af strategiske og taktiske planer for, hvordan virksomheden vil levere sine varer og tjenesteydelser. Dette kan omfatte produktionsplanlægning, lagerstyring, personaleplanlægning og andre operationelle aspekter.
+<br><br>
+2.   Produktion og Levering:   Overvågning og styring af produktionsprocesser for varer eller levering af tjenesteydelser. Dette indebærer ofte koordinering af ressourcer som arbejdskraft, råvarer, teknologi og udstyr.
+<br><br>
+3.   Kvalitetskontrol:  Implementering af processer og procedurer for at sikre, at både varer og tjenesteydelser opfylder de krævede kvalitetsstandarder. Dette kan omfatte inspektion, tests og evaluering af resultater.
+<br><br>
+4.   Lagerstyring:  Effektiv håndtering af beholdninger og lagerfaciliteter for at sikre, at der er tilstrækkelige varer til rådighed til at opfylde efterspørgslen uden overflødighed.
+<br><br>
+5.   Personaleadministration:   Styring af arbejdskraft, inklusive ansættelse, uddannelse og opretholdelse af arbejdsmoral. Dette kan også omfatte implementering af effektive arbejdsprocedurer og sikkerhedsstandarder.
+<br><br>
+6.   Teknologianvendelse:  Integration og anvendelse af relevant teknologi for at automatisere processer, forbedre effektiviteten og øge nøjagtigheden i levering af varer og tjenesteydelser.
+<br><br>
+7.   Logistik og Distribution:  Optimering af leveringskæden, herunder transport, lager og distribution af varer eller udførelse af tjenesteydelser.
+<br><br>
+8.   Kundeservice:   Etablere og vedligeholde effektive kundeserviceprocesser for at imødekomme kundernes behov og håndtere klager og henvendelser.
+<br><br>
+9.   Omkostningsstyring:  Overvågning og styring af driftsomkostninger for at sikre, at de forbliver inden for budgettet og er proportionale med virksomhedens indtjening.
+<br><br>
+10.   Risikostyring:  Identifikation og håndtering af potentielle risici, der kan påvirke levering af varer og tjenesteydelser, herunder forsyningskæderisici, efterlevelsesrisici og andre operationelle trusler.
+</p>
         </div>
     </div>
 </div>
 
-<div class="baranalyser baranalyser8" id="bar4.3">
+<div class="baranalyser baranalyser12" id="bar4.3">
     <h6 class="header" @click="toggleBar('bar4.3')"><strong class="text-[35px]">+</strong> Hvad er driftsstyrring af fødevare, forbrugsvare og biler?</h6>
     <div class="content" @click="toggleBar('bar4.3')">
         <div class="bar-flex2">
-            <p class="bar-lille-text">Tekst kommer..</p>
+            <p class="bar-lille-text">Driftsstyring af fødevarer, forbrugsvare og biler refererer til styring af de operationelle processer og aktiviteter inden for disse specifikke sektorer. Hvert område har sine egne unikke udfordringer og krav, men grundlæggende principper inden for driftsstyring anvendes generelt for at sikre effektivitet, kvalitet og omkostningskontrol. 
+<br><br>
+Disse områder af driftsstyring involverer også ofte anvendelse af moderne teknologier som Internet of Things (IoT), dataanalyse og automatisering for at forbedre processer, reducere omkostninger og øge effektiviteten. Et centralt mål inden for alle disse sektorer er at sikre, at forsyningskæden er smidig, kvaliteten er konsekvent høj, og at driftsomkostningerne holdes på et rimeligt niveau.
+<br><br>
+Her er nogle centrale aspekter ved driftsstyring inden for disse tre sektorer:
+<br><br>
+1.  Driftsstyring af fødevarer:<br><br>
+-   Forsyningskædeoptimering:  Overvågning og styring af alle trin i fødevareforsyningskæden, herunder produktion, distribution, lager og detailhandel. <br>
+-   Kvalitetskontrol: Stram kvalitetskontrol for at sikre, at fødevarer opfylder gældende standarder og er sikre for forbrugerne. <br>
+-   Lagerstyring: Effektiv håndtering af lagerfaciliteter for at minimere spild og sikre, at friske produkter bevares korrekt. <br>
+-   Efterspørgselsprognoser: Anvendelse af teknologier og metoder til at forudsige efterspørgslen og optimere produktionsniveauer. <br>
+<br>
+2. Driftsstyring af forbrugsvare:<br><br>
+-   Produktionsplanlægning:  Optimering af produktionsprocesser for at opfylde efterspørgslen og minimere lagerbeholdning. <br>
+-   Branding og markedsføring:  Koordinering af brandinginitiativer og markedsføringskampagner for at maksimere produktsynlighed og salg. <br>
+-   Forretningspartnerskaber:  Forvaltning af relationer med leverandører, detailhandlere og andre forretningspartnere for at sikre en smidig forsyningskæde. <br>
+<br>
+3. Driftsstyring af biler:<br><br>
+-   Fleet Management:   Overvågning og styring af bilflåder for at optimere brugen af køretøjer og reducere vedligeholdelsesomkostninger. <br>
+-   Service og vedligeholdelse:   Implementering af regelmæssige vedligeholdelsesrutiner for at opretholde bilernes driftsevne og forlænge levetiden. <br>
+</p>
         </div>
     </div>
 </div>
 
-<div class="baranalyser baranalyser8" id="bar4.4">
-    <h6 class="header" @click="toggleBar('bar4.4')"><strong class="text-[35px]">+</strong> Hvad er dybdegående controlling?</h6>
+<div class="baranalyser baranalyser13" id="bar4.4">
+    <h6 class="header" @click="toggleBar('bar4.4')"><strong class="text-[35px]">+</strong> Hvad er klassisk controlling?</h6>
     <div class="content" @click="toggleBar('bar4.4')">
         <div class="bar-flex2">
-            <p class="bar-lille-text">Tekst kommer..</p>
+            <p class="bar-lille-text">Klassisk controlling, også kendt som traditionel controlling, refererer til de grundlæggende principper og metoder inden for økonomistyring og kontrol af forretningsprocesser. Klassisk controlling omfatter de traditionelle tilgange til planlægning, opfølgning, og styring af organisationers økonomi og resultater. 
+<br><br>
+Her er nogle nøgletræk ved klassisk controlling:
+<br><br>
+1.   Budgettering: <br> Klassisk controlling involverer ofte udarbejdelse af årlige budgetter, hvor organisationen planlægger og allokerer ressourcer til forskellige aktiviteter. Budgettet tjener som en referencepunkt for at vurdere faktiske resultater i forhold til planlagte resultater.
+<br><br>
+2.   Periodisk rapportering: <br> Der er fokus på regelmæssig og periodisk rapportering af økonomiske resultater og nøgletal. Disse rapporter giver ledelsen mulighed for at vurdere, hvordan organisationen klarer sig i forhold til de fastsatte mål og budgetter.
+<br><br>
+3.   Varianceanalyse: <br>  Ved brug af varianceanalyse undersøger man forskellen mellem faktiske resultater og budgetterede resultater. Dette hjælper med at identificere afvigelser og forstå, hvorfor de er opstået, så der kan træffes nødvendige justeringer.
+<br><br>
+4.   Performanceevaluering: <br>  Klassisk controlling inkluderer ofte evaluering af præstationer baseret på fastlagte mål og nøgletal. Dette kan omfatte individuel præstationsvurdering såvel som evaluering af afdelingers eller hele virksomhedens præstation.
+<br><br>
+5.   Omkostningsstyring:  <br> Der er fokus på styring af omkostninger for at sikre, at organisationen opererer inden for de fastsatte budgetrammer. Dette indebærer overvågning af omkostninger og identifikation af områder, hvor der kan opnås omkostningsbesparelser.
+<br><br>
+6. Målsætning og opfølgning: <br>  Fastlæggelse af klare mål og nøgletal, som organisationen stræber efter, og løbende opfølgning for at måle fremskridt og identificere eventuelle nødvendige justeringer.
+<br><br>
+7.   Forecasting: <br>  Ud over budgettering inkluderer klassisk controlling ofte en prognoseproces, hvor organisationen forsøger at forudsige fremtidige økonomiske resultater baseret på nuværende og historiske data.
+<br><br>
+8.   Intern kontrol: <br>  Implementering af interne kontrolprocedurer og politikker for at sikre, at regnskabs- og forretningsprocesser udføres korrekt og i overensstemmelse med retningslinjer og standarder.
+</p>
         </div>
     </div>
 </div>
 
-<div class="baranalyser baranalyser8" id="bar4.5">
-    <h6 class="header" @click="toggleBar('bar4.5')"><strong class="text-[35px]">+</strong> Hvad er klassisk controlling?</h6>
+<div class="baranalyser baranalyser14" id="bar4.5">
+    <h6 class="header" @click="toggleBar('bar4.5')"><strong class="text-[35px]">+</strong> Hvad er dybdegående controlling?</h6>
     <div class="content" @click="toggleBar('bar4.5')">
         <div class="bar-flex2">
-            <p class="bar-lille-text">Tekst kommer..</p>
+            <p class="bar-lille-text">Dybdegående controlling sigter mod at give organisationen en mere nuanceret og avanceret forståelse af dens drift og resultater. Dette kan støtte mere præcise og strategisk rettede beslutninger samt hjælpe med at identificere områder, hvor der kan opnås effektivitetsforbedringer og værdiskabelse.
+<br><br>
+Hos IKR kalder vi det ”Level 2” controlling. Dvs Controlling ned på varelinje niveau.
+Priskontrol, sammenholdt med aftalen, og evt. E-portal controlling på ordrenummer niveau.
+<br><br>
+Dette kan omfatte følgende aspekter: <br><br>
+1.   Avanceret Analyse:  <br> Dybdegående controlling involverer brugen af avancerede analytiske værktøjer og teknikker til at afdække dybere indsigt i virksomhedens præstationer. Dette kan omfatte statistiske metoder, datamining, og avanceret modellering.
+<br><br>
+2.   Big Data og Analytics:  <br> Brugen af store datamængder (Big Data) og avanceret analytics for at analysere komplekse datasæt og identificere skjulte mønstre, tendenser og forretningsmuligheder.
+<br><br>
+3.   Business Intelligence (BI):  <br>Implementering af BI-værktøjer til at samle, analysere og præsentere forretningsdata på en meningsfuld måde, hvilket muliggør mere informerede beslutninger på tværs af organisationen.
+<br><br>
+4.   Predictive Analytics:   <br>Brug af predictive analytics til at forudsige fremtidige resultater baseret på historiske data og aktuelle præstationsindikatorer.
+<br><br>
+5.   KPI'er (Key Performance Indicators):  <br>Udvidelse af nøgletalssættet til at omfatte nøglepræstationsindikatorer, der går ud over de traditionelle økonomiske målinger og inkluderer operationelle og strategiske indikatorer.
+<br><br>
+6.   Benchmarking:  <br>Sammenligning af organisationens præstationer med industristandarder eller bedste praksis for at identificere områder, hvor der kan opnås forbedringer.
+<br><br>
+7.   Automatisering:  <br>Implementering af automatiserede processer og værktøjer, der kan hjælpe med at strømline dataindsamling, analyse og rapportering, hvilket reducerer manuelle processer og risikoen for fejl.
+<br><br>
+8.   Risikostyring: <br> Integration af mere sofistikerede metoder til risikovurdering og styring for at identificere potentielle trusler og muligheder, der kan påvirke organisationens mål.
+<br><br>
+9. Strategisk Controlling:  <br>Forbindelse mellem controlling-aktiviteter og organisationens overordnede strategi for at sikre, at alle beslutninger og handlinger understøtter de strategiske mål.
+</p>
         </div>
     </div>
 </div>
 
-<div class="baranalyser baranalyser8" id="bar4.6">
+<div class="baranalyser baranalyser15" id="bar4.6">
     <h6 class="header" @click="toggleBar('bar4.6')"><strong class="text-[35px]">+</strong> Hvad er controlling af e-handelsportaler – e-indkøbsportal?</h6>
     <div class="content" @click="toggleBar('bar4.6')">
         <div class="bar-flex2">
-            <p class="bar-lille-text">Tekst kommer..</p>
+            <p class="bar-lille-text">Controlling af e-handelsportaler eller e-indkøbsportaler refererer til styringen og optimeringen af økonomiske, operationelle og strategiske aspekter af elektroniske handelsplatforme. 
+Controlling af e-handelsportaler er en kontinuerlig proces, der kræver regelmæssig evaluering og justering for at imødekomme skiftende markedstendenser og behov. Teknologiske innovationer og dataanalyse spiller en afgørende rolle i at forbedre og optimere drift og resultater inden for e-handelsområdet.
+<br><br>
+Her er nogle centrale elementer inden for controlling af e-handelsportaler:
+<br><br>
+1.   Transaktionskontrol:  <br> Overvågning og styring af transaktionsprocesser for at sikre, at ordrer behandles korrekt, og at betalinger gennemføres sikkert. Dette omfatter også håndtering af returprocesser og kundeklager.
+<br><br>
+2.   Lagerstyring: <br>  Effektiv håndtering af produktlageret for at undgå overbeholdning eller mangler. Dette kan omfatte lageroptimering, implementering af nøjagtige lagersystemer og styring af forsyningskæden.
+<br><br>
+3.   Kundeservice og Support:  <br> Overvågning af kundeserviceprocesser, herunder besvarelse af forespørgsler, klager og problemløsning. Sikring af, at kundernes oplevelse er positiv og opfylder forventningerne.
+<br><br>
+4.   Websideydelse og Brugeroplevelse:  <br> Evaluering og forbedring af websideydelsen, herunder hastighed, navigationsvenlighed og responsivt design for at skabe en optimal brugeroplevelse.
+<br><br>
+5.   Analyse af Webtrafik: <br>  Brug af webanalyseværktøjer til at spore og analysere webtrafik, konverteringsrater og andre relevante nøgletal. Dette giver indsigt i, hvordan brugere interagerer med e-handelsportalen.
+<br><br>
+6. Produktprisfastsættelse: <br>  Overvågning af produktpriser og prisdynamik for at forblive konkurrencedygtig på markedet. Dette kan omfatte dynamisk prisfastsættelse og tilbudsstyring.
+<br><br>
+7.   Digital Markedsføring: <br>  Styring af digitale markedsføringsstrategier, herunder sociale medier, søgemaskineoptimering (SEO) og online annoncering, for at tiltrække og fastholde kunder.
+<br><br>
+8.   Sikkerhed og Beskyttelse af Personlige Oplysninger: <br> Implementering af sikkerhedsforanstaltninger for at beskytte kunders personlige oplysninger og sikre en sikker online shoppingoplevelse.
+<br><br>
+9.   Benchmarking:  <br> Sammenligning af e-handelsportalen med konkurrenter for at identificere styrker, svagheder og muligheder for forbedringer.
+<br><br>
+10.  Analyse af Konverteringsrater: <br>  Overvågning af konverteringsrater for at forstå, hvordan godt e-handelsportalen omsætter besøgende til faktiske kunder, og identifikation af områder, hvor konverteringsprocessen kan forbedres.
+<br><br>
+11.   Loyalty Programs:  <br> Styring af kunde-loyalitetsprogrammer og incitamenter for at fastholde eksisterende kunder og tiltrække nye.
+</p>
         </div>
     </div>
 </div>
 
-<div class="baranalyser baranalyser8" id="bar4.7">
+<div class="baranalyser baranalyser16" id="bar4.7">
     <h6 class="header" @click="toggleBar('bar4.7')"><strong class="text-[35px]">+</strong> Hvad er controlling af kontrakter – aftaler?</h6>
     <div class="content" @click="toggleBar('bar4.7')">
         <div class="bar-flex2">
-            <p class="bar-lille-text">Tekst kommer..</p>
+            <p class="bar-lille-text">Formålet med controlling inden for kontrakter er at sikre, at begge parter overholder de fastsatte vilkår og betingelser, at kontraktens mål opfyldes, og at risici minimeres. <br><br>
+
+Controlling af kontrakter er essentiel for at sikre, at begge parter opfylder deres forpligtelser, og at risici og potentielle konflikter håndteres på en effektiv måde. Dette bidrager til en vellykket gennemførelse af projekter eller levering af tjenesteydelser og hjælper med at opbygge et tillidsfuldt samarbejde mellem kontraktens parter.
+<br><br>
+Her er nogle nøgleelementer ved controlling af kontrakter:
+<br><br>
+1.   Kontraktudarbejdelse:  <br> En omhyggelig gennemgang og udarbejdelse af kontraktens betingelser for at sikre klarhed, nøjagtighed og overholdelse af lovgivning og regler.
+<br><br>
+2.   Budgetstyring: <br> Overvågning af de økonomiske aspekter af kontrakten, herunder budgettering, håndtering af omkostninger og sikring af, at projektet eller tjenesteydelsen udføres inden for de aftalte økonomiske rammer.
+<br><br>
+3.   Risikostyring:  <br> Identifikation og håndtering af potentielle risici, der kan påvirke kontraktopfyldelsen. Dette kan omfatte udvikling af risikostyringsstrategier og implementering af foranstaltninger for at mindske risici.
+<br><br>
+4.   Tidsstyring:  <br> Overvågning og styring af tidsplanen for kontrakten, herunder fastsættelse af milepæle og tidsfrister for at sikre, at projektet eller tjenesteydelsen leveres til tiden.
+<br><br>
+5.   Performanceevaluering: <br> Vurdering af kontraktens resultater og opfyldelse af de fastsatte præstationsmål. Dette kan omfatte periodiske evalueringer og rapportering om kontraktens fremskridt.
+<br><br>
+6.   Ændringshåndtering: <br>  Håndtering af eventuelle ændringer eller modifikationer i kontrakten og sikring af, at begge parter er enige om sådanne ændringer.
+<br><br>
+7.  Efterlevelse af lovgivning:  <br>Sikring af, at alle kontraktmæssige forhold overholder gældende lovgivning, regler og standarder.
+<br><br>
+8.   Kommunikation:  <br> Effektiv kommunikation mellem de kontraherende parter for at undgå misforståelser og sikre, at begge parter er informeret om relevante opdateringer og ændringer.
+<br><br>
+9.   Dokumentation:  <br> Korrekt arkivering af kontraktrelaterede dokumenter, herunder korrespondance, mødenotater og rapporter. Dette er vigtigt for at skabe en klar og dokumenteret historik af kontraktens udvikling og opfyldelse.
+<br><br>
+10.   Afslutning af kontrakt:  <br> En ordentlig afslutning af kontrakten, når alle betingelser er opfyldt, herunder slutrapportering og opfølgning på eventuelle efterfølgende forpligtelser.
+</p>
         </div>
     </div>
 </div>
 
-<div class="baranalyser baranalyser8" id="bar4.8">
-    <h6 class="header" @click="toggleBar('bar4.8')"><strong class="text-[35px]">+</strong> Hvad er controlling af indkøbsadfærd?</h6>
-    <div class="content" @click="toggleBar('bar4.8')">
-        <div class="bar-flex2">
-            <p class="bar-lille-text">Tekst kommer..</p>
-        </div>
-    </div>
-</div>
-
-<div class="baranalyser baranalyser8" id="bar4.9">
+<div class="baranalyser baranalyser17" id="bar4.9">
     <h6 class="header" @click="toggleBar('bar4.9')"><strong class="text-[35px]">+</strong> Hvad betyder samarbejdspartner?</h6>
     <div class="content" @click="toggleBar('bar4.9')">
         <div class="bar-flex2">
-            <p class="bar-lille-text">Tekst kommer..</p>
+            <p class="bar-lille-text">En samarbejdspartner refererer til en person, organisation eller enhed, der indgår i et samarbejde eller partnerskab med en anden for at opnå fælles mål eller formål. En samarbejdspartner kan være en part, der bidrager med ressourcer, kompetencer eller anden støtte for at styrke en gensidig indsats eller realisere fælles interesser.
+<br><br>
+Samarbejdspartnere kan variere i karakter afhængigt af konteksten. Det kan omfatte virksomheder, non-profitorganisationer, offentlige institutioner, akademiske institutioner eller endda enkeltpersoner. Partnerskaber kan dannes af forskellige grunde, herunder at opnå økonomiske gevinster, løse komplekse problemer, dele viden eller fremme fælles interesser.
+<br><br>
+Samarbejdspartnerskaber er almindelige inden for erhvervslivet, forskning, udviklingsprojekter, velgørenhedsarbejde og mange andre områder. Et vellykket samarbejde indebærer ofte tillid, åbenhed, klare kommunikationslinjer og en forpligtelse til at arbejde sammen om at opnå fælles mål.
+<br><br>
+Nøglekarakteristika ved samarbejdspartnere inkluderer:
+<br><br>
+1.   Gensidighed: <br>   Samarbejdspartnere deler normalt en gensidig interesse eller mål, og samarbejdet forventes at gavne begge parter.
+<br><br>
+2.   Fælles formål: <br>  Der er et klart defineret formål eller mål for samarbejdet, som begge parter stræber efter at opnå.
+<br><br>
+3.   Åbenhed og Kommunikation: <br>  Effektivt samarbejde kræver åben kommunikation og en klar forståelse af forventningerne og rollerne for hver partner.
+<br><br>
+4.   Bidrag og Engagement: <br>  Samarbejdspartnere bidrager aktivt til samarbejdet ved at levere ressourcer, viden, ekspertise eller andre former for støtte.
+<br><br>
+5.   Fleksibilitet: <br>   Samarbejdsrelationer kan udvikle sig over tid, og parterne skal ofte være fleksible for at imødekomme ændrede omstændigheder eller behov.
+<br><br>
+6.   Fælles beslutningstagning: <br>   I nogle tilfælde involverer samarbejde fælles beslutningstagning, hvor begge parter deltager i at træffe vigtige beslutninger.
+</p>
         </div>
     </div>
 </div>
 
-<div class="baranalyser baranalyser8" id="bar4.10">
-    <h6 class="header" @click="toggleBar('bar4.10')"><strong class="text-[35px]">+</strong> Hvad er samarbejde med IKR?</h6>
-    <div class="content" @click="toggleBar('bar4.10')">
-        <div class="bar-flex2">
-            <p class="bar-lille-text">Tekst kommer..</p>
-        </div>
-    </div>
-</div>
+
 
    </div>
   </div>
@@ -609,19 +750,19 @@ align-items: center;
 }
 
 .baranalyser2.active {
-  height: 340px; /* Adjust the height as needed */
+  height: 690px; /* Adjust the height as needed */
 }
 
 .baranalyser3.active {
-  height: 450px; /* Adjust the height as needed */
+  height: 390px; /* Adjust the height as needed */
 }
 
 .baranalyser4.active {
-  height: 550px; /* Adjust the height as needed */
+  height: 480px; /* Adjust the height as needed */
 }
 
 .baranalyser5.active {
-  height: 320px; /* Adjust the height as needed */
+  height: 460px; /* Adjust the height as needed */
 }
 
 .baranalyser6.active {
@@ -632,12 +773,44 @@ align-items: center;
   height: 1200px; /* Adjust the height as needed */
 }
 
+.baranalyser8.active {
+  height: 1850px; /* Adjust the height as needed */
+}
+
 .baranalyser9.active {
   height: 1160px; /* Adjust the height as needed */
 }
 
 .baranalyser10.active {
   height: 1120px; /* Adjust the height as needed */
+}
+
+.baranalyser11.active {
+  height: 2180px; /* Adjust the height as needed */
+}
+
+.baranalyser12.active {
+  height: 1770px; /* Adjust the height as needed */
+}
+
+.baranalyser13.active {
+  height: 1950px; /* Adjust the height as needed */
+}
+
+.baranalyser14.active {
+  height: 2120px; /* Adjust the height as needed */
+}
+
+.baranalyser15.active {
+  height: 2320px; /* Adjust the height as needed */
+}
+
+.baranalyser16.active {
+  height: 2250px; /* Adjust the height as needed */
+}
+
+.baranalyser17.active {
+  height: 1710px; /* Adjust the height as needed */
 }
 
 .bar.active .content {
