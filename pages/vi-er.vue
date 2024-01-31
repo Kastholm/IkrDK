@@ -6,7 +6,7 @@
 
 <div class="flex w-full relative mt-36 gap-16 2xl:gap-40 justify-center">
     <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[135px]"></figure>
-    <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0 sm:-translate-y-80"></figure>
+    <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0 sm:-translate-y-32"></figure>
     <article class="w-[40%] flex flex-col gap-5 -translate-y-3">
 <h2 class=""> I<span class="text-[#256c2b]"> IKR </span> betragter vi os som en samarbejdspartner – vi er:</h2>
 <ul class="flex-col flex gap-8">
