@@ -2,6 +2,24 @@
  <main class="flex flex-col justify-center">
   <Vi-erHero />
 
+ 
+
+<div class="flex w-full relative mt-36 gap-16 2xl:gap-40 justify-center">
+    <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[135px]"></figure>
+    <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0 sm:-translate-y-80"></figure>
+    <article class="w-[40%] flex flex-col gap-5 -translate-y-3">
+<h2 class=""> I<span class="text-[#256c2b]"> IKR </span> betragter vi os som en samarbejdspartner – vi er:</h2>
+<ul class="flex-col flex gap-8">
+  <li><span class="text-[#256c2b] font-bold">Indkøbsspecialister</span> – vi forstår markedet, kender kunde/leverandørforhold – og de rigtige priser.</li>
+  <li><span class="text-[#256c2b] font-bold ">Forhandlingseksperter </span> – fordi vi kender markedet og dets aktører, kan vi sikre favorable vilkår og priser – uden at de positive relationer går tabt.</li>
+  <li><span class="text-[#256c2b] font-bold">Kontraktstyring </span> – jeres aftaler spores, overvåges og evalueres løbende af vores styringsteam. Med fingeren på pulsen sikrer I at alt hele kontraktperioden går som aftalt.  </li>
+  <li><span class="text-[#256c2b] font-bold">Udbuds- og indkøbsekspertise</span> – vi hjælper ifbm. udformning og eksekvering af konkurrencedygtige udbud.</li>
+</ul>
+<p>Med IKR som samarbejdspartner skal ”en plus en blive til tre”.</p>
+    </article>
+    <img src="https://i.ibb.co/KWsT29g/port-VI-ER.jpg" alt="" class= "max-h-[600px] 2xl:max-h-[700px] rounded-md z-50 shadow-2xl">
+  </div>
+
   <div class="flex w-full relative mt-28 gap-20 2xl:gap-40 justify-center">
     
     <img src="https://i.ibb.co/5GcgYV2/Vi-er-team2-75.webp" alt="" class= "h-[900px] 2xl:max-h-[600px] rounded-md z-50 shadow-2xl">
@@ -21,22 +39,6 @@ Med kunder i Danmark og Sverige har vi gennem årene opnået ekspertise, indsigt
 </p>
 </article>
 </div>
-
-<div class="flex w-full relative mt-36 gap-16 2xl:gap-40 justify-center">
-    <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[135px]"></figure>
-    <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0 sm:-translate-y-80"></figure>
-    <article class="w-[40%] flex flex-col gap-5 -translate-y-3">
-<h2 class=""> I<span class="text-[#256c2b]"> IKR </span> betragter vi os som en samarbejdspartner – vi er:</h2>
-<ul class="flex-col flex gap-8">
-  <li><span class="text-[#256c2b] font-bold">Udbuds- og indkøbsekspertise</span> – vi hjælper ifbm. udformning og eksekvering af konkurrencedygtige udbud.</li>
-  <li><span class="text-[#256c2b] font-bold">Indkøbsspecialister</span> – vi forstår markedet, kender kunde/leverandørforhold – og de rigtige priser.</li>
-  <li><span class="text-[#256c2b] font-bold ">Forhandlingseksperter </span> – fordi vi kender markedet og dets aktører, kan vi sikre favorable vilkår og priser – uden at de positive relationer går tabt.</li>
-  <li><span class="text-[#256c2b] font-bold">Kontraktstyring </span> – jeres aftaler spores, overvåges og evalueres løbende af vores styringsteam. Med fingeren på pulsen sikrer I at alt hele kontraktperioden går som aftalt.  </li>
-</ul>
-<p>Med IKR som samarbejdspartner skal ”en plus en blive til tre”.</p>
-    </article>
-    <img src="https://i.ibb.co/KWsT29g/port-VI-ER.jpg" alt="" class= "max-h-[600px] 2xl:max-h-[700px] rounded-md z-50 shadow-2xl">
-  </div>
   <Vi-erBund />
   <LogoKarrusel class="translate-y-20 border-t-[#2c2c2c] border-[0px] border-b-[#2c2c2c]" />
 <div></div>
