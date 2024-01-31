@@ -1064,6 +1064,7 @@ align-items: center;
   text-align: center;
   height: 100%;
   font-size: 20px;
+  margin: auto;
 }
 
 .bar-flex {
@@ -1081,6 +1082,11 @@ align-items: center;
   align-items: center;
   height: 100%;
   margin-top: 50px;
+  
+}
+
+.content{
+  max-width: 1300px;
 }
 
 .bar.active {
@@ -1250,6 +1256,7 @@ align-items: center;
     text-align: start;
     line-height: 34px;
     width: 90%;
+    max-width: 800px;
 }
 
 .bar-flex-text {
