@@ -22,7 +22,7 @@
           <NuxtLink to="/kontakt">KONTAKT</NuxtLink>
         </li>
       </ul>
-      <NuxtLink to="/"><img src="https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg" class="absolute left-24 h-[90px] w-fit top-3" alt="#"></NuxtLink>
+      <NuxtLink to="/"><img src="https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg" class="absolute left-24 2xl:left-36 h-[90px] w-fit top-3" alt="#"></NuxtLink>
       <div class="absolute right-16 font-semibold top-3 p-6 cursor-pointer text-[#919995] flex gap-3">
       <img src="https://i.ibb.co/P1yfgVt/Flag-of-the-United-Kingdom-3-5-svg.webp" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all">
       <img src="https://i.ibb.co/jZs3yf6/Dansk-flag383594.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all">
