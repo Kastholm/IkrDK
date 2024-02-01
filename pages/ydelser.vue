@@ -6,11 +6,7 @@
       <div class="max-w-[72%] sm:max-w-[60%] sm:w-[1200px]  relative">
      <h2 class=" sm:max-w-[100%] "> ”Hvad er realiserbare muligheder?”</h2>
     </div>
-    <p class=" max-w-[60%]">Konkrete aftaleområder tager altid afsæt i de tre faser: Økonomisk analyse, udbud og konkurrence og aftalestyring. Aftaleområder kunne være:<br>
-
-En samlet økonomisk råderumsanalyse…. ”hvad er realiserbare muligheder”.
-<br>
-Ét konkret område som: Kopi print eller Fødevarer og Forbrugsvarer eller Transport/busser eller Biler og m.m.
+    <p class=" max-w-[60%]">Potentialet findes indenfor vare- og tjenesteydelser som kopi print,  fødevarer, forbrugsvarer, transport/busser, biler og m.m.
 </p>
   </div>
   <div class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white 2xl:mt-0 sm:-translate-y-0 -translate-y-20 mb-16 mt-5"> 
@@ -26,11 +22,11 @@ En samlet økonomisk råderumsanalyse…. ”hvad er realiserbare muligheder”.
           </div>
       </div>
     </NuxtLink>
-  <NuxtLink to="udbudUnderside">
-    <div class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer">
+    <NuxtLink to="udbudUnderside">
+    <div class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer ">
         <h3 class="max-w-[90%] leading-10 overskrift-underline "> UDBUD OG KONKURRENCE
         </h3>
-        <p class="max-w-[90%] cardfont max-h-[150px] mt-1 -translate-y-3">Den økonomisk analyse og kravspecifikationen, danner baggrund for fremtidige økonomisk råderum ved ny konkurrenceudsættelse. </p>
+        <p class="max-w-[90%] cardfont max-h-[150px] mt-[51px] -translate-y-[55px]">Kravspecifikationen er helt afgørende for det fremtidige økonomiske råderum. </p>
         <div class="flex w-full justify-end mr-10 underline underline-offset-4">
             <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>
         </div>

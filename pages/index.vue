@@ -25,10 +25,10 @@
       </div>
     </NuxtLink>
   <NuxtLink to="udbudUnderside">
-    <div class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer">
+    <div class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer ">
         <h3 class="max-w-[90%] leading-10 overskrift-underline "> UDBUD OG KONKURRENCE
         </h3>
-        <p class="max-w-[90%] cardfont max-h-[150px] mt-1 -translate-y-3">Den økonomisk analyse og kravspecifikationen, danner baggrund for fremtidige økonomisk råderum ved ny konkurrenceudsættelse. </p>
+        <p class="max-w-[90%] cardfont max-h-[150px] mt-[51px] -translate-y-[55px]">Kravspecifikationen er helt afgørende for det fremtidige økonomiske råderum. </p>
         <div class="flex w-full justify-end mr-10 underline underline-offset-4">
             <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>
         </div>
