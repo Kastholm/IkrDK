@@ -92,7 +92,7 @@ body, ul, li {
   }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
   
   .kontakt-respons {
     transform: translatex(140px)
