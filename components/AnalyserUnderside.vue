@@ -24,7 +24,7 @@ Gennem en løbende styring, overvågning og tilpasning af jeres aftaler opnår I
     </article>
 
     <div class="flex w-full relative mt-36 gap-20 2xl:gap-40 justify-center">
-      <img src="https://i.ibb.co/Hq8000Y/analyse-billede-2-1.png" alt="" class= "max-h-[400px] rounded-md z-40 shadow-2xl">
+      <img src="https://i.ibb.co/sVpKvYN/nyt-til-konomisk-analyse.jpg" alt="" class= "max-h-[450px] rounded-md z-40 shadow-2xl">
     <article class="w-[39%] flex flex-col gap-5 -translate-y-5">
       <h2 class="">Fra analyse til handling</h2>
       <p> Hvor er det realiserbare økonomiske råderum?

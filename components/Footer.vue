@@ -19,20 +19,25 @@
         <div class="flex flex-col  max-w-[250px] text-left">
          <div class="flex flex-col">
             
-            <p class="mt-4 text-[20px]">Tuse Næs Vej 7A,<br> DK-4300 Holbæk</p>
+            <p class="mt-4 text-[18px]">Tuse Næs Vej 7A,<br> DK-4300 Holbæk</p>
          </div>
-         <div class="flex flex-col mt-6">
+         <div class="flex flex-col mt-1">
       
             <a href="tel:+45 88 27 63 33"><p class="mt-4 text-[18px] hover:underline hover:underline-offset-4">+45 88 27 63 33</p></a>
+            <a href="mailto:mail@ikrcg.com"><p class="mt-2 text-[18px] hover:underline hover:underline-offset-4">mail@ikrcg.com</p></a>
          </div>
-         <div class="flex flex-col mt-6">
-            
-            <a href="mailto:mail@ikrcg.com"><p class="mt-4 text-[18px] hover:underline hover:underline-offset-4">mail@ikrcg.com</p></a>
+         <div class="flex flex-col ">
+            <p class="mt-4 text-[18px]">CVR - 27185045</p>
          </div>
+         <a href="https://dk.linkedin.com/company/ikr-a-s" class="h-fit w-fit">
+         <img src="https://i.ibb.co/XpCTQVq/Linked-In-icon-svg-1.png" class="w-10 mt-5">
+      </a>
         </div>
         <div class="flex flex-col gap-10">
         <NuxtLink to="kontakt"><button class="text-white hover:scale-110 transition-all bg-[#2c2c2c] h-[60px] w-[350px] rounded-sm"><h5>KONTAKT OS</h5></button></NuxtLink>
-        <img src="https://i.ibb.co/6wp7Hr0/display.png">
+        <a href="https://www.bisnode.dk/om-bisnode/hvad-vi-gor/live-rating-logo-eng/" target="_blank" class=" no-underline">
+        <img class="h-[94px]" src="https://merit.soliditet.dk/merit/imageGenerator/display?lang=EN&country=DK&cId=hKnZW3dMD8Pk99j1fyB7CA%3D%3D&cUid=cnJngSjDhuE%3D&imgType=img_273_73_px" oncontextmenu="return false" title="Our company is credit worthy according to Bisnode's credit assessment system that is based on a number of decision rules. This credit rating is updated on a daily basis, and always shows the current rating and date." alt="Our company is credit worthy according to Bisnode's credit assessment system that is based on a number of decision rules. This credit rating is updated on a daily basis, and always shows the current rating and date." id="img_273_73_px">
+      </a>
         </div>     
     </div>
     <div class="h-10"></div>
