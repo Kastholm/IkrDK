@@ -37,7 +37,7 @@
             </div>
           </div>
           <p class="w-[80%] ml-5 text-center">
-            IKR tilbyder en uforpligtende dialog med jeres virksomhed. Tjek ind her - og vi vil kontakte dig indenfor 48 timer alle hverdage.
+            IKR tilbyder en uforpligtende dialog med jeres virksomhed. Tjek ind her - og vi vil kontakte dig indenfor <br> 2 hverdage.
           </p>
         </div>
       </div>

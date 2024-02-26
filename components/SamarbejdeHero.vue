@@ -14,7 +14,7 @@
         <article class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-5 sm:ml-0 sm:mt-12 mt-[70px] sm:translate-y-4 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px]">
             <p class="text-[20px] 2xl:text-[23px]">Pia Lawson, Seniorrådgiver - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 88 27 63 23 ">Tlf. +45 88 27 63 23 </a></p>
             <p class="text-[20px] 2xl:text-[23px]">Jacob Kofod, Director of Operations - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 40 70 45 03 ">Tlf. +45 40 70 45 03 </a></p>
-            <p class="text-[20px] 2xl:text-[23px]">Troels Oberlin, dataanalyse/indkøbsspecialist - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 40 79 68 72 ">Tlf. +45 40 79 68 72 </a></p>
+            <p class="text-[20px] 2xl:text-[23px]">Troels Oberlin, dataanalyse/indkøbsspecialist - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 88 27 63 23 ">Tlf. +45 88 27 63 23 </a></p>
         </article>
     </div>
    </div>

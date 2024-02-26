@@ -12,8 +12,8 @@
         <p class=" w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-7">I et samarbejde med IKR opnår I den fulde gennemsigtighed og potentiale i jeres indkøbsaftaler. I fastholder fokus på de økonomiske realiserbare muligheder i aftalerne. </p>
         </article>
         <article class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-5 sm:ml-0 sm:mt-6 mt-[70px] sm:translate-y-4 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px]">
-          <p class="text-[20px] 2xl:text-[23px]">Troels Oberlin, dataanalyse/indkøbsspecialist - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 40 79 68 72 ">Tlf. +45 40 79 68 72 </a></p>
-            <p class="text-[20px] 2xl:text-[23px]">Christoffer Mattiasson, analyse/rådgiver - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 31 72 37 18 ">Tlf. +45 31 72 37 18 </a></p>
+          <p class="text-[20px] 2xl:text-[23px]">Troels Oberlin, dataanalyse/indkøbsspecialist - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 88 27 63 23 ">Tlf. +45 88 27 63 23 </a></p>
+            <p class="text-[20px] 2xl:text-[23px]">Christoffer Mattiasson, analyse/rådgiver - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 88 27 63 23 ">Tlf. +45 88 27 63 23 </a></p>
             <p class="text-[20px] 2xl:text-[23px]">Maud Kofod, Indkøbskoordinator - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 88 27 63 23 ">Tlf. +45 88 27 63 23 </a></p>
         </article>
     </div>

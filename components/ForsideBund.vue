@@ -15,9 +15,9 @@
 <figure class="h-[200px] min-h-[200px] w-[180px bg-[#2c2c2c] clip3 absolute left-0 top-0 -translate-y-36 sm:-translate-y-5 "></figure>
  <div class="flex flex-col mt-20  gap-5 w-[60%] sm:text-start text-center md:mt-0 2xl:mt-28">
   <div class="max-w-[72%] sm:max-w-[100%] kommentar3 relative">
-     <h2 class=" sm:max-w-[88%] "> IKRs assistance har givet os skarpere performance og compliance..<span class="kommentar2"></span></h2>
+     <h2 class=" sm:max-w-[88%] "> IKRs assistance har givet os skarpere performance og compliance<span class="kommentar2"></span></h2>
     </div>
-    <p> Læs hvordan nogle af vores kunder har vurderet samarbejdet og de resultater processen har givet.</p>
+    <p> Mål og vurder os på vores kunders resultater. Kontakt os og hør mere.</p>
     <!-- <NuxtLink to="#" class="font-semibold underline underline-offset-2"> Se mere her </NuxtLink> --> 
  </div>
   </section>

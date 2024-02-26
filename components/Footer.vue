@@ -29,7 +29,7 @@
          <div class="flex flex-col ">
             <p class="mt-4 text-[18px]">CVR - 27185045</p>
          </div>
-         <a href="https://dk.linkedin.com/company/ikr-a-s" class="h-fit w-fit">
+         <a target="_blank" rel="noopener noreferrer" href="https://dk.linkedin.com/company/ikr-a-s" class="h-fit w-fit">
          <img src="https://i.ibb.co/XpCTQVq/Linked-In-icon-svg-1.png" class="w-10 mt-5">
       </a>
         </div>

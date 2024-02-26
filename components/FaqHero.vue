@@ -14,9 +14,9 @@ spørgsmål her – og ellers må du ikke tøve med at kontakte os, hvis du har 
 mangler svar på.</p>
         </article>
         <article class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-5 sm:ml-0 sm:mt-2 mt-[70px] sm:translate-y-4 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px]">
-          <p class="text-[20px] 2xl:text-[23px]">Heidi Vinding, Indkøbsspecialist - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 88 27 63 23 ">Tlf. +45 88 27 63 23 </a></p>
-            <p class="text-[20px] 2xl:text-[23px]">Bertram Ordrup Christensen, Projektleder - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 71 99 07 61 ">Tlf. +45 71 99 07 61 </a></p>
-            <p class="text-[20px] 2xl:text-[23px]">Pia Lawson, Seniorrådgiver - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 88 27 63 23 ">Tlf. +45 88 27 63 23 </a></p>
+          <p class="text-[20px] 2xl:text-[23px]">Henrik Nielsen, Direktør IKR - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 41 31 55 69 ">Tlf. +45 41 31 55 69 </a></p>
+          <p class="text-[20px] 2xl:text-[23px]">Maud Kofod, Koordinator - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 88 27 63 23 ">Tlf. +45 88 27 63 23 </a></p>
+            <p class="text-[20px] 2xl:text-[23px]">Bertram Ordrup Christensen, Projektleder - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 88 27 63 23 ">Tlf. +45 88 27 63 23 </a></p>
         </article>
     </div>
    </div>

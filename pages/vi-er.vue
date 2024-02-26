@@ -8,7 +8,7 @@
     <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[135px]"></figure>
     <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0 sm:-translate-y-32"></figure>
     <article class="w-[40%] flex flex-col gap-5 -translate-y-3">
-<h2 class=""> I<span class="text-[#256c2b]"> IKR </span> betragter vi os som en samarbejdspartner – vi er:</h2>
+<h2 class=""> I<span class="text-[#256c2b]"> IKR </span> betragter vi os som en samarbejdspartner</h2>
 <ul class="flex-col flex gap-8">
   <li><span class="text-[#256c2b] font-bold">Indkøbsspecialister</span> – vi forstår markedet, kender kunde/leverandørforhold – og de rigtige priser.</li>
   <li><span class="text-[#256c2b] font-bold ">Forhandlingseksperter </span> – fordi vi kender markedet og dets aktører, kan vi sikre favorable vilkår og priser – uden at de positive relationer går tabt.</li>
@@ -31,9 +31,9 @@ IKR hjælper både offentlige og private kunder. Det har skabt overblik at have 
 <br><br>
 Som dedikerede uvildig partner, investerer vi i vores kunders udfordringer og er med på sidelinjen på hele rejsen. 
 <br><br>
-I behov og i den hidtidige situation, finder vi nye veje til det økonomisk råderum.
+I jeres behov, og den hidtidige situation, finder vi nye veje til det økonomiske råderum.
 <br><br>
-Med kunder i Danmark og Sverige har vi gennem årene opnået ekspertise, indsigt og erfaring med at sikre fordelagtige aftaler, følge op på de eksisterende og ofte, genforhandle disse til bedre vilkår og priser. 
+Med kunderelationer i Danmark og Sverige har vi gennem årene opnået ekspertise, indsigt og erfaring med at sikre fordelagtige aftaler, følge op på de eksisterende og ofte, genforhandle disse til bedre vilkår og priser. 
 
 
 </p>
