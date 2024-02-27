@@ -12,6 +12,7 @@
             <NuxtLink class="text-[18px] hover:underline hover:underline-offset-4" to="vi-er">Vi er </NuxtLink>
             <NuxtLink class="text-[18px] hover:underline hover:underline-offset-4" to="faq">FAQ </NuxtLink>
             <NuxtLink class="text-[18px] hover:underline hover:underline-offset-4" to="kontakt">Kontakt </NuxtLink>
+            <NuxtLink class="text-[18px] hover:underline hover:underline-offset-4" to="ikrlegal">IKR legal </NuxtLink>
          </div>
          
          

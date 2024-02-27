@@ -38,6 +38,14 @@ nav {
 
 }
 
+.clip2 {
+    clip-path: polygon(0 51%, 100% 0, 100% 51%, 0% 100%);
+}
+
+.clip4 {
+    clip-path: polygon(0 35%, 63% 0, 63% 65%, 0 100%);
+}
+
 /* Global Font opsat korrekt her til alt content for nu */
 * {
   font-family: "Opel Sans Regular", fallback-font, sans-serif;

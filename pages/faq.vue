@@ -980,14 +980,6 @@ export default {
   }
 }
 
-.clip2 {
-    clip-path: polygon(0 51%, 100% 0, 100% 51%, 0% 100%);
-}
-
-.clip4 {
-    clip-path: polygon(0 35%, 63% 0, 63% 65%, 0 100%);
-}
-
 main {
   opacity: 0;
   animation: slideDown 0.7s ease-out forwards;
