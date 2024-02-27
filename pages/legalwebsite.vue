@@ -31,18 +31,18 @@ We provide the Websites to you subject to these Terms of Use (Â“TermsÂ”), 
 These Terms do not apply to your access to and use of IKR products. If you sign up to IKR products, then you are additionally bound by the End User Licence Agreement.
 </p>
 
-<h2 id="legal1" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36">1. Changes to Terms and changes to Websites</h2>
+<h2 id="legal1" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36 streg relative">1. Changes to Terms and changes to Websites</h2>
 <p>
     1.1 We reserve the right to modify these Terms at any time, effective upon posting of an updated version of on the Websites. You are responsible for regularly reviewing these Terms. Continued use of the Websites after any such changes shall constitute your consent to such changes.
 <br><br>1.2 We may change or discontinue any aspect, service or feature of the Websites at any time, including, but not limited to, content, availability, and equipment needed for access or use.
 </p>
 
-<h2 id="legal2" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36">2. Registration and contact forms</h2>
+<h2 id="legal2" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36 streg relative">2. Registration and contact forms</h2>
 <p>
     You may be given the opportunity to contact us or register via an online registration form, enter your email address to receive marketing emails, or to create a user account (Â“Your AccountÂ”) that may allow you to receive information from us and/or to participate in certain features on the Websites. We will use the information you provide in accordance with our Privacy Policy. By doing all of the above and providing your information, you represent and warrant that all information that you provide to us is current, complete and accurate to the best of your knowledge. You agree to maintain and promptly update your registration information on the Websites so that it remains current, complete and accurate. You can also contact us at mail@ikrcg.com regarding your data. You are responsible for obtaining and maintaining all connectivity, computer software, hardware and other equipment needed for access to and use of the Websites and all charges related to the same.
 </p>
 
-<h2 id="legal3" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36">3. Use of the Websites</h2>
+<h2 id="legal3" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36 streg relative">3. Use of the Websites</h2>
 <p>
     3.1 You agree not to interfere with or disrupt the Websites or the servers or networks connected to the Websites, or disobey any requirements, procedures, policies or regulations of networks connected to the Websites.
 <br><br>
@@ -56,7 +56,7 @@ These Terms do not apply to your access to and use of IKR products. If you sign 
 
 </p>
 
-<h2 id="legal4" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36">4. Intellectual property rights</h2>
+<h2 id="legal4" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36 streg relative">4. Intellectual property rights</h2>
 <p>
     All text, graphics, photographs, trademarks, logos, icons, user interfaces, sounds, music, videos, artwork, software and computer code (collectively, Â“ContentÂ”), including but not limited to the Â“look and feelÂ”, layout, design, structure, color scheme, selection, combination and arrangement of the Content present on the Websites is owned by or licensed to us.
 <br><br>
@@ -66,7 +66,7 @@ You may display, copy and download Content from the Websites solely for your per
 
 </p>
 
-<h2 id="legal5" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36">5. Limited warranty and limitation of liability</h2>
+<h2 id="legal5" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36 streg relative">5. Limited warranty and limitation of liability</h2>
 <p>
 (A) YOU EXPRESSLY AGREE THAT USE OF THE WEBSITES IS AT YOUR SOLE RISK. IKR DOES NOT WARRANT THAT USE OF THE WEBSITES WILL BE UNINTERRUPTED OR ERROR FREE; NOR DO WE MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM USE OF THE WEBSITES, NOR AS TO THE ACCURACY, RELIABILITY OR CONTENT OF ANY INFORMATION, SERVICE, OR MERCHANDISE PROVIDED THROUGH THE WEBSITES.
 <br><br>
@@ -78,22 +78,22 @@ You may display, copy and download Content from the Websites solely for your per
 
 </p>
 
-<h2 id="legal6" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36">6. Indemnification</h2>
+<h2 id="legal6" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36 streg relative">6. Indemnification</h2>
 <p>
     You agree to defend, indemnify and hold harmless IKR and our employees from and against all claims and expenses, including attorneysÂ’ fees, arising out of the use of the Websites by you. IKR reserves the right to take over the exclusive defense of any claim for which we are entitled to indemnification under this section. In such event, you shall provide IKR with such cooperation.
 </p>
 
-<h2 id="legal7" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36">7. Termination</h2>
+<h2 id="legal7" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36 streg relative">7. Termination</h2>
 <p>
     We reserve the right at any time, without notice to immediately terminate your access to the Websites in the event of any conduct by you which we, in our sole discretion, consider to be unacceptable, or in the event of any breach by you of these Terms.
 </p>
 
-<h2  id="legal8" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36">8. Governing Law</h2>
+<h2  id="legal8" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36 streg relative">8. Governing Law</h2>
 <p>
     The laws of Denmark will apply to any disputes, claims and controversies related to these Terms, without regard to the choice or conflicts of law provisions of any jurisdiction. Any disputes, claims and controversies in connection with these Terms shall be subject to the exclusive jurisdiction of the courts of Denmark.
 </p>
 
-<h2 id="contact" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36">Contact us</h2>
+<h2 id="contact" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36 streg relative">Contact us</h2>
 <p>
     If you have any questions about these Terms, please contact us at mail@ikrcg.com, or send mail to:
 <br><br>
@@ -116,4 +116,14 @@ Denmark
 html {
 scroll-behavior: smooth;
 }
+
+.streg::before {
+    content: '';
+    width: 150px;
+    height: 3px;
+    background-color: #256c2b;
+    position: absolute;
+    transform: translatey(-90px);
+
+} 
 </style>
