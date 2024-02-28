@@ -37,6 +37,9 @@ nav {
   background: rgba(0, 0, 0, 0.27);
 
 }
+.clip3 {
+    clip-path: polygon(0 0, 100% 49%, 100% 100%, 0 55%);
+}
 
 .clip2 {
     clip-path: polygon(0 51%, 100% 0, 100% 51%, 0% 100%);
