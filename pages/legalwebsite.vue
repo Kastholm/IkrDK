@@ -1,10 +1,10 @@
 <template>
-   <Section class="flex w-full gap-20 ">
+   <Section class="flex w-full gap-20">
   <figure class="h-[200px] min-h-[100px] respons w-[200px] bg-[#919995] clip4 absolute left-0 top-0 sm:translate-y-40"></figure>
      <figure class="h-[200px] min-h-[200px] respons w-[180px] bg-[#256c2b] clip2 absolute right-0 top-0 sm:translate-y-28"></figure>
      <div class="">
      <ul class="mt-40 ml-36 flex-col w-[70%] sticky top-40"> 
-        <a href="#" class="block text-[25px] text-[#256c2b] hover:underline">Website Terms of Use</a>
+        <a href="/legalwebsite" class="block text-[25px] text-[#256c2b] hover:underline">Website Terms of Use</a>
         <a href="#legal1"><li class="text-[18px] hover:underline">1. Changes to Terms and changes to Websites</li></a>
         <a href="#legal2"><li class="text-[18px] hover:underline">2. Registration and contact forms</li></a>
         <a href="#legal3"><li class="text-[18px] hover:underline">3. Use of the Websites</li></a>
@@ -14,13 +14,13 @@
         <a href="#legal7"><li class="text-[18px] hover:underline">7. Termination</li></a>
         <a href="#legal8"><li class="text-[18px] hover:underline">8. Governing Law</li></a>
         <a href="#contact"><li class="text-[18px] hover:underline transition-all">Contact us</li></a>
-        <a href="#" class="block text-[#256c2b] text-[25px] hover:underline">Privacy and Cookie Policy</a>
-        <a href="#" class="block text-[#256c2b] text-[25px] hover:underline">Data Processing Agreement</a>
-        <a href="#" class="block text-[#256c2b] text-[25px] hover:underline">Data Sub-Processors</a>
-        <a href="#" class="block text-[#256c2b] text-[25px] hover:underline">GDPR Commitment</a>
+        <a href="/legalprivacy" class="block text-[#256c2b] text-[25px] hover:underline">Privacy and Cookie Policy</a>
+        <a href="/legaldata" class="block text-[#256c2b] text-[25px] hover:underline">Data Processing Agreement</a>
+        <a href="/legalprocessors" class="block text-[#256c2b] text-[25px] hover:underline">Data Sub-Processors</a>
+        <a href="/legalgdpr" class="block text-[#256c2b] text-[25px] hover:underline">GDPR Commitment</a>
      </ul>
     </div>
-     <article class="mt-40 w-[50%] h-full">
+     <article class="mt-40 sm:w-[50%] h-full">
 <h1 class="text-[40px] underline-offset-8 underline decoration-[#256c2b] decoration-[1px]">Website Terms of Use</h1>
 <time datetime="16th May 2018">Last updated: 16th May 2018</time>
 
@@ -95,11 +95,11 @@ You may display, copy and download Content from the Websites solely for your per
 
 <h2 id="contact" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36 streg relative">Contact us</h2>
 <p>
-    If you have any questions about these Terms, please contact us at mail@ikrcg.com, or send mail to:
+If you have any questions about these Terms, please contact us at mail@ikrcg.com, or send mail to:
 <br><br>
 IKR A/S<br>
-Tuse NÃ¦s Vej 7A<br>
-4300 HolbÃ¦k<br>
+Tuse Næs Vej 7A<br>
+4300 Holbæk<br>
 Denmark
 </p>
 

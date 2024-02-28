@@ -4,17 +4,17 @@
       <figure class="h-[200px] min-h-[200px] respons w-[180px] bg-[#256c2b] clip2 absolute right-0 top-0 sm:translate-y-28"></figure>
       <div class="">
       <ul class="mt-40 ml-36 flex-col w-[70%] sticky top-40"> 
-         <a href="#" class="block text-[25px] text-[#256c2b] hover:underline">Website Terms of Use</a>
-         <a href="#" class="block text-[#256c2b] text-[25px] hover:underline">Privacy and Cookie Policy</a>
+         <a href="/legalwebsite" class="block text-[25px] text-[#256c2b] hover:underline">Website Terms of Use</a>
+         <a href="/legalprivacy" class="block text-[#256c2b] text-[25px] hover:underline">Privacy and Cookie Policy</a>
          <a href="#legal1"><li class="text-[18px] hover:underline">1. Information collection and use</li></a>
          <a href="#legal2"><li class="text-[18px] hover:underline">2. User rights</li></a>
          <a href="#legal3"><li class="text-[18px] hover:underline">3. Children’s privacy</li></a>
          <a href="#legal4"><li class="text-[18px] hover:underline">4. Log data</li></a>
          <a href="#legal5"><li class="text-[18px] hover:underline">5. Cookies</li></a>
          <a href="#legal6"><li class="text-[18px] hover:underline">Contact us</li></a>
-         <a href="#" class="block text-[#256c2b] text-[25px] hover:underline">Data Processing Agreement</a>
-         <a href="#" class="block text-[#256c2b] text-[25px] hover:underline">Data Sub-Processors</a>
-         <a href="#" class="block text-[#256c2b] text-[25px] hover:underline">GDPR Commitment</a>
+         <a href="/legaldata" class="block text-[#256c2b] text-[25px] hover:underline">Data Processing Agreement</a>
+         <a href="/legalprocessors" class="block text-[#256c2b] text-[25px] hover:underline">Data Sub-Processors</a>
+         <a href="/legalgdpr" class="block text-[#256c2b] text-[25px] hover:underline">GDPR Commitment</a>
       </ul>
      </div>
       <article class="mt-40 w-[50%] h-full">
@@ -114,12 +114,12 @@ For other web browsers, please search the internet how to disable cookies.
  
  <h2 id="contact" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36 streg relative">Contact us</h2>
  <p>
-     If you have any questions about these Terms, please contact us at mail@ikrcg.com, or send mail to:
- <br><br>
- IKR A/S<br>
- Tuse NÃ¦s Vej 7A<br>
- 4300 HolbÃ¦k<br>
- Denmark
+If you have any questions about these Terms, please contact us at mail@ikrcg.com, or send mail to:
+<br><br>
+IKR A/S<br>
+Tuse Næs Vej 7A<br>
+4300 Holbæk<br>
+Denmark
  </p>
  
      </article>
