@@ -19,7 +19,7 @@ Både gennem direkte besparelser, men også via forbedringer og ændrede aftalev
 Gennem en løbende styring, overvågning og tilpasning af jeres aftaler opnår I en optimal indkøbsstruktur og reduceret risiko. <br> IKR kalder det ”Level 2” controlling.
 </p>
     </article>
-   <img src="https://i.ibb.co/ZfDHL6h/analyser-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-40 shadow-2xl">
+   <img src="https://i.ibb.co/b1YL6Rx/IKR-28-1.jpg" alt="" class= "max-h-[400px] rounded-md z-40 shadow-2xl">
   </div>
     </article>
 
