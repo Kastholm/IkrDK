@@ -11,7 +11,7 @@
          <a href="#legal3"><li class="text-[18px] hover:underline">3. Children’s privacy</li></a>
          <a href="#legal4"><li class="text-[18px] hover:underline">4. Log data</li></a>
          <a href="#legal5"><li class="text-[18px] hover:underline">5. Cookies</li></a>
-         <a href="#legal6"><li class="text-[18px] hover:underline">Contact us</li></a>
+         <a href="#contact"><li class="text-[18px] hover:underline">Contact us</li></a>
          <a href="/legaldata" class="block text-[#256c2b] text-[25px] hover:underline">Data Processing Agreement</a>
          <a href="/legalprocessors" class="block text-[#256c2b] text-[25px] hover:underline">Data Sub-Processors</a>
          <a href="/legalgdpr" class="block text-[#256c2b] text-[25px] hover:underline">GDPR Commitment</a>
