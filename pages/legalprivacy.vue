@@ -23,7 +23,7 @@
  
  <h2 class="text-[29px] mt-10 text-[#256c2b] mb-3">Introduction</h2>
  <p>
-    This Privacy Policy applies to the IKR A/S owned and operated websites, its subdomains and Software (collectively called Â“SitesÂ”). IKR A/S (Â“IKRÂ” Â“we,Â” or Â“usÂ”) is well aware that you care how information about you is used and shared. This Privacy Policy explains what information of yours will be collected by IKR when you access the Sites, how the information will be used, and how you can control the collection, correction and/or deletion of information.
+    This Privacy Policy applies to the IKR A/S owned and operated websites, its subdomains and Software (collectively called “Sites”). IKR A/S (“IKR” “we,” or “us”) is well aware that you care how information about you is used and shared. This Privacy Policy explains what information of yours will be collected by IKR when you access the Sites, how the information will be used, and how you can control the collection, correction and/or deletion of information.
  <br><br>
 We use your Personal Information only in accordance with this Privacy Policy. By using the Sites, you agree to the collection and use of your personal information in accordance with this Privacy Policy.
 <br><br>
@@ -39,7 +39,7 @@ We reserve the right to update or change our Privacy Policy at any time and you 
  <br><br>
 We may use the information we collect about you for a variety of purposes, including to (a) provide, operate, maintain, improve, and promote the Sites; (b) enable you to access and use the Sites; (c) process and complete transactions, and send you related information, including purchase confirmations and invoices; (d) send transactional messages, including responses to your comments, questions, and requests; provide customer service and support; and send you technical notices, updates, security alerts, and support and administrative messages; (e) send promotional communications, marketing emails and newsletters. You can opt-out of receiving them by contacting us at mail@ikrcg.com or following the unsubscribe instructions included in our marketing communications; (f) monitor and analyze trends, usage, and activities in connection with the Websites and for marketing or advertising purposes; (g) investigate and prevent fraudulent transactions, unauthorized access to the Sites, and other illegal activities; (h) personalize the Websites, including by providing features or advertisements that match your interests and preferences; and (i) for other purposes for which we obtain your consent.
 <br><br>
-Legal basis for collecting the personal information of individuals from the European Economic Area (EEA): We will normally collect personal information from you only where: (a) we have your consent to do so (You have the right to withdraw or decline your consent at any time.), (b) where we need the personal information to perform a contract with you, or (c) where the processing is in our or a third partyÂ’s legitimate interests (and not overridden by your data protection interests or fundamental rights and freedoms).
+Legal basis for collecting the personal information of individuals from the European Economic Area (EEA): We will normally collect personal information from you only where: (a) we have your consent to do so (You have the right to withdraw or decline your consent at any time.), (b) where we need the personal information to perform a contract with you, or (c) where the processing is in our or a third party’s legitimate interests (and not overridden by your data protection interests or fundamental rights and freedoms).
 <br><br>
 We do not use automated decision making, including profiling.
 
@@ -50,7 +50,7 @@ We do not use automated decision making, including profiling.
  
  <h2 id="legal2" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36 streg relative">2. User rights</h2>
  <p>
-    You can contact us at any time regarding your personal data that we store. Just send an email to mail@ikrcg.com with your enquiry and we will get back to you as soon as we can.
+You can contact us at any time regarding your personal data that we store. Just send an email to mail@ikrcg.com with your enquiry and we will get back to you as soon as we can.
  <br><br>
 Please remember that you have the following rights:
 <br><br>
@@ -73,7 +73,7 @@ Right to portability:<br>
 You can request that personal data held by us be transported to another organisation.
 <br><br>
 Right to restrict processing:<br>
-You can Â‘blockÂ’ or suppress processing of your personal data.
+You can ‘block’ or suppress processing of your personal data.
 <br><br>
 IKR falls under the authority of Datatilsynet (The Danish Data Protection Agency). For any enquiries or complaints, please contact Datatilsynet directly using the following contact details: Phone +45 3319 3200 and Email address dt@datatilsynet.dk.
 <br><br>

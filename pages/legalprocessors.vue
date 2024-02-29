@@ -23,11 +23,11 @@ To support our business operations and the delivery of our services, we may enga
 <br><br>
 “Sub-processor” means any company appointed by or on behalf of IKR to process personal data on behalf of IKR.
 <br><br>
-The European General Data Protection Regulation defines Â“sub-processorÂ” as Â“any processor engaged by the data importer or by any other sub-processor of the data importer and who agrees to receive from the data importer or from any other sub-processor of the data importer personal data exclusively intended for the processing activities to be carried out on behalf of the data exporter after the transfer in accordance with the data exporterÂ’s instructions, the standard contractual clauses set out in the Annex, and the terms of the written contract for sub-processing.Â”
+The European General Data Protection Regulation defines “sub-processor” as “any processor engaged by the data importer or by any other sub-processor of the data importer and who agrees to receive from the data importer or from any other sub-processor of the data importer personal data exclusively intended for the processing activities to be carried out on behalf of the data exporter after the transfer in accordance with the data exporter’s instructions, the standard contractual clauses set out in the Annex, and the terms of the written contract for sub-processing.”
 <br><br>
 As our business grows, the sub-processors we engage may also change. If we start engaging new sub-processors, the list below will be updated.
 <br><br>
-All our sub-processors located in the United States offer protection under the Standard Contractual Clauses (Â“SCCsÂ”).
+All our sub-processors located in the United States offer protection under the Standard Contractual Clauses (“SCCs”).
 </p>
  
  <h2 id="legal1" class="text-[29px] mt-10 text-[#256c2b] mb-10 pt-36 streg relative">List of IKR sub-processors</h2>

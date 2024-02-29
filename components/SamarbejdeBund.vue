@@ -17,7 +17,7 @@
   <div class="max-w-[72%] sm:max-w-[100%] kommentar3 relative">
      <h2 class=" sm:max-w-[88%] "> IKRs assistance har givet os skarpere performance og compliance<span class="kommentar2"></span></h2>
     </div>
-    <p> Mål og vurder os på vores kunders resultater. Kontakt os og hør mere.</p>
+    <p> Mål og vurder os på vores kunders resultater. Send os en email og få kontaktoplysninger til relevante referencer.</p>
     <!-- <NuxtLink to="#" class="font-semibold underline underline-offset-2"> Se mere her </NuxtLink> --> 
  </div>
   </section>
