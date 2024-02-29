@@ -3,7 +3,7 @@
   <section class="w-full flex justify-center items-center mt-20 2xl:mt-40 relative">
     <div class="bgimg flex flex-col sm:flex-row justify-around 2xl:justify-center items-center max-w-full sm:max-w-full gap-[0px]">
         <div class="flex flex-col sm:ml-20 gap-4 bund-container-respons sm:text-start text-center ">
-        <h4 class="bund-overskrift-respons  max-w-[281px] rounded-2xl py-3 px-5 translate-y-5"> Tæt på det hele</h4>
+        <h4 class="bund-overskrift-respons rounded-2xl py-3 px-5 translate-y-5"> Tæt på det hele</h4>
         <p class="w-[90%] m-auto sm:m-0 ikrfont max-w-[750px] font-semibold bund-text-respons rounded-2xl py-3 px-5 "> Som en del af godset Hørbygård i Nordvestsjælland har IKR udgangspunkt fra det gamle kampestenshus. Midt i den skønneste natur, nær skov og fjord. <br> 5 minutter til motorvejen til København og 30 minutter til færgen til Århus. Tæt på det hele – også vores kunder.</p>
         </div>
         <img src="https://i.ibb.co/yWyDnYq/Stenhus-og-slot.jpg" class="bund-billede-respons sm:max-w-[480px] max-h-[400px] sm:mr-16 rounded-md mt-10 sm:mt-0 shadow-2xl" alt="">
