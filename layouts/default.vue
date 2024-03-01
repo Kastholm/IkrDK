@@ -19,6 +19,7 @@ html {
   width: 100%;
   background-color: white;
   overflow-x: hidden;
+  font-family: "Opel Sans Regular", sans-serif;
 }
 
 nav {
