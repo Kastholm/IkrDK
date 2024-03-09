@@ -46,35 +46,35 @@ aftaleopfølgning, giver det økonomiske råderum, løbende systematisk kontrol 
   </NuxtLink>
   
 </div>
-<div class="relative w-full h-[500px] flex flex-col justify-center items-center">
+<div class="relative w-full h-[500px] flex-col flex flex-wrap justify-center items-center ">
     <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0"></figure>
-   <div class="max-w-[72%] sm:max-w-[60%] relative">
-     <h2 class=" sm:w-[1200px] "> <span class="text-[#256c2b]"> IKR </span> er med hele vejen</h2>
-    </div>
-    <p class=" w-[60%] max-w-[1200px]">IKR sørger for, ved en driftsaftale, at der løbende tilpasses og forbedres samt følges op på aftalerne gennem dels ”Level 2” controlling, dels konstruktive samtaler med jeres leverandører.
+   <div class="max-w-[72%] flex flex-col  sm:mt-20 mt-72 sm:max-w-[100%] relative">
+     <h2 class="text-start"> <span class="text-[#256c2b]"> IKR </span> er med hele vejen</h2>
+    <p class=" w-[100%] max-w-[1200px]">IKR sørger for, ved en driftsaftale, at der løbende tilpasses og forbedres samt følges op på aftalerne gennem dels ”Level 2” controlling, dels konstruktive samtaler med jeres leverandører.
     </p> 
-    <ul class="flex flex-col items-start gap-4 min-h-[170px] w-[60%] mt-5 max-w-[1200px]">
+    <ul class="flex flex-col items-start gap-4 min-h-[170px] w-[100%] mt-5 max-w-[1200px]">
     <li class="bulletpoint relative ml-16"> Øge jeres økonomiske råderum</li>
     <li class="bulletpoint relative ml-16"> Overblikket over realiserbare muligheder</li>
     <li class="bulletpoint relative ml-16"> Få dokumentation for opnåede resultater</li>
 </ul> 
-<p class=" w-[60%] max-w-[1200px]">Opsigelse eller forlængelse af aftaler i forhold til aftalebetingelser overvåges og gennemføres, så unødvendige og omkostningskrævende aftaleforlængelser undgås.
+<p class=" w-[100%] max-w-[1200px]">Opsigelse eller forlængelse af aftaler i forhold til aftalebetingelser overvåges og gennemføres, så unødvendige og omkostningskrævende aftaleforlængelser undgås.
     </p>
+  </div>
    </div>
   </div>
 
-   <div class="flex w-full relative mt-[100px] gap-10 2xl:gap-40 justify-center">
-    <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[135px]"></figure>
+   <div class="flex w-full flex-wrap relative mt-[100px] gap-10 2xl:gap-40 justify-center">
+    <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[135px] translate-y-[140px]"></figure>
     <img src="https://i.ibb.co/QHhwXT7/Maud-ved-tastatur.jpg" alt="" class= "max-h-[520px] rounded-md z-50 shadow-2xl">
-    <article class="w-[40%] flex flex-col gap-5 -translate-y-5">
+    <article class="sm:w-[40%] w-[90%] flex flex-col gap-5 -translate-y-5">
 <h2 class="">Gennemsigtighed og overblik er nøglebegreber</h2>
 <p>Jeres indkøbsaftaler bør være så gennemsigtige som muligt. Ved at analysere aftalerne og deres flow i den samlede livscyklus, finder vi de punkter som bør revurderes, genforhandles og forbedres således, at alle aftaler bliver reelle og optimale – tilpasset jeres behov.
 </p>
     </article>
   </div>
-  <div class="flex w-full relative mt-36 gap-10 2xl:gap-24 justify-center">
+  <div class="flex flex-wrap w-full relative mt-36 gap-10 2xl:gap-24 justify-center">
    
-    <article class="w-[40%] flex flex-col gap-5 -translate-y-5">
+    <article class="sm:w-[40%] w-full flex flex-col gap-5 -translate-y-5">
 <h2 class="">Konstruktive dialoger sikrer kvalitet og pris</h2>
 <p>IKR tager den konstruktive dialog med leverandørerne for at sikre den aftalte kvalitet og pris. Aftaler som skal opsiges eller forlænges identificeres og varetages, så dyre og ufordelagtige aftaleforlængelser undgås og unødvendige omkostninger skæres væk. 
 </p>

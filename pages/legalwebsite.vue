@@ -23,7 +23,7 @@
      <article class="mt-40 sm:w-[50%] h-full">
 <h1 class="text-[40px] underline-offset-8 underline decoration-[#256c2b] decoration-[1px]">Website Terms of Use</h1>
 <time datetime="16th May 2018">Last updated: 16th May 2018</time>
-
+<a href="/static/Website-Terms-of-Use-IKR.pdf" download="" class="block mt-5 text-[#256c2b] text-[20px] hover:underline decoration-[#256c2b]">Download PDF</a>
 <h2 class="text-[29px] mt-10 text-[#256c2b] mb-3">Introduction</h2>
 <p>
 For the purposes of these Terms of Use, the term, “Websites”, refers to www.ikrcg.com as well as the other websites that IKR A/S operates and that link to these Terms of Use.

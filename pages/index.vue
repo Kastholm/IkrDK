@@ -2,7 +2,7 @@
 <main class="flex flex-col justify-center">
  <ForsideHero />
 <section>
- <div class="flex flex-col h-[400px] w-full gap-5 justify-center items-center sm:mt-20 mt-60 relative sm:mb-0 mb-44">
+ <div class="flex flex-col h-[400px] w-full gap-5 justify-center items-center sm:mt-20 mt-40 relative sm:mb-0 mb-10">
     <figure class="h-[300px] min-h-[300px] respons-mobil w-[250px] bg-[#919995] clip4 absolute left-0 top-0 sm:-translate-y-6"></figure>
     <figure class="h-[300px] min-h-[300px] respons-mobil w-[250px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-20"></figure>
     <div class="max-w-[72%] sm:max-w-[60%] kommentar relative">
@@ -11,7 +11,7 @@
     <p class=" max-w-[60%]">Overblikket giver styrke til at opnå forandring. Med falkeblik kan du fokusere i det store perspektiv og være med til at finde nye veje og løsninger i en foranderlig verden.</p>
    </div>
 
-   <div class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white 2xl:mt-0 sm:-translate-y-0 -translate-y-20 "> 
+   <div class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white 2xl:mt-0 sm:-translate-y-0  "> 
     <NuxtLink to="oekonomiskeAnalyser">
       <div class="card flex flex-col justify-center items-center gap-[56px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer">
         <h3 class="max-w-[90%] leading-10 overskrift-underline"> ØKONOMISKE ANALYSER

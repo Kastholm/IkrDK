@@ -2,9 +2,9 @@
     <main class="flex flex-col justify-center">
   <SamarbejdeHero />
 <section class="flex flex-col ">
-  <div class="flex w-full relative mt-5 sm:mt-20 gap-20 2xl:gap-40 justify-center">
-    <img src="https://i.ibb.co/bs8KZ9M/Samarbejde-h-jformat-1.jpg" alt="" class= "max-h-[770px] rounded-md z-50 sm:translate-y-5 shadow-2xl respons-mobi">
-    <article class="sm:w-[45%] w-[90%] flex flex-col gap-5 p-5 rounded-xl translate-y-5">
+  <div class="flex flex-wrap w-full relative mt-32 sm:mt-20 sm:gap-20 gap-10 2xl:gap-40 justify-center">
+    <img src="https://i.ibb.co/bs8KZ9M/Samarbejde-h-jformat-1.jpg" alt="" class= "sm:max-h-[770px] max-h-[500px] rounded-md z-50 sm:translate-y-5 shadow-2xl">
+    <article class="sm:w-[45%] w-[90%] flex flex-col flex-wrap gap-5 p-5 rounded-xl translate-y-5">
 <h2 class="">Ved et samarbejde med <span class="text-[#256c2b]"> IKR </span> kan I opnå følgende:</h2>
 
 <ul class="flex flex-col gap-4 min-h-[258px]">
@@ -21,7 +21,7 @@
     </article>
   </div>
 
-  <div class="flex w-full relative mt-10 sm:mt-36 gap-10 2xl:gap-40 justify-center">
+  <div class="flex flex-wrap w-full relative mt-20 sm:mt-36 gap-10 2xl:gap-40 justify-center">
     <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[5px] "></figure>
     <article class="sm:w-[40%] w-[85%] flex flex-col gap-5  sm:-translate-y-5">
 <h2 class="">Vi gør fordelene synlige fra dag ét</h2>
@@ -30,7 +30,7 @@
     <li class="bulletpoint relative ml-16"> Forventninger afstemmes, og processen aftales inden vi sætter i gang</li>
     <li class="bulletpoint relative ml-16"> Med tilliden på plads, kender alle vejen frem</li>
 </ul> 
-<p>Mange års erfaring og vundet viden gør, at vores specialister evner at gennemskue aftalernes kompleksitet. De skærer igennem, forenkler og fornyer indgroet vanetænkning og uhensigtsmæssige kontraktforhold og arbejdsgange. Med ansvar og ejerskab på opgaven.
+<p class="sm:mt-0 mt-20">Mange års erfaring og vundet viden gør, at vores specialister evner at gennemskue aftalernes kompleksitet. De skærer igennem, forenkler og fornyer indgroet vanetænkning og uhensigtsmæssige kontraktforhold og arbejdsgange. Med ansvar og ejerskab på opgaven.
 </p>
     </article>
     <img src="https://i.ibb.co/cJs7Wtc/samarbejde-billede-1.jpg" alt="" class= "max-h-[400px] rounded-md z-50 shadow-2xl respons-mobi">
