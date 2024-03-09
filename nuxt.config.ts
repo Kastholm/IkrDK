@@ -9,5 +9,12 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxtjs/sanity'],
+  sanity: {
+    projectId: '18wdvgvc',
+    useCdn: true,
+  },
+  i18n: {
+    vueI18n: './i18n.config.ts' // if you are using custom path, default
+  }
 });
