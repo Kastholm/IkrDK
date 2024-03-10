@@ -5,24 +5,24 @@
   <figure
     class="h-[300px] min-h-[300px] respons w-[250px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-10"
   ></figure>
-  <main class="sm:flex sm:flex-row flex flex-col relative mt-28">
-    <section class="w-full sm:w-[55%] h-[600px] relative z-50">
+  <main class="sm:flex sm:flex-row flex flex-col sm:items-start items-center flex-wrap relative sm:mt-28 ">
+    <section class="w-[95vw] sm:w-[55%] h-[600px] relative z-50 sm:mb-0 mb-40">
       <div
-        class="absolute w-[500px] h-[733px] bg-[#256c2b] left-40 container-respons rounded-b-2xl shadow-2xl shadow-[#00000050]"
+        class="absolute sm:w-[500px] w-full h-[733px] bg-[#256c2b] sm:left-40 container-respons rounded-b-2xl shadow-2xl shadow-[#00000050]"
       >
         <div
-          class="flex flex-col text-white h-full items-center justify-evenly gap-10 -translate-y-4"
+          class="flex flex-col flex-wrap text-white h-full items-center justify-evenly gap-10 -translate-y-4"
         >
           <h1 class="">Kontakt IKR</h1>
-          <div class="flex flex-col gap-5">
-            <div class="w-full flex items-center gap-7 hover:underline">
+          <div class="flex flex-col items-center gap-5">
+            <div class="flex items-center justify-center gap-7 hover:underline">
               <img
                 src="https://i.ibb.co/9nXk0H1/icons8-phone-50.png"
                 alt=""
                 class="h-[55px]"
               />
-              <a href="tel:"
-                ><p>Ring på telefon: <br />+45 88 27 63 33</p></a
+              <a href="tel:+45 88 27 63 33">
+                <p>Ring på telefon: <br />+45 88 27 63 33</p></a
               >
             </div>
             <div class="w-full flex items-center gap-7 hover:underline">
@@ -31,22 +31,22 @@
                 alt=""
                 class="h-[49px]"
               />
-              <a href="tel:"
+              <a href="mailto:mail@ikrcg.com"
                 ><p>Email os på: <br />mail@ikrcg.com</p></a
               >
             </div>
           </div>
-          <p class="w-[80%] ml-5 text-center">
-            IKR tilbyder en uforpligtende dialog med jeres virksomhed. Tjek ind her - og vi vil kontakte dig indenfor <br> 2 hverdage.
+          <p class="w-[80%] text-center">
+            IKR tilbyder en uforpligtende dialog med jeres virksomhed. Tjek ind her - og vi vil kontakte dig indenfor <br class="hidden sm:block"> 2 hverdage.
           </p>
         </div>
       </div>
     </section>
-    <section class="z-50 w">
+    <section class="z-50 sm:w-fit w-[95vw] ">
       <Form
         :validation-schema="schema"
         @submit="onSubmit"
-        class="bg-[#256c2b] w-full p-8 rounded-b-3xl shadow-2xl shadow-[#00000050]"
+        class="bg-[#256c2b] w-full p-8 rounded-b-3xl sm:rounded-t-none rounded-t-3xl shadow-2xl shadow-[#00000050]"
       >
         <label for="navn" class="block mb-4 text-white"
           >Navn <span class="text-[20pxs]">*</span>:

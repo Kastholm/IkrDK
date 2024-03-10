@@ -1,11 +1,11 @@
 <template>
     <FaqHero />
-  <section class="bar-sections relative z-40">
+  <section class="bar-sections relative z-20">
     <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0 sm:-translate-y-6 z-0"></figure>
-    <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-20 z-0"></figure>
+    <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-20 translate-y-40 z-0"></figure>
 <h4 class="mmd-text"> FAQ </h4>
 
-<div class="bar z-50"  id="bar1">
+<div class="bar z-20"  id="bar1">
     <div @click="toggleBar('bar1')" class="flex justify-center items-center translate-y-3">
       <h3 class="header">ANALYSER<br> <span  style="font-size: 16px;"> ▼ </span></h3>
     </div>
@@ -101,7 +101,7 @@ I optimeringsanalysen kigger vi på:
   </div>
 </div>
 
-<div class="bar z-50" id="bar2">
+<div class="bar z-20" id="bar2">
       <h3 class="header translate-y-3" @click="toggleBar('bar2')">LEVERANDØRER & KONTRAKTER<br> <span  style="font-size: 16px;"> ▼ </span></h3>
   <div class="content">
     <div class="bar-flex">
@@ -196,7 +196,7 @@ Vores erfaring er at vi i gennemsnit får udleveret 20 kontrakter, men at vi, ua
   </div>
 </div>
 
-<div class="bar z-50" id="bar3">
+<div class="bar z-20" id="bar3">
       <h3 class="header translate-y-3 " @click="toggleBar('bar3')">ØGET ØKONOMISK RÅDERUM<br> <span  style="font-size: 16px;"> ▼ </span></h3>
   <div class="content">
     <div class="bar-flex">
@@ -221,7 +221,7 @@ Beregning af besparelsespotentiale: Hos IKR hjælper vi Kunden med at beregne be
   </div>
 </div>
 
-<div class="bar z-50" id="bar4">
+<div class="bar z-20" id="bar4">
       <h3 class="header translate-y-3" @click="toggleBar('bar4')">DRIFT & CONTROLLING<br> <span  style="font-size: 16px;"> ▼ </span></h3>
   <div class="content">
     <div class="bar-flex">
@@ -482,7 +482,7 @@ Nøglekarakteristika ved samarbejdspartnere inkluderer:
   </div>
 </div>
 
-<div class="bar z-50" id="bar5">
+<div class="bar z-20" id="bar5">
       <h3 class="header translate-y-3" @click="toggleBar('bar5')">INDKØB & UDBUD<br> <span  style="font-size: 16px;"> ▼ </span></h3>
   <div class="content">
     <div class="bar-flex">
@@ -1211,93 +1211,217 @@ align-items: center;
   height: 2180px; /* Adjust the height as needed */
 }
 
+@media screen and (max-width: 767px) {
+  .baranalyser11.active {
+  height: 2240px;
+}
+}
+
 .baranalyser12.active {
   height: 1770px; /* Adjust the height as needed */
 }
 
+@media screen and (max-width: 767px) {
+  .baranalyser12.active {
+  height: 1810px;
+}
+}
+
+
 .baranalyser13.active {
   height: 1950px; /* Adjust the height as needed */
+}
+
+@media screen and (max-width: 767px) {
+  .baranalyser13.active {
+  height: 2000px;
+}
 }
 
 .baranalyser14.active {
   height: 2120px; /* Adjust the height as needed */
 }
 
+@media screen and (max-width: 767px) {
+  .baranalyser14.active {
+  height: 2090px;
+}
+}
+
 .baranalyser15.active {
   height: 2320px; /* Adjust the height as needed */
+}
+
+@media screen and (max-width: 767px) {
+  .baranalyser15.active {
+  height: 2425px;
+}
 }
 
 .baranalyser16.active {
   height: 2250px; /* Adjust the height as needed */
 }
 
+@media screen and (max-width: 767px) {
+  .baranalyser16.active {
+  height: 2240px;
+}
+}
+
 .baranalyser17.active {
   height: 1710px; /* Adjust the height as needed */
+}
+
+@media screen and (max-width: 767px) {
+  .baranalyser17.active {
+  height: 1730px;
+}
 }
 
 .baranalyser18.active {
   height: 2380px; /* Adjust the height as needed */
 }
 
+@media screen and (max-width: 767px) {
+  .baranalyser18.active {
+  height: 2410px;
+}
+}
+
 .baranalyser19.active {
   height: 1360px; /* Adjust the height as needed */
+}
+
+@media screen and (max-width: 767px) {
+  .baranalyser19.active {
+  height: 1510px;
+}
 }
 
 .baranalyser20.active {
   height: 2180px; /* Adjust the height as needed */
 }
 
+@media screen and (max-width: 767px) {
+  .baranalyser20.active {
+  height: 2245px;
+}
+}
+
 .baranalyser21.active {
   height: 2380px; /* Adjust the height as needed */
 }
 
-.baranalyser22.active {
-  height: 1840px; /* Adjust the height as needed */
+@media screen and (max-width: 767px) {
+  .baranalyser21.active {
+  height: 2470px;
+}
 }
 
 .baranalyser22.active {
   height: 1840px; /* Adjust the height as needed */
+}
+
+@media screen and (max-width: 767px) {
+  .baranalyser22.active {
+  height: 1810px;
+}
 }
 
 .baranalyser23.active {
   height: 1870px; /* Adjust the height as needed */
 }
 
+@media screen and (max-width: 767px) {
+  .baranalyser23.active {
+  height: 1915px;
+}
+}
+
 .baranalyser24.active {
   height: 2310px; /* Adjust the height as needed */
+}
+
+@media screen and (max-width: 767px) {
+  .baranalyser24.active {
+  height: 2380px;
+}
 }
 
 .baranalyser25.active {
   height: 2310px; /* Adjust the height as needed */
 }
 
+
 .baranalyser26.active {
   height: 2280px; /* Adjust the height as needed */
+}
+
+@media screen and (max-width: 767px) {
+  .baranalyser26.active {
+  height: 2350px;
+}
 }
 
 .baranalyser27.active {
   height: 2410px; /* Adjust the height as needed */
 }
 
+@media screen and (max-width: 767px) {
+  .baranalyser27.active {
+  height: 2430px;
+}
+}
+
 .baranalyser28.active {
   height: 2510px; /* Adjust the height as needed */
+}
+
+@media screen and (max-width: 767px) {
+  .baranalyser28.active {
+  height: 2470px;
+}
 }
 
 .baranalyser29.active {
   height: 2180px; /* Adjust the height as needed */
 }
 
+@media screen and (max-width: 767px) {
+  .baranalyser29.active {
+  height: 2265px;
+}
+}
+
 .baranalyser30.active {
   height: 2380px; /* Adjust the height as needed */
+}
+
+@media screen and (max-width: 767px) {
+  .baranalyser30.active {
+  height: 2375px;
+}
 }
 
 .baranalyser31.active {
   height: 1940px; /* Adjust the height as needed */
 }
 
+@media screen and (max-width: 767px) {
+  .baranalyser31.active {
+  height: 2105px;
+}
+}
+
 .baranalyser32.active {
   height: 2210px; /* Adjust the height as needed */
 }
+
+@media screen and (max-width: 767px) {
+  .baranalyser32.active {
+  height: 2215px;
+}
+}w
 
 .baranalyser33.active {
   height: 2010px; /* Adjust the height as needed */

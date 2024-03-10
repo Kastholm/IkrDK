@@ -110,9 +110,9 @@ body, ul, li {
 {
   display: block;
   position: fixed;
-  top: 20px; /* Adjusted */
+  top: 30px; /* Adjusted */
   right: 20px; /* Adjusted */
-  z-index: 1;
+  z-index: 50;
   
   -webkit-user-select: none;
   user-select: none;
@@ -123,7 +123,7 @@ body, ul, li {
   text-decoration: none;
   color: #2c2c2c;
   
-  transition: color 0.3s ease;
+  transition: color 0.5s ease;
 }
 
 #menuToggle a:hover
