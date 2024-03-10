@@ -11,6 +11,15 @@ export default defineType({
           type: 'string',
           hidden: true,
         }),
+        defineField({
+          name: 'mainImage',
+          title: 'Main image',
+          type: 'image',
+          hidden: true,
+          options: {
+            hotspot: true,
+          },
+        }),
     defineField({
       name: 'title',
       title: 'Forside Titel 1',
@@ -39,7 +48,7 @@ export default defineType({
    defineField({
      name: 'workerinfo',
      title: 'Medarbejders information',
-     type: 'string',
+     type: 'blockContent',
    }),
    defineField({
      name: 'title3',
@@ -105,6 +114,8 @@ export default defineType({
      preview: {
      select: {
           title: 'lang',
+          subtitle: 'title',
+          media: 'mainImage',
      },
      },
 })

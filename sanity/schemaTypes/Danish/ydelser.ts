@@ -12,6 +12,15 @@ export default defineType({
                hidden: true,
           }),
           defineField({
+               name: 'mainImage',
+               title: 'Main image',
+               type: 'image',
+               hidden: true,
+               options: {
+                 hotspot: true,
+               },
+             }),
+          defineField({
                name: 'title',
                title: 'Ydelser Titel 1',
                type: 'string',
@@ -44,7 +53,8 @@ export default defineType({
                               type: 'string',
                          }
                     ]
-               }]
+               }],
+               validation: Rule => Rule.max(3).error('Du kan kun oprette op til 3 medarbejdere.')
           }),
           defineField({
                name: 'title2',
@@ -55,42 +65,42 @@ export default defineType({
                name: 'text2',
                title: 'Ydelser brødtekst 2',
                type: 'blockContent',
-          }), 
-          
+          }),
+
           defineField({
                name: 'kasse1',
                title: 'Kasse 1 Titel',
                type: 'string',
-             }),
-             defineField({
+          }),
+          defineField({
                name: 'text3',
                title: 'Kasse 1 brødtekst',
                type: 'blockContent',
-             }),
-               defineField({
-                 name: 'kasse2',
-                 title: 'Kasse 2 Titel',
-                 type: 'string',
-               }),
-               defineField({
-                 name: 'text4',
-                 title: 'Kasse 2 brødtekst',
-                 type: 'blockContent',
-               }),
-               defineField({
-                 name: 'kasse3',
-                 title: 'Kasse 3 Titel',
-                 type: 'string',
-               }),
-               defineField({
-                 name: 'text5',
-                 title: 'Kasse 3 brødtekst',
-                 type: 'blockContent',
-               }),
-          
-          
-          
-          
+          }),
+          defineField({
+               name: 'kasse2',
+               title: 'Kasse 2 Titel',
+               type: 'string',
+          }),
+          defineField({
+               name: 'text4',
+               title: 'Kasse 2 brødtekst',
+               type: 'blockContent',
+          }),
+          defineField({
+               name: 'kasse3',
+               title: 'Kasse 3 Titel',
+               type: 'string',
+          }),
+          defineField({
+               name: 'text5',
+               title: 'Kasse 3 brødtekst',
+               type: 'blockContent',
+          }),
+
+
+
+
           defineField({
                name: 'title3',
                title: 'Ydelser Titel 3',
@@ -141,7 +151,7 @@ export default defineType({
                name: 'text10',
                title: 'Ydelser brødtekst 7',
                type: 'blockContent',
-          }),	
+          }),
           defineField({
                name: 'title7',
                title: 'Ydelser Titel 7',
@@ -156,6 +166,8 @@ export default defineType({
      preview: {
           select: {
                title: 'lang',
+               subtitle: 'title',
+               media: 'mainImage',
           },
      },
 })

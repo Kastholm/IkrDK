@@ -9,8 +9,17 @@ export default defineType({
                name: 'lang',
                title: 'Hvilket sprog',
                type: 'string',
-                 hidden: true,
+               hidden: true,
           }),
+          defineField({
+               name: 'mainImage',
+               title: 'Main image',
+               type: 'image',
+               hidden: true,
+               options: {
+                 hotspot: true,
+               },
+             }),
           defineField({
                name: 'title',
                title: 'FAQ Titel 1',
@@ -44,7 +53,8 @@ export default defineType({
                               type: 'string',
                          }
                     ]
-               }]
+               }],
+               validation: Rule => Rule.max(3).error('Du kan kun oprette op til 3 medarbejdere.')
           }),
           defineField({
                name: 'title2',
@@ -156,6 +166,8 @@ export default defineType({
      preview: {
           select: {
                title: 'lang',
+               subtitle: 'title',
+               media: 'mainImage',
           },
      },
 })
