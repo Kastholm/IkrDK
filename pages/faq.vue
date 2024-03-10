@@ -1181,6 +1181,12 @@ align-items: center;
   height: 1850px; /* Adjust the height as needed */
 }
 
+@media screen and (max-width: 767px) {
+  .baranalyser8.active {
+  height: 1910px;
+}
+}
+
 .baranalyser9.active {
   height: 1160px; /* Adjust the height as needed */
 }
@@ -1193,6 +1199,12 @@ align-items: center;
 
 .baranalyser10.active {
   height: 1120px; /* Adjust the height as needed */
+}
+
+@media screen and (max-width: 767px) {
+  .baranalyser10.active {
+  height: 1250px;
+}
 }
 
 .baranalyser11.active {
