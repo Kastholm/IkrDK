@@ -10,13 +10,13 @@
  </div>
  <div class="flex justify-end">
     <div class="sm:bg-[#0a3700] bg-[#0a3700] sm:h-[350px] h-[500px] sm:w-[90%] absolute bottom-40 z-20 rounded-sm ">
-        <article class="flex flex-col gap-10 justify-center sm:ml-28 ml-5 sm:mt-14 mt-5 text-white">
-        <h1 class=" font-semibold tracking-wider">Dialog er nøgleordet</h1>
+        <article class="flex flex-col gap-10 justify-center sm:ml-28 ml-5 sm:mt-20 mt-10 text-white">
+        <h1 class=" font-semibold tracking-wider sm:leading-[65px] leading-[50px]">Dialog er nøgleordet</h1>
         <p class=" w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-7">I et samarbejde med IKR vil du opleve at få en aktiv medspiller med erfaring, kompetence og konkrete løsninger som kommer din organisation til gode. På kort og på langt sigt.</p>
         </article>
-        <article class="flex text-start sm:text-end flex-col sm:items-end w-[78%] 2xl:w-[79%] ml-5 sm:ml-0 sm:mt-5 mt-[70px] sm:translate-y-4 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px]">
+        <article class="flex text-start sm:text-end flex-col sm:items-end w-[78%] 2xl:w-[79%] ml-5 sm:ml-0 sm:mt-5 mt-[100px] sm:translate-y-9 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px]">
             <p class="text-[20px] 2xl:text-[23px]">Jesper Zangenberg<br> Indehaver </p>
-            <p class=" text-[20px] 2xl:text-[21px] ">Ring til Jesper:  <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 28 18 91 94 ">+45 28 18 91 94 </a></p>
+            <p class=" text-[20px] 2xl:text-[21px] ">Ring til Jesper: <br class="block md:hidden"/> <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 28 18 91 94 ">+45 28 18 91 94 </a></p>
         </article>
     </div>
    </div>

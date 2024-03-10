@@ -3,18 +3,18 @@
  <div class="relative max-h-[800px] sm:max-h-[900px] h-[800px] sm:h-[900px] sm:mt-28 z-10 header-img max-w-[2000px] w-full m-auto overlay">
   
    <div class="w-full h-[450px] bg-[#1a5b0b] bg-gradient-header absolute bottom-0 ">
-   <img src="https://i.ibb.co/LN6Z422/Jacob-Henrik-Jesper-VI-ER.png" alt="" class="sm:h-[420px] person-respons h-64 absolute bottom-0 z-50 right-3 sm:right-0 sm:translate-x-0 "> 
+   <img src="https://i.ibb.co/LN6Z422/Jacob-Henrik-Jesper-VI-ER.png" alt="" class="sm:h-[420px] person-respons h-[200px] absolute bottom-0 z-50 right-0 sm:translate-x-0 "> 
  </div>
  <div class="flex justify-end">
     <div class="sm:bg-[#0a3700] bg-[#0a3700] sm:h-[350px] h-[500px] sm:w-[90%] absolute bottom-40 z-20 rounded-sm ">
         <article class="flex flex-col gap-7 justify-center sm:ml-28 ml-5 sm:mt-8 mt-5 text-white">
-        <h1 class=" font-semibold tracking-wider leading-[65px] max-w-[1000px]">”Vi er et team af specialister - og den ressource I mangler”</h1>
-        <p class=" w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-0">Vi er jeres ekstra hænder, som arbejder på tværs og i dybden med jeres nuværende og kommende aftaler. Det giver organisationen øget økonomisk råderum – og luft i interne arbejdsgange.</p>
+        <h1 class=" font-semibold tracking-wider sm:leading-[65px] leading-[50px] max-w-[1000px] text-[50px]">”Vi er et team af specialister - og den ressource I mangler”</h1>
+        <p class=" w-[90%] sm:max-w-[700px]  sm:mt-0 mb-0">Vi er jeres ekstra hænder, som arbejder på tværs og i dybden med jeres nuværende og kommende aftaler. Det giver organisationen øget økonomisk råderum – og luft i interne arbejdsgange.</p>
         </article>
-        <article class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-5 sm:ml-0 sm:mt-6 mt-[70px] sm:translate-y-4 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px]">
-          <p class="text-[20px] 2xl:text-[23px]">Jacob Kofod, Director of Operations - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 40 70 45 03 ">Tlf. +45 40 70 45 03 </a></p>
-            <p class="text-[20px] 2xl:text-[23px]">Henrik Nielsen, Direktør IKR - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 41 31 55 69 ">Tlf. +45 41 31 55 69 </a></p>
-            <p class="text-[20px] 2xl:text-[23px]">Jesper Zangenberg, Indehaver - <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: + 45 28 18 91 94 ">Tlf. + 45 28 18 91 94 </a></p>
+        <article class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-2 sm:ml-0 sm:mt-6 mt-[30px] sm:translate-y-5 sm:gap-7 gap-1 italic text-[#000000] sm:max-w-full max-w-[100px] leading-[15px]">
+          <p class="text-[13px] sm:text-[20px] 2xl:text-[23px]">Jacob Kofod, <br class="block md:hidden"/> Director of Operations - <a class="text-[13px] sm:text-[20px] 2xl:text-[23px] person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 40 70 45 03 "><br class="block md:hidden"/> Tlf. +45 40 70 45 03 </a></p>
+            <p class="text-[13px] sm:text-[20px] 2xl:text-[23px]">Henrik Nielsen,<br class="block md:hidden"/> Direktør IKR - <a class="text-[13px] sm:text-[20px] 2xl:text-[23px] person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 41 31 55 69 "><br class="block md:hidden"/>Tlf. +45 41 31 55 69 </a></p>
+            <p class="text-[13px] sm:text-[20px] 2xl:text-[23px]">Jesper Zangenberg,<br class="block md:hidden"/> Indehaver - <a class="text-[13px] sm:text-[20px] 2xl:text-[23px] person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: + 45 28 18 91 94 "><br class="block md:hidden"/>Tlf. + 45 28 18 91 94 </a></p>
         </article>
     </div>
    </div>

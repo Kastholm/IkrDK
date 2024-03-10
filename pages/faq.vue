@@ -80,9 +80,9 @@ En grundig spend analyse kan give Kunden et solidt grundlag for at træffe infor
             <h6 class="header" @click="toggleBar('bar1.6')"><strong class="text-[35px]">+</strong> Hvad er en optimeringsanalyse?</h6>
        <div class="content" @click="toggleBar('bar1.6')">
         <div class="bar-flex2">
-         <p class="bar-lille-text -translate-y-10">Optimeringsanalysen har til formål at belyse hvilke områder, hvor der er potentiale for at kunne optimere. Optimeringen kan både være i forhold til at sikre optimale priser via konkurrenceudsættelse eller være optimering inden for allerede indgåede aftaler. Optimering kan tage udgangspunkt i ændring af processer eller vilkår i kontrakten som giver en bedre anvendelse af ressourcer.
+         <p class="bar-lille-text -translate-y-10 sm:mt-0 mt-10">Optimeringsanalysen har til formål at belyse hvilke områder, hvor der er potentiale for at kunne optimere. Optimeringen kan både være i forhold til at sikre optimale priser via konkurrenceudsættelse eller være optimering inden for allerede indgåede aftaler. Optimering kan tage udgangspunkt i ændring af processer eller vilkår i kontrakten som giver en bedre anvendelse af ressourcer.
 <br>
-<span class="text-[20px] leading-[20px]">
+<span class="sm:text-[20px] text-[13px] sm:leading-[20px] leading-[17px]">
 I optimeringsanalysen kigger vi på:
 <br> <br>
 •	Hvordan er Kunden i dag aftaledækket? <br>
@@ -172,7 +172,7 @@ Ved at sikre at Kunden fremadrettet køber de rigtige varer og tjenesteydelser h
          <p class="bar-lille-text">Få kontrol over jeres kontrakter, aftaler og økonomiske forpligtigelser. Ved at have kontrol over jeres aftaler er der penge at spare. I får indsigt og står bedre i forhold til forhandlinger med leverandørerne fremadrettet. Hertil sikre I jer at I har tidssvarende aftale og betaler for det I har brug for.
           leverandørerne fremadrettet. Hertil sikre I jer at I har tidssvarende aftale og betaler for det I har brug for.
           <br><br>
-          <span class="text-[20px] leading-[20px]">
+          <span class="sm:text-[20px] sm:leading-[20px] leading-[17px]">
 •	Hvad er opsigelsesperioden?<br>
 •	Forlænges kontrakten automatisk?<br>
 •	Bliver der automatisk lagt ekstra gebyr på aftalen?<br>
@@ -206,8 +206,8 @@ Vores erfaring er at vi i gennemsnit får udleveret 20 kontrakter, men at vi, ua
         <div class="bar-flex2">
          <p class="bar-lille-text">Vi vil gerne anvise et besparelsespotentiale, men vi vil også gerne sikre, at Kunden opnår potentiel besparelse. <br><br>
 
-Identifikation af områder med potentiale: Hos IKR tilbydes Kunden en omfattende analyse på områder, hvor der er mulighed for besparelser eller optimeringer. IKR indleder med at analysere udgifterne og identificere områder med høje eller stigende omkostninger og vurderer derefter leverandørkontrakterne for muligheder for besparelser. Ved at udføre denne grundige analyse kan vi hjælpe Kunden med at finde de bedste muligheder for at optimere udgifter og opnå de ønskede resultater på en omkostningseffektiv måde. . <br><br>
-Benchmark: Hos IKR hjælper vi vores kunder med at fastlægge et benchmark eller en standard for sammenligning af deres nuværende udgifter med en ønsket eller optimal tilstand. Dette kan omfatte forskellige prisfastsættelsesstandarder, gennemsnitlige markedspriser eller benchmarking mod konkurrenter. Vi mener, at ved at fastlægge et benchmark kan vores kunder få en bedre forståelse af deres nuværende udgifter og identificere muligheder for at reducere omkostningerne og forbedre konkurrenceevnen. . <br><br>
+Identifikation af områder med potentiale: Hos IKR tilbydes Kunden en omfattende analyse på områder, hvor der er mulighed for besparelser eller optimeringer. IKR indleder med at analysere udgifterne og identificere områder med høje eller stigende omkostninger og vurderer derefter leverandørkontrakterne for muligheder for besparelser. Ved at udføre denne grundige analyse kan vi hjælpe Kunden med at finde de bedste muligheder for at optimere udgifter og opnå de ønskede resultater på en omkostningseffektiv måde.<br><br>
+Benchmark: Hos IKR hjælper vi vores kunder med at fastlægge et benchmark eller en standard for sammenligning af deres nuværende udgifter med en ønsket eller optimal tilstand. Dette kan omfatte forskellige prisfastsættelsesstandarder, gennemsnitlige markedspriser eller benchmarking mod konkurrenter. Vi mener, at ved at fastlægge et benchmark kan vores kunder få en bedre forståelse af deres nuværende udgifter og identificere muligheder for at reducere omkostningerne og forbedre konkurrenceevnen.<br><br>
 Beregning af besparelsespotentiale: Hos IKR hjælper vi Kunden med at beregne besparelsespotentialet, når der er fastlagt et benchmark eller en standard for sammenligning af nuværende udgifter med en ønsket eller optimal tilstand. Dette indebærer typisk at identificere områder, hvor der er mulighed for at reducere omkostninger, f.eks. ved at forhandle bedre priser med leverandører, ved at konsolidere indkøb på tværs af afdelinger eller ved at optimere lagerbeholdningen. 
 
          </p>
@@ -997,7 +997,7 @@ align-items: center;
 @media screen and (max-width: 767px) {
 
   .bar-sections {
-    margin: 600px 0 200px 0;
+    margin: 100px 0 200px 0;
    }
 }
 
@@ -1030,6 +1030,12 @@ align-items: center;
   
 }
 
+@media screen and (max-width: 767px) {
+.bar {
+  min-width: 95vw;
+}
+}
+
 .baranalyser {
   width: 70%;
   height: 45px;
@@ -1043,10 +1049,23 @@ align-items: center;
   line-height: 20px;
 }
 
+@media screen and (max-width: 767px) {
+.baranalyser {
+  min-width: 90vw;
+  height: 65px;
+}
+}
+
 .header {
   padding: 10px;
   text-align: center;
   font-size: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+  font-size: 20px;
+}
 }
 
 
@@ -1074,7 +1093,14 @@ align-items: center;
   align-items: center;
   height: 100%;
   margin-top: 50px;
+  width:100%;
   
+}
+
+@media screen and (max-width: 767px) {
+  .bar-flex2 {
+  margin-top: 10px;
+}
 }
 
 .content{
@@ -1251,6 +1277,8 @@ align-items: center;
     max-width: 800px;
 }
 
+
+
 .bar-flex-text {
   display: flex;
   flex-direction: column;
@@ -1272,7 +1300,8 @@ align-items: center;
 
 @media screen and (max-width: 767px) {
   .bar-lille-text {
-   font-size: 16px;
+   font-size: 14px;
+   line-height: 27px;
   }
 }
  
