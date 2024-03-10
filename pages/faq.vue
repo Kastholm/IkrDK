@@ -1171,12 +1171,24 @@ align-items: center;
   height: 1200px; /* Adjust the height as needed */
 }
 
+@media screen and (max-width: 767px) {
+  .baranalyser7.active {
+  height: 1230px;
+}
+}
+
 .baranalyser8.active {
   height: 1850px; /* Adjust the height as needed */
 }
 
 .baranalyser9.active {
   height: 1160px; /* Adjust the height as needed */
+}
+
+@media screen and (max-width: 767px) {
+  .baranalyser9.active {
+  height: 1200px;
+}
 }
 
 .baranalyser10.active {
@@ -1277,6 +1289,12 @@ align-items: center;
 
 .baranalyser33.active {
   height: 2010px; /* Adjust the height as needed */
+}
+
+@media screen and (max-width: 767px) {
+  .baranalyser33.active {
+  height: 1950px;
+}
 }
 
 .bar.active .content {
