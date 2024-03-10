@@ -15,8 +15,8 @@
         <p class=" w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-7">{{ data.text1[0].children[0].text }}</p>
         </article>
         <article class="flex text-start sm:text-end flex-col sm:items-end w-[78%] 2xl:w-[79%] ml-5 sm:ml-0 sm:mt-5 mt-[100px] sm:translate-y-9 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px]">
-            <p class="text-[20px] 2xl:text-[23px]">Jesper Zangenberg<br> Indehaver </p>
-            <p class=" text-[20px] 2xl:text-[21px] ">Ring til Jesper: <br class="block md:hidden"/> <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 28 18 91 94 ">+45 28 18 91 94 </a></p>
+            <p class="text-[20px] 2xl:text-[23px]">{{ data.workertitle }}<br> {{ data.workerjob }}</p>
+            <p class=" text-[20px] 2xl:text-[21px] ">{{ data.workerinfo[0].children[0].text }}<br class="block md:hidden"/> <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 28 18 91 94 ">{{ data.workerinfo[0].children[1].text }} </a></p>
         </article>
     </div>
     </div>
