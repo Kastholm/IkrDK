@@ -1,6 +1,6 @@
 <template>
   <section>
-    <article class="relative mt-44">
+    <article class="relative sm:mt-44 flex flex-col flex-wrap">
         <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0 sm:-translate-y-6"></figure>
      <figure class="h-[300px] min-h-[300px] respons w-[250px] bg-[#256c2b] clip2 absolute right-0 top-0 sm:translate-y-20"></figure>
         <div class="flex flex-col h-[400px] w-[1000px] gap-5  m-auto sm:mt-0 mt-60 relative sm:mb-0 mb-44 sm:translate-y-5">
@@ -11,7 +11,7 @@
      <p class=" max-w-[90%]">Overblikket og gennemsigtigheden, i et flere årig perspektiv, giver styrke til at opnå et helhedsbillede. Med falkeblik kan du fokusere i det store perspektiv og være med til at finde nye veje og løsninger i en foranderlig verden <br>”Analyserne ift. realiserbare muligheder, kan være brede og omfatte mange varer og tjenesteydelseskategorier, men også smalle, og alene indeholde et enkelt område eller få kategoriområder. ”</p>
         </div>
 
-  <div class="flex w-full relative mt-36 gap-20 2xl:gap-40 justify-center">
+  <div class="flex w-full sm:flex-row flex-col relative mt-36 gap-20 2xl:gap-40 justify-center">
     <article class="w-[40%] flex flex-col gap-5 -translate-y-5">
       <h2 class="">Analyse er vejen til øget økonomisk råderum</h2>
       <p>Gennem analyser af den samlede indkøbsvolumen i både varer og tjenesteydelser, finder vi erfaringsmæssigt en del nye muligheder for øget økonomisk råderum. 
@@ -23,7 +23,7 @@ Gennem en løbende styring, overvågning og tilpasning af jeres aftaler opnår I
   </div>
     </article>
 
-    <div class="flex w-full relative mt-36 gap-20 2xl:gap-40 justify-center">
+    <div class="flex w-full flex-wrap relative mt-36 gap-20 2xl:gap-40 justify-center">
       <img src="https://i.ibb.co/sVpKvYN/nyt-til-konomisk-analyse.jpg" alt="" class= "max-h-[450px] rounded-md z-40 shadow-2xl">
     <article class="w-[39%] flex flex-col gap-5 -translate-y-5">
       <h2 class="">Fra analyse til handling</h2>
