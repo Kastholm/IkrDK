@@ -17,7 +17,7 @@
 </ul>
 <p>Med IKR som samarbejdspartner skal ”en plus en blive til tre”.</p>
     </article>
-    <img src="https://i.ibb.co/KWsT29g/port-VI-ER.jpg" alt="" class= "max-h-[800px] 2xl:max-h-[700px] rounded-md z-50 shadow-2xl">
+    <img src="https://i.ibb.co/KWsT29g/port-VI-ER.jpg" alt="" class= "sm:h-[800px] h-[600px] 2xl:max-h-[700px] rounded-md z-50 shadow-2xl">
   </div>
 
   <div class="flex w-full relative mt-28 gap-20 2xl:gap-40 justify-center flex-wrap sm:mb-0">
