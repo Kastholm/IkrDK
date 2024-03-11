@@ -8,13 +8,11 @@
  <div class="flex justify-end">
     <div class="sm:bg-[#0a3700] bg-[#0a3700] sm:h-[350px] h-[500px] sm:w-[90%] absolute bottom-40 z-20 rounded-sm ">
         <article class="flex flex-col gap-10 justify-center sm:ml-28 ml-5 sm:mt-8 mt-10 text-white">
-        <h1 class=" font-semibold tracking-wider sm:leading-[65px] leading-[50px] max-w-[900px]">Erfaring kombineret med ansvar skaber værdi</h1>
-        <p class=" w-[90%] sm:max-w-[700px] mt-4 sm:mt-0 mb-7">”Komplekse forretningsområder er en stor del af vores specialisters arbejde hver eneste dag.” </p>
+        <h1 class=" font-semibold tracking-wider sm:leading-[65px] leading-[50px] max-w-[900px]">{{data.title}}</h1>
+        <p class=" w-[90%] sm:max-w-[700px] mt-4 sm:mt-0 mb-7">{{ data.text1[0].children[0].text }} </p>
         </article>
         <article class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-2 sm:ml-0 sm:mt-12 mt-[98px] sm:translate-y-7 sm:gap-7 gap-2 leading-[15px] italic text-[#000000] sm:max-w-full max-w-[100px]">
-            <p class="text-[13px] sm:text-[20px] 2xl:text-[23px]">Pia Lawson, Seniorrådgiver - <a class="text-[13px] sm:text-[20px] 2xl:text-[23px] person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 88 27 63 23 "> <br class="block md:hidden"/>Tlf. +45 88 27 63 23 </a></p>
-            <p class="text-[13px] sm:text-[20px] 2xl:text-[23px]">Jacob Kofod, <br class="block md:hidden"/> Director of Operations - <a class="text-[13px] sm:text-[20px] 2xl:text-[23px] person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 40 70 45 03 "> <br class="block md:hidden"/>Tlf. +45 40 70 45 03 </a></p>
-            <p class="text-[13px] sm:text-[20px] 2xl:text-[23px] tabletPersonTroels">Troels Oberlin, dataanalyse/<br class="block md:hidden"/>indkøbsspecialist - <a class=" text-[13px] sm:text-[20px] 2xl:text-[23px]person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 88 27 63 23 "> <br class="block md:hidden"/>Tlf. +45 88 27 63 23 </a></p>
+            <p v-for="(worker, index) in data.workers" :key="index" class="text-[13px] sm:text-[20px] 2xl:text-[23px]">{{worker.workertitle}}, {{worker.workerjob}}-  <a class="text-[13px] sm:text-[20px] 2xl:text-[23px] person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 88 27 63 23 "> <br class="block md:hidden"/>{{worker.workerinfo}}</a></p>
         </article>
     </div>
    </div>
@@ -22,10 +20,13 @@
 </main>
 </template>
 
-<script>
-export default {
+<script setup>
+const query = groq`*[(_type == "samarbejde") && lang == "Dansk" ][0]`;
 
-}
+const sanity = useSanity();
+const { data } = useSanityQuery(query);
+import { SanityBlocks } from "sanity-blocks-vue-component";
+console.log(data);
 </script>
 
 <style scoped>

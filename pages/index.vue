@@ -6,18 +6,17 @@
     <figure class="h-[300px] min-h-[300px] respons-mobil w-[250px] bg-[#919995] clip4 absolute left-0 top-0 sm:-translate-y-6"></figure>
     <figure class="h-[300px] min-h-[300px] respons-mobil w-[250px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-20"></figure>
     <div class="max-w-[72%] sm:max-w-[60%] kommentar relative">
-     <h2 class=" sm:max-w-[88%] "> I opnår øget økonomisk råderum fordi I får et konkret helhedsbillede at styre efter.</h2>
+     <h2 class=" sm:max-w-[88%] ">{{data.title3}} </h2>
     </div>
-    <p class=" max-w-[60%]">Overblikket giver styrke til at opnå forandring. Med falkeblik kan du fokusere i det store perspektiv og være med til at finde nye veje og løsninger i en foranderlig verden.</p>
+    <p class=" max-w-[60%]">{{data.text2[0].children[0].text}}</p>
    </div>
 
    <div class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white 2xl:mt-0 sm:-translate-y-0 kasserTablet "> 
     <NuxtLink to="oekonomiskeAnalyser">
       <div class="card flex flex-col justify-center items-center gap-[56px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer">
-        <h3 class="max-w-[90%] leading-10 overskrift-underline"> ØKONOMISKE ANALYSER
+        <h3 class="max-w-[90%] leading-10 overskrift-underline"> {{data.kasse1}}
         </h3>
-        <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">Analyserne skaber overblik og realiserbare muligheder for at finde økonomisk råderum. 
-          Få startet en analyse hos IKR idag.
+        <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">{{data.text3[0].children[0].text}}
         </p>
           <div class="flex w-full justify-end mr-10 underline underline-offset-4">
             <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>
@@ -26,9 +25,9 @@
     </NuxtLink>
   <NuxtLink to="udbudUnderside">
     <div class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer ">
-        <h3 class="max-w-[90%] leading-10 overskrift-underline "> UDBUD OG KONKURRENCE
+        <h3 class="max-w-[90%] leading-10 overskrift-underline "> {{data.kasse2}}
         </h3>
-        <p class="max-w-[90%] cardfont max-h-[150px] mt-[51px] -translate-y-[55px]">Kravspecifikationen er helt afgørende for det fremtidige økonomiske råderum. </p>
+        <p class="max-w-[90%] cardfont max-h-[150px] mt-[51px] -translate-y-[55px]">{{data.text4[0].children[0].text}} </p>
         <div class="flex w-full justify-end mr-10 underline underline-offset-4">
             <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>
         </div>
@@ -36,10 +35,9 @@
   </NuxtLink>
   <NuxtLink to="aftaleUnderside">
     <div class="card flex flex-col justify-center items-center gap-[55px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer ">
-        <h3 class="max-w-[90%] w-[90%] leading-10 overskrift-underline "> AFTALESTYRING & -OPFØLGNING 
+        <h3 class="max-w-[90%] w-[90%] leading-10 overskrift-underline "> {{data.kasse3}}
         </h3>
-        <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">Aftaleimplementering, 
-aftaleopfølgning, giver det økonomiske råderum, løbende systematisk kontrol er et must.
+        <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">{{data.text5[0].children[0].text}}
 </p>
         <div class="flex w-full justify-end mr-10 underline underline-offset-4">
             <a class="text-end italic -translate-y-3 cursor-pointer">Læs mere..</a>
@@ -57,8 +55,13 @@ aftaleopfølgning, giver det økonomiske råderum, løbende systematisk kontrol 
 
 </template>
 
-<script>
+<script setup>
+const query = groq`*[(_type == "forside") && lang == "Dansk" ][0]`;
 
+const sanity = useSanity();
+const { data } = useSanityQuery(query);
+import { SanityBlocks } from "sanity-blocks-vue-component";
+console.log(data);
 
 </script>
 

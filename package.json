@@ -17,7 +17,7 @@
     "nuxt": "^3.8.2",
     "nuxt-headlessui": "^1.1.4",
     "postcss": "^8.4.32",
-    "sass": "^1.69.5",
+    "sass": "^1.71.1",
     "tailwindcss": "^3.3.6",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
@@ -32,7 +32,6 @@
     "@sanity/image-url": "^1.0.2",
     "@tailwindcss/forms": "^0.5.7",
     "jquery": "^3.7.1",
-    "node-sass": "^9.0.0",
     "sanity-blocks-vue-component": "^1.0.1",
     "sass-loader": "^13.3.2",
     "slick-carousel": "^1.8.1",

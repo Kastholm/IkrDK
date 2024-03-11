@@ -8,13 +8,23 @@
  <div class="flex justify-end">
     <div class="sm:bg-[#0a3700] bg-[#0a3700] sm:h-[350px] h-[500px] sm:w-[90%] absolute bottom-40 z-20 rounded-sm ">
         <article class="flex flex-col gap-7 justify-center sm:ml-28 ml-5 sm:mt-8 mt-5 text-white">
-        <h1 class=" font-semibold tracking-wider sm:leading-[65px] leading-[50px] max-w-[90%] sm:text-[60px] text-[35px]">”Vi er et team af specialister - og den ressource I mangler”</h1>
-        <p class=" w-[90%] sm:max-w-[700px]  sm:mt-0 mb-0">Vi er jeres ekstra hænder, som arbejder på tværs og i dybden med jeres nuværende og kommende aftaler. Det giver organisationen øget økonomisk råderum – og luft i interne arbejdsgange.</p>
+        <h1 class=" font-semibold tracking-wider sm:leading-[65px] leading-[50px] max-w-[90%] sm:text-[60px] text-[35px]">{{data.title}}</h1>
+        <p class=" w-[90%] sm:max-w-[700px]  sm:mt-0 mb-0">{{ data.text1[0].children[0].text }}</p>
         </article>
         <article class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-2 sm:ml-0 sm:mt-6 mt-[50px] sm:translate-y-5 sm:gap-7 gap-1 italic text-[#000000] sm:max-w-full max-w-[100px] leading-[15px]">
-          <p class="text-[13px] sm:text-[20px] 2xl:text-[23px]">Jacob Kofod, <br class="block md:hidden"/> Director of Operations - <a class="text-[13px] sm:text-[20px] 2xl:text-[23px] person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 40 70 45 03 "><br class="block md:hidden"/> Tlf. +45 40 70 45 03 </a></p>
-            <p class="text-[13px] sm:text-[20px] 2xl:text-[23px]">Henrik Nielsen,<br class="block md:hidden"/> Direktør IKR - <a class="text-[13px] sm:text-[20px] 2xl:text-[23px] person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 41 31 55 69 "><br class="block md:hidden"/>Tlf. +45 41 31 55 69 </a></p>
-            <p class="text-[13px] sm:text-[20px] 2xl:text-[23px]">Jesper Zangenberg,<br class="block md:hidden"/> Indehaver - <a class="text-[13px] sm:text-[20px] 2xl:text-[23px] person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: + 45 28 18 91 94 "><br class="block md:hidden"/>Tlf. + 45 28 18 91 94 </a></p>
+          <p
+              v-for="(worker, index) in data.workers"
+              :key="index"
+              class="text-[13px] sm:text-[20px] 2xl:text-[23px]"
+            >
+              {{ worker.workertitle }}, {{ worker.workerjob }}-
+              <a
+                class="text-[13px] sm:text-[20px] 2xl:text-[23px] person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black"
+                href="tel: +45 88 27 63 23 "
+              >
+                <br class="block md:hidden" />{{ worker.workerinfo }}</a
+              >
+            </p>
         </article>
     </div>
    </div>
@@ -22,10 +32,13 @@
 </main>
 </template>
 
-<script>
-export default {
+<script setup>
+const query = groq`*[(_type == "vier") && lang == "Dansk" ][0]`;
 
-}
+const sanity = useSanity();
+const { data } = useSanityQuery(query);
+import { SanityBlocks } from "sanity-blocks-vue-component";
+console.log(data);
 </script>
 
 <style scoped>
