@@ -110,7 +110,7 @@ label {
   }
 
   h1 {
-    font-size: 54px;
+    font-size: 45px;
     font-weight: bold;
   }
 
@@ -137,6 +137,11 @@ label {
     font-size: 20px;
     font-weight: 600;
     min-width: 280px;
+  }
+
+  li {
+    font-size: 18px;
+    font-weight: 600;
   }
 }
 
