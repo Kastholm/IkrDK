@@ -1,5 +1,5 @@
 <template>
-  <main class="flex flex-col justify-center">
+  <main  class="flex flex-col justify-center">
     <Vi-erHero />
 
     <div
@@ -44,18 +44,12 @@
         class="sm:w-[40%] w-[90%] flex flex-col gap-5 -translate-y-5 flex-wrap"
       >
         <h2 class="">{{ data.title3 }}</h2>
-        <p class="2xl:leading-[42px]">
-          {{ data.text3[0].children[0].text }}
-          <!-- Været 100% loyal og uvildig som rådgiver og katalysator for en positiv udvikling. IKR har skabt økonomisk råderum for mere end ¾ mia. kr. for vores samarbejdspartnere, siden 2002. 
-<br><br>
-IKR hjælper både offentlige og private kunder. Det har skabt overblik at have ”hånd-i-hanke” med sine kontrakter – og som oftest et øget økonomisk råderum, på grund af de opnåede fordele.
-<br><br>
-Som dedikerede uvildig partner, investerer vi i vores kunders udfordringer og er med på sidelinjen på hele rejsen. 
-<br><br>
-I jeres behov, og den hidtidige situation, finder vi nye veje til det økonomiske råderum.
-<br><br>
-Med kunderelationer i Danmark og Sverige har vi gennem årene opnået ekspertise, indsigt og erfaring med at sikre fordelagtige aftaler, følge op på de eksisterende og ofte, genforhandle disse til bedre vilkår og priser.  -->
-        </p>
+
+       
+        <PortableText class="2xl:leading-[42px]"
+          :value="data.text3[0]" :components="components"
+        />
+
       </article>
     </div>
     <Vi-erBund />
@@ -71,8 +65,8 @@ const query = groq`*[(_type == "vier") && lang == "Dansk" ][0]`;
 
 const sanity = useSanity();
 const { data } = useSanityQuery(query);
-import { SanityBlocks } from "sanity-blocks-vue-component";
-console.log(data);
+import { PortableText } from "@portabletext/vue";
+
 </script>
 
 <style scoped>
