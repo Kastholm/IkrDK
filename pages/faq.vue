@@ -1123,6 +1123,12 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1090px) {
+  .baranalyser.active {
+    height: 700px;
+}
+}
+
 .baranalyser2.active {
   height: 690px; /* Adjust the height as needed */
 }
@@ -1130,6 +1136,12 @@ align-items: center;
 @media screen and (max-width: 767px) {
   .baranalyser2.active {
   height: 730px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+  .baranalyser2.active {
+    height: 1000px;
 }
 }
 

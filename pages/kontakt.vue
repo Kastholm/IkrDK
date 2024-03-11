@@ -21,8 +21,8 @@
                 alt=""
                 class="h-[55px]"
               />
-              <a href="tel:+45 88 27 63 33">
-                <p>Ring på telefon: <br />+45 88 27 63 33</p></a
+              <a href="tel:+45 88 27 63 33" class="sm:w-fit w-[150px]">
+                <p>Ring på telefon: <br  />+45 88 27 63 33</p></a
               >
             </div>
             <div class="w-full flex items-center gap-7 hover:underline">
@@ -31,8 +31,8 @@
                 alt=""
                 class="h-[49px]"
               />
-              <a href="mailto:mail@ikrcg.com"
-                ><p>Email os på: <br />mail@ikrcg.com</p></a
+              <a href="mailto:mail@ikrcg.com" class="sm:w-fit w-[145px]">
+                <p>Email os på: <br />mail@ikrcg.com</p></a
               >
             </div>
           </div>
