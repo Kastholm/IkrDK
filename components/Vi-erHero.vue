@@ -3,7 +3,7 @@
  <div class="relative max-h-[800px] sm:max-h-[900px] h-[800px] sm:h-[900px] sm:mt-28 z-10 header-img max-w-[2000px] w-full m-auto overlay">
   
    <div class="w-full h-[450px] bg-[#1a5b0b] bg-gradient-header absolute bottom-0 ">
-   <img src="https://i.ibb.co/LN6Z422/Jacob-Henrik-Jesper-VI-ER.png" alt="" class="sm:h-[420px] person-respons h-[200px] absolute bottom-0 z-50 right-0 sm:translate-x-0 "> 
+   <img src="https://i.ibb.co/LN6Z422/Jacob-Henrik-Jesper-VI-ER.png" alt="" class="sm:h-[420px] person-respons h-[200px] absolute bottom-0 z-50 right-0 sm:translate-x-0 tabletPersonViEr"> 
  </div>
  <div class="flex justify-end">
     <div class="sm:bg-[#0a3700] bg-[#0a3700] sm:h-[350px] h-[500px] sm:w-[90%] absolute bottom-40 z-20 rounded-sm ">

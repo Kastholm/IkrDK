@@ -1056,6 +1056,12 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser {
+  height: 84px;
+}
+}
+
 .header {
   padding: 10px;
   text-align: center;
@@ -1065,6 +1071,12 @@ align-items: center;
 @media screen and (max-width: 767px) {
   .header {
   font-size: 20px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .header {
+  line-height: 30px;
 }
 }
 
@@ -1129,8 +1141,14 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser.active {
+    height: 660px;
+}
+}
+
 .baranalyser2.active {
-  height: 690px; /* Adjust the height as needed */
+  height: 690px; 
 }
 
 @media screen and (max-width: 767px) {
@@ -1139,18 +1157,25 @@ align-items: center;
 }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1100px) {
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser2.active {
-    height: 1000px;
+    height: 840px;
 }
 }
 
+
 .baranalyser3.active {
-  height: 390px; /* Adjust the height as needed */
+  height: 390px; 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser3.active {
+    height: 450px;
+}
 }
 
 .baranalyser4.active {
-  height: 480px; /* Adjust the height as needed */
+  height: 480px; 
 }
 
 @media screen and (max-width: 767px) {
@@ -1159,8 +1184,14 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser4.active {
+    height: 630px;
+}
+}
+
 .baranalyser5.active {
-  height: 460px; /* Adjust the height as needed */
+  height: 460px; 
 }
 
 @media screen and (max-width: 767px) {
@@ -1169,8 +1200,14 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser5.active {
+    height: 520px;
+}
+}
+
 .baranalyser6.active {
-  height: 590px; /* Adjust the height as needed */
+  height: 590px; 
 }
 
 @media screen and (max-width: 767px) {
@@ -1179,8 +1216,14 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser6.active {
+    height: 755px;
+}
+}
+
 .baranalyser7.active {
-  height: 1200px; /* Adjust the height as needed */
+  height: 1200px; 
 }
 
 @media screen and (max-width: 767px) {
@@ -1189,13 +1232,25 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser7.active {
+    height: 1520px;
+}
+}
+
 .baranalyser8.active {
-  height: 1850px; /* Adjust the height as needed */
+  height: 1850px; 
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser8.active {
   height: 1910px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser8.active {
+    height: 2360px;
 }
 }
 
@@ -1209,6 +1264,12 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser9.active {
+    height: 1520px;
+}
+}
+
 .baranalyser10.active {
   height: 1120px; /* Adjust the height as needed */
 }
@@ -1216,6 +1277,12 @@ align-items: center;
 @media screen and (max-width: 767px) {
   .baranalyser10.active {
   height: 1250px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser10.active {
+    height: 1520px;
 }
 }
 
@@ -1229,6 +1296,13 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser11.active {
+    height: 2780px;
+}
+}
+
+
 .baranalyser12.active {
   height: 1770px; /* Adjust the height as needed */
 }
@@ -1236,6 +1310,12 @@ align-items: center;
 @media screen and (max-width: 767px) {
   .baranalyser12.active {
   height: 1810px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser12.active {
+    height: 2200px;
 }
 }
 
@@ -1250,6 +1330,12 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser13.active {
+    height: 2440px;
+}
+}
+
 .baranalyser14.active {
   height: 2120px; /* Adjust the height as needed */
 }
@@ -1257,6 +1343,12 @@ align-items: center;
 @media screen and (max-width: 767px) {
   .baranalyser14.active {
   height: 2090px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser14.active {
+    height: 2510px;
 }
 }
 
@@ -1270,6 +1362,12 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser15.active {
+    height: 2980px;
+}
+}
+
 .baranalyser16.active {
   height: 2250px; /* Adjust the height as needed */
 }
@@ -1277,6 +1375,12 @@ align-items: center;
 @media screen and (max-width: 767px) {
   .baranalyser16.active {
   height: 2240px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser16.active {
+    height: 2780px;
 }
 }
 
@@ -1290,6 +1394,12 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser17.active {
+    height: 2170px;
+}
+}
+
 .baranalyser18.active {
   height: 2380px; /* Adjust the height as needed */
 }
@@ -1297,6 +1407,12 @@ align-items: center;
 @media screen and (max-width: 767px) {
   .baranalyser18.active {
   height: 2410px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser18.active {
+    height: 2960px;
 }
 }
 
@@ -1310,6 +1426,12 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser19.active {
+    height: 1790px;
+}
+}
+
 .baranalyser20.active {
   height: 2180px; /* Adjust the height as needed */
 }
@@ -1317,6 +1439,12 @@ align-items: center;
 @media screen and (max-width: 767px) {
   .baranalyser20.active {
   height: 2245px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser20.active {
+    height: 2780px;
 }
 }
 
@@ -1330,6 +1458,12 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser21.active {
+    height: 3020px;
+}
+}
+
 .baranalyser22.active {
   height: 1840px; /* Adjust the height as needed */
 }
@@ -1337,6 +1471,12 @@ align-items: center;
 @media screen and (max-width: 767px) {
   .baranalyser22.active {
   height: 1810px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser22.active {
+    height: 2240px;
 }
 }
 
@@ -1350,6 +1490,12 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser23.active {
+    height: 2310px;
+}
+}
+
 .baranalyser24.active {
   height: 2310px; /* Adjust the height as needed */
 }
@@ -1360,10 +1506,15 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser24.active {
+    height: 2920px;
+}
+}
+
 .baranalyser25.active {
   height: 2310px; /* Adjust the height as needed */
 }
-
 
 .baranalyser26.active {
   height: 2280px; /* Adjust the height as needed */
@@ -1372,6 +1523,12 @@ align-items: center;
 @media screen and (max-width: 767px) {
   .baranalyser26.active {
   height: 2350px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser26.active {
+    height: 2950px;
 }
 }
 
@@ -1385,6 +1542,12 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser27.active {
+    height: 3050px;
+}
+}
+
 .baranalyser28.active {
   height: 2510px; /* Adjust the height as needed */
 }
@@ -1392,6 +1555,12 @@ align-items: center;
 @media screen and (max-width: 767px) {
   .baranalyser28.active {
   height: 2470px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser28.active {
+    height: 3020px;
 }
 }
 
@@ -1405,6 +1574,12 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser29.active {
+    height: 2780px;
+}
+}
+
 .baranalyser30.active {
   height: 2380px; /* Adjust the height as needed */
 }
@@ -1412,6 +1587,12 @@ align-items: center;
 @media screen and (max-width: 767px) {
   .baranalyser30.active {
   height: 2375px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser30.active {
+    height: 2920px;
 }
 }
 
@@ -1425,6 +1606,12 @@ align-items: center;
 }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser31.active {
+    height: 2580px;
+}
+}
+
 .baranalyser32.active {
   height: 2210px; /* Adjust the height as needed */
 }
@@ -1433,15 +1620,27 @@ align-items: center;
   .baranalyser32.active {
   height: 2215px;
 }
-}w
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser32.active {
+    height: 2650px;
+}
+}
 
 .baranalyser33.active {
-  height: 2010px; /* Adjust the height as needed */
+  height: 1980px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser33.active {
   height: 1950px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser33.active {
+    height: 2400px;
 }
 }
 

@@ -2,7 +2,7 @@
   <section class="fixed top-0 z-50 w-screen respons-desktop">
   <header class="relative h-fit sm:max-w-full max-w-[40px] z-50">
     <nav class="relative flex justify-center items-center border-[#256c2b] border-b-4 max-h-[200px]">
-      <ul class="flex gap-8 absolute sm:p-6 font-semibold z-50 translate-y-6 mr-20">
+      <ul class="flex gap-8 absolute sm:p-6 font-semibold z-50 translate-y-6 mr-20 menuGapTablet">
         <li :class="{ 'active-link': $route.path === '/' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
           <NuxtLink to="/">HJEM</NuxtLink>
         </li>
@@ -22,11 +22,11 @@
           <NuxtLink to="/kontakt">KONTAKT</NuxtLink>
         </li>
       </ul>
-      <NuxtLink to="/"><img src="https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg" class="absolute left-24 2xl:left-36 h-[90px] w-fit top-3" alt="#"></NuxtLink>
+      <NuxtLink to="/"><img src="https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg" class="absolute left-24 2xl:left-36 h-[90px] w-fit top-3 menuImgTablet" alt="#"></NuxtLink>
       <div class="absolute right-16 font-semibold top-3 p-6 cursor-pointer text-[#919995] flex gap-3">
-      <img src="https://i.ibb.co/P1yfgVt/Flag-of-the-United-Kingdom-3-5-svg.webp" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all">
-      <img src="https://i.ibb.co/jZs3yf6/Dansk-flag383594.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all">
-      <img src="https://i.ibb.co/bHq9yTg/Svensk-flag693684.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all">
+        <NuxtLink to="/"><img src="https://i.ibb.co/P1yfgVt/Flag-of-the-United-Kingdom-3-5-svg.webp" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
+          <NuxtLink to="/"><img src="https://i.ibb.co/jZs3yf6/Dansk-flag383594.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
+            <NuxtLink to="/"><img src="https://i.ibb.co/bHq9yTg/Svensk-flag693684.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
     </div>
     </nav>
   </header>
@@ -58,6 +58,11 @@
       <NuxtLink href="vi-er"><li>Vi er</li></NuxtLink>
       <NuxtLink href="faq"><li>FAQ</li></NuxtLink>
       <NuxtLink href="kontakt"><li>Kontakt</li></NuxtLink>
+      <div class="absolute right-28 font-semibold top-10 p-6 cursor-pointer text-[#919995] flex gap-3">
+        <NuxtLink to="/"><img src="https://i.ibb.co/P1yfgVt/Flag-of-the-United-Kingdom-3-5-svg.webp" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
+          <NuxtLink to="/"><img src="https://i.ibb.co/jZs3yf6/Dansk-flag383594.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
+            <NuxtLink to="/"><img src="https://i.ibb.co/bHq9yTg/Svensk-flag693684.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
+    </div>
     </ul>
   </div>
 </div>
@@ -72,6 +77,18 @@
 </script>
 
 <style>
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .menuGapTablet {
+    gap:20px;
+    margin-left:80px;
+}
+
+.menuImgTablet {
+  left: 40px;
+}
+}
+
 body, ul, li {
       margin: 0;
       padding: 0;
@@ -98,6 +115,19 @@ body, ul, li {
     transform: translatex(140px)
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .kontakt-respons {
+    transform: translatex(50px)
+  }
+}
+
+@media only screen and (min-width: 2500px) and (max-width: 3500px) {
+  .kontakt-respons {
+    transform: translatex(700px)
+  }
+}
+
 
 @media screen and (min-width: 768px) {
   

@@ -170,6 +170,44 @@ label {
 }
 /* Forside mobil slut */
 
+/* Hero tablet start */
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .tabletPersonInfoForside {
+    transform: translatey(38px) translatex(-80px);
+}
+
+.tabletPersonSamarbejde {
+  height: 260px;
+  transform: translateX(-50px);
+}
+
+.tabletPersonTroels {
+  white-space: nowrap;
+}
+
+.tabletPersonYdelser {
+  height: 280px;
+}
+
+.tabletPersonViEr{
+  transform: translateX(-50px);
+  height: 240px;
+}
+
+.tabletPersonFAQ{
+  height: 250px;
+  transform: translateX(-50px);
+}
+
+.kasserTablet {
+  gap: 15px
+}
+
+}
+
+/* Hero tablet slut*/
+
 /* Fontfaces indsat i layout og kan bruges på alle sider, linket til Default Nuxt static mappe 'public' (Her er fonts placeret) */
 @font-face {
   font-family: "Opel Sans Bold";

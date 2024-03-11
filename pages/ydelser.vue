@@ -9,7 +9,7 @@
       </p>
      </div>
     </div>
-   <div class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white 2xl:mt-0 sm:-translate-y-0 -translate-y-20 mb-16 mt-5"> 
+   <div class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white 2xl:mt-0 sm:-translate-y-0 -translate-y-20 mb-16 mt-5 kasserTablet"> 
     <NuxtLink to="oekonomiskeAnalyser">
       <div class="card flex flex-col justify-center items-center gap-[56px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer">
         <h3 class="max-w-[90%] leading-10 overskrift-underline"> ØKONOMISKE ANALYSER

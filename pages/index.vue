@@ -11,7 +11,7 @@
     <p class=" max-w-[60%]">Overblikket giver styrke til at opnå forandring. Med falkeblik kan du fokusere i det store perspektiv og være med til at finde nye veje og løsninger i en foranderlig verden.</p>
    </div>
 
-   <div class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white 2xl:mt-0 sm:-translate-y-0  "> 
+   <div class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white 2xl:mt-0 sm:-translate-y-0 kasserTablet "> 
     <NuxtLink to="oekonomiskeAnalyser">
       <div class="card flex flex-col justify-center items-center gap-[56px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer">
         <h3 class="max-w-[90%] leading-10 overskrift-underline"> ØKONOMISKE ANALYSER
