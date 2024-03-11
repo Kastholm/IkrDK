@@ -11,7 +11,7 @@
      <p class=" max-w-[90%] w-[90vw]">Opgaverne for indkøbsfunktionen kan synes uoverskuelige, fordi presset, kompleksiteten og lovgrundlaget i de mange aftaler er omfattende, samtidig med at tidsfrister og budgetter skal overholdes. Kravene til indsats er store og tilliden til leverandørerne skal bibeholdes i et reelt og ærligt samarbejde. Som indkøber kan det ofte synes vanskeligt at lykkes, fordi omstændighederne gennem en kontraktperiode på 5-6 år ændrer sig.</p>
         </div>
 
-  <div class="flex w-full sm:flex-row flex-col items-center relative mt-36 gap-20 2xl:gap-40 justify-center">
+  <div class="flex w-full flex-wrap noWrap sm:flex-row flex-col items-center relative mt-36 gap-20 2xl:gap-40 justify-center">
     <article class="sm:w-[40%] w-[90vw] flex flex-col gap-5 -translate-y-5">
       <h2 class="">Hvem laver jeres udbud?</h2>
       <p>Ud fra analysen er det muligt at identificere udbudsområder, som bør konkurrenceudsættes ud fra en række parametre. 
@@ -21,13 +21,13 @@ Et eksempel kunne være, at man ønsker at reducere antallet af leverandører, o
 IKR har mangeårig erfaring med konkurrenceudsættelse og udformning af bl.a. kravsspecifikationer.
 </p>
     </article>
-   <img src="https://i.ibb.co/SNt2D5Y/Udbud-billede-1.jpg" alt="" class= "max-h-[400px] max-w-[90vw] rounded-md z-40 shadow-2xl">
+   <img src="https://i.ibb.co/SNt2D5Y/Udbud-billede-1.jpg" alt="" class= "kasserImg max-h-[400px] max-w-[90vw] rounded-md z-40 shadow-2xl">
   </div>
     </article>
 
-    <div class="flex w-full flex-wrap relative sm:mt-36 mt-20 gap-20 2xl:gap-40 justify-center">
+    <div class="flex w-full flex-wrap noWrap relative sm:mt-36 mt-20 gap-20 2xl:gap-40 justify-center">
       <img src="https://i.ibb.co/F5qrKqc/nyt-udbud-og-konkurrence.jpg
-" alt="" class= "max-h-[450px] max-w-[90vw] rounded-md z-40 shadow-2xl">
+" alt="" class= "max-h-[450px] max-w-[90vw] rounded-md z-40 shadow-2xl kasserImg">
     <article class="sm:w-[39vw] w-[90vw] flex flex-col gap-5 -translate-y-5">
       <h2 class="">Viden giver fordele</h2>
       <p>På baggrund af den viden og gennemsigtighed, der er opnået gennem analysen, kan IKR assistere i forbindelse med ny konkurrenceudsættelse på områder, som kræver øjeblikkelig handling, eller hvor det er en fordel at udbuddet formuleres af en uvildig partner. </p>

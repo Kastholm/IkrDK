@@ -11,7 +11,7 @@
      <p class=" max-w-[90%] w-[90vw]">Overblikket og gennemsigtigheden, i et flere årig perspektiv, giver styrke til at opnå et helhedsbillede. Med falkeblik kan du fokusere i det store perspektiv og være med til at finde nye veje og løsninger i en foranderlig verden <br>”Analyserne ift. realiserbare muligheder, kan være brede og omfatte mange varer og tjenesteydelseskategorier, men også smalle, og alene indeholde et enkelt område eller få kategoriområder. ”</p>
         </div>
 
-  <div class="flex w-full sm:flex-row flex-col items-center relative mt-36 gap-20 2xl:gap-40 justify-center">
+  <div class="flex w-full flex-wrap noWrap sm:flex-row flex-col items-center relative mt-36 gap-20 2xl:gap-40 justify-center">
     <article class="sm:w-[40%] w-[90vw] flex flex-col gap-5 -translate-y-5">
       <h2 class="">Analyse er vejen til øget økonomisk råderum</h2>
       <p>Gennem analyser af den samlede indkøbsvolumen i både varer og tjenesteydelser, finder vi erfaringsmæssigt en del nye muligheder for øget økonomisk råderum. 
@@ -19,12 +19,12 @@ Både gennem direkte besparelser, men også via forbedringer og ændrede aftalev
 Gennem en løbende styring, overvågning og tilpasning af jeres aftaler opnår I en optimal indkøbsstruktur og reduceret risiko. <br> IKR kalder det ”Level 2” controlling.
 </p>
     </article>
-   <img src="https://i.ibb.co/b1YL6Rx/IKR-28-1.jpg" alt="" class= "max-h-[400px] max-w-[90vw] rounded-md z-40 shadow-2xl">
+   <img src="https://i.ibb.co/b1YL6Rx/IKR-28-1.jpg" alt="" class= "max-h-[400px] max-w-[90vw] rounded-md z-40 shadow-2xl kasserImg">
   </div>
     </article>
 
-    <div class="flex w-full flex-wrap relative sm:mt-36 mt-20 gap-20 2xl:gap-40 justify-center">
-      <img src="https://i.ibb.co/sVpKvYN/nyt-til-konomisk-analyse.jpg" alt="" class= "max-h-[450px] max-w-[90vw] rounded-md z-40 shadow-2xl">
+    <div class="flex w-full flex-wrap noWrap relative sm:mt-36 mt-20 gap-20 2xl:gap-40 justify-center">
+      <img src="https://i.ibb.co/sVpKvYN/nyt-til-konomisk-analyse.jpg" alt="" class= "max-h-[450px] kasserImg max-w-[90vw] rounded-md z-40 shadow-2xl">
     <article class="sm:w-[39vw] w-[90vw] flex flex-col gap-5 -translate-y-5">
       <h2 class="">Fra analyse til handling</h2>
       <p> Hvor er det realiserbare økonomiske råderum?

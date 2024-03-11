@@ -14,19 +14,19 @@ Ved at kickstarte jeres aftaleimplementering, styring og opfølgning får I et l
 </p>
         </div>
 
-  <div class="flex w-full sm:flex-row flex-col items-center relative mt-36 gap-20 2xl:gap-40 justify-center">
+  <div class="flex w-full flex-wrap noWrap sm:flex-row flex-col items-center relative mt-36 gap-20 2xl:gap-40 justify-center">
     <article class="sm:w-[40%] w-[90vw] flex flex-col gap-5 -translate-y-5">
       <h2 class="">Besparelser – hvert år</h2>
       <p>At sikre det økonomisk råderum hvert år, kræver systematiske månedlige og årlige kontroller. <br>
 Hos IKR kalder vi det ”Level 2” controlling. <br> Kontrol ned på varelinje niveau. <br> Priskontrol, sammenholdt med aftalen, og evt. E-portal kontrol på ordrenummer niveau.
 </p>
     </article>
-   <img src="https://i.ibb.co/ZMJvNV1/driftpiger-aftaleopf-lgning-1.jpg" alt="" class= "max-h-[400px] max-w-[90vw] rounded-md z-40 shadow-2xl">
+   <img src="https://i.ibb.co/ZMJvNV1/driftpiger-aftaleopf-lgning-1.jpg" alt="" class= "kasserImg max-h-[400px] max-w-[90vw] rounded-md z-40 shadow-2xl">
   </div>
     </article>
 
-    <div class="flex w-full flex-wrap relative sm:mt-36 mt-20 gap-20 2xl:gap-40 justify-center">
-      <img src="https://i.ibb.co/8KRsfWL/skakspil-aftaleopf-lgning.jpg" alt="" class= "max-h-[450px] max-w-[90vw] rounded-md z-40 shadow-2xl">
+    <div class="flex w-full flex-wrap noWrap relative sm:mt-36 mt-20 gap-20 2xl:gap-40 justify-center">
+      <img src="https://i.ibb.co/8KRsfWL/skakspil-aftaleopf-lgning.jpg" alt="" class= "kasserImg max-h-[450px] max-w-[90vw] rounded-md z-40 shadow-2xl">
     <article class="sm:w-[39vw] w-[90vw] flex flex-col gap-5 -translate-y-5">
       <h2 class="">Opfølgning</h2>
       <p>Aftaleopfølgningen og den genvundne kontrol over jeres aftaler sikrer et vedvarende overblik og et øget økonomisk råderum gennem hele aftalens levetid. Overblikket giver mulighed for at tage rigtige beslutninger. I står stærkere via et korrekt datagrundlag og jeres leverandører ved, at aftalerne bliver overvåget og fastholdt. <br> Dette sikrer konstruktive og akkurate leverandørmøder, hvor det vil være et præcist billede af situationen, dialogen tager sit udgangspunkt i.</p>
