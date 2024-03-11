@@ -153,7 +153,7 @@ label {
     background-image: url('https://i.ibb.co/3ftYYW3/G-se-jne-260px.png');
     background-size: contain;
     background-repeat: no-repeat;
-    transform: translatey(5px) translatex(5px);
+    transform: translatey(10px) translatex(5px);
     font-size: 40px;
     height: 20px;
     width: 20px;
@@ -167,7 +167,7 @@ label {
     background-size: contain;
     background-repeat: no-repeat;
     left: 0;
-    transform: translatey(2px) translatex(-14px);
+    transform: translatey(2px) translatex(10px);
     font-size: 40px;
     height: 20px;
     width: 20px;

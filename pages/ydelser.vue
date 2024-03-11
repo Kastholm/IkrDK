@@ -64,7 +64,7 @@ aftaleopfølgning, giver det økonomiske råderum, løbende systematisk kontrol 
   </div>
 
    <div class="flex w-full flex-wrap relative mt-[100px] gap-10 2xl:gap-40 justify-center">
-    <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[135px] translate-y-[170px]"></figure>
+    <figure class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[135px] translate-y-[190px]"></figure>
     <img src="https://i.ibb.co/QHhwXT7/Maud-ved-tastatur.jpg" alt="" class= "max-h-[520px] rounded-md z-50 shadow-2xl">
     <article class="sm:w-[40%] w-[90%] flex flex-col gap-5 -translate-y-5 sm:mt-0 mt-10">
 <h2 class="">Gennemsigtighed og overblik er nøglebegreber</h2>

@@ -21,7 +21,7 @@
                 alt=""
                 class="h-[55px]"
               />
-              <a href="tel:+45 88 27 63 33" class="sm:w-fit w-[150px]">
+              <a href="tel:+45 88 27 63 33" class="min-w-fit">
                 <p>Ring på telefon: <br  />+45 88 27 63 33</p></a
               >
             </div>
@@ -31,7 +31,7 @@
                 alt=""
                 class="h-[49px]"
               />
-              <a href="mailto:mail@ikrcg.com" class="sm:w-fit w-[145px]">
+              <a href="mailto:mail@ikrcg.com" class="min-w-fit">
                 <p>Email os på: <br />mail@ikrcg.com</p></a
               >
             </div>
