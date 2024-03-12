@@ -2,7 +2,7 @@
   <section class="fixed top-0 z-50 w-screen respons-desktop">
   <header class="relative h-fit sm:max-w-full max-w-[40px] z-50">
     <nav class="relative flex justify-center items-center border-[#256c2b] border-b-4 max-h-[200px]">
-      <ul class="flex gap-8 absolute sm:p-6 font-semibold z-50 translate-y-6 mr-20 menuGapTablet">
+      <ul class="flex gap-8 absolute  font-semibold z-50 pt-10 menuGapTablet">
         <li :class="{ 'active-link': $route.path === '/' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
           <NuxtLink to="/">HJEM</NuxtLink>
         </li>
@@ -18,13 +18,14 @@
         <li :class="{ 'active-link': $route.path === '/faq' }" class="hover:underline hover:decoration-[2px] decoration-black hover:underline-offset-4">
           <NuxtLink to="/faq">FAQ</NuxtLink>
         </li>
-        <li class="translate-x-64 2xl:translate-x-[450px] kontakt-respons hover:scale-110 transition-all cursor-pointer bg-[#256c2b] text-white px-4 rounded-md">
-          <NuxtLink to="/kontakt">KONTAKT</NuxtLink>
-        </li>
+        
       </ul>
       <NuxtLink to="/"><img src="https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg" class="absolute left-24 2xl:left-36 h-[90px] w-fit top-3 menuImgTablet" alt="#"></NuxtLink>
       <div class="absolute right-16 font-semibold top-3 p-6 cursor-pointer text-[#919995] flex gap-3">
-        <NuxtLink to="/"><img src="https://i.ibb.co/P1yfgVt/Flag-of-the-United-Kingdom-3-5-svg.webp" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
+        <li class="  hover:scale-110 transition-all mt-6 cursor-pointer bg-[#256c2b] text-white px-4 rounded-md">
+            <NuxtLink to="/kontakt">KONTAKT</NuxtLink>
+          </li>
+        <NuxtLink to="/"><img src="https://i.ibb.co/P1yfgVt/Flag-of-the-United-Kingdom-3-5-svg.webp" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all ml-8 md:ml-[4vw]"></NuxtLink>
           <NuxtLink to="/"><img src="https://i.ibb.co/jZs3yf6/Dansk-flag383594.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
             <NuxtLink to="/"><img src="https://i.ibb.co/bHq9yTg/Svensk-flag693684.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
     </div>
@@ -53,11 +54,11 @@
     
     <ul id="menu">
       <NuxtLink to="/"><li>Hjem</li></NuxtLink>
-      <NuxtLink to="samarbejde"><li>Samarbejde</li></NuxtLink>
-      <NuxtLink to="ydelser"><li>Ydelser</li></NuxtLink>
-      <NuxtLink to="vi-er"><li>Vi er</li></NuxtLink>
-      <NuxtLink to="faq"><li>FAQ</li></NuxtLink>
-      <NuxtLink to="kontakt"><li>Kontakt</li></NuxtLink>
+      <NuxtLink to="/samarbejde"><li>Samarbejde</li></NuxtLink>
+      <NuxtLink to="/ydelser"><li>Ydelser</li></NuxtLink>
+      <NuxtLink to="/vi-er"><li>Vi er</li></NuxtLink>
+      <NuxtLink to="/faq"><li>FAQ</li></NuxtLink>
+      <NuxtLink to="/kontakt"><li>Kontakt</li></NuxtLink>
       <div class="absolute right-28 font-semibold top-10 p-6 cursor-pointer text-[#919995] flex gap-3">
         <NuxtLink to="/"><img src="https://i.ibb.co/P1yfgVt/Flag-of-the-United-Kingdom-3-5-svg.webp" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
           <NuxtLink to="/"><img src="https://i.ibb.co/jZs3yf6/Dansk-flag383594.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
