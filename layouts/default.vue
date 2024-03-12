@@ -175,7 +175,7 @@ label {
 }
 /* Forside mobil slut */
 
-/* Hero tablet start */
+/* tablet start */
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .tabletPersonInfoForside {
@@ -207,6 +207,16 @@ label {
 
 .kasserTablet {
   gap: 15px
+}
+
+.noWrap {
+  flex-wrap: nowrap;
+  max-width: 90vw;
+  margin: 100px auto 0;
+}
+
+.kasserImg{
+  max-width: 500px;
 }
 
 }
