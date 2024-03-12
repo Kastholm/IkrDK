@@ -178,6 +178,11 @@ label {
 /* tablet start */
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
+
+h1 h2 h3 p {
+  min-width: 100vw;
+}
+
   .tabletPersonInfoForside {
     transform: translatey(38px) translatex(-80px);
 }
@@ -197,7 +202,7 @@ label {
 
 .tabletPersonViEr{
   transform: translateX(-50px);
-  height: 240px;
+  
 }
 
 .tabletPersonFAQ{

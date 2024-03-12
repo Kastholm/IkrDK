@@ -37,7 +37,7 @@
             <p
               v-for="(worker, index) in data.workers"
               :key="index"
-              class="text-[13px] sm:text-[20px] 2xl:text-[23px]"
+              class="text-[13px] sm:text-[20px] 2xl:text-[23px] tabletPersonTroels"
             >
               {{ worker.workertitle }}, {{ worker.workerjob }}-
               <a

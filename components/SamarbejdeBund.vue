@@ -18,7 +18,7 @@
             {{ data.title4 }}
           </h4>
           <p
-            class="w-[90%] m-auto sm:m-0 ikrfont max-w-[750px] font-semibold bund-text-respons rounded-2xl py-3 sm:px-5"
+            class="w-[90%] m-auto sm:m-0 ikrfont sm:max-w-[750px] font-semibold bund-text-respons rounded-2xl py-3 sm:px-5"
           >
           <PortableText
           :value="data.text3[0]"
