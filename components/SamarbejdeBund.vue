@@ -1,5 +1,8 @@
 <template>
-  <main class="overflow-x-hidden">
+  <div v-if="!data || data.length === 0" class="flex justify-center items-center">
+    <div class="loader"></div>
+  </div>
+  <main v-else class="overflow-x-hidden">
     <section
       class="w-full flex justify-center items-center mt-20 2xl:mt-40 relative"
     >

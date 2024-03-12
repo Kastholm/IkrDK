@@ -1,5 +1,8 @@
 <template>
-<main>
+  <div v-if="!data || data.length === 0" class="flex justify-center items-center">
+    <div class="loader"></div>
+  </div>
+<main v-else>
  <div class="relative max-h-[800px] sm:max-h-[900px] h-[800px] sm:mt-28 sm:h-[900px] z-10 header-img max-w-[2000px] w-full m-auto overlay">
     
    <div class="w-full h-[450px] bg-[#1a5b0b] bg-gradient-header absolute bottom-0 ">

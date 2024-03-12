@@ -1,5 +1,8 @@
 <template>
-  <main class="flex flex-col justify-center">
+  <div v-if="!data || data.length === 0" class="flex justify-center items-center">
+    <div class="loader"></div>
+  </div>
+  <main v-else class="flex flex-col justify-center">
     <SamarbejdeHero />
     <section class="flex flex-col">
       <div
