@@ -52,12 +52,12 @@
     <span></span>
     
     <ul id="menu">
-      <NuxtLink href="/"><li>Hjem</li></NuxtLink>
-      <NuxtLink href="samarbejde"><li>Samarbejde</li></NuxtLink>
-      <NuxtLink href="ydelser"><li>Ydelser</li></NuxtLink>
-      <NuxtLink href="vi-er"><li>Vi er</li></NuxtLink>
-      <NuxtLink href="faq"><li>FAQ</li></NuxtLink>
-      <NuxtLink href="kontakt"><li>Kontakt</li></NuxtLink>
+      <NuxtLink to="/"><li>Hjem</li></NuxtLink>
+      <NuxtLink to="samarbejde"><li>Samarbejde</li></NuxtLink>
+      <NuxtLink to="ydelser"><li>Ydelser</li></NuxtLink>
+      <NuxtLink to="vi-er"><li>Vi er</li></NuxtLink>
+      <NuxtLink to="faq"><li>FAQ</li></NuxtLink>
+      <NuxtLink to="kontakt"><li>Kontakt</li></NuxtLink>
       <div class="absolute right-28 font-semibold top-10 p-6 cursor-pointer text-[#919995] flex gap-3">
         <NuxtLink to="/"><img src="https://i.ibb.co/P1yfgVt/Flag-of-the-United-Kingdom-3-5-svg.webp" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
           <NuxtLink to="/"><img src="https://i.ibb.co/jZs3yf6/Dansk-flag383594.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
