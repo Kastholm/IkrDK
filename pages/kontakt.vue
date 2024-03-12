@@ -13,7 +13,7 @@
         <div
           class="flex flex-col flex-wrap text-white h-full items-center justify-evenly gap-10 -translate-y-4"
         >
-          <h1 class="">Kontakt IKR</h1>
+          <h1 class="">{{ data.title }}</h1>
           <div class="flex flex-col items-center gap-5">
             <div class="flex items-center justify-center gap-7 hover:underline">
               <img
@@ -22,7 +22,7 @@
                 class="h-[55px]"
               />
               <a href="tel:+45 88 27 63 33" class="min-w-fit">
-                <p>Ring på telefon: <br  />+45 88 27 63 33</p></a
+                <p>{{ data.title2 }} <br  />{{ data.title3 }}</p></a
               >
             </div>
             <div class="w-full flex items-center gap-7 hover:underline">
@@ -32,12 +32,12 @@
                 class="h-[49px]"
               />
               <a href="mailto:mail@ikrcg.com" class="min-w-fit">
-                <p>Email os på: <br />mail@ikrcg.com</p></a
+                <p>{{ data.title4 }} <br />{{ data.title5 }}</p></a
               >
             </div>
           </div>
           <p class="w-[80%] text-center">
-            IKR tilbyder en uforpligtende dialog med jeres virksomhed. Tjek ind her - og vi vil kontakte dig indenfor <br class="hidden sm:block"> 2 hverdage.
+            <PortableText :value="data.text1[0]" :components="components" />
           </p>
         </div>
       </div>
@@ -49,7 +49,7 @@
         class="bg-[#256c2b] w-full p-8 rounded-b-3xl sm:rounded-t-none rounded-t-3xl shadow-2xl shadow-[#00000050]"
       >
         <label for="navn" class="block mb-4 text-white"
-          >Navn <span class="text-[20pxs]">*</span>:
+          >{{ data.title6 }}
           <Field
             name="name"
             type="name"
@@ -59,7 +59,7 @@
         </label>
 
         <label for="telefon" class="block mb-4 text-white"
-          >Telefon <span class="text-[20pxs]">*</span>:
+          >{{ data.title7 }}
           <input
             v-model="telefon"
             type="tel"
@@ -71,7 +71,7 @@
         </label>
 
         <label for="email" class="block mb-4 text-white"
-          >Email:
+          >{{ data.title8 }}
           <Field
             type="email"
             name="email"
@@ -80,7 +80,7 @@
         </label>
 
         <label for="virksomhed" class="block mb-4 text-white"
-          >Virksomhed <span class="text-[20pxs]">*</span>:
+          >{{ data.title9 }} 
           <Field
             type="virksomhed "
             name="virksomhed"
@@ -89,7 +89,7 @@
         </label>
 
         <label for="besked" class="block mb-4 text-white"
-          >Besked:
+          >{{ data.title10 }}
           <Field
             as="textarea"
             name="text"
@@ -102,7 +102,7 @@
         <button
           class="bg-[#0a3700] text-white px-4 py-2 rounded hover:scale-110 transition-all font-semibold"
         >
-          Send Besked
+          Send
         </button>
         <!-- <span v-if="messageSent" class="text-white ml-4"
           >Besked sendt! - vi kontakter dig.</span
@@ -115,7 +115,7 @@
           class="bg-SubColor2 p-2 text-lg rounded-lg mt-4 m-auto text-gray-100"
           @click="closeForm"
         >
-          Luk Formen
+          X
         </button>
       </div>
     </section>
@@ -166,6 +166,13 @@ async function onSubmit(value) {
 
 const isNotificationVisible = ref(false);
 const notificationMessage = ref("");
+
+const query = groq`*[(_type == "Kontakt") && lang == "Dansk" ][0]`;
+
+const sanity = useSanity();
+const { data } = useSanityQuery(query);
+import { PortableText } from "@portabletext/vue";
+console.log(data);
 </script>
 
 <style scoped>
