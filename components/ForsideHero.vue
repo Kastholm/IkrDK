@@ -1,5 +1,8 @@
 <template>
-<main>
+  <div v-if="!data || data.length === 0" class="flex justify-center items-center">
+    <div class="loader"></div>
+  </div>
+<main v-else>
  <div class="relative max-h-[800px] sm:max-h-[900px] sm:mt-28 h-[800px] sm:h-[1200px] z-10 header-img max-w-[2000px] w-full m-auto overlay">
     <p class="text-white text-[40px] sm:text-[80px] font-bold absolute left-[10px] sm:left-[140px] top-3 sm:top-28 z-50 sm:leading-[110px] leading-[40px] header-text-respons max-w-[18ch] ">{{ data.title }}</p>
    <div class="max-h-[800px] max-w-[2000px] w-full h-[800px] ">
