@@ -22,7 +22,7 @@
               />
       </p>
         </article>
-        <article class="flex text-start sm:text-end flex-col sm:items-end w-[78%] 2xl:w-[79%] ml-5 sm:ml-0 sm:mt-5 mt-[100px] sm:translate-y-9 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px] tabletPersonInfoForside">
+        <article class="flex text-start sm:text-end flex-col sm:items-end w-[78%] 2xl:w-[79%] ml-5 sm:ml-0 sm:mt-5 mt-[100px] sm:translate-y-5 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px] tabletPersonInfoForside">
             <p class="text-[20px] 2xl:text-[23px]">{{ data.workertitle }}<br> {{ data.workerjob }}</p>
             <p class=" text-[20px] 2xl:text-[21px] ">
               <PortableText
