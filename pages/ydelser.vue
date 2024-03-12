@@ -121,7 +121,7 @@
     </div>
 
     <div
-      class="flex w-full flex-wrap relative mt-[100px] gap-10 2xl:gap-40 justify-center"
+      class="flex w-full flex-wrap relative mt-20 gap-10 2xl:gap-40 justify-center"
     >
       <figure
         class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[135px] translate-y-[190px]"

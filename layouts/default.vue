@@ -183,6 +183,10 @@ h1 h2 h3 p {
   min-width: 100vw;
 }
 
+.tekstMinW {
+min-width: 580px;
+}
+
   .tabletPersonInfoForside {
     transform: translatey(38px) translatex(-80px);
 }
@@ -226,7 +230,10 @@ h1 h2 h3 p {
 
 }
 
-
+body {
+min-height: 100vh;
+min-height: 100dvh;
+}
 
 .loader {
   border: 4px solid rgba(255, 255, 255, 0.3);

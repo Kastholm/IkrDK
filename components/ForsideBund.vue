@@ -13,12 +13,12 @@
           class="flex flex-col mb-20 sm:ml-20 sm:mt-0 gap-4 bund-container-respons sm:text-start text-center translate-y-6"
         >
           <h4
-            class="bund-overskrift-respons rounded-2xl py-3 px-5 sm:translate-y-5 sm:mt-0 mt-60"
+            class="bund-overskrift-respons rounded-2xl py-3 px-5 sm:translate-y-5 sm:mt-0 mt-20"
           >
             {{ data.title4 }}
           </h4>
           <p
-            class="w-[90%] m-auto sm:m-0 ikrfont sm:max-w-[750px] font-semibold bund-text-respons rounded-2xl py-3 sm:px-5"
+            class="w-[90%] m-auto sm:m-0 ikrfont tekstMinW sm:max-w-[750px] font-semibold bund-text-respons rounded-2xl py-3 sm:px-5"
           >
             <PortableText
               :value="data.text6[0]"
@@ -28,14 +28,14 @@
         </div>
         <img
           src="https://i.ibb.co/yWyDnYq/Stenhus-og-slot.jpg"
-          class="bund-billede-respons sm:max-w-[480px] max-h-[400px] sm:mr-16 rounded-md mt-10 sm:mt-0 shadow-2xl"
+          class="bund-billede-respons sm:max-w-[480px] max-h-[400px] sm:mr-16 rounded-md mt-0 sm:mt-0 shadow-2xl"
           alt=""
         />
       </div>
     </section>
 
     <section
-      class="flex justify-center w-full relative sm:mt-20 mt-72 lg:mt-10 sm:translate-x-14"
+      class="flex justify-center w-full relative sm:mt-20 mt-10 lg:mt-10 sm:translate-x-14"
     >
       <figure
         class="h-[200px] min-h-[200px] w-[180px] bg-[#2c2c2c] clip3 absolute left-0 top-0 -translate-y-14 sm:-translate-y-5 -translate-x-20"

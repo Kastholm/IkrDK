@@ -1,5 +1,5 @@
 <template>
-  <footer class="block min-h-[200px] sm:mt-40 mt-20 bg-[#256c2b] pt-5 text-white">
+  <footer class="block min-h-[200px] sm:mt-40 mt-28 bg-[#256c2b] pt-5 text-white">
     <div class="flex-col gap-10 sm:gap-0 sm:flex-row flex w-full justify-around items-end">
         <NuxtLink to="/"><img src="https://i.ibb.co/d6cpnRb/IKR-Inverted-Color-2400x1800-1.png" class="h-[150px]"></NuxtLink>
         

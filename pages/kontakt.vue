@@ -3,7 +3,7 @@
     class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-20 sm:translate-y-20 z-0"
   ></figure>
   <figure
-    class="h-[300px] min-h-[300px] respons w-[250px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-10"
+    class="h-[300px] min-h-[300px] respons w-[250px] bg-[#2c2c2c] clip2 absolute right-0 bottom-56  sm:translate-y-10"
   ></figure>
   <main class="sm:flex sm:flex-row flex flex-col sm:items-start items-center flex-wrap relative sm:mt-28 ">
     <section class="w-[95vw] sm:w-[55%] h-[600px] relative z-50 sm:mb-0 mb-40">
@@ -22,7 +22,7 @@
                 class="h-[55px]"
               />
               <a href="tel:+45 88 27 63 33" class="min-w-fit">
-                <p>Ring på telefon: <br  />+45 88 27 63 33</p></a
+                <p class="min-w-fit">Ring på telefon: <br  />+45 88 27 63 33</p></a
               >
             </div>
             <div class="w-full flex items-center gap-7 hover:underline">
@@ -32,7 +32,7 @@
                 class="h-[49px]"
               />
               <a href="mailto:mail@ikrcg.com" class="min-w-fit">
-                <p>Email os på: <br />mail@ikrcg.com</p></a
+                <p class="min-w-fit">Email os på: <br />mail@ikrcg.com</p></a
               >
             </div>
           </div>
@@ -174,6 +174,7 @@ const notificationMessage = ref("");
     left: 40%;
   }
 }
+
 
 @keyframes slideDown {
   0% {
