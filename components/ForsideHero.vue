@@ -24,9 +24,9 @@
         </article>
         <article class="flex text-start sm:text-end flex-col sm:items-end w-[78%] 2xl:w-[79%] ml-5 sm:ml-0 sm:mt-5 mt-[100px] sm:translate-y-9 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px] tabletPersonInfoForside">
             <p class="text-[20px] 2xl:text-[23px]">{{ data.workertitle }}<br> {{ data.workerjob }}</p>
-            <p class=" text-[20px] 2xl:text-[21px] ">{{ data.workerinfo[0].children[0].text }}
+            <p class=" text-[20px] 2xl:text-[21px] ">
               <PortableText
-                :value="data.workerinfo[0].children[0]"
+                :value="data.workerinfo"
                 :components="components"
               />
               <br class="block md:hidden"/> <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 28 18 91 94 ">{{ data.workerinfo[0].children[1].text }} </a></p>
