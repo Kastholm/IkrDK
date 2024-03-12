@@ -29,7 +29,7 @@
                 :value="data.workerinfo"
                 :components="components"
               />
-              <br class="block md:hidden"/> <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 28 18 91 94 ">{{ data.workerinfo[0].children[1].text }} </a></p>
+              <br class="block md:hidden"/> <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 28 18 91 94 "></a></p>
         </article>
     </div>
     </div>
