@@ -54,7 +54,7 @@ const query = groq`*[(_type == "vier") && lang == "Dansk" ][0]`;
 
 const sanity = useSanity();
 const { data } = useSanityQuery(query);
-import { SanityBlocks } from "sanity-blocks-vue-component";
+import { PortableText } from "@portabletext/vue";
 console.log(data);
 </script>
 

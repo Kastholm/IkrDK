@@ -25,7 +25,10 @@
               {{ data.title }}
             </h1>
             <p class="w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-7">
-              {{ data.text1[0].children[0].text }}
+              <PortableText
+          :value="data.text1[0]"
+          :components="components"
+        />
             </p>
           </article>
           <article
@@ -56,7 +59,7 @@ const query = groq`*[(_type == "ydelser") && lang == "Dansk" ][0]`;
 
 const sanity = useSanity();
 const { data } = useSanityQuery(query);
-import { SanityBlocks } from "sanity-blocks-vue-component";
+import { PortableText } from "@portabletext/vue";
 console.log(data);
 </script>
 

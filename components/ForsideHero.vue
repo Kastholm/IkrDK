@@ -11,12 +11,22 @@
  <div class="flex justify-end">
     <div class="sm:bg-[#0a3700] bg-[#0a3700] sm:h-[350px] h-[500px] sm:w-[90%] absolute bottom-40 z-20 rounded-sm ">
         <article class="flex flex-col gap-10 justify-center sm:ml-28 ml-5 sm:mt-20 mt-10 text-white">
-        <h1 class=" font-semibold tracking-wider sm:leading-[65px] leading-[50px]">Dialog er nøgleordet</h1>
-        <p class=" w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-7">{{ data.text1[0].children[0].text }}</p>
+        <h1 class=" font-semibold tracking-wider sm:leading-[65px] leading-[50px]">{{ data.title2 }}</h1>
+        <p class=" w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-7">
+          <PortableText
+                :value="data.text1[0]"
+                :components="components"
+              />
+      </p>
         </article>
         <article class="flex text-start sm:text-end flex-col sm:items-end w-[78%] 2xl:w-[79%] ml-5 sm:ml-0 sm:mt-5 mt-[100px] sm:translate-y-9 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px] tabletPersonInfoForside">
             <p class="text-[20px] 2xl:text-[23px]">{{ data.workertitle }}<br> {{ data.workerjob }}</p>
-            <p class=" text-[20px] 2xl:text-[21px] ">{{ data.workerinfo[0].children[0].text }}<br class="block md:hidden"/> <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 28 18 91 94 ">{{ data.workerinfo[0].children[1].text }} </a></p>
+            <p class=" text-[20px] 2xl:text-[21px] ">{{ data.workerinfo[0].children[0].text }}
+              <PortableText
+                :value="data.workerinfo[0].children[0]"
+                :components="components"
+              />
+              <br class="block md:hidden"/> <a class="person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 28 18 91 94 ">{{ data.workerinfo[0].children[1].text }} </a></p>
         </article>
     </div>
     </div>
@@ -32,7 +42,7 @@ const query = groq`*[(_type == "forside") && lang == "Dansk" ][0]`;
 
 const sanity = useSanity();
 const { data } = useSanityQuery(query);
-import { SanityBlocks } from "sanity-blocks-vue-component";
+import { PortableText } from "@portabletext/vue";
 console.log(data);
 </script>
 

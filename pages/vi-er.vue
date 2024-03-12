@@ -23,7 +23,10 @@
             {{ point.bullettext }}
           </li>
         </ul>
-        <p>{{ data.text2[0].children[0].text }}</p>
+        <p><PortableText
+          :value="data.text2[0]"
+          :components="components"
+        /></p>
       </article>
       <img
         src="https://i.ibb.co/KWsT29g/port-VI-ER.jpg"

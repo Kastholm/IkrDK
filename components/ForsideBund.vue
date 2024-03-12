@@ -17,7 +17,10 @@
           <p
             class="w-[90%] m-auto sm:m-0 ikrfont max-w-[750px] font-semibold bund-text-respons rounded-2xl py-3 sm:px-5"
           >
-            {{ data.text6[0].children[0].text }}
+            <PortableText
+              :value="data.text6[0]"
+              :components="components"
+            />
           </p>
         </div>
         <img
@@ -42,7 +45,12 @@
             {{ data.title5 }}<span class="kommentar2"></span>
           </h2>
         </div>
-        <p>{{ data.text7[0].children[0].text }}</p>
+        <p>
+        <PortableText
+          :value="data.text7[0]"
+          :components="components"
+        />
+        </p>
         <!-- <NuxtLink to="#" class="font-semibold underline underline-offset-2"> Se mere her </NuxtLink> -->
       </div>
     </section>
@@ -54,7 +62,7 @@ const query = groq`*[(_type == "forside") && lang == "Dansk" ][0]`;
 
 const sanity = useSanity();
 const { data } = useSanityQuery(query);
-import { SanityBlocks } from "sanity-blocks-vue-component";
+import { PortableText } from "@portabletext/vue";
 console.log(data);
 </script>
 

@@ -7,7 +7,10 @@
       >
         <div class="flex flex-col relative max-w-[90%] sm:max-w-[65%]">
           <h2 class="">{{ data.title2 }}</h2>
-          <p class="">{{ data.text2[0].children[0].text }}</p>
+          <p class=""><PortableText
+          :value="data.text2[0]"
+          :components="components"
+        /></p>
         </div>
       </div>
       <div
@@ -21,7 +24,10 @@
               {{ data.kasse1 }}
             </h3>
             <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">
-              {{ data.text3[0].children[0].text }}
+              <PortableText
+          :value="data.text3[0]"
+          :components="components"
+        />
             </p>
             <div
               class="flex w-full justify-end mr-10 underline underline-offset-4"
@@ -42,7 +48,10 @@
             <p
               class="max-w-[90%] cardfont max-h-[150px] mt-[51px] -translate-y-[55px]"
             >
-              {{ data.text4[0].children[0].text }}
+            <PortableText
+          :value="data.text4[0]"
+          :components="components"
+        />
             </p>
             <div
               class="flex w-full justify-end mr-10 underline underline-offset-4"
@@ -61,7 +70,10 @@
               {{ data.kasse3 }}
             </h3>
             <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">
-              {{ data.text5[0].children[0].text }}
+              <PortableText
+          :value="data.text5[0]"
+          :components="components"
+        />
             </p>
             <div
               class="flex w-full justify-end mr-10 underline underline-offset-4"
@@ -83,7 +95,10 @@
           <h2 class="text-start">
             <span class="text-[#256c2b]"> IKR </span> {{ data.title3 }}
           </h2>
-          <p class="max-w-[1200px]">{{ data.text6[0].children[0].text }}</p>
+          <p class="max-w-[1200px]"><PortableText
+          :value="data.text6[0]"
+          :components="components"
+        /></p>
           <ul
             class="flex flex-col items-start gap-4 min-h-[170px] w-[100%] mt-5 max-w-[1200px]"
           >
@@ -96,7 +111,10 @@
             </li>
           </ul>
           <p class="sm:mt-0 mt-8 w-[100%] max-w-[1200px]">
-            {{ data.text7[0].children[0].text }}
+            <PortableText
+          :value="data.text7[0]"
+          :components="components"
+        />
           </p>
         </div>
       </div>
@@ -117,7 +135,10 @@
         class="sm:w-[40%] w-[90%] flex flex-col gap-5 -translate-y-5 sm:mt-0 mt-10"
       >
         <h2 class="">{{ data.title4 }}</h2>
-        <p>{{ data.text8[0].children[0].text }}</p>
+        <p><PortableText
+          :value="data.text8[0]"
+          :components="components"
+        /></p>
       </article>
     </div>
     <div
@@ -126,9 +147,12 @@
       <article
         class="sm:w-[40%] w-full flex flex-col gap-5 -translate-y-5 max-w-[90%] sm:mt-0 mt-20"
       >
-        <h2 class="">{{data.title5}}</h2>
+        <h2 class="">{{ data.title5 }}</h2>
         <p>
-          {{ data.text9[0].children[0].text }}
+          <PortableText
+          :value="data.text9[0]"
+          :components="components"
+        />
         </p>
       </article>
       <img
@@ -151,7 +175,7 @@ const query = groq`*[(_type == "ydelser") && lang == "Dansk" ][0]`;
 
 const sanity = useSanity();
 const { data } = useSanityQuery(query);
-import { SanityBlocks } from "sanity-blocks-vue-component";
+import { PortableText } from "@portabletext/vue";
 console.log(data);
 </script>
 
