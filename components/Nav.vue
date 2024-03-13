@@ -90,14 +90,14 @@
         <span></span>
 
         <ul id="menu">
-          <li><a @click="menuOpen = false" href="/">Hjem</a></li>
-          <li>
+          <li :class="{ 'active-link': $route.path === '/' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4"><a @click="menuOpen = false" href="/">Hjem</a></li>
+          <li :class="{ 'active-link': $route.path === '/samarbejde' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
             <a @click="menuOpen = false" href="/samarbejde">Samarbejde</a>
           </li>
-          <li><a @click="menuOpen = false" href="/ydelser">Ydelser</a></li>
-          <li><a @click="menuOpen = false" href="/vi-er">Vi er</a></li>
-          <li><a @click="menuOpen = false" href="/faq">FAQ</a></li>
-          <li><a @click="menuOpen = false" href="/kontakt">Kontakt</a></li>
+          <li :class="{ 'active-link': $route.path === '/ydelser' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4"><a @click="menuOpen = false" href="/ydelser">Ydelser</a></li>
+          <li :class="{ 'active-link': $route.path === '/vi-er' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4"><a @click="menuOpen = false" href="/vi-er">Vi er</a></li>
+          <li :class="{ 'active-link': $route.path === '/faw' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4"><a @click="menuOpen = false" href="/faq">FAQ</a></li>
+          <li :class="{ 'active-link': $route.path === '/kontakt' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4"><a @click="menuOpen = false" href="/kontakt">Kontakt</a></li>
           <div
             class="absolute right-28 font-semibold top-10 p-6 cursor-pointer text-[#919995] flex gap-3"
           >
@@ -134,7 +134,7 @@ const closeMenu = () => {
   menuOpen.value = false;
 };
 
-// Funktion til at afgøre, om klikket var udenfor menuen
+// Funktion til at afg�re, om klikket var udenfor menuen
 const handleClickOutside = (event) => {
   if (menuToggle.value && !menuToggle.value.contains(event.target)) {
     closeMenu();

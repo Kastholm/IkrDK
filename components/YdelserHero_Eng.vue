@@ -39,7 +39,7 @@
               :key="index"
               class="text-[13px] sm:text-[20px] 2xl:text-[23px] tabletPersonTroels"
             >
-              {{ worker.workertitle }}, {{ worker.workerjob }}-
+              {{ worker.workertitle }},<br class="sm:hidden block"> {{ worker.workerjob }}-
               <a
                 class="text-[13px] sm:text-[20px] 2xl:text-[23px] person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black"
                 href="tel: +45 88 27 63 23 "

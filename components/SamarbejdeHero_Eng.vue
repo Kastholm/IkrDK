@@ -17,7 +17,7 @@
           :components="components" /> </p>
         </article>
         <article class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-2 sm:ml-0 sm:mt-12 mt-[90px] sm:translate-y-7 sm:gap-7 gap-2 leading-[15px] italic text-[#000000] sm:max-w-full max-w-[100px]">
-            <p v-for="(worker, index) in data.workers" :key="index" class="text-[13px] sm:text-[20px] 2xl:text-[23px] tabletPersonTroels">{{worker.workertitle}}, {{worker.workerjob}}-  <a class="text-[13px] sm:text-[20px] 2xl:text-[23px] person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 88 27 63 23 "> <br class="block md:hidden"/>{{worker.workerinfo}}</a></p>
+            <p v-for="(worker, index) in data.workers" :key="index" class="text-[13px] sm:text-[20px] 2xl:text-[23px] tabletPersonTroels">{{worker.workertitle}},<br class="sm:hidden block"> {{worker.workerjob}}-  <a class="text-[13px] sm:text-[20px] 2xl:text-[23px] person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black" href="tel: +45 88 27 63 23 "> <br class="block md:hidden"/>{{worker.workerinfo}}</a></p>
         </article>
     </div>
    </div>
@@ -86,8 +86,6 @@ console.log(data);
 @media screen and (min-width: 640px) and (max-width: 1355px) {
   .person-respons {
         right: 10px;
-        
-      
   }
 }
 
@@ -103,12 +101,11 @@ console.log(data);
         transform: translatex(30px);
   }
 }
-
-
  
 .clip {
     clip-path: polygon(1% 0, 100% 0, 100% 87%, 0% 100%);
 }
+
 .header-img {
     background-image: url('https://i.ibb.co/3fx2ft5/samarbejde-topbillede-3.jpg');
     background-size: contain;
