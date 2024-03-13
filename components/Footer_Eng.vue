@@ -17,33 +17,33 @@
         >
           <NuxtLink
             class="text-[18px] hover:underline hover:underline-offset-4"
-            to="/"
-            >Hjem TEST</NuxtLink
+            to="/index_Eng"
+            >Home</NuxtLink
           >
           <NuxtLink
             class="text-[18px] hover:underline hover:underline-offset-4"
-            to="samarbejde"
-            >Samarbejde TEST
+            to="samarbejde_Eng"
+            >Collaboration
           </NuxtLink>
           <NuxtLink
             class="text-[18px] hover:underline hover:underline-offset-4"
-            to="ydelser"
-            >Ydelser
+            to="ydelser_Eng"
+            >Services
           </NuxtLink>
           <NuxtLink
             class="text-[18px] hover:underline hover:underline-offset-4"
-            to="vi-er"
-            >Vi er
+            to="vi-er_Eng"
+            >We are
           </NuxtLink>
           <NuxtLink
             class="text-[18px] hover:underline hover:underline-offset-4"
-            to="faq"
+            to="faq_Eng"
             >FAQ
           </NuxtLink>
           <NuxtLink
             class="text-[18px] hover:underline hover:underline-offset-4"
-            to="kontakt"
-            >Kontakt
+            to="kontakt_Eng"
+            >Contact
           </NuxtLink>
           <NuxtLink
             class="text-[18px] hover:underline hover:underline-offset-4"
@@ -93,11 +93,11 @@
         </a>
       </div>
       <div class="flex flex-col gap-10 items-center sm:w-[280px] w-full">
-        <NuxtLink to="kontakt"
+        <NuxtLink to="kontakt_Eng"
           ><button
             class="text-white hover:scale-110 transition-all bg-[#2c2c2c] h-[60px] w-[350px] rounded-sm"
           >
-            <h5>KONTAKT OS</h5>
+            <h5>CONTACT US</h5>
           </button></NuxtLink
         >
         <a
