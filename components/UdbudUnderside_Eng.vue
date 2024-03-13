@@ -6,19 +6,15 @@
         <div class="flex flex-col h-[400px] sm:w-[1000px] gap-5 m-auto sm:mt-0 mt-16 relative sm:mb-0 mb-16 sm:translate-y-5">
      
          <div class="max-w-[72vw] sm:max-w-[100%] relative">
-          <h2 class="sm:w-full sm:text-[80px] text-[30px] w-[90vw]"> Udbud & konkurrence</h2>
+          <h2 class="sm:w-full sm:text-[80px] text-[30px] w-[90vw]"> {{ data.title }}</h2>
          </div>
-     <p class=" max-w-[90%] w-[90vw]">Opgaverne for indkøbsfunktionen kan synes uoverskuelige, fordi presset, kompleksiteten og lovgrundlaget i de mange aftaler er omfattende, samtidig med at tidsfrister og budgetter skal overholdes. Kravene til indsats er store og tilliden til leverandørerne skal bibeholdes i et reelt og ærligt samarbejde. Som indkøber kan det ofte synes vanskeligt at lykkes, fordi omstændighederne gennem en kontraktperiode på 5-6 år ændrer sig.</p>
+     <p class=" max-w-[90%] w-[90vw]"><PortableText :value="data.text1[0]" /></p>
         </div>
 
   <div class="flex w-full flex-wrap noWrap sm:flex-row flex-col items-center relative mt-36 gap-20 2xl:gap-40 justify-center">
     <article class="sm:w-[40%] w-[90vw] flex flex-col gap-5 -translate-y-5">
-      <h2 class="">Hvem laver jeres udbud?</h2>
-      <p>Ud fra analysen er det muligt at identificere udbudsområder, som bør konkurrenceudsættes ud fra en række parametre. 
-<br><br>
-Et eksempel kunne være, at man ønsker at reducere antallet af leverandører, opnå et mere tilpasset sortiment og sikre, at pris og leveringsbetingelser bliver udsat for ny konkurrence. 
-<br><br>
-IKR har mangeårig erfaring med konkurrenceudsættelse og udformning af bl.a. kravsspecifikationer.
+      <h2 class="">{{ data.title2 }}</h2>
+      <p><PortableText :value="data.text2[0]" />
 </p>
     </article>
    <img src="https://i.ibb.co/SNt2D5Y/Udbud-billede-1.jpg" alt="" class= "kasserImg max-h-[400px] max-w-[90vw] rounded-md z-40 shadow-2xl">
@@ -29,8 +25,8 @@ IKR har mangeårig erfaring med konkurrenceudsættelse og udformning af bl.a. kr
       <img src="https://i.ibb.co/F5qrKqc/nyt-udbud-og-konkurrence.jpg
 " alt="" class= "max-h-[450px] max-w-[90vw] rounded-md z-40 shadow-2xl kasserImg">
     <article class="sm:w-[39vw] w-[90vw] flex flex-col gap-5 -translate-y-5">
-      <h2 class="">Viden giver fordele</h2>
-      <p>På baggrund af den viden og gennemsigtighed, der er opnået gennem analysen, kan IKR assistere i forbindelse med ny konkurrenceudsættelse på områder, som kræver øjeblikkelig handling, eller hvor det er en fordel at udbuddet formuleres af en uvildig partner. </p>
+      <h2 class="">{{ data.title3 }}</h2>
+      <p><PortableText :value="data.text3[0]" /> </p>
     </article>
    
   </div>
@@ -43,10 +39,13 @@ IKR har mangeårig erfaring med konkurrenceudsættelse og udformning af bl.a. kr
 
 </template>
 
-<script>
-export default {
-  
-};
+<script setup>
+const query = groq`*[(_type == "udbudkonkurrence") && lang == "Engelsk" ][0]`;
+
+const sanity = useSanity();
+const { data } = useSanityQuery(query);
+import { PortableText } from "@portabletext/vue";
+console.log(data);
 </script>
 
 <style scoped>
