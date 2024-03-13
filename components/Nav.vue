@@ -90,30 +90,32 @@
         <span></span>
 
         <ul id="menu">
-          <NuxtLink @click="menuOpen = false" to="/"><li>Hjem</li></NuxtLink>
-          <NuxtLink @click="menuOpen = false" to="/samarbejde"><li>Samarbejde</li></NuxtLink>
-          <NuxtLink @click="menuOpen = false" to="/ydelser"><li>Ydelser</li></NuxtLink>
-          <NuxtLink @click="menuOpen = false" to="/vi-er"><li>Vi er</li></NuxtLink>
-          <NuxtLink @click="menuOpen = false" to="/faq"><li>FAQ</li></NuxtLink>
-          <NuxtLink @click="menuOpen = false" to="/kontakt"><li>Kontakt</li></NuxtLink>
+          <li><a @click="menuOpen = false" href="/">Hjem</a></li>
+          <li>
+            <a @click="menuOpen = false" href="/samarbejde">Samarbejde</a>
+          </li>
+          <li><a @click="menuOpen = false" href="/ydelser">Ydelser</a></li>
+          <li><a @click="menuOpen = false" href="/vi-er">Vi er</a></li>
+          <li><a @click="menuOpen = false" href="/faq">FAQ</a></li>
+          <li><a @click="menuOpen = false" href="/kontakt">Kontakt</a></li>
           <div
             class="absolute right-28 font-semibold top-10 p-6 cursor-pointer text-[#919995] flex gap-3"
           >
-            <NuxtLink to="/index_Eng"
+            <a to="/index_Eng"
               ><img
                 src="https://i.ibb.co/P1yfgVt/Flag-of-the-United-Kingdom-3-5-svg.webp"
                 class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"
-            /></NuxtLink>
-            <NuxtLink @click="menuOpen = false" to="/"
+            /></a>
+            <a @click="menuOpen = false" href="/"
               ><img
                 src="https://i.ibb.co/jZs3yf6/Dansk-flag383594.jpg"
                 class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"
-            /></NuxtLink>
-            <NuxtLink @click="menuOpen = false" to="/"
+            /></a>
+            <a @click="menuOpen = false" href="/"
               ><img
                 src="https://i.ibb.co/bHq9yTg/Svensk-flag693684.jpg"
                 class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"
-            /></NuxtLink>
+            /></a>
           </div>
         </ul>
       </div>
