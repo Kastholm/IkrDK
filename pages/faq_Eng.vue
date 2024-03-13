@@ -16,7 +16,7 @@
         class="flex justify-center items-center translate-y-3"
       >
         <h3 class="header">
-          ANALYSER<br />
+          ANALYSES<br />
           <span style="font-size: 16px"> ▼ </span>
         </h3>
       </div>
@@ -48,7 +48,7 @@
 
     <div class="bar z-20" id="bar2">
       <h3 class="header translate-y-3" @click="toggleBar('bar2')">
-        LEVERANDØRER & KONTRAKTER<br />
+         SUBCONTRACTORS & CONTRACTS<br />
         <span style="font-size: 16px"> ▼ </span>
       </h3>
       <div class="content">
@@ -79,7 +79,7 @@
 
     <div class="bar z-20" id="bar3">
       <h3 class="header translate-y-3" @click="toggleBar('bar3')">
-        ØGET ØKONOMISK RÅDERUM<br />
+        INCREASED FINANCIAL FLEXIBILITY<br />
         <span style="font-size: 16px"> ▼ </span>
       </h3>
       <div class="content">
@@ -110,7 +110,7 @@
 
     <div class="bar z-20" id="bar4">
       <h3 class="header translate-y-3" @click="toggleBar('bar4')">
-        DRIFT & CONTROLLING<br />
+        OPERATIONS & CONTROLLING<br />
         <span style="font-size: 16px"> ▼ </span>
       </h3>
       <div class="content">
@@ -141,7 +141,7 @@
 
     <div class="bar z-20" id="bar5">
       <h3 class="header translate-y-3" @click="toggleBar('bar5')">
-        INDKØB & UDBUD<br />
+        PROCUREMENT & TENDERING<br />
         <span style="font-size: 16px"> ▼ </span>
       </h3>
       <div class="content">
@@ -197,6 +197,8 @@ definePageMeta({
 </script>
 
 <style scoped>
+
+
 @keyframes slideDown {
   0% {
     opacity: 0.9;

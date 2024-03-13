@@ -17,19 +17,19 @@
           class="sm:bg-[#0a3700] bg-[#0a3700] sm:h-[350px] h-[500px] sm:w-[90%] absolute bottom-40 z-20 rounded-sm"
         >
           <article
-            class="flex flex-col gap-5 justify-center sm:ml-28 ml-5 sm:mt-8 mt-8 text-white"
+            class="flex flex-col gap-5 justify-center sm:ml-28 ml-5 sm:mt-8 mt-6 text-white"
           >
             <h1
-              class="font-semibold tracking-wider sm:leading-[65px] leading-[60px] max-w-[90%]"
+              class="font-semibold tracking-wider sm:leading-[65px] leading-[47px] max-w-[90%]"
             >
               {{ data.title }}
             </h1>
-            <p class="w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-7">
+            <p class="w-[90%] sm:max-w-[700px] mt-3 sm:mt-0 mb-7">
               <PortableText :value="data.text1" />
             </p>
           </article>
           <article
-            class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-2 sm:ml-0 sm:mt-16 sm:translate-y-4 -translate-y-6 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px] sm:leading-[30px] leading-[15px]"
+            class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-2 sm:ml-0 sm:mt-1 sm:translate-y-4 -translate-y-3 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px] sm:leading-[30px] leading-[15px]"
           >
             <p
               v-for="(worker, index) in data.workers"

@@ -125,4 +125,7 @@ export default {};
 </script>
 
 <style>
+body > div > main > footer {
+  display: none !important;
+}
 </style>
