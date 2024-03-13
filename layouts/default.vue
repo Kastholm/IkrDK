@@ -14,6 +14,10 @@ body {
   padding: 0;
 }
 
+*, body {
+  font-family: "Opel Sans Regular", sans-serif !important;
+}
+
 html {
   height: 100%;
   width: 100%;
