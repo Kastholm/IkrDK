@@ -53,15 +53,27 @@
     <span></span>
     
     <ul id="menu">
-      <NuxtLink to="/"><li>Hjem</li></NuxtLink>
-      <NuxtLink to="/samarbejde"><li>Samarbejde</li></NuxtLink>
-      <NuxtLink to="/ydelser"><li>Ydelser</li></NuxtLink>
-      <NuxtLink to="/vi-er"><li>Vi er</li></NuxtLink>
-      <NuxtLink to="/faq"><li>FAQ</li></NuxtLink>
-      <NuxtLink to="/kontakt"><li>Kontakt</li></NuxtLink>
+      <li :class="{ 'active-link': $route.path === '/' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/">HJEM</NuxtLink>
+        </li>
+        <li :class="{ 'active-link': $route.path === '/samarbejde' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/samarbejde">SAMARBEJDE</NuxtLink>
+        </li>
+        <li :class="{ 'active-link': $route.path === '/ydelser' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/ydelser">YDELSER</NuxtLink>
+        </li>
+        <li :class="{ 'active-link': $route.path === '/vi-er' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/vi-er">VI ER</NuxtLink>
+        </li>
+        <li :class="{ 'active-link': $route.path === '/faq' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/faq">FAQ</NuxtLink>
+        </li>
+        <li :class="{ 'active-link': $route.path === '/kontakt' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/kontakt">KONTAKT</NuxtLink>
+        </li>
       <div class="absolute right-28 font-semibold top-10 p-6 cursor-pointer text-[#919995] flex gap-3">
         <NuxtLink to="/index_Eng"><img src="https://i.ibb.co/P1yfgVt/Flag-of-the-United-Kingdom-3-5-svg.webp" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
-          <NuxtLink to="/"><img src="https://i.ibb.co/jZs3yf6/Dansk-flag383594.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
+          <NuxtLink to="/index"><img src="https://i.ibb.co/jZs3yf6/Dansk-flag383594.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
             <NuxtLink to="/"><img src="https://i.ibb.co/bHq9yTg/Svensk-flag693684.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
     </div>
     </ul>
