@@ -240,7 +240,7 @@ li {
   opacity: 0;
   cursor: pointer;
 
-  opacity: ; /* hide this */
+  opacity: 0; /* hide this */
   z-index: 2; /* and place it over the hamburger */
 
   -webkit-touch-callout: none;
