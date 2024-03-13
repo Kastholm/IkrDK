@@ -28,7 +28,7 @@
       <div
         class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white 2xl:mt-0 sm:-translate-y-0 kasserTablet"
       >
-        <NuxtLink to="oekonomiskeAnalyser">
+        <a href="/oekonomiskeAnalyser">
           <div
             class="card flex flex-col justify-center items-center gap-[56px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer"
           >
@@ -49,8 +49,8 @@
               >
             </div>
           </div>
-        </NuxtLink>
-        <NuxtLink to="udbudUnderside">
+        </a>
+        <a href="/udbudUnderside">
           <div
             class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer"
           >
@@ -73,8 +73,8 @@
               >
             </div>
           </div>
-        </NuxtLink>
-        <NuxtLink to="aftaleUnderside">
+        </a>
+        <a href="/aftaleUnderside">
           <div
             class="card flex flex-col justify-center items-center gap-[55px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer"
           >
@@ -95,7 +95,7 @@
               >
             </div>
           </div>
-        </NuxtLink>
+        </a>
       </div>
     </section>
 
