@@ -277,4 +277,8 @@ label {
   font-weight: normal;
   font-style: normal;
 }
+
+body > div > main > footer {
+  display: none !important;
+}
 </style>
