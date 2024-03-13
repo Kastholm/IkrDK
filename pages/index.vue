@@ -15,7 +15,7 @@
           class="h-[300px] min-h-[300px] respons-mobil w-[250px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-20"
         ></figure>
         <div class="max-w-[72%] sm:max-w-[60%] kommentar relative">
-          <h2 class="sm:max-w-[88%]">{{ data.title3 }}</h2>
+          <h2 class="sm:max-w-[88%] max-w-[95%]">{{ data.title3 }}</h2>
         </div>
         <p class="max-w-[60%]">
           <PortableText

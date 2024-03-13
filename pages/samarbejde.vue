@@ -6,7 +6,7 @@
     <SamarbejdeHero />
     <section class="flex flex-col">
       <div
-        class="flex flex-wrap w-full relative mt-32 sm:mt-20 sm:gap-20 gap-10 2xl:gap-40 justify-center"
+        class="flex flex-wrap w-full relative mt-20 sm:mt-20 sm:gap-20 gap-10 2xl:gap-40 justify-center"
       >
         <img
           src="https://i.ibb.co/bs8KZ9M/Samarbejde-h-jformat-1.jpg"

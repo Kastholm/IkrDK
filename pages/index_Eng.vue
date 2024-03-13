@@ -1,8 +1,5 @@
 <template>
-  <div
-    v-if="!data || data.length === 0"
-    class="flex justify-center items-center"
-  >
+  <div v-if="!data || data.length === 0" class="flex justify-center items-center">
     <div class="loader"></div>
   </div>
   <main v-else class="flex flex-col justify-center">
@@ -18,7 +15,7 @@
           class="h-[300px] min-h-[300px] respons-mobil w-[250px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-20"
         ></figure>
         <div class="max-w-[72%] sm:max-w-[60%] kommentar relative">
-          <h2 class="sm:max-w-[88%]">{{ data.title3 }}</h2>
+          <h2 class="sm:max-w-[88%] max-w-[95%]">{{ data.title3 }}</h2>
         </div>
         <p class="max-w-[60%]">
           <PortableText
@@ -39,7 +36,10 @@
               {{ data.kasse1 }}
             </h3>
             <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">
-              <PortableText :value="data.text3[0]" :components="components" />
+              <PortableText
+                :value="data.text3[0]"
+                :components="components"
+              />
             </p>
             <div
               class="flex w-full justify-end mr-10 underline underline-offset-4"
@@ -60,7 +60,10 @@
             <p
               class="max-w-[90%] cardfont max-h-[150px] mt-[51px] -translate-y-[55px]"
             >
-              <PortableText :value="data.text4[0]" :components="components" />
+              <PortableText
+                :value="data.text4[0]"
+                :components="components"
+              />
             </p>
             <div
               class="flex w-full justify-end mr-10 underline underline-offset-4"
@@ -79,7 +82,10 @@
               {{ data.kasse3 }}
             </h3>
             <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">
-              <PortableText :value="data.text5[0]" :components="components" />
+              <PortableText
+                :value="data.text5[0]"
+                :components="components"
+              />
             </p>
             <div
               class="flex w-full justify-end mr-10 underline underline-offset-4"

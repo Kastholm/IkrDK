@@ -9,7 +9,7 @@
         <img
           src="https://i.ibb.co/9tndHzC/henrik-maud-bertram-FAQ.png"
           alt=""
-          class="sm:h-[420px] person-respons h-[170px] absolute bottom-0 z-50 right-0 sm:translate-x-0 tabletPersonFAQ"
+          class="sm:h-[420px] person-respons h-[170px] absolute bottom-0 z-50 right-0 sm:translate-x-0 translate-x-3 tabletPersonFAQ"
         />
       </div>
       <div class="flex justify-end">
