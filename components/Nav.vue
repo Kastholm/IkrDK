@@ -237,7 +237,7 @@ li {
   position: absolute;
   top: -7px;
   right: -5px; /* Adjusted to right */
-
+  opacity: 0;
   cursor: pointer;
 
   opacity: ; /* hide this */
@@ -315,6 +315,4 @@ li {
   transform: none;
 }
 
-*:not(#menuToggle, #menuToggle *):hover {
-}
 </style>
