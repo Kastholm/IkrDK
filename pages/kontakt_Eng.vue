@@ -1,125 +1,127 @@
 <template>
-  <figure
-    class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-20 sm:translate-y-20 z-0"
-  ></figure>
-  <figure
-    class="h-[300px] min-h-[300px] respons w-[250px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-10"
-  ></figure>
-  <main class="sm:flex sm:flex-row flex flex-col sm:items-start items-center flex-wrap relative sm:mt-28 ">
-    <section class="w-[95vw] sm:w-[55%] h-[600px] relative z-50 sm:mb-0 mb-40">
-      <div
-        class="absolute sm:w-[500px] w-full h-[733px] bg-[#256c2b] sm:left-40 container-respons rounded-b-2xl shadow-2xl shadow-[#00000050]"
-      >
+  <NuxtLayout :name="layout">
+    <figure
+      class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-20 sm:translate-y-20 z-0"
+    ></figure>
+    <figure
+      class="h-[300px] min-h-[300px] respons w-[250px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-10"
+    ></figure>
+    <main class="sm:flex sm:flex-row flex flex-col sm:items-start items-center flex-wrap relative sm:mt-28 ">
+      <section class="w-[95vw] sm:w-[55%] h-[600px] relative z-50 sm:mb-0 mb-40">
         <div
-          class="flex flex-col flex-wrap text-white h-full items-center justify-evenly gap-10 -translate-y-4"
+          class="absolute sm:w-[500px] w-full h-[733px] bg-[#256c2b] sm:left-40 container-respons rounded-b-2xl shadow-2xl shadow-[#00000050]"
         >
-          <h1 class="">{{ data.title }}</h1>
-          <div class="flex flex-col items-center gap-5">
-            <div class="flex items-center justify-center gap-7 hover:underline">
-              <img
-                src="https://i.ibb.co/9nXk0H1/icons8-phone-50.png"
-                alt=""
-                class="h-[55px]"
-              />
-              <a href="tel:+45 88 27 63 33" class="min-w-fit">
-                <p>{{ data.title2 }} <br  />{{ data.title3 }}</p></a
-              >
+          <div
+            class="flex flex-col flex-wrap text-white h-full items-center justify-evenly gap-10 -translate-y-4"
+          >
+            <h1 class="">{{ data.title }}</h1>
+            <div class="flex flex-col items-center gap-5">
+              <div class="flex items-center justify-center gap-7 hover:underline">
+                <img
+                  src="https://i.ibb.co/9nXk0H1/icons8-phone-50.png"
+                  alt=""
+                  class="h-[55px]"
+                />
+                <a href="tel:+45 88 27 63 33" class="min-w-fit">
+                  <p>{{ data.title2 }} <br  />{{ data.title3 }}</p></a
+                >
+              </div>
+              <div class="w-full flex items-center gap-7 hover:underline">
+                <img
+                  src="https://i.ibb.co/z54gmW8/icons8-email-64-2.png"
+                  alt=""
+                  class="h-[49px]"
+                />
+                <a href="mailto:mail@ikrcg.com" class="min-w-fit">
+                  <p>{{ data.title4 }} <br />{{ data.title5 }}</p></a
+                >
+              </div>
             </div>
-            <div class="w-full flex items-center gap-7 hover:underline">
-              <img
-                src="https://i.ibb.co/z54gmW8/icons8-email-64-2.png"
-                alt=""
-                class="h-[49px]"
-              />
-              <a href="mailto:mail@ikrcg.com" class="min-w-fit">
-                <p>{{ data.title4 }} <br />{{ data.title5 }}</p></a
-              >
-            </div>
+            <p class="w-[80%] text-center">
+              <PortableText :value="data.text1[0]" :components="components" />
+            </p>
           </div>
-          <p class="w-[80%] text-center">
-            <PortableText :value="data.text1[0]" :components="components" />
-          </p>
         </div>
-      </div>
-    </section>
-    <section class="z-50 sm:w-fit w-[95vw] ">
-      <Form
-        :validation-schema="schema"
-        @submit="onSubmit"
-        class="bg-[#256c2b] w-full p-8 rounded-b-3xl sm:rounded-t-none rounded-t-3xl shadow-2xl shadow-[#00000050]"
-      >
-        <label for="navn" class="block mb-4 text-white"
-          >{{ data.title6 }}
-          <Field
-            name="name"
-            type="name"
-            class="w-full px-3 py-2 border rounded text-black"
-          />
-          <ErrorMessage name="name" />
-        </label>
-
-        <label for="telefon" class="block mb-4 text-white"
-          >{{ data.title7 }}
-          <input
-            v-model="telefon"
-            type="tel"
-            id="telefon"
-            name="telefon"
-            class="w-full px-3 py-2 border rounded text-black"
-            required
-          />
-        </label>
-
-        <label for="email" class="block mb-4 text-white"
-          >{{ data.title8 }}
-          <Field
-            type="email"
-            name="email"
-            class="w-full px-3 py-2 border rounded text-black"
-          />
-        </label>
-
-        <label for="virksomhed" class="block mb-4 text-white"
-          >{{ data.title9 }} 
-          <Field
-            type="virksomhed "
-            name="virksomhed"
-            class="w-full px-3 py-2 border rounded text-black"
-          />
-        </label>
-
-        <label for="besked" class="block mb-4 text-white"
-          >{{ data.title10 }}
-          <Field
-            as="textarea"
-            name="text"
-            v-model="text"
-            rows="4"
-            class="w-full px-3 py-2 border rounded text-black"
-          ></Field>
-        </label>
-
-        <button
-          class="bg-[#0a3700] text-white px-4 py-2 rounded hover:scale-110 transition-all font-semibold"
+      </section>
+      <section class="z-50 sm:w-fit w-[95vw] ">
+        <Form
+          :validation-schema="schema"
+          @submit="onSubmit"
+          class="bg-[#256c2b] w-full p-8 rounded-b-3xl sm:rounded-t-none rounded-t-3xl shadow-2xl shadow-[#00000050]"
         >
-          Send
-        </button>
-        <!-- <span v-if="messageSent" class="text-white ml-4"
-          >Besked sendt! - vi kontakter dig.</span
-        > -->
-      </Form>
-
-      <div v-if="isNotificationVisible" class="notification-modal grid">
-        <p>{{ notificationMessage }}</p>
-        <button
-          class="bg-SubColor2 p-2 text-lg rounded-lg mt-4 m-auto text-gray-100"
-          @click="closeForm"
-        >
-          X
-        </button>
-      </div>
-    </section>
-  </main>
+          <label for="navn" class="block mb-4 text-white"
+            >{{ data.title6 }}
+            <Field
+              name="name"
+              type="name"
+              class="w-full px-3 py-2 border rounded text-black"
+            />
+            <ErrorMessage name="name" />
+          </label>
+  
+          <label for="telefon" class="block mb-4 text-white"
+            >{{ data.title7 }}
+            <input
+              v-model="telefon"
+              type="tel"
+              id="telefon"
+              name="telefon"
+              class="w-full px-3 py-2 border rounded text-black"
+              required
+            />
+          </label>
+  
+          <label for="email" class="block mb-4 text-white"
+            >{{ data.title8 }}
+            <Field
+              type="email"
+              name="email"
+              class="w-full px-3 py-2 border rounded text-black"
+            />
+          </label>
+  
+          <label for="virksomhed" class="block mb-4 text-white"
+            >{{ data.title9 }} 
+            <Field
+              type="virksomhed "
+              name="virksomhed"
+              class="w-full px-3 py-2 border rounded text-black"
+            />
+          </label>
+  
+          <label for="besked" class="block mb-4 text-white"
+            >{{ data.title10 }}
+            <Field
+              as="textarea"
+              name="text"
+              v-model="text"
+              rows="4"
+              class="w-full px-3 py-2 border rounded text-black"
+            ></Field>
+          </label>
+  
+          <button
+            class="bg-[#0a3700] text-white px-4 py-2 rounded hover:scale-110 transition-all font-semibold"
+          >
+            Send
+          </button>
+          <!-- <span v-if="messageSent" class="text-white ml-4"
+            >Besked sendt! - vi kontakter dig.</span
+          > -->
+        </Form>
+  
+        <div v-if="isNotificationVisible" class="notification-modal grid">
+          <p>{{ notificationMessage }}</p>
+          <button
+            class="bg-SubColor2 p-2 text-lg rounded-lg mt-4 m-auto text-gray-100"
+            @click="closeForm"
+          >
+            X
+          </button>
+        </div>
+      </section>
+    </main>
+  </NuxtLayout>
 </template>
 
 <script setup>
@@ -173,6 +175,10 @@ const sanity = useSanity();
 const { data } = useSanityQuery(query);
 import { PortableText } from "@portabletext/vue";
 console.log(data);
+
+definePageMeta({
+  layout: 'engelsk-layout'
+})
 </script>
 
 <style scoped>
