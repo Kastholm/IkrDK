@@ -1,4 +1,5 @@
 <template>
+  <NuxtLayout :name="layout">
   <FaqHero_Eng />
   <section class="bar-sections relative z-20">
     <figure
@@ -169,6 +170,7 @@
       </div>
     </div>
   </section>
+</NuxtLayout>
 </template>
 
 
@@ -189,6 +191,9 @@ const sanity = useSanity();
 const { data } = useSanityQuery(query);
 import { PortableText } from "@portabletext/vue";
 console.log(data);
+definePageMeta({
+  layout: 'engelsk-layout'
+})
 </script>
 
 <style scoped>
