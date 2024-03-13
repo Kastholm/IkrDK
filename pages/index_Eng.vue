@@ -109,7 +109,7 @@
   </NuxtLayout>
 </template>
 
-<script setup lang="ts">
+<script setup>
 const query = groq`*[(_type == "forside") && lang == "Engelsk" ][0]`;
 
 const sanity = useSanity();
