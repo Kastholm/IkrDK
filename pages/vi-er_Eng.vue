@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout :name="layout">
     <main  class="flex flex-col justify-center">
-      <Vi-erHero />
+      <Vi-erHero_Eng />
   
       <div
         class="flex w-full relative mt-20 sm:mt-36 gap-16 2xl:gap-40 justify-center flex-wrap"
@@ -56,7 +56,7 @@
   
         </article>
       </div>
-      <Vi-erBund />
+      <Vi-erBund_Eng />
       <LogoKarrusel
         class="translate-y-20 border-t-[#2c2c2c] border-[0px] border-b-[#2c2c2c]"
       />

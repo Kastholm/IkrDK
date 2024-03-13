@@ -100,7 +100,7 @@
         </div>
       </section>
   
-      <ForsideBund />
+      <ForsideBund_Eng />
       <LogoKarrusel
         class="translate-y-20 border-t-[#2c2c2c] border-[0px] border-b-[#2c2c2c]"
       />

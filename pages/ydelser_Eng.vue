@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout :name="layout">
     <main class="flex flex-col justify-center">
-      <YdelserHero />
+      <YdelserHero_Eng />
       <div class="">
         <div
           class="flex flex-col h-[300px] w-full gap-5 justify-center items-center sm:mt-16 mt-4 relative sm:mb-0 mb-16"
@@ -163,7 +163,7 @@
         />
       </div>
   
-      <YdelserBund />
+      <YdelserBund_Eng />
       <LogoKarrusel
         class="translate-y-20 border-t-[#2c2c2c] border-[0px] border-b-[#2c2c2c]"
       />
