@@ -5,11 +5,14 @@
   </main>
   <Footer_Eng />
 </template>
-     
-     <style>
+<style>
+
+@import url(https://db.onlinewebfonts.com/c/d56ee6f128fe18198b77cec3092985b9?family=Opel+Sans+Regular);
+
 body {
   margin: 0;
   padding: 0;
+  font-family: "Opel Sans Regular" !important;
 }
 
 html {
@@ -17,8 +20,11 @@ html {
   width: 100%;
   background-color: white;
   overflow-x: hidden;
-  font-family: "Opel Sans Regular", sans-serif;
+  /* font-family: "Opel Sans Regular", sans-serif !important; */
 }
+*, body {
+  /* font-family: "Opel Sans Regular", sans-serif !important; */
+} 
 
 nav {
   width: 100%;
@@ -27,29 +33,30 @@ nav {
 }
 
 .overlay::before {
-  content: "";
+  content: '';
   position: absolute;
-  top: 0;
+  top:0;
   left: 0;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.27);
+
 }
 .clip3 {
-  clip-path: polygon(0 0, 100% 49%, 100% 100%, 0 55%);
+    clip-path: polygon(0 0, 100% 49%, 100% 100%, 0 55%);
 }
 
 .clip2 {
-  clip-path: polygon(0 51%, 100% 0, 100% 51%, 0% 100%);
+    clip-path: polygon(0 51%, 100% 0, 100% 51%, 0% 100%);
 }
 
 .clip4 {
-  clip-path: polygon(0 35%, 63% 0, 63% 65%, 0 100%);
+    clip-path: polygon(0 35%, 63% 0, 63% 65%, 0 100%);
 }
 
 /* Global Font opsat korrekt her til alt content for nu */
 * {
-  font-family: "Opel Sans Regular", fallback-font, sans-serif;
+  /* font-family: "Opel Sans Regular", fallback-font, sans-serif; */
 }
 
 h1 {
@@ -103,6 +110,7 @@ label {
   h2 {
     font-size: 30px;
     font-weight: bold;
+    
   }
 
   h1 {
@@ -144,21 +152,22 @@ label {
 /* Forside mobil start */
 @media only screen and (max-width: 767px) {
   .kommentar2::before {
-    content: "";
+    content: '';
     position: absolute;
-    background-image: url("https://i.ibb.co/3ftYYW3/G-se-jne-260px.png");
+    background-image: url('https://i.ibb.co/3ftYYW3/G-se-jne-260px.png');
     background-size: contain;
     background-repeat: no-repeat;
     transform: translatey(10px) translatex(5px);
     font-size: 40px;
     height: 20px;
     width: 20px;
-  }
 
-  .kommentar3::before {
-    content: "";
+}
+
+.kommentar3::before {
+    content: '';
     position: absolute;
-    background-image: url("https://i.ibb.co/3ftYYW3/G-se-jne-260px.png");
+    background-image: url('https://i.ibb.co/3ftYYW3/G-se-jne-260px.png');
     background-size: contain;
     background-repeat: no-repeat;
     left: 0;
@@ -166,57 +175,62 @@ label {
     font-size: 40px;
     height: 20px;
     width: 20px;
-  }
+}
 }
 /* Forside mobil slut */
 
 /* tablet start */
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
-  h1 h2 h3 p {
-    min-width: 100vw;
-  }
+
+h1 h2 h3 p {
+  min-width: 100vw;
+}
 
   .tabletPersonInfoForside {
     transform: translatey(38px) translatex(-80px);
-  }
-
-  .tabletPersonSamarbejde {
-    height: 260px;
-    transform: translateX(-50px);
-  }
-
-  .tabletPersonTroels {
-    white-space: nowrap;
-  }
-
-  .tabletPersonYdelser {
-    height: 280px;
-  }
-
-  .tabletPersonViEr {
-    transform: translateX(-50px);
-  }
-
-  .tabletPersonFAQ {
-    height: 250px;
-    transform: translateX(-50px);
-  }
-
-  .kasserTablet {
-    gap: 15px;
-  }
-
-  .noWrap {
-    flex-wrap: nowrap;
-    max-width: 90vw;
-    margin: 100px auto 0;
-  }
-
-  .kasserImg {
-    max-width: 500px;
-  }
 }
+
+.tabletPersonSamarbejde {
+  height: 260px;
+  transform: translateX(-50px);
+}
+
+.tabletPersonTroels {
+  white-space: nowrap;
+}
+
+.tabletPersonYdelser {
+  height: 280px;
+}
+
+.tabletPersonViEr{
+  transform: translateX(-50px);
+  
+}
+
+.tabletPersonFAQ{
+  height: 250px;
+  transform: translateX(-50px);
+}
+
+.kasserTablet {
+  gap: 15px
+}
+
+.noWrap {
+  flex-wrap: nowrap;
+  max-width: 90vw;
+  margin: 100px auto 0;
+}
+
+.kasserImg{
+  max-width: 500px;
+}
+
+}
+
+
 
 .loader {
   border: 4px solid rgba(255, 255, 255, 0.3);
@@ -250,7 +264,7 @@ label {
 /* Hero tablet slut*/
 
 /* Fontfaces indsat i layout og kan bruges på alle sider, linket til Default Nuxt static mappe 'public' (Her er fonts placeret) */
-@font-face {
+/* @font-face {
   font-family: "Opel Sans Bold";
   src: url("fonts/Opel-Sans-Bold.ttf") format("truetype");
   font-weight: bold;
@@ -276,9 +290,5 @@ label {
   src: url("fonts/Opel-Sans-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-}
-
-body > div > main > footer {
-  display: none !important;
-}
+} */
 </style>

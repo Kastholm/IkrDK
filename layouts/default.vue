@@ -8,14 +8,12 @@
   
   <style>
 
+@import url(https://db.onlinewebfonts.com/c/d56ee6f128fe18198b77cec3092985b9?family=Opel+Sans+Regular);
 
 body {
   margin: 0;
   padding: 0;
-}
-
-*, body {
-  font-family: "Opel Sans Regular", sans-serif !important;
+  font-family: "Opel Sans Regular" !important;
 }
 
 html {
@@ -23,8 +21,11 @@ html {
   width: 100%;
   background-color: white;
   overflow-x: hidden;
-  font-family: "Opel Sans Regular", sans-serif;
+  /* font-family: "Opel Sans Regular", sans-serif !important; */
 }
+*, body {
+  /* font-family: "Opel Sans Regular", sans-serif !important; */
+} 
 
 nav {
   width: 100%;
@@ -56,7 +57,7 @@ nav {
 
 /* Global Font opsat korrekt her til alt content for nu */
 * {
-  font-family: "Opel Sans Regular", fallback-font, sans-serif;
+  /* font-family: "Opel Sans Regular", fallback-font, sans-serif; */
 }
 
 h1 {
@@ -264,7 +265,7 @@ h1 h2 h3 p {
 /* Hero tablet slut*/
 
 /* Fontfaces indsat i layout og kan bruges på alle sider, linket til Default Nuxt static mappe 'public' (Her er fonts placeret) */
-@font-face {
+/* @font-face {
   font-family: "Opel Sans Bold";
   src: url("fonts/Opel-Sans-Bold.ttf") format("truetype");
   font-weight: bold;
@@ -290,5 +291,5 @@ h1 h2 h3 p {
   src: url("fonts/Opel-Sans-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-}
+} */
 </style>
