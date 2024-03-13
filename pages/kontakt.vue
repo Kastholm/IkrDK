@@ -22,7 +22,7 @@
                 class="h-[55px]"
               />
               <a href="tel:+45 88 27 63 33" class="min-w-fit">
-                <p>{{ data.title2 }} <br  />{{ data.title3 }}</p></a
+                <p class="min-w-fit">{{ data.title2 }} <br  />{{ data.title3 }}</p></a
               >
             </div>
             <div class="w-full flex items-center gap-7 hover:underline">
@@ -32,7 +32,7 @@
                 class="h-[49px]"
               />
               <a href="mailto:mail@ikrcg.com" class="min-w-fit">
-                <p>{{ data.title4 }} <br />{{ data.title5 }}</p></a
+                <p class="min-w-fit">{{ data.title4 }} <br />{{ data.title5 }}</p></a
               >
             </div>
           </div>
