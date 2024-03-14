@@ -24,7 +24,7 @@
           <div
             v-for="(worker, index) in data.analyser"
             :key="index"
-            class="baranalyser"
+            :class="`baranalyser baranalyser${index + 1}`"
             :id="`bar1.${index}`"
           >
             <h6 class="header" @click="toggleBar(`bar1.${index}`)">
@@ -55,7 +55,7 @@
           <div
             v-for="(worker, index) in data.leverandor"
             :key="index"
-            class="baranalyser"
+            :class="`baranalyser baranalyser${index + 7}`"
             :id="`bar2.${index}`"
           >
             <h6 class="header" @click="toggleBar(`bar2.${index}`)">
@@ -86,7 +86,7 @@
           <div
             v-for="(worker, index) in data.okonomi"
             :key="index"
-            class="baranalyser"
+            :class="`baranalyser baranalyser${index + 10}`"
             :id="`bar3.${index}`"
           >
             <h6 class="header" @click="toggleBar(`bar3.${index}`)">
@@ -117,7 +117,7 @@
           <div
             v-for="(worker, index) in data.drift"
             :key="index"
-            class="baranalyser"
+            :class="`baranalyser baranalyser${index + 11}`"
             :id="`bar4.${index}`"
           >
             <h6 class="header" @click="toggleBar(`bar4.${index}`)">
@@ -148,7 +148,7 @@
           <div
             v-for="(worker, index) in data.indkob"
             :key="index"
-            class="baranalyser"
+            :class="`baranalyser baranalyser${index + 19}`"
             :id="`bar5.${index}`"
           >
             <h6 class="header" @click="toggleBar(`bar5.${index}`)">
@@ -342,7 +342,7 @@ main {
 }
 
 .baranalyser.active {
-  height: auto; /* Adjust the height as needed */
+  height: 520px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
@@ -380,17 +380,17 @@ main {
 }
 
 .baranalyser3.active {
-  height: 390px;
+  height: 410px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser3.active {
-    height: 450px;
+    height: 510px;
   }
 }
 
 .baranalyser4.active {
-  height: 480px;
+  height: 400px;
 }
 
 @media screen and (max-width: 767px) {
@@ -401,7 +401,7 @@ main {
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser4.active {
-    height: 630px;
+    height: 500px;
   }
 }
 
@@ -417,12 +417,12 @@ main {
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser5.active {
-    height: 520px;
+    height: 620px;
   }
 }
 
 .baranalyser6.active {
-  height: 590px;
+  height: 670px;
 }
 
 @media screen and (max-width: 767px) {
@@ -433,12 +433,12 @@ main {
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser6.active {
-    height: 755px;
+    height: 855px;
   }
 }
 
 .baranalyser7.active {
-  height: 1200px;
+  height: 1600px;
 }
 
 @media screen and (max-width: 767px) {
@@ -449,12 +449,12 @@ main {
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser7.active {
-    height: 1520px;
+    height: 2420px;
   }
 }
 
 .baranalyser8.active {
-  height: 1850px;
+  height: 1150px;
 }
 
 @media screen and (max-width: 767px) {
@@ -465,7 +465,7 @@ main {
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser8.active {
-    height: 2360px;
+    height: 1560px;
   }
 }
 
@@ -501,40 +501,40 @@ main {
   }
 }
 
-.baranalyser11.active {
+.baranalyser12.active {
   height: 2180px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
-  .baranalyser11.active {
+  .baranalyser12.active {
     height: 2240px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
-  .baranalyser11.active {
+  .baranalyser12.active {
     height: 2780px;
   }
 }
 
-.baranalyser12.active {
+.baranalyser11.active {
   height: 1770px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
-  .baranalyser12.active {
+  .baranalyser11.active {
     height: 1810px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
-  .baranalyser12.active {
-    height: 2200px;
+  .baranalyser11.active {
+    height: 2400px;
   }
 }
 
 .baranalyser13.active {
-  height: 1950px; /* Adjust the height as needed */
+  height: 1750px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
@@ -545,12 +545,12 @@ main {
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser13.active {
-    height: 2440px;
+    height: 2240px;
   }
 }
 
 .baranalyser14.active {
-  height: 2120px; /* Adjust the height as needed */
+  height: 1920px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
@@ -566,7 +566,7 @@ main {
 }
 
 .baranalyser15.active {
-  height: 2320px; /* Adjust the height as needed */
+  height: 2120px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
@@ -577,12 +577,12 @@ main {
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser15.active {
-    height: 2980px;
+    height: 2480px;
   }
 }
 
 .baranalyser16.active {
-  height: 2250px; /* Adjust the height as needed */
+  height: 2350px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
@@ -593,76 +593,76 @@ main {
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser16.active {
-    height: 2780px;
+    height: 2880px;
   }
 }
 
-.baranalyser17.active {
+.baranalyser18.active {
   height: 1710px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
-  .baranalyser17.active {
+  .baranalyser18.active {
     height: 1730px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
-  .baranalyser17.active {
+  .baranalyser18.active {
     height: 2170px;
   }
 }
 
-.baranalyser18.active {
-  height: 2380px; /* Adjust the height as needed */
+.baranalyser17.active {
+  height: 2180px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
-  .baranalyser18.active {
+  .baranalyser17.active {
     height: 2410px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
-  .baranalyser18.active {
-    height: 2960px;
+  .baranalyser17.active {
+    height: 2760px;
   }
 }
 
-.baranalyser19.active {
+.baranalyser20.active {
   height: 1360px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
-  .baranalyser19.active {
+  .baranalyser20.active {
     height: 1510px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
-  .baranalyser19.active {
+  .baranalyser20.active {
     height: 1790px;
   }
 }
 
-.baranalyser20.active {
-  height: 2180px; /* Adjust the height as needed */
+.baranalyser19.active {
+  height: 2300px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
-  .baranalyser20.active {
+  .baranalyser19.active {
     height: 2245px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
-  .baranalyser20.active {
-    height: 2780px;
+  .baranalyser19.active {
+    height: 2880px;
   }
 }
 
 .baranalyser21.active {
-  height: 2380px; /* Adjust the height as needed */
+  height: 2180px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
@@ -673,7 +673,7 @@ main {
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser21.active {
-    height: 3020px;
+    height: 2820px;
   }
 }
 
@@ -689,7 +689,7 @@ main {
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser22.active {
-    height: 2240px;
+    height: 3040px;
   }
 }
 
@@ -710,18 +710,18 @@ main {
 }
 
 .baranalyser24.active {
-  height: 2310px; /* Adjust the height as needed */
+  height: 1850px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser24.active {
-    height: 2380px;
+    height: 1680px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser24.active {
-    height: 2920px;
+    height: 2320px;
   }
 }
 
@@ -729,13 +729,19 @@ main {
   height: 2310px; /* Adjust the height as needed */
 }
 
+}
+@media only screen and (max-width: 1140px) {
+  .baranalyser25.active {
+    height: 2920px;
+  }
+}
 .baranalyser26.active {
   height: 2280px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser26.active {
-    height: 2350px;
+    height: 2050px;
   }
 }
 
@@ -751,7 +757,7 @@ main {
 
 @media screen and (max-width: 767px) {
   .baranalyser27.active {
-    height: 2430px;
+    height: 2130px;
   }
 }
 
@@ -767,7 +773,8 @@ main {
 
 @media screen and (max-width: 767px) {
   .baranalyser28.active {
-    height: 2470px;
+    height: 2065px; 
+    /* height: 2470px; */
   }
 }
 
@@ -783,7 +790,8 @@ main {
 
 @media screen and (max-width: 767px) {
   .baranalyser29.active {
-    height: 2265px;
+    /* height: 2265px; */
+    height: 1875px;
   }
 }
 
@@ -799,7 +807,8 @@ main {
 
 @media screen and (max-width: 767px) {
   .baranalyser30.active {
-    height: 2375px;
+    /* height: 2375px; */
+    height: 1880px;
   }
 }
 
@@ -810,18 +819,18 @@ main {
 }
 
 .baranalyser31.active {
-  height: 1940px; /* Adjust the height as needed */
+  height: 1900px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser31.active {
-    height: 2105px;
+    height: 1680px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser31.active {
-    height: 2580px;
+    height: 2540px;
   }
 }
 
@@ -831,7 +840,7 @@ main {
 
 @media screen and (max-width: 767px) {
   .baranalyser32.active {
-    height: 2215px;
+    height: 1750px;
   }
 }
 
@@ -847,13 +856,13 @@ main {
 
 @media screen and (max-width: 767px) {
   .baranalyser33.active {
-    height: 1950px;
+    height: 1750px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser33.active {
-    height: 2400px;
+    height: 2000px;
   }
 }
 
