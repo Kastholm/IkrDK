@@ -312,6 +312,7 @@ main {
   height: 100%;
   font-size: 20px;
   margin: auto;
+  height: fit-content;
 }
 
 .bar-flex {
@@ -349,7 +350,9 @@ main {
 }
 
 .baranalyser.active {
-  height: 550px; /* Adjust the height as needed */
+  height: auto;
+  overflow: hidden; /* Ensure that content does not overflow when height is set to auto */
+  transition: height 0.3s ease; /* Add smooth transition animation */ /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
@@ -371,7 +374,7 @@ main {
 }
 
 .baranalyser2.active {
-  height: 690px;
+  height: 740px;
 }
 
 @media screen and (max-width: 767px) {

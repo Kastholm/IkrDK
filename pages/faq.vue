@@ -342,7 +342,7 @@ main {
 }
 
 .baranalyser.active {
-  height: 550px; /* Adjust the height as needed */
+  height: auto; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
