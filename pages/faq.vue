@@ -342,34 +342,28 @@ main {
 }
 
 .baranalyser.active {
-  height: 520px; /* Adjust the height as needed */
+  height: 550px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser.active {
-    height: 520px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1090px) {
-  .baranalyser.active {
-    height: 700px;
+    height: 730px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser.active {
-    height: 660px;
+    height: 690px;
   }
 }
 
 .baranalyser2.active {
-  height: 690px;
+  height: 710px;
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser2.active {
-    height: 730px;
+    height: 990px;
   }
 }
 
@@ -380,7 +374,13 @@ main {
 }
 
 .baranalyser3.active {
-  height: 410px;
+  height: 500px;
+}
+
+@media screen and (max-width: 767px) {
+  .baranalyser3.active {
+    height: 600px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
@@ -395,7 +395,7 @@ main {
 
 @media screen and (max-width: 767px) {
   .baranalyser4.active {
-    height: 520px;
+    height: 540px;
   }
 }
 
@@ -406,12 +406,12 @@ main {
 }
 
 .baranalyser5.active {
-  height: 460px;
+  height: 490px;
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser5.active {
-    height: 420px;
+    height: 730px;
   }
 }
 
@@ -422,12 +422,12 @@ main {
 }
 
 .baranalyser6.active {
-  height: 670px;
+  height: 680px;
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser6.active {
-    height: 625px;
+    height: 1000px;
   }
 }
 
@@ -438,12 +438,12 @@ main {
 }
 
 .baranalyser7.active {
-  height: 1600px;
+  height: 2030px;
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser7.active {
-    height: 1230px;
+    height: 2700px;
   }
 }
 
@@ -454,12 +454,12 @@ main {
 }
 
 .baranalyser8.active {
-  height: 1150px;
+  height: 1180px;
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser8.active {
-    height: 1910px;
+    height: 1710px;
   }
 }
 
@@ -470,12 +470,12 @@ main {
 }
 
 .baranalyser9.active {
-  height: 1160px; /* Adjust the height as needed */
+  height: 1200px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser9.active {
-    height: 1200px;
+    height: 1770px;
   }
 }
 
@@ -486,12 +486,12 @@ main {
 }
 
 .baranalyser10.active {
-  height: 1120px; /* Adjust the height as needed */
+  height: 1150px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser10.active {
-    height: 1250px;
+    height: 1830px;
   }
 }
 
@@ -502,12 +502,12 @@ main {
 }
 
 .baranalyser12.active {
-  height: 2180px; /* Adjust the height as needed */
+  height: 2210px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser12.active {
-    height: 2240px;
+    height: 3200px;
   }
 }
 
@@ -518,12 +518,12 @@ main {
 }
 
 .baranalyser11.active {
-  height: 1770px; /* Adjust the height as needed */
+  height: 1850px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser11.active {
-    height: 1810px;
+    height: 2640px;
   }
 }
 
@@ -534,12 +534,12 @@ main {
 }
 
 .baranalyser13.active {
-  height: 1750px; /* Adjust the height as needed */
+  height: 1780px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser13.active {
-    height: 2000px;
+    height: 2610px;
   }
 }
 
@@ -550,12 +550,12 @@ main {
 }
 
 .baranalyser14.active {
-  height: 1920px; /* Adjust the height as needed */
+  height: 1950px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser14.active {
-    height: 2090px;
+    height: 2700px;
   }
 }
 
@@ -566,12 +566,12 @@ main {
 }
 
 .baranalyser15.active {
-  height: 2120px; /* Adjust the height as needed */
+  height: 2130px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser15.active {
-    height: 2425px;
+    height: 2860px;
   }
 }
 
@@ -582,12 +582,12 @@ main {
 }
 
 .baranalyser16.active {
-  height: 2350px; /* Adjust the height as needed */
+  height: 2330px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser16.active {
-    height: 2240px;
+    height: 3330px;
   }
 }
 
@@ -598,12 +598,12 @@ main {
 }
 
 .baranalyser18.active {
-  height: 1710px; /* Adjust the height as needed */
+  height: 1720px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser18.active {
-    height: 1730px;
+    height: 2480px;
   }
 }
 
@@ -614,12 +614,12 @@ main {
 }
 
 .baranalyser17.active {
-  height: 2180px; /* Adjust the height as needed */
+  height: 2260px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser17.active {
-    height: 2410px;
+    height: 2990px;
   }
 }
 
@@ -630,12 +630,12 @@ main {
 }
 
 .baranalyser20.active {
-  height: 1360px; /* Adjust the height as needed */
+  height: 1380px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser20.active {
-    height: 1510px;
+    height: 2210px;
   }
 }
 
@@ -646,12 +646,12 @@ main {
 }
 
 .baranalyser19.active {
-  height: 2300px; /* Adjust the height as needed */
+  height: 2390px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser19.active {
-    height: 2245px;
+    height: 3350px;
   }
 }
 
@@ -662,12 +662,12 @@ main {
 }
 
 .baranalyser21.active {
-  height: 2180px; /* Adjust the height as needed */
+  height: 2210px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser21.active {
-    height: 2470px;
+    height: 3020px;
   }
 }
 
@@ -678,12 +678,12 @@ main {
 }
 
 .baranalyser22.active {
-  height: 1840px; /* Adjust the height as needed */
+  height: 2370px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser22.active {
-    height: 1810px;
+    height: 3610px;
   }
 }
 
@@ -699,7 +699,7 @@ main {
 
 @media screen and (max-width: 767px) {
   .baranalyser23.active {
-    height: 1915px;
+    height: 2645px;
   }
 }
 
@@ -710,12 +710,12 @@ main {
 }
 
 .baranalyser24.active {
-  height: 1850px; /* Adjust the height as needed */
+  height: 1880px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser24.active {
-    height: 1680px;
+    height: 2630px;
   }
 }
 
@@ -726,22 +726,22 @@ main {
 }
 
 .baranalyser25.active {
-  height: 2310px; /* Adjust the height as needed */
+  height: 2330px; /* Adjust the height as needed */
 }
 
-}
+
 @media only screen and (max-width: 1140px) {
   .baranalyser25.active {
-    height: 2920px;
+    height: 3310px;
   }
 }
 .baranalyser26.active {
-  height: 2280px; /* Adjust the height as needed */
+  height: 2290px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser26.active {
-    height: 2050px;
+    height: 3180px;
   }
 }
 
@@ -752,12 +752,12 @@ main {
 }
 
 .baranalyser27.active {
-  height: 2410px; /* Adjust the height as needed */
+  height: 2430px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser27.active {
-    height: 2130px;
+    height: 3450px;
   }
 }
 
@@ -768,13 +768,13 @@ main {
 }
 
 .baranalyser28.active {
-  height: 2510px; /* Adjust the height as needed */
+  height: 2560px; 
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser28.active {
-    height: 2065px; 
-    /* height: 2470px; */
+    height: 3340px; 
+    
   }
 }
 
@@ -790,8 +790,7 @@ main {
 
 @media screen and (max-width: 767px) {
   .baranalyser29.active {
-    /* height: 2265px; */
-    height: 1875px;
+    height: 2960px;
   }
 }
 
@@ -808,7 +807,7 @@ main {
 @media screen and (max-width: 767px) {
   .baranalyser30.active {
     /* height: 2375px; */
-    height: 1880px;
+    height: 3340px;
   }
 }
 
@@ -819,12 +818,12 @@ main {
 }
 
 .baranalyser31.active {
-  height: 1900px; /* Adjust the height as needed */
+  height: 1960px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser31.active {
-    height: 1680px;
+    height: 2870px;
   }
 }
 
@@ -835,12 +834,12 @@ main {
 }
 
 .baranalyser32.active {
-  height: 2210px; /* Adjust the height as needed */
+  height: 2240px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser32.active {
-    height: 1750px;
+    height: 3045px;
   }
 }
 
