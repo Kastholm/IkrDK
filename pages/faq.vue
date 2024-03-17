@@ -27,7 +27,7 @@
             :class="`baranalyser baranalyser${index + 1}`"
             :id="`bar1.${index}`"
           >
-            <h6 class="header" @click="toggleBar(`bar1.${index}`)">
+            <h6 class="header flex justify-center items-center h-16" @click="toggleBar(`bar1.${index}`)">
               <strong class="text-[35px]">+</strong> {{ worker.bullettitle1 }}
             </h6>
             <div class="content" @click="toggleBar(`bar1.${index}`)">
@@ -58,7 +58,7 @@
             :class="`baranalyser baranalyser${index + 7}`"
             :id="`bar2.${index}`"
           >
-            <h6 class="header" @click="toggleBar(`bar2.${index}`)">
+            <h6 class="header flex justify-center items-center h-16" @click="toggleBar(`bar2.${index}`)">
               <strong class="text-[35px]">+</strong> {{ worker.bullettitle2 }}
             </h6>
             <div class="content" @click="toggleBar(`bar2.${index}`)">
@@ -89,7 +89,7 @@
             :class="`baranalyser baranalyser${index + 10}`"
             :id="`bar3.${index}`"
           >
-            <h6 class="header" @click="toggleBar(`bar3.${index}`)">
+            <h6 class="header flex justify-center items-center h-16" @click="toggleBar(`bar3.${index}`)">
               <strong class="text-[35px]">+</strong> {{ worker.bullettitle3 }}
             </h6>
             <div class="content" @click="toggleBar(`bar3.${index}`)">
@@ -120,7 +120,7 @@
             :class="`baranalyser baranalyser${index + 11}`"
             :id="`bar4.${index}`"
           >
-            <h6 class="header" @click="toggleBar(`bar4.${index}`)">
+            <h6 class="header flex justify-center items-center h-16" @click="toggleBar(`bar4.${index}`)">
               <strong class="text-[35px]">+</strong> {{ worker.bullettitle4 }}
             </h6>
             <div class="content" @click="toggleBar(`bar4.${index}`)">
@@ -151,7 +151,7 @@
             :class="`baranalyser baranalyser${index + 19}`"
             :id="`bar5.${index}`"
           >
-            <h6 class="header" @click="toggleBar(`bar5.${index}`)">
+            <h6 class="header flex justify-center items-center h-16" @click="toggleBar(`bar5.${index}`)">
               <strong class="text-[35px]">+</strong> {{ worker.bullettitle5 }}
             </h6>
             <div class="content" @click="toggleBar(`bar5.${index}`)">
@@ -254,9 +254,13 @@ main {
   }
 }
 
+h6 {
+  line-height: 25px;
+}
+
 .baranalyser {
   width: 70%;
-  height: 45px;
+  height: 65px;
   background-color: #256c2b;
   color: white;
   cursor: pointer;

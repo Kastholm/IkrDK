@@ -60,11 +60,11 @@
               src="https://i.ibb.co/jZs3yf6/Dansk-flag383594.jpg"
               class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"
           /></NuxtLink>
-          <NuxtLink to="/"
+          <!-- <NuxtLink to="/"
             ><img
               src="https://i.ibb.co/bHq9yTg/Svensk-flag693684.jpg"
               class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"
-          /></NuxtLink>
+          /></NuxtLink> -->
         </div>
       </nav>
     </header>
@@ -111,11 +111,11 @@
                 src="https://i.ibb.co/jZs3yf6/Dansk-flag383594.jpg"
                 class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"
             /></a>
-            <a @click="menuOpen = false" href="/"
+            <!-- <a @click="menuOpen = false" href="/"
               ><img
                 src="https://i.ibb.co/bHq9yTg/Svensk-flag693684.jpg"
                 class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"
-            /></a>
+            /></a>-->
           </div>
         </ul>
       </div>
