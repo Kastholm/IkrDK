@@ -96,12 +96,12 @@
           </li>
           <li :class="{ 'active-link': $route.path === '/ydelser' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4"><a @click="menuOpen = false" href="/ydelser">Ydelser</a></li>
           <li :class="{ 'active-link': $route.path === '/vi-er' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4"><a @click="menuOpen = false" href="/vi-er">Vi er</a></li>
-          <li :class="{ 'active-link': $route.path === '/faw' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4"><a @click="menuOpen = false" href="/faq">FAQ</a></li>
+          <li :class="{ 'active-link': $route.path === '/faq' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4"><a @click="menuOpen = false" href="/faq">FAQ</a></li>
           <li :class="{ 'active-link': $route.path === '/kontakt' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4"><a @click="menuOpen = false" href="/kontakt">Kontakt</a></li>
           <div
             class="absolute right-28 font-semibold top-10 p-6 cursor-pointer text-[#919995] flex gap-3"
           >
-            <a to="/index_Eng"
+            <a href="/index_Eng"
               ><img
                 src="https://i.ibb.co/P1yfgVt/Flag-of-the-United-Kingdom-3-5-svg.webp"
                 class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"
