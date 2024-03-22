@@ -21,7 +21,7 @@
       </div>
 
       <div
-        class="flex w-full flex-wrap noWrap sm:flex-row flex-col items-center relative mt-36 gap-20 2xl:gap-40 justify-center"
+        class="flex w-full flex-wrap noWrap sm:flex-row flex-col items-center relative mt-36 sm:gap-20 gap-10 2xl:gap-40 justify-center"
       >
         <article class="sm:w-[40%] w-[90vw] flex flex-col gap-5 -translate-y-5">
           <h2 class="">{{ data.title2 }}</h2>
@@ -38,7 +38,7 @@
     </article>
 
     <div
-      class="flex w-full flex-wrap noWrap relative sm:mt-36 mt-20 gap-20 2xl:gap-40 justify-center"
+      class="flex w-full flex-wrap noWrap relative sm:mt-36 mt-20 gap-20  2xl:gap-40 justify-center"
     >
       <img
         src="https://i.ibb.co/sVpKvYN/nyt-til-konomisk-analyse.jpg"

@@ -10,7 +10,7 @@
           class="flex flex-col mb-20 sm:ml-20 sm:mt-0 gap-4 bund-container-respons sm:text-start text-center translate-y-6"
         >
           <h4
-            class="bund-overskrift-respons rounded-2xl py-3 px-5 sm:translate-y-5 sm:mt-0 mt-60"
+            class="bund-overskrift-respons rounded-2xl py-3 px-5 sm:translate-y-5 sm:mt-0"
           >
             {{ data.title4 }}
           </h4>

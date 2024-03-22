@@ -3,7 +3,7 @@
     <YdelserHero />
     <div class="">
       <div
-        class="flex flex-col h-[300px] w-full gap-5 justify-center items-center sm:mt-16 mt-4 relative sm:mb-0 mb-16"
+        class="flex flex-col h-[250px] w-full gap-5 justify-center items-center sm:mt-16 mt-4 relative sm:mb-0 mb-16"
       >
         <div class="flex flex-col relative max-w-[90%] sm:max-w-[65%]">
           <h2 class="">{{ data.title2 }}</h2>
@@ -95,7 +95,7 @@
           <h2 class="text-start">
             <span class="text-[#256c2b]"> IKR </span> {{ data.title3 }}
           </h2>
-          <p class="max-w-[1200px]"><PortableText
+          <p class="max-w-[1200px] 2xl:max-w-[]"><PortableText
           :value="data.text6[0]"
           :components="components"
         /></p>
@@ -135,7 +135,7 @@
         class="sm:w-[40%] w-[90%] flex flex-col gap-5 -translate-y-5 sm:mt-0 mt-10"
       >
         <h2 class="">{{ data.title4 }}</h2>
-        <p><PortableText
+        <p class="max-w-[800px]"><PortableText
           :value="data.text8[0]"
           :components="components"
         /></p>
@@ -147,8 +147,8 @@
       <article
         class="sm:w-[40%] w-full flex flex-col gap-5 -translate-y-5 max-w-[90%] sm:mt-0 mt-20"
       >
-        <h2 class="">{{ data.title5 }}</h2>
-        <p>
+        <h2 class="max-w-[800px]">{{ data.title5 }}</h2>
+        <p class="max-w-[800px]">
           <PortableText
           :value="data.text9[0]"
           :components="components"
@@ -204,14 +204,6 @@ main {
   clip-path: polygon(0 35%, 63% 0, 63% 65%, 0 100%);
 }
 
-.card {
-  height: 400px;
-  width: 350px;
-  min-width: 350px;
-  background-color: #256c2b;
-  margin-top: 40px;
-  border-radius: 3px;
-}
 
 .cardfont {
   font-size: 22px;

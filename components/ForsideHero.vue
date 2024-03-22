@@ -23,10 +23,10 @@
       </p>
         </article>
         <article class="flex text-start sm:text-end flex-col sm:items-end w-[78%] 2xl:w-[79%] ml-5 sm:ml-0 sm:mt-1 mt-[100px] sm:translate-y-9 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px] tabletPersonInfoForside">
-            <p class="text-[20px] sm:text-[20px] 2xl:text-[23px]">{{ data.workertitle }}<br> {{ data.workerjob }}</p>
+            <p class="text-[16px] sm:text-[20px] font-bold 2xl:text-[23px]">{{ data.workertitle }},<br> {{ data.workerjob }}:</p>
               
               <a class=" person-text-respons not-italic sm:font-normal font-bold hover:border-b-[0.13rem] border-black " href="tel: +45 28 18 91 94 ">
-                <p class="text-[1px] sm:text-[20px] 2xl:text-[21px] "><PortableText
+                <p class="text-[10px] sm:text-[20px] 2xl:text-[21px] "><PortableText
                 :value="data.workerinfo"
                 :components="components"
               /></p></a>

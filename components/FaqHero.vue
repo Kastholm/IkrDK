@@ -29,7 +29,7 @@
             </p>
           </article>
           <article
-            class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-2 sm:ml-0 sm:mt-16 sm:translate-y-4 -translate-y-6 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px] sm:leading-[30px] leading-[15px]"
+            class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-4 sm:ml-0 sm:mt-16 mt-3 sm:translate-y-4 -translate-y-6 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px] sm:leading-[30px] leading-[15px]"
           >
             <p
               v-for="(worker, index) in data.workers"
@@ -39,7 +39,7 @@
               {{ worker.workertitle }}, <br class="sm:hidden block">{{ worker.workerjob }}-
               <a
                 class="text-[13px] sm:text-[20px] 2xl:text-[23px] person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black"
-                href="tel: +45 88 27 63 23 "
+                href="tel: +45 41 31 55 69 "
               >
                 <br class="block md:hidden" />{{ worker.workerinfo }}</a
               >

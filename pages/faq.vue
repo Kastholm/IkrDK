@@ -219,7 +219,7 @@ main {
 
 @media screen and (max-width: 767px) {
   .bar-sections {
-    margin: 100px 0 200px 0;
+    margin: 50px 0 180px 0;
   }
 }
 

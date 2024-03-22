@@ -4,7 +4,7 @@
   </div>
   <main v-else class="overflow-x-hidden">
     <section
-      class="w-full flex justify-center items-center mt-10 2xl:mt-40 relative"
+      class="w-full flex justify-center items-center mt-5 2xl:mt-40 relative"
     >
       <div
         class="bgimg flex flex-col sm:flex-row justify-around 2xl:justify-center items-center max-w-full sm:max-w-full gap-[0px] 2xl:gap-[400px]"
@@ -13,7 +13,7 @@
           class="flex flex-col mb-20 sm:ml-20 sm:mt-0 gap-4 bund-container-respons sm:text-start text-center translate-y-6"
         >
           <h4
-            class="bund-overskrift-respons rounded-2xl py-3 px-5 sm:translate-y-5 sm:mt-0 mt-40"
+            class="bund-overskrift-respons rounded-2xl py-3 px-5 sm:translate-y-5 sm:mt-0"
           >
             {{ data.title4 }}
           </h4>
@@ -35,7 +35,7 @@
     </section>
 
     <section
-      class="flex justify-center w-full relative sm:mt-20 mt-20 lg:mt-10 sm:translate-x-14"
+      class="flex justify-center w-full relative sm:mt-20 mt-32 lg:mt-10 sm:translate-x-14"
     >
       <figure
         class="h-[200px] min-h-[200px] w-[180px] bg-[#2c2c2c] clip3 absolute left-0 top-0 -translate-y-14 sm:-translate-y-5 -translate-x-20"

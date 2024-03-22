@@ -11,8 +11,8 @@
      <p class=" max-w-[90%] w-[90vw]"><PortableText :value="data.text1[0]" /></p>
         </div>
 
-  <div class="flex w-full flex-wrap noWrap sm:flex-row flex-col items-center relative mt-36 gap-20 2xl:gap-40 justify-center">
-    <article class="sm:w-[40%] w-[90vw] flex flex-col gap-5 -translate-y-5">
+  <div class="flex w-full flex-wrap noWrap sm:flex-row flex-col items-center relative mt-36 sm:gap-20 gap-10 2xl:gap-40 justify-center">
+    <article class="sm:w-[40%] w-[90vw] flex flex-col gap-5 sm:mt-0 mt-16 -translate-y-5">
       <h2 class="">{{ data.title2 }}</h2>
       <p><PortableText :value="data.text2[0]" />
 </p>

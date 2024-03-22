@@ -16,7 +16,7 @@
         <article
           class="sm:w-[45%] w-[90%] flex flex-col flex-wrap gap-5 p-5 rounded-xl translate-y-5"
         >
-          <h2 class="">{{ data.title2 }}</h2>
+          <h2>{{ data.title2 }}</h2>
 
           <ul class="flex flex-col gap-4 min-h-[258px]">
             <li
@@ -40,7 +40,7 @@
           class="sm:w-[40%] w-[85%] flex flex-col gap-5 sm:-translate-y-5"
         >
           <h2 class="">{{ data.title3 }}</h2>
-          <ul class="flex flex-col gap-4 min-h-[258px]">
+          <ul class="flex flex-col gap-4 min-h-[230px] 2xl:min-h-[190px]">
             <li
               v-for="(bulletpoint, index) in data.bulletpoint2"
               :key="index"

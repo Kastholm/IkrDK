@@ -30,7 +30,19 @@
 			<img src="https://i.ibb.co/ggrWNvk/vejle-250x100px.jpg" height="100" width="250" alt="Vejle Kommune" />
 		</div>
 		<div class="slide">
-			<img src="https://i.ibb.co/s1Yx8w0/vordingborg-250x100px.jpg" height="100" width="250" alt="Vordingborg Kommune" />
+			<img src="https://i.ibb.co/4Fcdc6r/vordingborg-logo-pos.png" height="100" width="250" alt="Vordingborg Kommune" />
+		</div>
+		<div class="slide">
+			<img src="https://i.ibb.co/8xNTWrG/esbjerg-250x100px.jpg" height="100" width="250" alt="Esbjerg Kommune" />
+		</div>
+		<div class="slide">
+			<img src="https://i.ibb.co/RDH8dfq/frederikssund-250x100px.jpg" height="100" width="250" alt="Frederikssund Kommune" />
+		</div>
+		<div class="slide">
+			<img src="https://i.ibb.co/cLsv71v/KPH-250x100px.jpg" height="100" width="250" alt="Koebenhavns Professionhoejskole" />
+		</div>
+		<div class="slide">
+			<img src="https://i.ibb.co/k074mxB/cbs2-250x100px.jpg" height="100" width="250" alt="CBS - Copenhagen Business School" />
 		</div>
 		
 		
@@ -52,7 +64,7 @@ $animationSpeed: 40s;
 
 @keyframes scroll {
 	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-150px * 7))}
+	100% { transform: translateX(calc(-300px * 7))}
 }
 
 .slider {
@@ -66,7 +78,7 @@ $animationSpeed: 40s;
 	.slide-track {
 		animation: scroll $animationSpeed linear infinite;
 		display: flex;
-		width: calc(350px * 18);
+		width: calc(500px * 18);
 		gap: 80px;
 	}
 	.slide {

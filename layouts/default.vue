@@ -33,6 +33,15 @@ nav {
   background-color: white;
 }
 
+.card {
+  height: 400px;
+  width: 350px;
+  min-width: 350px;
+  background-color: #256c2b;
+  margin-top: 50px;
+  border-radius: 3px;
+}
+
 .overlay::before {
   content: '';
   position: absolute;

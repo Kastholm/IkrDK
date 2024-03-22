@@ -135,8 +135,8 @@
         <article
           class="sm:w-[40%] w-[90%] flex flex-col gap-5 -translate-y-5 sm:mt-0 mt-10"
         >
-          <h2 class="">{{ data.title4 }}</h2>
-          <p><PortableText
+          <h2 class="max-w-[800px]">{{ data.title4 }}</h2>
+          <p class="max-w-[800px]"><PortableText
             :value="data.text8[0]"
             :components="components"
           /></p>
@@ -148,8 +148,8 @@
         <article
           class="sm:w-[40%] w-full flex flex-col gap-5 -translate-y-5 max-w-[90%] sm:mt-0 mt-20"
         >
-          <h2 class="">{{ data.title5 }}</h2>
-          <p>
+          <h2 class="max-w-[800px]">{{ data.title5 }}</h2>
+          <p class="max-w-[800px]">
             <PortableText
             :value="data.text9[0]"
             :components="components"
