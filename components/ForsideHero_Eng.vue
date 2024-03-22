@@ -3,8 +3,11 @@
     <div class="loader"></div>
   </div>
 <main v-else>
+  <div class="sm:hidden block bg-[#0a3700] h-[90px] relative">
+      <img class="w-[200px] m-auto inset-0 absolute" src="https://i.ibb.co/XL6X1PH/IKR-Inverted-Color-800x600.png">
+    </div>
  <div class="relative max-h-[800px] sm:max-h-[900px] sm:mt-28 h-[800px] sm:h-[1200px] z-10 header-img max-w-[2000px] w-full m-auto overlay">
-    <p class="text-white text-[40px] sm:text-[80px] font-bold absolute left-[10px] sm:left-[140px] top-3 sm:top-28 z-50 sm:leading-[110px] leading-[40px] header-text-respons max-w-[18ch] ">{{ data.title }}</p>
+    <p class="text-white text-[40px] sm:text-[80px] font-bold absolute left-[10px] sm:left-[140px] top-7 sm:top-28 z-50 sm:leading-[110px] leading-[40px] header-text-respons max-w-[18ch] ">{{ data.title }}</p>
    <div class="max-h-[800px] max-w-[2000px] w-full h-[800px] ">
     <img src="https://i.ibb.co/pXTDRjq/Loes-haand.png" class=" handrespons handrespons2 top-[14.6%] left-[38.5%] h-[341px] absolute z-40" alt="">
    </div>
