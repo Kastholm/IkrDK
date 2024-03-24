@@ -1,7 +1,7 @@
 <template>
   <main class="overflow-x-hidden">
     <section
-      class="w-full flex justify-center items-center 2xl:mt-40 sm:mt-0 mt-32 relative"
+      class="w-full flex justify-center items-center 2xl:mt-40 sm:mt-0 mt-[120px] relative"
     >
       <div
         class="bgimg flex flex-col sm:flex-row justify-around 2xl:justify-center items-center max-w-full sm:max-w-full gap-[0px] 2xl:gap-[400px]"
