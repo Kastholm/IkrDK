@@ -4,7 +4,7 @@
   </div>
   <main v-else class="overflow-x-hidden">
     <section
-      class="w-full flex justify-center items-center mt-10 2xl:mt-40 relative"
+      class="w-full flex justify-center items-center mt-20 2xl:mt-40 relative"
     >
       <div
         class="bgimg flex flex-col sm:flex-row justify-around 2xl:justify-center items-center max-w-full sm:max-w-full gap-[0px] 2xl:gap-[400px]"

@@ -35,7 +35,7 @@
     </section>
 
     <section
-      class="flex justify-center w-full relative sm:mt-20 mt-52 lg:mt-10 sm:translate-x-14"
+      class="flex justify-center w-full relative sm:mt-20 mt-72 lg:mt-10 sm:translate-x-14"
     >
       <figure
         class="h-[200px] min-h-[200px] w-[180px] bg-[#2c2c2c] clip3 absolute left-0 top-0 -translate-y-14 sm:-translate-y-5 -translate-x-20"

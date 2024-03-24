@@ -28,7 +28,7 @@
         </div>
         <img
           src="https://i.ibb.co/yWyDnYq/Stenhus-og-slot.jpg"
-          class="bund-billede-respons sm:max-w-[480px] max-h-[400px] sm:mr-16 rounded-md mt-0 sm:mt-0 shadow-2xl"
+          class="bund-billede-respons sm:max-w-[480px] max-h-[400px] sm:mr-16 rounded-md mt-20 sm:mt-0 shadow-2xl"
           alt=""
         />
       </div>
