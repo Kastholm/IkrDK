@@ -20,14 +20,14 @@
         </li>
         
       </ul>
-      <NuxtLink to="/"><img src="https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg" class="absolute left-24 2xl:left-36 h-[90px] w-fit top-3 menuImgTablet" alt="#"></NuxtLink>
+      <NuxtLink to="/"><img src="https://i.ibb.co/68TN44f/IKR-Without-Slogan-2400x1800.jpg" class="absolute left-24 2xl:left-36 h-[90px] w-fit top-3 menuImgTablet" alt="#"></NuxtLink>
       <div class="absolute right-16 font-semibold top-3 p-6 cursor-pointer text-[#919995] flex gap-3">
         <li class="  hover:scale-110 transition-all mt-6 cursor-pointer bg-[#256c2b] text-white px-4 rounded-md">
             <NuxtLink to="/kontakt_Eng">CONTACT</NuxtLink>
           </li>
         <NuxtLink to="/index_Eng"><img src="https://i.ibb.co/P1yfgVt/Flag-of-the-United-Kingdom-3-5-svg.webp" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all ml-8 md:ml-[4vw]"></NuxtLink>
           <NuxtLink to="/"><img src="https://i.ibb.co/jZs3yf6/Dansk-flag383594.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
-            <!-- <NuxtLink to="/"><img src="https://i.ibb.co/bHq9yTg/Svensk-flag693684.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink> -->
+            <!-- <NuxtLink to="/"><img src="https://i.ibb.co/bHq9yTg/Svensk-flag693684.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink> Æ-->
     </div>
     </nav>
   </header>
@@ -63,7 +63,7 @@
           <NuxtLink to="/ydelser_Eng">SERVICES</NuxtLink>
         </li>
         <li :class="{ 'active-link': $route.path === '/vi-er_Eng' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
-          <NuxtLink to="/vi-er_Eng">WE ARE</NuxtLink>
+          <a href="/vi-er_Eng">WE ARE</a>
         </li>
         <li :class="{ 'active-link': $route.path === '/faq_Eng' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
           <NuxtLink to="/faq_Eng">FAQ</NuxtLink>
