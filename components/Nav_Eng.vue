@@ -20,7 +20,7 @@
         </li>
         
       </ul>
-      <NuxtLink to="/"><img src="https://i.ibb.co/68TN44f/IKR-Without-Slogan-2400x1800.jpg" class="absolute left-24 2xl:left-36 h-[90px] w-fit top-3 menuImgTablet" alt="#"></NuxtLink>
+      <NuxtLink to="/"><img src="https://i.ibb.co/JCjnNn8/IKR-Without-Slogan-2400x1800.jpg" class="absolute left-24 2xl:left-36 h-[90px] w-fit top-3 menuImgTablet" alt="#"></NuxtLink>
       <div class="absolute right-16 font-semibold top-3 p-6 cursor-pointer text-[#919995] flex gap-3">
         <li class="  hover:scale-110 transition-all mt-6 cursor-pointer bg-[#256c2b] text-white px-4 rounded-md">
             <NuxtLink to="/kontakt_Eng">CONTACT</NuxtLink>

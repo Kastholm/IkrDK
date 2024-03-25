@@ -7,8 +7,8 @@
     >
       <NuxtLink to="/"
         ><img
-          src="https://i.ibb.co/d6cpnRb/IKR-Inverted-Color-2400x1800-1.png"
-          class="h-[150px]"
+          src="https://i.ibb.co/yqJCFL2/IKR-Inverted-Color-800x600-2-1.png"
+          class="h-[170px]"
       /></NuxtLink>
 
       <div class="flex flex-col gap-2 sm:w-fit w-full">
