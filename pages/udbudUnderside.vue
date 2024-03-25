@@ -1,4 +1,8 @@
 <template>
+  <head>
+    <title>Udbud & konkurrence - ud fra analyser laver vi optimering</title>
+    <meta name="description" content="IKR har mangeårig erfaring med konkurrenceudsættelse og udformning af bl.a. kravsspecifikationer - kontakt os og hør mere.">
+  </head>
   <UdbudUnderside />
   <div class="group relative z-50 hidden sm:block">
  <div class="fixed bg-[#256c2b] text-white h-[200px] hover:h-[400px] shadow-md shadow-[#b5b3b3] w-[50px] hover:w-[400px] left-0 bottom-[34%] transition-all hover:border-none border-e-4 border-b-[3px] border-solid  border-[#0a3700] rounded-e-xl">

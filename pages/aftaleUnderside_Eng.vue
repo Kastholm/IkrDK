@@ -1,4 +1,8 @@
 <template>
+  <head>
+    <title>Contract management - gain new oversight and tools tailored to your needs</title>
+    <meta name="description" content="IKR assists you with a comprehensive overview and the necessary tools to continuously keep your organization's agreements updated.">
+  </head>
  <NuxtLayout :name="layout">
     <AftaleUnderside_Eng />
     <div class="group relative z-50 hidden sm:block">

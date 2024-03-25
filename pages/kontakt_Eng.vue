@@ -1,4 +1,8 @@
 <template>
+  <head>
+    <title>Contact IKR today and learn more about your optimization options</title>
+    <meta name="description" content="At IKR, we're always ready by the phone to assist with clarification on various questions. Contact us today and inquire about your options.">
+  </head>
   <NuxtLayout :name="layout">
     <figure
       class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-20 sm:translate-y-20 z-0"

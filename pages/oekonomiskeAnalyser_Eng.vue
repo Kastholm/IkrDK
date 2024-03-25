@@ -1,4 +1,8 @@
 <template>
+  <head>
+    <title>At IKR, analysis is the path to your increased financial leeway</title>
+    <meta name="description" content="By analyzing your external agreements and contracts, IKR finds the way to optimize your financial flexibility.">
+  </head>
   <AnalyserUnderside_Eng />
   <div class="group relative z-50 hidden sm:block">
  <div class="fixed bg-[#256c2b] text-white h-[200px] hover:h-[400px] shadow-md shadow-[#b5b3b3] w-[50px] hover:w-[400px] left-0 bottom-[34%] transition-all hover:border-none border-e-4 border-b-[3px] border-solid  border-[#0a3700] rounded-e-xl">

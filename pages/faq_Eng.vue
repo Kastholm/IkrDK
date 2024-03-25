@@ -1,4 +1,8 @@
 <template>
+  <head>
+    <title>Questions about optimization & contract management - FAQ</title>
+    <meta name="description" content="There are many ways to optimize agreements & contracts - read more about the different possibilities & types of agreements here.">
+  </head>
   <NuxtLayout :name="layout">
   <FaqHero_Eng />
   <section class="bar-sections relative z-20">
