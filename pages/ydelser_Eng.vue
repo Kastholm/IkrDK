@@ -1,8 +1,5 @@
 <template>
-  <head>
-    <title>See the services IKR offers to enhance your company's financial flexibility.</title>
-    <meta name="description" content="Learn more about how IKR optimizes your company's financial flexibility - with many years of experience, we are experts in copying/printing, food, consumer goods, automobiles, etc.">
-  </head>
+  
   <NuxtLayout :name="layout">
     <main class="flex flex-col justify-center">
       <YdelserHero_Eng />

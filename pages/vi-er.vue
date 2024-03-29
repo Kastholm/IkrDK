@@ -1,8 +1,5 @@
 <template>
-  <head>
-    <title>Læs mere om IKR & hvilke specialist-ydelser vi kan tilbyde</title>
-    <meta name="description" content="Læs mere om IKR - vi har i mange år hjulpet dusinvis af virksomheder med deres løbende aftaler, og optimering af virksomhedens økonomiske råderum.">
-  </head>
+  
   <main  class="flex flex-col justify-center">
     <Vi-erHero />
 

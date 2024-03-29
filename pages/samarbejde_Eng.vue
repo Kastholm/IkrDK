@@ -1,8 +1,5 @@
 <template>
-  <head>
-    <title>IKR - your partner for optimizing contracts and finances</title>
-    <meta name="description" content="IKR is your trusted partner when it comes to optimizing your current agreements - gain extra financial leeway through collaboration with IKR.">
-  </head>
+  
   <NuxtLayout :name="layout">
     <div v-if="!data || data.length === 0" class="flex justify-center items-center">
       <div class="loader"></div>

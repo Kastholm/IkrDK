@@ -1,8 +1,5 @@
 <template>
-  <head>
-    <title>IKR - jeres samarbejdspartner for optimering af økonomi</title>
-    <meta name="description" content="IKR er jeres faste samarbejdspartner når det gælder optimering af jeres nuværende aftaler - få ekstra råderum i økonomien med i samarbejde hos IKR.">
-  </head>
+  
   <div v-if="!data || data.length === 0" class="flex justify-center items-center">
     <div class="loader"></div>
   </div>

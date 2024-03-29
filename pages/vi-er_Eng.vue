@@ -1,8 +1,5 @@
 <template>
-  <head>
-    <title>Learn more about IKR & the specialized services we offer</title>
-    <meta name="description" content="Learn more about IKR - for many years, we have assisted dozens of companies with their ongoing agreements and optimizing the financial flexibility of the business.">
-  </head>
+  
   <NuxtLayout :name="layout">
     <main  class="flex flex-col justify-center">
       <Vi-erHero_Eng />

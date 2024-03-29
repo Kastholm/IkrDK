@@ -1,8 +1,5 @@
 <template>
-  <head>
-    <title>Spørgsmål til optimering og aftalestyring - læs mere her</title>
-    <meta name="description" content="Der er mange nuancer og måder at optimere aftaler og kontrakter på - læs mere om de forskellige muligheder of aftaletyper her.">
-  </head>
+  
   <FaqHero />
   <section class="bar-sections relative z-20">
     <figure

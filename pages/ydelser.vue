@@ -1,8 +1,5 @@
 <template>
-  <head>
-    <title>Se de ydelser IKR tilbyder jeres virksomheds økonomiske råderum </title>
-    <meta name="description" content="Læs mere om hvordan IKR optimere jeres firmas økonomiske råderum - med mange års erfaring er vi eksperter i kopi/print, fødevarer, forbrugsvarer, biler mm. ">
-  </head>
+  
   <main class="flex flex-col justify-center">
     <YdelserHero />
     <div class="">

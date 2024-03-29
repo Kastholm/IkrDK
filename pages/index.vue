@@ -1,8 +1,5 @@
 <template>
-  <head>
-    <title>IKR - optimerer jeres kontrakter og aftaler</title>
-    <meta name="description" content="IKR giver jer et større økonomisk råderum ved at gennemgå og optimerer jeres firmas aftaler og kontrakter.">
-  </head>
+
   <div v-if="!data || data.length === 0" class="flex justify-center items-center">
     <div class="loader"></div>
   </div>

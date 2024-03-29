@@ -1,8 +1,5 @@
 <template>
-  <head>
-    <title>Kontakt IKR idag & hør mere om jeres optimerings muligheder</title>
-    <meta name="description" content="Hos IKR sidder vi altid klar ved telefonen til at hjælpe med opklaring til diverse spørgsmål. Kontakt os idag og hør om jeres muligheder.">
-  </head>
+  
   <figure
     class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-20 sm:translate-y-20 z-0"
   ></figure>
