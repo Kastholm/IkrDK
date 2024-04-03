@@ -5,7 +5,7 @@
     <div
       class="flex-col gap-10 sm:gap-0 sm:flex-row flex w-full justify-around items-end"
     >
-      <NuxtLink to="/"
+      <NuxtLink to="/index_Eng"
         ><img
           src="https://i.ibb.co/yqJCFL2/IKR-Inverted-Color-800x600-2-1.png"
           class="h-[170px]"
@@ -69,11 +69,11 @@
               +45 88 27 63 33
             </p></a
           >
-          <a href="mailto:mail@ikrcg.com"
+          <a href="mailto:mail@ikr.dk"
             ><p
               class="mt-2 text-[18px] hover:underline hover:underline-offset-4"
             >
-              mail@ikrcg.com
+              mail@ikr.dk
             </p></a
           >
         </div>

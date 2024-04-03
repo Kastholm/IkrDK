@@ -42,7 +42,7 @@
         class="flex flex-col mt-40 gap-5 sm:w-[60%] w-[90%] sm:text-start text-center md:mt-0 2xl:mt-28"
       >
         <div class="sm:max-w-[100%] max-w-[100%] kommentar3 relative">
-          <h2 class="sm:max-w-[88%] sm:text-start text-center">
+          <h2 class="sm:max-w-[88%] max-w-[88%] sm:text-start text-center">
             {{ data.title7 }}<span class="kommentar2"></span>
           </h2>
         </div>

@@ -33,7 +33,7 @@
                   alt=""
                   class="h-[49px]"
                 />
-                <a href="mailto:mail@ikrcg.com" class="min-w-fit">
+                <a href="mailto:mail@ikr.dk" class="min-w-fit">
                   <p class="min-w-full">{{ data.title4 }} <br />{{ data.title5 }}</p></a
                 >
               </div>

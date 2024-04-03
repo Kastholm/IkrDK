@@ -29,7 +29,7 @@
             </p>
           </article>
           <article
-            class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-4 sm:ml-0 sm:mt-16 mt-6 sm:translate-y-4 -translate-y-6 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px] sm:leading-[30px] leading-[15px]"
+            class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-4 sm:ml-0 sm:mt-16 mt-6 sm:translate-y-4 -translate-y-6 gap-3 italic text-[#000000] sm:max-w-full max-w-[100px] sm:leading-[30px] leading-[15px] iphonefaq"
           >
             <p
               v-for="(worker, index) in data.workers"
@@ -65,6 +65,12 @@ console.log(data);
   .person-respons {
     right: 10px;
   }
+}
+
+@media only screen and (min-width: 364px) and (max-width: 700px) {
+    .iphonefaq {
+      margin-top: 55px;
+    }
 }
 
 @media screen and (min-width: 1800px) {

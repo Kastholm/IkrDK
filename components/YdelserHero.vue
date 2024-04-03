@@ -37,7 +37,7 @@
             <p
               v-for="(worker, index) in data.workers"
               :key="index"
-              class="text-[13px] font-bold sm:text-[20px] 2xl:text-[23px] tabletPersonTroels sm:max-w-full"
+              class="text-[13px] font-bold sm:text-[20px] 2xl:text-[23px] tabletPersonTroels sm:max-w-full iphoneydelser"
             >
               {{ worker.workertitle }}, <br class="hidden sm:block"> <br>{{ worker.workerjob }}:<br><br class="hidden sm:block">
             
@@ -69,6 +69,12 @@ console.log(data);
   .person-respons {
     right: 10px;
   }
+}
+
+@media only screen and (min-width: 364px) and (max-width: 700px) {
+    .iphoneydelser {
+      margin-top: 30px;
+    }
 }
 
 @media screen and (min-width: 1800px) {

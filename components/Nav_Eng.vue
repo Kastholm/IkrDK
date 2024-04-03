@@ -20,10 +20,10 @@
         </li>
         
       </ul>
-      <NuxtLink to="/"><img src="https://i.ibb.co/JCjnNn8/IKR-Without-Slogan-2400x1800.jpg" class="absolute left-24 2xl:left-36 h-[90px] w-fit top-3 menuImgTablet" alt="#"></NuxtLink>
+      <NuxtLink to="/index_Eng"><img src="https://i.ibb.co/JCjnNn8/IKR-Without-Slogan-2400x1800.jpg" class="absolute left-24 2xl:left-36 h-[90px] w-fit top-3 menuImgTablet" alt="#"></NuxtLink>
       <div class="absolute right-16 font-semibold top-3 p-6 cursor-pointer text-[#919995] flex gap-3">
-        <li class="  hover:scale-110 transition-all mt-6 cursor-pointer bg-[#256c2b] text-white px-4 rounded-md">
-            <NuxtLink to="/kontakt_Eng">CONTACT</NuxtLink>
+        <li class="  hover:scale-110 transition-all mt-[20px] cursor-pointer bg-[#256c2b] text-white px-4 pb-1 rounded-md">
+            <NuxtLink class="translate-y-10" to="/kontakt_Eng">CONTACT</NuxtLink>
           </li>
         <NuxtLink to="/index_Eng"><img src="https://i.ibb.co/P1yfgVt/Flag-of-the-United-Kingdom-3-5-svg.webp" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all ml-8 md:ml-[4vw]"></NuxtLink>
           <NuxtLink to="/"><img src="https://i.ibb.co/jZs3yf6/Dansk-flag383594.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>

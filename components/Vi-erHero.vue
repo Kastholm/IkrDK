@@ -32,7 +32,7 @@
             </p>
           </article>
           <article
-            class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-2 sm:ml-0 sm:mt-6 mt-[50px] sm:translate-y-5 sm:gap-7 gap-1 italic text-[#000000] sm:max-w-full max-w-[100px] leading-[15px]"
+            class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-2 sm:ml-0 sm:mt-6 mt-[50px] sm:translate-y-5 sm:gap-7 gap-1 italic text-[#000000] sm:max-w-full max-w-[100px] leading-[15px] iphonevier"
           >
             <p
               v-for="(worker, index) in data.workers"
@@ -68,6 +68,12 @@ console.log(data);
   .person-respons {
     right: 10px;
   }
+}
+
+@media only screen and (min-width: 364px) and (max-width: 700px) {
+    .iphonevier {
+      margin-top: 80px;
+    }
 }
 
 @media screen and (min-width: 1800px) {

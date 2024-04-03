@@ -24,7 +24,7 @@
          <div class="flex flex-col mt-1">
       
             <a href="tel:+45 88 27 63 33"><p class="mt-4 text-[18px] hover:underline hover:underline-offset-4">+45 88 27 63 33</p></a>
-            <a href="mailto:mail@ikrcg.com"><p class="mt-2 text-[18px] hover:underline hover:underline-offset-4">mail@ikrcg.com</p></a>
+            <a href="mailto:mail@ikr.dk"><p class="mt-2 text-[18px] hover:underline hover:underline-offset-4">mail@ikr.com</p></a>
          </div>
          <div class="flex flex-col ">
             <p class="mt-4 text-[18px]">CVR - 27185045</p>

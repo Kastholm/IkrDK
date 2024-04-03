@@ -46,7 +46,7 @@
           class="absolute right-16 font-semibold top-3 p-6 cursor-pointer text-[#919995] flex gap-3"
         >
           <li
-            class="hover:scale-110 transition-all mt-6 cursor-pointer bg-[#256c2b] text-white px-4 rounded-md"
+            class="hover:scale-110 transition-all mt-[20px] cursor-pointer bg-[#256c2b] text-white px-4 pb-1 rounded-md"
           >
             <NuxtLink to="/kontakt">KONTAKT</NuxtLink>
           </li>
