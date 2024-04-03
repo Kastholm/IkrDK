@@ -9,7 +9,7 @@
         <img
           src="https://i.ibb.co/9tndHzC/henrik-maud-bertram-FAQ.png"
           alt=""
-          class="sm:h-[420px] person-respons h-[170px] absolute bottom-0 z-50 right-0 sm:translate-x-0 translate-x-3 tabletPersonFAQ"
+          class="sm:h-[420px] person-respons h-[170px] absolute bottom-0 z-50 right-0 sm:translate-x-0 translate-x-3 tabletPersonFAQ heropersonminilaptop"
         />
       </div>
       <div class="flex justify-end">
@@ -61,6 +61,13 @@ console.log(data);
 </script>
 
 <style scoped>
+@media only screen and (min-width: 1000px) and (max-width: 1350px) {
+    .heropersonminilaptop {
+      height: 250px;
+      
+    }
+}
+
 @media only screen and (min-width: 364px) and (max-width: 700px) {
     .iphonefaq {
       margin-top: 70px;

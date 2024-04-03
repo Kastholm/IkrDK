@@ -9,7 +9,7 @@
         <img
           src="https://i.ibb.co/pn0GDzj/troels-christoffer-heidi-ydelser-1.png"
           alt=""
-          class="sm:h-[420px] h-[170px] person-respons absolute bottom-0 z-50 right-0 sm:translate-x-0 tabletPersonYdelser"
+          class="sm:h-[420px] h-[170px] person-respons absolute bottom-0 z-50 right-0 sm:translate-x-0 tabletPersonYdelser heropersonminilaptop"
         />
       </div>
       <div class="flex justify-end">
@@ -65,6 +65,20 @@ console.log(data);
 </script>
 
 <style scoped>
+@media only screen and (min-width: 1000px) and (max-width: 1350px) {
+    .heropersonminilaptop {
+      height: 300px;
+      
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1350px) {
+    .herooverskriftminilaptop {
+      font-size: 50px;
+      
+    }
+}
+
 @media screen and (min-width: 640px) and (max-width: 1355px) {
   .person-respons {
     right: 10px;

@@ -29,7 +29,7 @@
     </section>
 
     <section
-      class="flex justify-center w-full relative sm:mt-20 mt-16 lg:mt-10 sm:translate-x-14"
+      class="flex justify-center w-full relative sm:mt-20 mt-16 lg:mt-10 sm:translate-x-14 iphonevier"
     >
       <figure
         class="h-[200px] min-h-[200px] w-[180px] bg-[#2c2c2c] clip3 absolute left-0 top-0 -translate-y-14 sm:-translate-y-5 -translate-x-20"
@@ -38,7 +38,7 @@
         class="flex flex-col mt-40 gap-5 sm:w-[60%] w-[90%] sm:text-start text-center md:mt-0 2xl:mt-28"
       >
         <div class="sm:max-w-[100%] max-w-[100%] kommentar3 relative">
-          <h2 class="sm:max-w-[88%] max-w-[88%] sm:text-start text-center">
+          <h2 class="sm:max-w-[88%] max-w-[88%] m-auto sm:m-0 sm:text-start text-center">
             {{ data.title5 }}<span class="kommentar2"></span>
           </h2>
         </div>
@@ -62,6 +62,13 @@ console.log(data);
 .ikrfont {
   font-size: 24px;
 }
+
+@media only screen and (min-width: 380px) and (max-width: 700px) {
+    .iphonevier {
+      margin-top: 150px;
+    }
+}
+
 .bgimg {
   background-image: url("https://i.ibb.co/C7BQF8Y/IKR-gr-n-baggrund-4000x1000px-NY.jpg");
   height: 560px;

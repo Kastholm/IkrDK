@@ -9,7 +9,7 @@
         <img
           src="https://i.ibb.co/LN6Z422/Jacob-Henrik-Jesper-VI-ER.png"
           alt=""
-          class="sm:h-[420px] person-respons h-[170px] absolute bottom-0 z-50 right-0 sm:translate-x-0 tabletPersonViEr"
+          class="sm:h-[420px] heropersonminilaptop person-respons h-[170px] absolute bottom-0 z-50 right-0 sm:translate-x-0 tabletPersonViEr"
         />
       </div>
       <div class="flex justify-end">
@@ -20,12 +20,12 @@
             class="flex flex-col gap-7 justify-center sm:ml-28 ml-5 sm:mt-8 mt-5 text-white"
           >
             <h1
-              class="font-semibold tracking-wider sm:leading-[65px] leading-[50px] max-w-[90%] sm:text-[60px] text-[35px]"
+              class="herooverskriftminilaptop font-semibold tracking-wider sm:leading-[65px] leading-[50px] max-w-[90%] sm:text-[60px] text-[35px]  "
             >
               {{ data.title }}
             </h1>
             <p class="w-[90%] sm:max-w-[700px] sm:mt-0 mb-0">
-              <PortableText
+              <PortableText 
           :value="data.text1[0]"
           :components="components"
         />
@@ -41,7 +41,7 @@
             >
               {{ worker.workertitle }},<br class="sm:hidden block"> {{ worker.workerjob }}-
               <a
-                class="text-[13px] sm:text-[20px] 2xl:text-[23px] person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black"
+                class="herobrødtekstminilaptop text-[13px] sm:text-[20px] 2xl:text-[23px] person-text-respons not-italic font-bold hover:border-b-[0.13rem] border-black"
                 href="tel: +45 88 27 63 23 "
               >
                 <br class="block md:hidden" />{{ worker.workerinfo }}</a
@@ -68,6 +68,20 @@ console.log(data);
   .person-respons {
     right: 10px;
   }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+    .heropersonminilaptop {
+      height: 250px;
+      
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1350px) {
+    .herooverskriftminilaptop {
+      font-size: 50px;
+      
+    }
 }
 
 @media only screen and (min-width: 364px) and (max-width: 700px) {

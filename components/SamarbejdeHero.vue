@@ -5,8 +5,8 @@
 <main v-else>
  <div class="relative max-h-[800px] sm:max-h-[900px] h-[800px] sm:mt-28 sm:h-[900px] z-10 header-img max-w-[2000px] w-full m-auto overlay">
     
-   <div class="w-full h-[450px] bg-[#1a5b0b] bg-gradient-header absolute bottom-0 ">
-   <img src="https://i.ibb.co/qyLDjTP/Pia-Jakob-Troels-NY-samarbejde-1-1.png" alt="" class="sm:h-[420px] h-[140px] person-respons absolute bottom-0 z-50 right-0 sm:translate-x-0 tabletPersonSamarbejde"> 
+   <div class="w-full h-[450px] bg-[#1a5b0b] bg-gradient-header absolute bottom-0">
+   <img src="https://i.ibb.co/qyLDjTP/Pia-Jakob-Troels-NY-samarbejde-1-1.png" alt="" class="sm:h-[420px] h-[140px] person-respons absolute bottom-0 z-50 right-0 sm:translate-x-0 tabletPersonSamarbejde heropersonminilaptop"> 
  </div>
  <div class="flex justify-end">
     <div class="sm:bg-[#0a3700] bg-[#0a3700] sm:h-[350px] h-[500px] sm:w-[90%] absolute bottom-40 z-20 rounded-sm ">
@@ -35,6 +35,13 @@ console.log(data);
 </script>
 
 <style scoped>
+@media only screen and (min-width: 1000px) and (max-width: 1350px) {
+    .heropersonminilaptop {
+      height: 300px;
+      
+    }
+}
+
 @media only screen and (max-width: 767px) {
     .handrespons {
         display: none;
