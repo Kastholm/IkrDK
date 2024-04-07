@@ -54,7 +54,7 @@
     
     <ul id="menu">
       <li :class="{ 'active-link': $route.path === '/index_Eng' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
-          <NuxtLink to="/index_Eng">HOME</NuxtLink>
+          <a href="/index_Eng">HOME</a>
         </li>
         <li :class="{ 'active-link': $route.path === '/samarbejde_Eng' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
           <NuxtLink to="/samarbejde_Eng">COLLABORATION</NuxtLink>

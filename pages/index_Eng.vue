@@ -120,6 +120,15 @@ console.log(data);
 definePageMeta({
   layout: 'engelsk-layout'
 })
+
+useSeoMeta({
+  title: 'My Amazing SiteIndexEngeeelsk',
+  ogTitle: 'My Amazing Sitedfasdf',
+  description: 'This is my amazing site, let me tell you all about itdfsasdf.',
+  ogDescription: 'This is my amazing site, let me tell you all about it.',
+  ogImage: 'https://example.com/image.png',
+  twitterCard: 'summary_large_image',
+})
 </script>
 
 <style scoped>

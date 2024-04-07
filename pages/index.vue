@@ -115,6 +115,15 @@ const sanity = useSanity();
 const { data } = useSanityQuery(query);
 import { PortableText } from "@portabletext/vue";
 console.log(data);
+
+useSeoMeta({
+  title: 'My Amazing SiteIndexDansk',
+  ogTitle: 'My Amazing Sitedfasdf',
+  description: 'This is my amazing site, let me tell you all about itdfsasdf.',
+  ogDescription: 'This is my amazing site, let me tell you all about it.',
+  ogImage: 'https://example.com/image.png',
+  twitterCard: 'summary_large_image',
+})
 </script>
 
 <style scoped>
