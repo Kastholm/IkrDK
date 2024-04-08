@@ -75,6 +75,14 @@ import { PortableText } from "@portabletext/vue";
 definePageMeta({
   layout: 'engelsk-layout'
 })
+
+useSeoMeta({
+  title: 'Learn more about IKR & the specialized services we offer',
+  ogTitle: 'Learn more about IKR & the specialized services we offer',
+  description: 'Learn more about IKR - for many years, we have assisted dozens of companies with their ongoing agreements and optimizing the financial flexibility of the business.',
+  ogDescription: 'Learn more about IKR - for many years, we have assisted dozens of companies with their ongoing agreements and optimizing the financial flexibility of the business.',
+  ogImage: 'https://i.ibb.co/JCjnNn8/IKR-Without-Slogan-2400x1800.jpg',
+})
 </script>
 
 <style scoped>

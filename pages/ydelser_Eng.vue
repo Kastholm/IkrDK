@@ -184,6 +184,14 @@ console.log(data);
 definePageMeta({
   layout: 'engelsk-layout'
 })
+
+useSeoMeta({
+  title: 'See the services IKR offers to enhance your companys financial flexibility.',
+  ogTitle: 'See the services IKR offers to enhance your companys financial flexibility.',
+  description: 'Learn more about how IKR optimizes your companys financial flexibility - with many years of experience, we are experts in copying/printing, food, consumer goods, automobiles, etc.',
+  ogDescription: 'Learn more about how IKR optimizes your companys financial flexibility - with many years of experience, we are experts in copying/printing, food, consumer goods, automobiles, etc.',
+  ogImage: 'https://i.ibb.co/JCjnNn8/IKR-Without-Slogan-2400x1800.jpg',
+})
 </script>
 
 <style scoped>

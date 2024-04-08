@@ -195,6 +195,14 @@ console.log(data);
 definePageMeta({
   layout: 'engelsk-layout'
 })
+
+useSeoMeta({
+  title: 'Questions about optimization & contract management - FAQ',
+  ogTitle: 'Questions about optimization & contract management - FAQ',
+  description: 'There are many ways to optimize agreements & contracts - read more about the different possibilities & types of agreements here.',
+  ogDescription: 'There are many ways to optimize agreements & contracts - read more about the different possibilities & types of agreements here.',
+  ogImage: 'https://i.ibb.co/JCjnNn8/IKR-Without-Slogan-2400x1800.jpg',
+})
 </script>
 
 <style scoped>

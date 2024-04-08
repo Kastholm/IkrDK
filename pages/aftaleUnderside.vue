@@ -14,9 +14,13 @@
 </template>
 
 <script>
-export default {
-
-}
+useSeoMeta({
+  title: 'Aftalestyring - få et løbende overblik samt værktøjer tilpasset jer',
+  ogTitle: 'Aftalestyring - få et løbende overblik samt værktøjer tilpasset jer',
+  description: 'IKR hjælper jer med et samlet overblik og de nødvendige værktøjer for kontinuerligt at holde jeres organisations aftaler opdateret.',
+  ogDescription: 'IKR hjælper jer med et samlet overblik og de nødvendige værktøjer for kontinuerligt at holde jeres organisations aftaler opdateret.',
+  ogImage: 'https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg',
+})
 </script>
 
 <style>

@@ -180,6 +180,14 @@ console.log(data);
 definePageMeta({
   layout: 'engelsk-layout'
 })
+
+useSeoMeta({
+  title: 'Contact IKR today and learn more about your optimization options',
+  ogTitle: 'Contact IKR today and learn more about your optimization options',
+  description: 'At IKR, were always ready by the phone to assist with clarification on various questions. Contact us today and inquire about your options.',
+  ogDescription: 'At IKR, were always ready by the phone to assist with clarification on various questions. Contact us today and inquire about your options.',
+  ogImage: 'https://i.ibb.co/JCjnNn8/IKR-Without-Slogan-2400x1800.jpg',
+})
 </script>
 
 <style scoped>

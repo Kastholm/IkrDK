@@ -15,9 +15,13 @@
 </template>
 
 <script>
-export default {
-
-}
+useSeoMeta({
+  title: 'Udbud & konkurrence - ud fra analyser laver vi optimering',
+  ogTitle: 'Udbud & konkurrence - ud fra analyser laver vi optimering',
+  description: 'IKR har mangeårig erfaring med konkurrenceudsættelse og udformning af bl.a. kravsspecifikationer - kontakt os og hør mere.',
+  ogDescription: 'IKR har mangeårig erfaring med konkurrenceudsættelse og udformning af bl.a. kravsspecifikationer - kontakt os og hør mere.',
+  ogImage: 'https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg',
+})
 </script>
 
 <style>

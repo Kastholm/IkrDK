@@ -71,6 +71,13 @@ const sanity = useSanity();
 const { data } = useSanityQuery(query);
 import { PortableText } from "@portabletext/vue";
 
+useSeoMeta({
+  title: 'Læs mere om IKR & hvilke specialist-ydelser vi kan tilbyde',
+  ogTitle: 'Læs mere om IKR & hvilke specialist-ydelser vi kan tilbyde',
+  description: 'Læs mere om IKR - vi har i mange år hjulpet dusinvis af virksomheder med deres løbende aftaler, og optimering af virksomhedens økonomiske råderum.',
+  ogDescription: 'Læs mere om IKR - vi har i mange år hjulpet dusinvis af virksomheder med deres løbende aftaler, og optimering af virksomhedens økonomiske råderum.',
+  ogImage: 'https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg',
+})
 </script>
 
 <style scoped>

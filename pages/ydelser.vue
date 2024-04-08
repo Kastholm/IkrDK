@@ -178,6 +178,14 @@ const sanity = useSanity();
 const { data } = useSanityQuery(query);
 import { PortableText } from "@portabletext/vue";
 console.log(data);
+
+useSeoMeta({
+  title: 'Se de ydelser IKR tilbyder jeres virksomheds økonomiske råderum',
+  ogTitle: 'Se de ydelser IKR tilbyder jeres virksomheds økonomiske råderum',
+  description: 'Læs mere om hvordan IKR optimere jeres firmas økonomiske råderum - med mange års erfaring er vi eksperter i kopi/print, fødevarer, forbrugsvarer, biler mm.',
+  ogDescription: 'Læs mere om hvordan IKR optimere jeres firmas økonomiske råderum - med mange års erfaring er vi eksperter i kopi/print, fødevarer, forbrugsvarer, biler mm.',
+  ogImage: 'https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg',
+})
 </script>
 
 <style scoped>

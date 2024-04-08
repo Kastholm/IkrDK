@@ -174,6 +174,14 @@ const sanity = useSanity();
 const { data } = useSanityQuery(query);
 import { PortableText } from "@portabletext/vue";
 console.log(data);
+
+useSeoMeta({
+  title: 'Kontakt IKR idag & hør mere om jeres optimerings muligheder',
+  ogTitle: 'Kontakt IKR idag & hør mere om jeres optimerings muligheder',
+  description: 'Hos IKR sidder vi altid klar ved telefonen til at hjælpe med opklaring til diverse spørgsmål. Kontakt os idag og hør om jeres muligheder.',
+  ogDescription: 'Hos IKR sidder vi altid klar ved telefonen til at hjælpe med opklaring til diverse spørgsmål. Kontakt os idag og hør om jeres muligheder.',
+  ogImage: 'https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg',
+})
 </script>
 
 <style scoped>

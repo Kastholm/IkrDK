@@ -86,6 +86,14 @@ console.log(data);
 definePageMeta({
   layout: 'engelsk-layout'
 })
+
+useSeoMeta({
+  title: 'IKR - your partner for optimizing contracts and finances',
+  ogTitle: 'IKR - your partner for optimizing contracts and finances',
+  description: 'IKR is your trusted partner when it comes to optimizing your current agreements - gain extra financial leeway through collaboration with IKR.',
+  ogDescription: 'IKR is your trusted partner when it comes to optimizing your current agreements - gain extra financial leeway through collaboration with IKR.',
+  ogImage: 'https://i.ibb.co/JCjnNn8/IKR-Without-Slogan-2400x1800.jpg',
+})
 </script>
 
 <style scoped>

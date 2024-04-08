@@ -175,6 +175,7 @@
 
 
 <script setup>
+
 const toggleBar = (barId) => {
   const bar = document.getElementById(barId);
   if (bar) {
@@ -190,6 +191,14 @@ const sanity = useSanity();
 const { data } = useSanityQuery(query);
 import { PortableText } from "@portabletext/vue";
 console.log(data);
+
+useSeoMeta({
+  title: 'Spørgsmål til optimering og aftalestyring - læs mere her',
+  ogTitle: 'Spørgsmål til optimering og aftalestyring - læs mere her',
+  description: 'Der er mange nuancer og måder at optimere aftaler og kontrakter på - læs mere om de forskellige muligheder og aftaletyper her.',
+  ogDescription: 'Der er mange nuancer og måder at optimere aftaler og kontrakter på - læs mere om de forskellige muligheder og aftaletyper her.',
+  ogImage: 'https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg',
+})
 </script>
 
 <style scoped>

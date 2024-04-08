@@ -47,7 +47,7 @@
                 class="flex w-full justify-end mr-10 underline underline-offset-4"
               >
                 <a href="/oekonomiskeAnalyser_Eng" class="text-end italic -translate-y-3 cursor-pointer"
-                  >Læs mere..</a
+                  >Read more..</a
                 >
               </div>
             </div>
@@ -71,7 +71,7 @@
                 class="flex w-full justify-end mr-10 underline underline-offset-4"
               >
                 <a href="/udbudUnderside_Eng" class="text-end italic -translate-y-3 cursor-pointer"
-                  >Læs mere..</a
+                  >Read more..</a
                 >
               </div>
             </div>
@@ -93,7 +93,7 @@
                 class="flex w-full justify-end mr-10 underline underline-offset-4"
               >
                 <a href="/aftaleUnderside_Eng" class="text-end italic -translate-y-3 cursor-pointer"
-                  >Læs mere..</a
+                  >Read more..</a
                 >
               </div>
             </div>
@@ -122,12 +122,11 @@ definePageMeta({
 })
 
 useSeoMeta({
-  title: 'My Amazing SiteIndexEngeeelsk',
-  ogTitle: 'My Amazing Sitedfasdf',
-  description: 'This is my amazing site, let me tell you all about itdfsasdf.',
-  ogDescription: 'This is my amazing site, let me tell you all about it.',
-  ogImage: 'https://example.com/image.png',
-  twitterCard: 'summary_large_image',
+  title: 'IKR - optimizes your contracts and agreements',
+  ogTitle: 'IKR - optimizes your contracts and agreements',
+  description: 'IKR gives you greater financial leeway by reviewing and optimizing your companys agreements and contracts.',
+  ogDescription: 'IKR gives you greater financial leeway by reviewing and optimizing your companys agreements and contracts.',
+  ogImage: 'https://i.ibb.co/JCjnNn8/IKR-Without-Slogan-2400x1800.jpg',
 })
 </script>
 

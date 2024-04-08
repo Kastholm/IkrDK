@@ -80,6 +80,14 @@ const sanity = useSanity();
 const { data } = useSanityQuery(query);
 import { PortableText } from "@portabletext/vue";
 console.log(data);
+
+useSeoMeta({
+  title: 'IKR - jeres samarbejdspartner for optimering af økonomi',
+  ogTitle: 'IKR - jeres samarbejdspartner for optimering af økonomi',
+  description: 'IKR er jeres faste samarbejdspartner når det gælder optimering af jeres nuværende aftaler - få ekstra råderum i økonomien med i samarbejde hos IKR.',
+  ogDescription: 'IKR er jeres faste samarbejdspartner når det gælder optimering af jeres nuværende aftaler - få ekstra råderum i økonomien med i samarbejde hos IKR.',
+  ogImage: 'https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg',
+})
 </script>
 
 <style scoped>
