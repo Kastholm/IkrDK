@@ -33,7 +33,7 @@
             </h6>
             <div class="content" @click="toggleBar(`bar1.${index}`)">
               <div class="bar-flex2">
-                <p class="bar-lille-text">
+                <p class="bar-lille-text mt-4">
                   <PortableText
                     :value="worker.bullettext1"
                     :components="component"

@@ -14,7 +14,7 @@
 </div>
 </template>
 
-<script>
+<script setup>
 useSeoMeta({
   title: 'Udbud & konkurrence - ud fra analyser laver vi optimering',
   ogTitle: 'Udbud & konkurrence - ud fra analyser laver vi optimering',
