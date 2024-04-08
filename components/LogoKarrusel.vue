@@ -62,7 +62,7 @@
 
 <div class="logo-popup rounded-lg" v-if="popupVisible" @click="closePopup">
     <div class="popup-content">
-		<figure class="absolute right-5 top-3 font-bold text-[20px]">X</figure>
+		<figure class="absolute right-5 top-3 font-bold text-[20px] cursor-pointer">X</figure>
       <p class="max-w-[600px]">Tester reference til Vordingborg.Tester reference til Vordingborg.Tester reference til Vordingborg.Tester reference til Vordingborg.</p>
     </div>
   </div>
