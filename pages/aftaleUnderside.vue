@@ -13,7 +13,7 @@
 </div>
 </template>
 
-<script>
+<script setup>
 useSeoMeta({
   title: 'Aftalestyring - få et løbende overblik samt værktøjer tilpasset jer',
   ogTitle: 'Aftalestyring - få et løbende overblik samt værktøjer tilpasset jer',

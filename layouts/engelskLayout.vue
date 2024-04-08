@@ -261,6 +261,10 @@ h1 h2 h3 p {
   }
 }
 
+div.bar-lille-tekst p {
+  margin-bottom: 20px;
+}
+
 /* Hero tablet slut*/
 
 /* Fontfaces indsat i layout og kan bruges på alle sider, linket til Default Nuxt static mappe 'public' (Her er fonts placeret) */

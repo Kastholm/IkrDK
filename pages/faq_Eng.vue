@@ -1,7 +1,6 @@
 <template>
   
-  <NuxtLayout :name="layout">
-  <FaqHero_Eng />
+  <FaqHero />
   <section class="bar-sections relative z-20">
     <figure
       class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0 sm:-translate-y-6 translate-y-16 z-0"
@@ -16,7 +15,7 @@
         @click="toggleBar('bar1')"
         class="flex justify-center items-center translate-y-3"
       >
-        <h3 class="header ">
+        <h3 class="header">
           ANALYSES<br />
           <span style="font-size: 16px"> ▼ </span>
         </h3>
@@ -26,20 +25,20 @@
           <div
             v-for="(worker, index) in data.analyser"
             :key="index"
-            class="baranalyser"
+            :class="`baranalyser `"
             :id="`bar1.${index}`"
           >
-            <h6 class="header" @click="toggleBar(`bar1.${index}`)">
-              <strong class="text-[35px] lg:inline hidden">+</strong> {{ worker.bullettitle1 }}
+            <h6 class="header flex justify-center items-center h-16" @click="toggleBar(`bar1.${index}`)">
+              <strong class="text-[35px] lg:block hidden">+</strong> {{ worker.bullettitle1 }}
             </h6>
             <div class="content" @click="toggleBar(`bar1.${index}`)">
               <div class="bar-flex2">
-                <p class="bar-lille-text">
+                <div class="bar-lille-text mt-4">
                   <PortableText
                     :value="worker.bullettext1"
                     :components="component"
                   />
-                </p>
+                </div>
               </div>
             </div>
           </div>
@@ -49,7 +48,7 @@
 
     <div class="bar z-20" id="bar2">
       <h3 class="header translate-y-3" @click="toggleBar('bar2')">
-         SUBCONTRACTORS & CONTRACTS<br />
+        SUBCONTRACTORS & CONTRACTS<br />
         <span style="font-size: 16px"> ▼ </span>
       </h3>
       <div class="content">
@@ -57,20 +56,20 @@
           <div
             v-for="(worker, index) in data.leverandor"
             :key="index"
-            class="baranalyser"
+            :class="`baranalyser `"
             :id="`bar2.${index}`"
           >
-            <h6 class="header" @click="toggleBar(`bar2.${index}`)">
-              <strong class="text-[35px] lg:inline hidden">+</strong> {{ worker.bullettitle2 }}
+            <h6 class="header flex justify-center items-center h-16" @click="toggleBar(`bar2.${index}`)">
+              <strong class="text-[35px] lg:block hidden">+</strong> {{ worker.bullettitle2 }}
             </h6>
             <div class="content" @click="toggleBar(`bar2.${index}`)">
               <div class="bar-flex2">
-                <p class="bar-lille-text">
+                <div class="bar-lille-text">
                   <PortableText
                     :value="worker.bullettext2"
                     :components="component"
                   />
-                </p>
+                </div>
               </div>
             </div>
           </div>
@@ -88,20 +87,20 @@
           <div
             v-for="(worker, index) in data.okonomi"
             :key="index"
-            class="baranalyser"
+            :class="`baranalyser `"
             :id="`bar3.${index}`"
           >
-            <h6 class="header" @click="toggleBar(`bar3.${index}`)">
-              <strong class="text-[35px] lg:inline hidden">+</strong> {{ worker.bullettitle3 }}
+            <h6 class="header flex justify-center items-center h-16" @click="toggleBar(`bar3.${index}`)">
+              <strong class="text-[35px] lg:block hidden">+</strong> {{ worker.bullettitle3 }}
             </h6>
             <div class="content" @click="toggleBar(`bar3.${index}`)">
               <div class="bar-flex2">
-                <p class="bar-lille-text">
+                <div class="bar-lille-text">
                   <PortableText
                     :value="worker.bullettext3"
                     :components="component"
                   />
-                </p>
+                </div>
               </div>
             </div>
           </div>
@@ -119,20 +118,20 @@
           <div
             v-for="(worker, index) in data.drift"
             :key="index"
-            class="baranalyser"
+            :class="`baranalyser baranalyser${index + 11}`"
             :id="`bar4.${index}`"
           >
-            <h6 class="header" @click="toggleBar(`bar4.${index}`)">
-              <strong class="text-[35px] lg:inline hidden">+</strong> {{ worker.bullettitle4 }}
+            <h6 class="header flex justify-center items-center h-16 w-fit m-auto" @click="toggleBar(`bar4.${index}`)">
+              <strong class="text-[35px] lg:block hidden">+</strong> {{ worker.bullettitle4 }}
             </h6>
             <div class="content" @click="toggleBar(`bar4.${index}`)">
               <div class="bar-flex2">
-                <p class="bar-lille-text">
+                <div class="bar-lille-text">
                   <PortableText
                     :value="worker.bullettext4"
                     :components="component"
                   />
-                </p>
+                </div>
               </div>
             </div>
           </div>
@@ -150,20 +149,20 @@
           <div
             v-for="(worker, index) in data.indkob"
             :key="index"
-            class="baranalyser"
+            :class="`baranalyser `"
             :id="`bar5.${index}`"
           >
-            <h6 class="header" @click="toggleBar(`bar5.${index}`)">
-              <strong class="text-[35px] lg:inline hidden">+</strong> {{ worker.bullettitle5 }}
+            <h6 class="header flex justify-center items-center h-16" @click="toggleBar(`bar5.${index}`)">
+              <strong class="text-[35px] lg:block hidden">+</strong> {{ worker.bullettitle5 }}
             </h6>
             <div class="content" @click="toggleBar(`bar5.${index}`)">
               <div class="bar-flex2">
-                <p class="bar-lille-text">
+                <div class="bar-lille-text">
                   <PortableText
                     :value="worker.bullettext5"
                     :components="component"
                   />
-                </p>
+                </div>
               </div>
             </div>
           </div>
@@ -171,12 +170,12 @@
       </div>
     </div>
   </section>
-</NuxtLayout>
 </template>
 
 
 
 <script setup>
+
 const toggleBar = (barId) => {
   const bar = document.getElementById(barId);
   if (bar) {
@@ -192,22 +191,19 @@ const sanity = useSanity();
 const { data } = useSanityQuery(query);
 import { PortableText } from "@portabletext/vue";
 console.log(data);
-definePageMeta({
-  layout: 'engelsk-layout'
-})
 
 useSeoMeta({
-  title: 'Questions about optimization & contract management - FAQ',
-  ogTitle: 'Questions about optimization & contract management - FAQ',
-  description: 'There are many ways to optimize agreements & contracts - read more about the different possibilities & types of agreements here.',
-  ogDescription: 'There are many ways to optimize agreements & contracts - read more about the different possibilities & types of agreements here.',
-  ogImage: 'https://i.ibb.co/JCjnNn8/IKR-Without-Slogan-2400x1800.jpg',
-})
+  title: "Questions about optimization & contract management - FAQ",
+  ogTitle: "Questions about optimization & contract management - FAQ",
+  description:
+    "There are many ways to optimize agreements & contracts - read more about the different possibilities & types of agreements here.",
+  ogDescription:
+    "There are many ways to optimize agreements & contracts - read more about the different possibilities & types of agreements here.",
+  ogImage: "https://i.ibb.co/JCjnNn8/IKR-Without-Slogan-2400x1800.jpg",
+});
 </script>
 
 <style scoped>
-
-
 @keyframes slideDown {
   0% {
     opacity: 0.9;
@@ -270,9 +266,13 @@ main {
   }
 }
 
+h6 {
+  line-height: 25px;
+}
+
 .baranalyser {
   width: 70%;
-  height: 50px;
+  height: 65px;
   background-color: #256c2b;
   color: white;
   cursor: pointer;
@@ -286,7 +286,7 @@ main {
 @media screen and (max-width: 767px) {
   .baranalyser {
     min-width: 90vw;
-    height: 63px;
+    height: 65px;
   }
 }
 
@@ -305,7 +305,6 @@ main {
 @media screen and (max-width: 767px) {
   .header {
     font-size: 20px;
-    transform: translatey(5px)
   }
 }
 
@@ -322,7 +321,6 @@ main {
   height: 100%;
   font-size: 20px;
   margin: auto;
-  height: fit-content;
 }
 
 .bar-flex {
@@ -339,7 +337,7 @@ main {
   justify-content: start;
   align-items: center;
   height: 100%;
-  margin-top: 50px;
+  margin: 10px 0;
   width: 100%;
 }
 
@@ -347,6 +345,10 @@ main {
   .bar-flex2 {
     margin-top: 10px;
   }
+}
+
+.bar-lille-text *, br {
+  margin-bottom: 20px !important;
 }
 
 .content {
@@ -360,36 +362,28 @@ main {
 }
 
 .baranalyser.active {
-  height: auto;
-  overflow: hidden; /* Ensure that content does not overflow when height is set to auto */
-  transition: height 0.3s ease; /* Add smooth transition animation */ /* Adjust the height as needed */
+  height: auto; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser.active {
-    height: 520px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1090px) {
-  .baranalyser.active {
-    height: 700px;
+    height: 730px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser.active {
-    height: 660px;
+    height: 690px;
   }
 }
 
 .baranalyser2.active {
-  height: 740px;
+  height: 710px;
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser2.active {
-    height: 730px;
+    height: 990px;
   }
 }
 
@@ -400,102 +394,108 @@ main {
 }
 
 .baranalyser3.active {
-  height: 390px;
+  height: 500px;
+}
+
+@media screen and (max-width: 767px) {
+  .baranalyser3.active {
+    height: 600px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser3.active {
-    height: 450px;
+    height: 510px;
   }
 }
 
 .baranalyser4.active {
-  height: 480px;
+  height: 400px;
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser4.active {
-    height: 520px;
+    height: 540px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser4.active {
-    height: 630px;
+    height: 500px;
   }
 }
 
 .baranalyser5.active {
-  height: 460px;
+  height: 490px;
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser5.active {
-    height: 420px;
+    height: 730px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser5.active {
-    height: 520px;
+    height: 620px;
   }
 }
 
 .baranalyser6.active {
-  height: 590px;
+  height: 680px;
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser6.active {
-    height: 625px;
+    height: 1000px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser6.active {
-    height: 755px;
+    height: 855px;
   }
 }
 
 .baranalyser7.active {
-  height: 1200px;
+  height: 2030px;
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser7.active {
-    height: 1230px;
+    height: 2700px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser7.active {
-    height: 1520px;
+    height: 2420px;
   }
 }
 
 .baranalyser8.active {
-  height: 1850px;
+  height: 1180px;
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser8.active {
-    height: 1910px;
+    height: 1710px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser8.active {
-    height: 2360px;
+    height: 1560px;
   }
 }
 
 .baranalyser9.active {
-  height: 1160px; /* Adjust the height as needed */
+  height: 1200px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser9.active {
-    height: 1200px;
+    height: 1770px;
   }
 }
 
@@ -506,12 +506,12 @@ main {
 }
 
 .baranalyser10.active {
-  height: 1120px; /* Adjust the height as needed */
+  height: 1150px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser10.active {
-    height: 1250px;
+    height: 1830px;
   }
 }
 
@@ -521,61 +521,61 @@ main {
   }
 }
 
-.baranalyser11.active {
-  height: 2180px; /* Adjust the height as needed */
+.baranalyser12.active {
+  height: 2210px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
-  .baranalyser11.active {
-    height: 2240px;
+  .baranalyser12.active {
+    height: 3200px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
-  .baranalyser11.active {
+  .baranalyser12.active {
     height: 2780px;
   }
 }
 
-.baranalyser12.active {
-  height: 1770px; /* Adjust the height as needed */
+.baranalyser11.active {
+  height: 1850px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
-  .baranalyser12.active {
-    height: 1810px;
+  .baranalyser11.active {
+    height: 2640px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
-  .baranalyser12.active {
-    height: 2200px;
+  .baranalyser11.active {
+    height: 2400px;
   }
 }
 
 .baranalyser13.active {
-  height: 1950px; /* Adjust the height as needed */
+  height: 1780px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser13.active {
-    height: 2000px;
+    height: 2610px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser13.active {
-    height: 2440px;
+    height: 2240px;
   }
 }
 
 .baranalyser14.active {
-  height: 2120px; /* Adjust the height as needed */
+  height: 1950px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser14.active {
-    height: 2090px;
+    height: 2700px;
   }
 }
 
@@ -586,130 +586,130 @@ main {
 }
 
 .baranalyser15.active {
-  height: 2320px; /* Adjust the height as needed */
+  height: 2130px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser15.active {
-    height: 2425px;
+    height: 2860px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser15.active {
-    height: 2980px;
+    height: 2480px;
   }
 }
 
 .baranalyser16.active {
-  height: 2250px; /* Adjust the height as needed */
+  height: 2330px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser16.active {
-    height: 2240px;
+    height: 3330px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser16.active {
-    height: 2780px;
-  }
-}
-
-.baranalyser17.active {
-  height: 1710px; /* Adjust the height as needed */
-}
-
-@media screen and (max-width: 767px) {
-  .baranalyser17.active {
-    height: 1730px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1140px) {
-  .baranalyser17.active {
-    height: 2170px;
+    height: 2880px;
   }
 }
 
 .baranalyser18.active {
-  height: 2380px; /* Adjust the height as needed */
+  height: 1720px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser18.active {
-    height: 2410px;
+    height: 2480px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser18.active {
-    height: 2960px;
+    height: 2170px;
   }
 }
 
-.baranalyser19.active {
-  height: 1360px; /* Adjust the height as needed */
+.baranalyser17.active {
+  height: 2260px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
-  .baranalyser19.active {
-    height: 1510px;
+  .baranalyser17.active {
+    height: 2990px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
-  .baranalyser19.active {
-    height: 1790px;
+  .baranalyser17.active {
+    height: 2760px;
   }
 }
 
 .baranalyser20.active {
-  height: 2180px; /* Adjust the height as needed */
+  height: 1380px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser20.active {
-    height: 2245px;
+    height: 2210px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser20.active {
-    height: 2780px;
+    height: 1790px;
+  }
+}
+
+.baranalyser19.active {
+  height: 2390px; /* Adjust the height as needed */
+}
+
+@media screen and (max-width: 767px) {
+  .baranalyser19.active {
+    height: 3350px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser19.active {
+    height: 2880px;
   }
 }
 
 .baranalyser21.active {
-  height: 2380px; /* Adjust the height as needed */
+  height: 2210px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
-  .baranalyser21.active {
-    height: 2470px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser21.active {
     height: 3020px;
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .baranalyser21.active {
+    height: 2820px;
+  }
+}
+
 .baranalyser22.active {
-  height: 1840px; /* Adjust the height as needed */
+  height: 2370px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser22.active {
-    height: 1810px;
+    height: 3610px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser22.active {
-    height: 2240px;
+    height: 3040px;
   }
 }
 
@@ -719,7 +719,7 @@ main {
 
 @media screen and (max-width: 767px) {
   .baranalyser23.active {
-    height: 1915px;
+    height: 2645px;
   }
 }
 
@@ -730,32 +730,38 @@ main {
 }
 
 .baranalyser24.active {
-  height: 2310px; /* Adjust the height as needed */
+  height: 1880px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser24.active {
-    height: 2380px;
+    height: 2630px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser24.active {
-    height: 2920px;
+    height: 2320px;
   }
 }
 
 .baranalyser25.active {
-  height: 2310px; /* Adjust the height as needed */
+  height: 2330px; /* Adjust the height as needed */
 }
 
+
+@media only screen and (max-width: 1140px) {
+  .baranalyser25.active {
+    height: 3310px;
+  }
+}
 .baranalyser26.active {
-  height: 2280px; /* Adjust the height as needed */
+  height: 2290px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser26.active {
-    height: 2350px;
+    height: 3180px;
   }
 }
 
@@ -766,12 +772,12 @@ main {
 }
 
 .baranalyser27.active {
-  height: 2410px; /* Adjust the height as needed */
+  height: 2430px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser27.active {
-    height: 2430px;
+    height: 3450px;
   }
 }
 
@@ -782,12 +788,13 @@ main {
 }
 
 .baranalyser28.active {
-  height: 2510px; /* Adjust the height as needed */
+  height: 2560px; 
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser28.active {
-    height: 2470px;
+    height: 3340px; 
+    
   }
 }
 
@@ -803,7 +810,7 @@ main {
 
 @media screen and (max-width: 767px) {
   .baranalyser29.active {
-    height: 2265px;
+    height: 2960px;
   }
 }
 
@@ -819,7 +826,8 @@ main {
 
 @media screen and (max-width: 767px) {
   .baranalyser30.active {
-    height: 2375px;
+    /* height: 2375px; */
+    height: 3340px;
   }
 }
 
@@ -830,28 +838,28 @@ main {
 }
 
 .baranalyser31.active {
-  height: 1940px; /* Adjust the height as needed */
+  height: 1960px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser31.active {
-    height: 2105px;
+    height: 2870px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser31.active {
-    height: 2580px;
+    height: 2540px;
   }
 }
 
 .baranalyser32.active {
-  height: 2210px; /* Adjust the height as needed */
+  height: 2240px; /* Adjust the height as needed */
 }
 
 @media screen and (max-width: 767px) {
   .baranalyser32.active {
-    height: 2215px;
+    height: 3045px;
   }
 }
 
@@ -867,13 +875,13 @@ main {
 
 @media screen and (max-width: 767px) {
   .baranalyser33.active {
-    height: 1950px;
+    height: 1750px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
   .baranalyser33.active {
-    height: 2400px;
+    height: 2000px;
   }
 }
 
