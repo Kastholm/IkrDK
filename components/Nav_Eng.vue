@@ -115,7 +115,7 @@ body, ul, li {
     /* Add any other styles you want for the active link */
   }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 1025px) {
   
   .respons-desktop {
     display: none;
@@ -142,7 +142,7 @@ body, ul, li {
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1026px) {
   
   .respons-mobil {
     display: none;

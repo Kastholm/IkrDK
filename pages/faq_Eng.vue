@@ -30,7 +30,7 @@
             :id="`bar1.${index}`"
           >
             <h6 class="header" @click="toggleBar(`bar1.${index}`)">
-              <strong class="text-[35px]">+</strong> {{ worker.bullettitle1 }}
+              <strong class="text-[35px] lg:block hidden">+</strong> {{ worker.bullettitle1 }}
             </h6>
             <div class="content" @click="toggleBar(`bar1.${index}`)">
               <div class="bar-flex2">
@@ -61,7 +61,7 @@
             :id="`bar2.${index}`"
           >
             <h6 class="header" @click="toggleBar(`bar2.${index}`)">
-              <strong class="text-[35px]">+</strong> {{ worker.bullettitle2 }}
+              <strong class="text-[35px] lg:block hidden">+</strong> {{ worker.bullettitle2 }}
             </h6>
             <div class="content" @click="toggleBar(`bar2.${index}`)">
               <div class="bar-flex2">
@@ -92,7 +92,7 @@
             :id="`bar3.${index}`"
           >
             <h6 class="header" @click="toggleBar(`bar3.${index}`)">
-              <strong class="text-[35px]">+</strong> {{ worker.bullettitle3 }}
+              <strong class="text-[35px] lg:block hidden">+</strong> {{ worker.bullettitle3 }}
             </h6>
             <div class="content" @click="toggleBar(`bar3.${index}`)">
               <div class="bar-flex2">
@@ -123,7 +123,7 @@
             :id="`bar4.${index}`"
           >
             <h6 class="header" @click="toggleBar(`bar4.${index}`)">
-              <strong class="text-[35px]">+</strong> {{ worker.bullettitle4 }}
+              <strong class="text-[35px] lg:block hidden">+</strong> {{ worker.bullettitle4 }}
             </h6>
             <div class="content" @click="toggleBar(`bar4.${index}`)">
               <div class="bar-flex2">
@@ -154,7 +154,7 @@
             :id="`bar5.${index}`"
           >
             <h6 class="header" @click="toggleBar(`bar5.${index}`)">
-              <strong class="text-[35px]">+</strong> {{ worker.bullettitle5 }}
+              <strong class="text-[35px] lg:block hidden">+</strong> {{ worker.bullettitle5 }}
             </h6>
             <div class="content" @click="toggleBar(`bar5.${index}`)">
               <div class="bar-flex2">
