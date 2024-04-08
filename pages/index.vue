@@ -117,10 +117,10 @@ import { PortableText } from "@portabletext/vue";
 console.log(data);
 
 useSeoMeta({
-  title: 'My Amazing SiteIndexDansk',
-  ogTitle: 'My Amazing Sitedfasdf',
-  description: 'This is my amazing site, let me tell you all about itdfsasdf.',
-  ogDescription: 'This is my amazing site, let me tell you all about it.',
+  title: 'IKR - optimerer jeres kontrakter og aftaler',
+  ogTitle: 'IKR - optimerer jeres kontrakter og aftaler',
+  description: 'IKR giver jer et større økonomisk råderum ved at gennemgå og optimerer jeres firmas aftaler og kontrakter.',
+  ogDescription: 'IKR giver jer et større økonomisk råderum ved at gennemgå og optimerer jeres firmas aftaler og kontrakter.',
   ogImage: 'https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg',
 })
 </script>

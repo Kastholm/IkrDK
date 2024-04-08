@@ -36,7 +36,7 @@
 
 
 		<!-- Popup Vordingborg -->
-		<div class="slide" @click="showPopup('Vordingborg')">
+		<div class="slide cursor-pointer" @click="showPopup('Vordingborg')">
         <img src="https://i.ibb.co/4Fcdc6r/vordingborg-logo-pos.png" height="100" width="250" alt="Vordingborg Kommune" />
       </div>
 
@@ -62,8 +62,11 @@
 
 <div class="logo-popup rounded-lg" v-if="popupVisible" @click="closePopup">
     <div class="popup-content">
-		<figure class="absolute right-5 top-3 font-bold text-[20px] cursor-pointer">X</figure>
-      <p class="max-w-[600px]">Tester reference til Vordingborg.Tester reference til Vordingborg.Tester reference til Vordingborg.Tester reference til Vordingborg.</p>
+		
+		<h4>Overskrift</h4>
+		<figure class="absolute right-28 top-[150px] font-black text-[20px] cursor-pointer">X</figure>
+      <p class="max-w-[600px]">"Tester reference til Vordingborg.Tester reference til Vordingborg.Tester reference til Vordingborg.Tester reference til Vordingborg."</p>
+	  <a href="/ydelser" class="text-[#1a5b0b]">Besøg Vordingborg Kommune website</a>
     </div>
   </div>
 
