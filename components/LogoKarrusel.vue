@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full mt-20">
-		<h3 class="m-auto mt-15 mb-10 w-fit">Klik på logo og hør udtalelse</h3>
+		<h3 class="m-auto mb-10 w-fit">Klik på logo og læs udtalelse</h3>
 	</div>
 <div class="slider sm:max-w-full max-w-[330px] border-t-2 border-b-2 pt-4 mb-40">
 	<div class="slide-track">
@@ -95,7 +95,7 @@ export default {
 	justify-content: center;
 }
 
-$animationSpeed: 15s;
+$animationSpeed: 30s;
 
 @keyframes scroll {
 	0% { transform: translateX(0); }
@@ -114,7 +114,7 @@ $animationSpeed: 15s;
 		animation: scroll $animationSpeed linear infinite;
 		display: flex;
 		width: calc(500px * 18);
-		gap: 80px;
+		gap: 60px;
 	}
 	.slide {
 		height: 100px;
