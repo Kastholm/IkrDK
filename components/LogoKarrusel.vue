@@ -61,10 +61,10 @@
 
 
 <div class="logo-popup rounded-lg" v-if="popupVisible" @click="closePopup">
-    <div class="popup-content">
+    <div class="popup-content relative">
 		
 		<h4>Overskrift</h4>
-		<figure class="absolute right-28 top-[150px] font-black text-[20px] cursor-pointer">X</figure>
+		<figure class="absolute right-8 top-5 font-black text-[20px] cursor-pointer">X</figure>
       <p class="max-w-[600px]">"Tester reference til Vordingborg.Tester reference til Vordingborg.Tester reference til Vordingborg.Tester reference til Vordingborg."</p>
 	  <a href="/ydelser" class="text-[#1a5b0b]">Besøg Vordingborg Kommune website</a>
     </div>
