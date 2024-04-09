@@ -28,7 +28,7 @@
           </p>
         </div>
         <div
-          class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white 2xl:mt-0 sm:-translate-y-0 kasserTablet"
+          class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white 2xl:mt-0 sm:-translate-y-0 -translate-y-20 mb-16 mt-5 kasserTablet"
         >
           <a href="/oekonomiskeAnalyser_Eng">
             <div
@@ -39,9 +39,9 @@
               </h3>
               <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">
                 <PortableText
-                  :value="data.text3[0]"
-                  :components="components"
-                />
+            :value="data.text3[0]"
+            :components="components"
+          />
               </p>
               <div
                 class="flex w-full justify-end mr-10 underline underline-offset-4"
@@ -62,10 +62,10 @@
               <p
                 class="max-w-[90%] cardfont max-h-[150px] mt-[51px] -translate-y-[55px]"
               >
-                <PortableText
-                  :value="data.text4[0]"
-                  :components="components"
-                />
+              <PortableText
+            :value="data.text4[0]"
+            :components="components"
+          />
               </p>
               <div
                 class="flex w-full justify-end mr-10 underline underline-offset-4"
@@ -85,9 +85,9 @@
               </h3>
               <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">
                 <PortableText
-                  :value="data.text5[0]"
-                  :components="components"
-                />
+            :value="data.text5[0]"
+            :components="components"
+          />
               </p>
               <div
                 class="flex w-full justify-end mr-10 underline underline-offset-4"

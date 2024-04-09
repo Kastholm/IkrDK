@@ -1,6 +1,6 @@
 <template>
   
-  <FaqHero />
+  <FaqHero_Eng />
   <section class="bar-sections relative z-20">
     <figure
       class="h-[300px] min-h-[300px] respons w-[250px] bg-[#919995] clip4 absolute left-0 top-0 sm:-translate-y-6 translate-y-16 z-0"

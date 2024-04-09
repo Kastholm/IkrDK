@@ -35,7 +35,7 @@
                 class="flex w-full justify-end mr-10 underline underline-offset-4"
               >
                 <a href="/oekonomiskeAnalyser_Eng" class="text-end italic -translate-y-3 cursor-pointer"
-                  >Læs mere..</a
+                  >Read more..</a
                 >
               </div>
             </div>
@@ -59,7 +59,7 @@
                 class="flex w-full justify-end mr-10 underline underline-offset-4"
               >
                 <a href="/udbudUnderside_Eng" class="text-end italic -translate-y-3 cursor-pointer"
-                  >Læs mere..</a
+                  >Read more..</a
                 >
               </div>
             </div>
@@ -81,7 +81,7 @@
                 class="flex w-full justify-end mr-10 underline underline-offset-4"
               >
                 <a href="/aftaleUnderside_Eng" class="text-end italic -translate-y-3 cursor-pointer"
-                  >Læs mere..</a
+                  >Read more..</a
                 >
               </div>
             </div>

@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full mt-20">
-		<h3 class="m-auto mb-10 w-fit text-[24px]">Klik på logo og læs udtalelse</h3>
+		<!--<h3 class="m-auto mb-10 w-fit text-[24px]">Klik på logo og læs udtalelse</h3>-->
 	</div>
 <div class="slider sm:max-w-full max-w-[330px] border-t-2 border-b-2 pt-4 mb-40">
 	<div class="slide-track">
@@ -63,10 +63,12 @@
 <div class="logo-popup rounded-lg" v-if="popupVisible" @click="closePopup">
     <div class="popup-content relative">
 		
-		<h4>Overskrift</h4>
-		<figure class="absolute right-8 top-5 font-black text-[20px] cursor-pointer">X</figure>
-      <p class="max-w-[600px]">"Tester reference til Vordingborg.Tester reference til Vordingborg.Tester reference til Vordingborg.Tester reference til Vordingborg."</p>
-	  <a href="/ydelser" class="text-[#1a5b0b]">Besøg Vordingborg Kommune website</a>
+		<h4 class="text-[25px]"></h4>
+		<figure class="absolute right-4 top-2 font-black text-[20px] cursor-pointer">X</figure>
+      <p class="max-w-[600px] text-[20px]">
+</p>
+<br/>
+	  <a href="/ydelser" class="text-[#1a5b0b]"></a>
     </div>
   </div>
 
