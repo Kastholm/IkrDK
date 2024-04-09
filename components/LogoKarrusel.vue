@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full mt-20">
-		<h3 class="m-auto mb-10 w-fit">Klik på logo og læs udtalelse</h3>
+		<h3 class="m-auto mb-10 w-fit text-[24px]">Klik på logo og læs udtalelse</h3>
 	</div>
 <div class="slider sm:max-w-full max-w-[330px] border-t-2 border-b-2 pt-4 mb-40">
 	<div class="slide-track">
