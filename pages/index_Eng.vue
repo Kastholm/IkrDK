@@ -6,7 +6,6 @@
   </div>
     <main v-else class="flex flex-col justify-center">
       <ForsideHero_Eng />
-      <section>
         <div
           class="flex flex-col h-[400px] w-full gap-5 justify-center items-center sm:mt-20 mt-40 relative sm:mb-0 mb-10"
         >
@@ -28,7 +27,7 @@
           </p>
         </div>
         <div
-          class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white 2xl:mt-0 sm:-translate-y-0 -translate-y-20 mb-16 mt-5 kasserTablet"
+          class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white 2xl:mt-0 sm:-translate-y-0 -translate-y-20 mb-16 sm:mb-0 mt-5 kasserTablet"
         >
           <a href="/oekonomiskeAnalyser_Eng">
             <div
@@ -99,7 +98,7 @@
             </div>
           </a>
         </div>
-      </section>
+      
   
       <ForsideBund_Eng />
       <LogoKarrusel
