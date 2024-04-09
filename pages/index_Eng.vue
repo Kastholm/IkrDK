@@ -34,13 +34,13 @@
               class="card flex flex-col justify-center items-center gap-[56px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer"
             >
               <h3 class="max-w-[90%] leading-10 overskrift-underline">
-                <!--{{ data.kasse1 }}-->
+                {{ data.kasse1 }}
               </h3>
               <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">
-                <!--<PortableText
+                <PortableText
             :value="data.text3[0]"
             :components="components"
-          />-->
+          />
               </p>
               <div
                 class="flex w-full justify-end mr-10 underline underline-offset-4"
@@ -56,15 +56,15 @@
               class="card flex flex-col justify-center items-center gap-[45px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer"
             >
               <h3 class="max-w-[90%] leading-10 overskrift-underline">
-                <!--{{ data.kasse2 }}-->
+                {{ data.kasse2 }}
               </h3>
               <p
                 class="max-w-[90%] cardfont max-h-[150px] mt-[51px] -translate-y-[55px]"
               >
-              <!--<PortableText
+              <PortableText
             :value="data.text4[0]"
             :components="components"
-          />-->
+          />
               </p>
               <div
                 class="flex w-full justify-end mr-10 underline underline-offset-4"
@@ -80,20 +80,20 @@
               class="card flex flex-col justify-center items-center gap-[55px] shadow-2xl shadow-[#2c2c2cd1] cursor-pointer"
             >
               <h3 class="max-w-[90%] w-[90%] leading-10 overskrift-underline">
-                <!--{{ data.kasse3 }}-->
+                {{ data.kasse3 }}
               </h3>
               <p class="max-w-[90%] cardfont max-h-[150px] -translate-y-4">
-                <!--<PortableText
+                <PortableText
             :value="data.text5[0]"
             :components="components"
-          />-->
+          />
               </p>
               <div
                 class="flex w-full justify-end mr-10 underline underline-offset-4"
               >
                 <a href="/aftaleUnderside_Eng" class="text-end italic -translate-y-3 cursor-pointer"
                   >Read more..</a
-                >
+                > 
               </div>
             </div>
           </a>
