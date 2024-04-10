@@ -63,9 +63,9 @@
           >{{ data.title7 }}
           <input
             v-model="telefon"
-            type="tel"
+            type="phone"
             id="telefon"
-            name="telefon"
+            name="phone"
             class="w-full px-3 py-2 border rounded text-black"
             required
           />
