@@ -102,13 +102,15 @@
           </label>
   
           <button
-            class="bg-[#0a3700] text-white px-4 py-2 rounded hover:scale-110 transition-all font-semibold"
+    :class="messageSent ? 'bg-green-500' : 'bg-[#0a3700]'"
+    class="text-white px-4 py-2 rounded hover:scale-110 transition-all font-semibold"
+    @click="sendMessage"
+  >
+    {{ messageSent ? 'Sent!' : 'Send' }}
+  </button>
+          <span v-if="messageSent" class="text-white ml-4"
+            >Message sent! - we will contact you.</span
           >
-            Send
-          </button>
-          <!-- <span v-if="messageSent" class="text-white ml-4"
-            >Besked sendt! - vi kontakter dig.</span
-          > -->
         </Form>
   
         <div v-if="isNotificationVisible" class="notification-modal grid">
@@ -129,6 +131,7 @@
 import { ref } from "vue";
 import { Field, Form, ErrorMessage } from "vee-validate";
 import * as yup from "yup";
+const messageSent = ref(false); 
 
 async function onSubmit(value) {
   const schema = yup.object({
@@ -169,7 +172,10 @@ async function onSubmit(value) {
 
 const isNotificationVisible = ref(false);
 const notificationMessage = ref("");
-
+function sendMessage() {
+  messageSent.value = true; // This will change the button's state immediately when clicked
+  onSubmit(); // Call your existing submit function
+}
 const query = groq`*[(_type == "Kontakt") && lang == "Engelsk" ][0]`;
 
 const sanity = useSanity();
