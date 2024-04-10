@@ -27,7 +27,7 @@
           </p>
         </div>
         <div
-          class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white 2xl:mt-0 sm:-translate-y-0 -translate-y-20 mb-16 sm:mb-0 mt-5 kasserTablet"
+          class="flex sm:flex-row flex-col items-center sm:gap-14 justify-center text-white 2xl:mt-0 sm:-translate-y-0 -translate-y-20 mb-16 sm:mb-0 mt-24 kasserTablet"
         >
           <a href="/oekonomiskeAnalyser_Eng">
             <div

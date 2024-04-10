@@ -1,5 +1,5 @@
 <template>
-  
+  <NuxtLayout :name="layout">
   <FaqHero_Eng />
   <section class="bar-sections relative z-20">
     <figure
@@ -170,11 +170,15 @@
       </div>
     </div>
   </section>
+</NuxtLayout>
 </template>
 
 
 
 <script setup>
+definePageMeta({
+  layout: 'engelsk-layout'
+})
 
 const toggleBar = (barId) => {
   const bar = document.getElementById(barId);
