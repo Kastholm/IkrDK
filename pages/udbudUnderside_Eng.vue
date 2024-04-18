@@ -8,7 +8,6 @@
     <a href="/oekonomiskeAnalyser_Eng"><li class="border-[2.5px] border-solid border-white min-w-[280px] transition-all hover:scale-110 font-semibold text-center px-10 min py-5 bg-[#0a3700c4] text-[20px] shadow-2xl rounded-xl">Financial analysis</li></a>
     <a href="/udbudUnderside_Eng"><li class="border-[2.5px] border-solid border-white min-w-[280px] transition-all hover:scale-110 font-semibold px-10 py-5 hover:bg-[#0a3700c4] text-[20px] shadow-2xl rounded-xl">Tendering & Competition</li></a>
     <a href="/aftaleUnderside_Eng"><li class="border-[2.5px] border-solid border-white min-w-[280px] transition-all hover:scale-110 font-semibold text-center px-10 py-5 hover:bg-[#0a3700c4] text-[20px] shadow-2xl rounded-xl">Contract Management</li></a>
-    
   </ul>
  </div>
 </div>
