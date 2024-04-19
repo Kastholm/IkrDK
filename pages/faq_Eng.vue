@@ -219,6 +219,10 @@ useSeoMeta({
   }
 }
 
+div.bar-lille-tekst p {
+  margin-bottom: 20px;
+}
+
 main {
   opacity: 0;
   animation: slideDown 0.7s ease-out forwards;
