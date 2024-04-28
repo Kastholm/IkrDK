@@ -3,27 +3,27 @@
   <header class="relative h-fit sm:max-w-full max-w-[40px] z-50">
     <nav class="relative flex justify-center items-center border-[#256c2b] border-b-4 max-h-[200px]">
       <ul class="flex gap-8 absolute font-semibold z-50 pt-10 menuGapTablet">
-        <li :class="{ 'active-link': $route.path === '/index_Eng' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
-          <NuxtLink to="/index_Eng">HOME</NuxtLink>
+        <li :class="{ 'active-link': $route.path === '/index_Sve' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/index_Sve">HEM</NuxtLink>
         </li>
-        <li :class="{ 'active-link': $route.path === '/samarbejde_Eng' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
-          <NuxtLink to="/samarbejde_Eng">COLLABORATION</NuxtLink>
+        <li :class="{ 'active-link': $route.path === '/samarbejde_Sve' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/samarbejde_Sve">SAMARBETE</NuxtLink>
         </li>
-        <li :class="{ 'active-link': $route.path === '/ydelser_Eng' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
-          <NuxtLink to="/ydelser_Eng">SERVICES</NuxtLink>
+        <li :class="{ 'active-link': $route.path === '/ydelser_Sve' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/ydelser_Sve">TJÄNSTER</NuxtLink>
         </li>
-        <li :class="{ 'active-link': $route.path === '/vi-er_Eng' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
-          <NuxtLink to="/vi-er_Eng">WE ARE</NuxtLink>
+        <li :class="{ 'active-link': $route.path === '/vi-er_Sve' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/vi-er_Sve">VI ÄR</NuxtLink>
         </li>
-        <li :class="{ 'active-link': $route.path === '/faq_Eng' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
-          <NuxtLink to="/faq_Eng">FAQ</NuxtLink>
+        <li :class="{ 'active-link': $route.path === '/faq_Sve' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/faq_Sve">FAQ</NuxtLink>
         </li>
         
       </ul>
       <NuxtLink to="/index_Eng"><img src="https://i.ibb.co/JCjnNn8/IKR-Without-Slogan-2400x1800.jpg" class="absolute left-24 2xl:left-36 h-[90px] w-fit top-3 menuImgTablet" alt="#"></NuxtLink>
       <div class="absolute right-16 font-semibold top-3 p-6 cursor-pointer text-[#919995] flex gap-3">
         <li class="  hover:scale-110 transition-all mt-[20px] cursor-pointer bg-[#256c2b] text-white px-4 pb-1 rounded-md">
-            <NuxtLink class="translate-y-10" to="/kontakt_Eng">CONTACT</NuxtLink>
+            <NuxtLink class="translate-y-10" to="/kontakt_Sve">KONTAKT</NuxtLink>
           </li>
         <NuxtLink to="/index_Eng"><img src="https://i.ibb.co/P1yfgVt/Flag-of-the-United-Kingdom-3-5-svg.webp" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all ml-8 md:ml-[4vw]"></NuxtLink>
           <NuxtLink to="/"><img src="https://i.ibb.co/jZs3yf6/Dansk-flag383594.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
@@ -53,28 +53,28 @@
     <span></span>
     
     <ul id="menu">
-      <li :class="{ 'active-link': $route.path === '/index_Eng' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
-          <a href="/index_Eng">HOME</a>
+      <li :class="{ 'active-link': $route.path === '/index_Sve' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <a href="/index_Sve">HEM</a>
         </li>
-        <li :class="{ 'active-link': $route.path === '/samarbejde_Eng' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
-          <NuxtLink to="/samarbejde_Eng">COLLABORATION</NuxtLink>
+        <li :class="{ 'active-link': $route.path === '/samarbejde_Sve' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/samarbejde_Sve">SAMARBETE</NuxtLink>
         </li>
-        <li :class="{ 'active-link': $route.path === '/ydelser_Eng' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
-          <NuxtLink to="/ydelser_Eng">SERVICES</NuxtLink>
+        <li :class="{ 'active-link': $route.path === '/ydelser_Sve' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/ydelser_Sve">TJÄNSTER</NuxtLink>
         </li>
-        <li :class="{ 'active-link': $route.path === '/vi-er_Eng' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
-          <a href="/vi-er_Eng">WE ARE</a>
+        <li :class="{ 'active-link': $route.path === '/vi-er_Sve' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <a href="/vi-er_Sve">VI ÄR</a>
         </li>
-        <li :class="{ 'active-link': $route.path === '/faq_Eng' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
-          <NuxtLink to="/faq_Eng">FAQ</NuxtLink>
+        <li :class="{ 'active-link': $route.path === '/faq_Sve' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/faq_Sve">FAQ</NuxtLink>
         </li>
-        <li :class="{ 'active-link': $route.path === '/kontakt_Eng' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
-          <NuxtLink to="/kontakt_Eng">CONTACT</NuxtLink>
+        <li :class="{ 'active-link': $route.path === '/kontakt_Sve' }" class="hover:underline hover:decoration-[2px] hover:underline-offset-4">
+          <NuxtLink to="/kontakt_Sve">KONTAKT</NuxtLink>
         </li>
       <div class="absolute right-28 font-semibold top-10 p-6 cursor-pointer text-[#919995] flex gap-3">
         <NuxtLink to="/index_Eng"><img src="https://i.ibb.co/P1yfgVt/Flag-of-the-United-Kingdom-3-5-svg.webp" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
           <NuxtLink to="/"><img src="https://i.ibb.co/jZs3yf6/Dansk-flag383594.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink>
-           <!-- <NuxtLink to="/"><img src="https://i.ibb.co/bHq9yTg/Svensk-flag693684.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink> -->
+         <NuxtLink to="/index_Sve"><img src="https://i.ibb.co/bHq9yTg/Svensk-flag693684.jpg" class="h-[40px] w-[40px] rounded-[50%] hover:rounded-lg transition-all"></NuxtLink> 
     </div>
     </ul>
   </div>

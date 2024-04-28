@@ -137,4 +137,123 @@ console.log(data);
 .clip3 {
   clip-path: polygon(0 0, 100% 49%, 100% 100%, 0 55%);
 }
+
+.kommentar::before {
+  content: "";
+  position: absolute;
+  background-image: url("https://i.ibb.co/3ftYYW3/G-se-jne-260px.png");
+  background-size: contain;
+  transform: translatey(-20px) translatex(-60px);
+  font-size: 40px;
+  height: 60px;
+  width: 60px;
+}
+
+.kommentar2::before {
+  content: "";
+  position: absolute;
+  background-image: url("https://i.ibb.co/3ftYYW3/G-se-jne-260px.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translatey(-10px) translatex(10px);
+  font-size: 40px;
+  height: 40px;
+  width: 40px;
+}
+
+.kommentar3::before {
+  content: "";
+  position: absolute;
+  background-image: url("https://i.ibb.co/3ftYYW3/G-se-jne-260px.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translatey(-20px) translatex(-45px);
+  font-size: 40px;
+  height: 40px;
+  width: 40px;
+}
+
+@media only screen and (max-width: 363px) {
+  .kommentar2::before {
+    content: '';
+    position: absolute;
+    background-image: url('https://i.ibb.co/3ftYYW3/G-se-jne-260px.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translatey(10px) translatex(5px);
+    font-size: 40px;
+    height: 20px;
+    width: 20px;
+
+}
+
+
+
+.kommentar3::before {
+    content: '';
+    position: absolute;
+    background-image: url('https://i.ibb.co/3ftYYW3/G-se-jne-260px.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 0;
+    transform: translatey(2px) translatex(10px);
+    font-size: 40px;
+    height: 20px;
+    width: 20px;
+}
+
+.kommentar3Eng::before {
+    content: '';
+    position: absolute;
+    background-image: url('https://i.ibb.co/3ftYYW3/G-se-jne-260px.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 0;
+    transform: translatey(2px) translatex(5px);
+    font-size: 40px;
+    height: 20px;
+    width: 20px;
+}
+}
+
+@media only screen and (min-width: 364px) and (max-width: 700px) {
+  .kommentar2::before {
+    content: '';
+    position: absolute;
+    background-image: url('https://i.ibb.co/3ftYYW3/G-se-jne-260px.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translatey(10px) translatex(5px);
+    font-size: 40px;
+    height: 20px;
+    width: 20px;
+
+}
+
+.kommentar3::before {
+    content: '';
+    position: absolute;
+    background-image: url('https://i.ibb.co/3ftYYW3/G-se-jne-260px.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 0;
+    transform: translatey(2px) translatex(20px);
+    font-size: 40px;
+    height: 20px;
+    width: 20px;
+}
+
+.kommentar3Eng::before {
+    content: '';
+    position: absolute;
+    background-image: url('https://i.ibb.co/3ftYYW3/G-se-jne-260px.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 0;
+    transform: translatey(2px) translatex(0px);
+    font-size: 40px;
+    height: 20px;
+    width: 20px;
+}
+}
 </style>

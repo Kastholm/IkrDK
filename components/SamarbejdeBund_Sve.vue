@@ -59,7 +59,7 @@
 </template>
 
 <script setup>
-const query = groq`*[(_type == "samarbejde") && lang == "Engelsk" ][0]`;
+const query = groq`*[(_type == "samarbejde") && lang == "Svensk" ][0]`;
 
 const sanity = useSanity();
 const { data } = useSanityQuery(query);
@@ -97,6 +97,41 @@ console.log(data);
   .bgimg {
     gap: 400px;
   }
+}
+
+.kommentar::before {
+  content: "";
+  position: absolute;
+  background-image: url("https://i.ibb.co/3ftYYW3/G-se-jne-260px.png");
+  background-size: contain;
+  transform: translatey(-20px) translatex(-60px);
+  font-size: 40px;
+  height: 60px;
+  width: 60px;
+}
+
+.kommentar2::before {
+  content: "";
+  position: absolute;
+  background-image: url("https://i.ibb.co/3ftYYW3/G-se-jne-260px.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translatey(-10px) translatex(10px);
+  font-size: 40px;
+  height: 40px;
+  width: 40px;
+}
+
+.kommentar3::before {
+  content: "";
+  position: absolute;
+  background-image: url("https://i.ibb.co/3ftYYW3/G-se-jne-260px.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translatey(-20px) translatex(-45px);
+  font-size: 40px;
+  height: 40px;
+  width: 40px;
 }
 
 @media only screen and (max-width: 363px) {

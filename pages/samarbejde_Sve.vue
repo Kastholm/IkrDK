@@ -5,7 +5,7 @@
       <div class="loader"></div>
     </div>
     <main v-else class="flex flex-col justify-center">
-      <SamarbejdeHero_Sve />
+      <SamarbejdeHero_Eng />
       <section class="flex flex-col">
         <div
           class="flex flex-wrap w-full relative mt-20 sm:mt-20 sm:gap-20 gap-10 2xl:gap-40 justify-center"
@@ -66,7 +66,7 @@
         </div>
       </section>
   
-      <SamarbejdeBund_Sve />
+      <SamarbejdeBund_Eng />
       <LogoKarrusel
         class="translate-y-20 border-t-[#2c2c2c] border-[0px] border-b-[#2c2c2c]"
       />
@@ -76,7 +76,7 @@
 </template>
 
 <script setup>
-const query = groq`*[(_type == "samarbejde") && lang == "Svensk" ][0]`;
+const query = groq`*[(_type == "samarbejde") && lang == "Engelsk" ][0]`;
 
 const sanity = useSanity();
 const { data } = useSanityQuery(query);
@@ -84,7 +84,7 @@ import { PortableText } from "@portabletext/vue";
 console.log(data);
 
 definePageMeta({
-  layout: 'svensk-layout'
+  layout: 'engelsk-layout'
 })
 
 useSeoMeta({
