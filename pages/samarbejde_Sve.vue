@@ -76,7 +76,7 @@
 </template>
 
 <script setup>
-const query = groq`*[(_type == "samarbejde") && lang == "Engelsk" ][0]`;
+const query = groq`*[(_type == "samarbejde") && lang == "Svensk" ][0]`;
 
 const sanity = useSanity();
 const { data } = useSanityQuery(query);
@@ -84,7 +84,7 @@ import { PortableText } from "@portabletext/vue";
 console.log(data);
 
 definePageMeta({
-  layout: 'engelsk-layout'
+  layout: 'svensk-layout'
 })
 
 useSeoMeta({

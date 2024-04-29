@@ -16,7 +16,7 @@
         class="flex justify-center items-center translate-y-3"
       >
         <h3 class="header">
-          ANALYSES<br />
+          ANALYSER<br />
           <span style="font-size: 16px"> ▼ </span>
         </h3>
       </div>
@@ -48,7 +48,7 @@
 
     <div class="bar z-20" id="bar2">
       <h3 class="header translate-y-3" @click="toggleBar('bar2')">
-        SUBCONTRACTORS & CONTRACTS<br />
+        UNDERLEVERANTÖRER & KONTRAKT<br />
         <span style="font-size: 16px"> ▼ </span>
       </h3>
       <div class="content">
@@ -79,7 +79,7 @@
 
     <div class="bar z-20" id="bar3">
       <h3 class="header translate-y-3" @click="toggleBar('bar3')">
-        INCREASED FINANCIAL FLEXIBILITY<br />
+        ÖKAD EKONOMISK FLEXIBILITET<br />
         <span style="font-size: 16px"> ▼ </span>
       </h3>
       <div class="content">
@@ -110,7 +110,7 @@
 
     <div class="bar z-20" id="bar4">
       <h3 class="header translate-y-3" @click="toggleBar('bar4')">
-        OPERATIONS & CONTROLLING<br />
+        OPERATIONER & KONTROLL<br />
         <span style="font-size: 16px"> ▼ </span>
       </h3>
       <div class="content">
@@ -141,7 +141,8 @@
 
     <div class="bar z-20" id="bar5">
       <h3 class="header translate-y-3" @click="toggleBar('bar5')">
-        PROCUREMENT & TENDERING<br />
+        INKÖP & UPPHANDLING
+<br />
         <span style="font-size: 16px"> ▼ </span>
       </h3>
       <div class="content">

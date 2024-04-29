@@ -32,7 +32,7 @@
             </p>
           </article>
           <article
-            class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-2 sm:ml-0 sm:mt-6 mt-[50px] sm:translate-y-5 sm:gap-7 gap-1 italic text-[#000000] sm:max-w-full max-w-[100px] leading-[15px]"
+            class="flex text-start sm:text-end flex-col sm:items-end w-[58%] personer-respons personer-respons2 2xl:w-[70%] ml-2 sm:ml-0 sm:mt-12 mt-[50px] sm:translate-y-5 sm:gap-7 gap-1 italic text-[#000000] sm:max-w-full max-w-[100px] leading-[15px]"
           >
             <p
               v-for="(worker, index) in data.workers"
