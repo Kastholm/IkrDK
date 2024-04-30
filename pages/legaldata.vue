@@ -139,7 +139,7 @@ For the Data Processor, IKR A/S
  
  <h2 id="contact" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36 streg relative">Contact us</h2>
  <p>
-If you have any questions about these Terms, please contact us at mail@ikrcg.com, or send mail to:
+If you have any questions about these Terms, please contact us at mail@ikr.dk, or send mail to:
 <br><br>
 IKR A/S<br>
 Tuse Næs Vej 7A<br>

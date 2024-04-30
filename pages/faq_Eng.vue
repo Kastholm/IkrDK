@@ -118,7 +118,7 @@
           <div
             v-for="(worker, index) in data.drift"
             :key="index"
-            :class="`baranalyser baranalyser${index + 11}`"
+            :class="`baranalyser`"
             :id="`bar4.${index}`"
           >
             <h6 class="header flex justify-center items-center h-16 w-fit m-auto" @click="toggleBar(`bar4.${index}`)">
@@ -371,6 +371,10 @@ h6 {
 
 .baranalyser.active {
   height: auto; /* Adjust the height as needed */
+}
+
+p {
+  margin-bottom: 50px;
 }
 
 @media screen and (max-width: 767px) {

@@ -25,7 +25,7 @@
           <div
             v-for="(worker, index) in data.analyser"
             :key="index"
-            :class="`baranalyser baranalyser${index + 1}`"
+            :class="`baranalyser`"
             :id="`bar1.${index}`"
           >
             <h6 class="header flex justify-center items-center h-16" @click="toggleBar(`bar1.${index}`)">
@@ -56,7 +56,7 @@
           <div
             v-for="(worker, index) in data.leverandor"
             :key="index"
-            :class="`baranalyser baranalyser${index + 7}`"
+            :class="`baranalyser`"
             :id="`bar2.${index}`"
           >
             <h6 class="header flex justify-center items-center h-16" @click="toggleBar(`bar2.${index}`)">
@@ -87,7 +87,7 @@
           <div
             v-for="(worker, index) in data.okonomi"
             :key="index"
-            :class="`baranalyser baranalyser${index + 10}`"
+            :class="`baranalyser`"
             :id="`bar3.${index}`"
           >
             <h6 class="header flex justify-center items-center h-16" @click="toggleBar(`bar3.${index}`)">
@@ -118,7 +118,7 @@
           <div
             v-for="(worker, index) in data.drift"
             :key="index"
-            :class="`baranalyser baranalyser${index + 11}`"
+            :class="`baranalyser`"
             :id="`bar4.${index}`"
           >
             <h6 class="header flex justify-center items-center h-16 w-fit m-auto" @click="toggleBar(`bar4.${index}`)">
@@ -149,7 +149,7 @@
           <div
             v-for="(worker, index) in data.indkob"
             :key="index"
-            :class="`baranalyser baranalyser${index + 19}`"
+            :class="`baranalyser`"
             :id="`bar5.${index}`"
           >
             <h6 class="header flex justify-center items-center h-16" @click="toggleBar(`bar5.${index}`)">
@@ -334,8 +334,8 @@ h6 {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  height: 100%;
-  margin-top: 50px;
+  height: 100;
+  margin-top: 10px;
   width: 100%;
 }
 
@@ -356,7 +356,11 @@ h6 {
 }
 
 .baranalyser.active {
-  height: 550px; /* Adjust the height as needed */
+  height: auto; /* Adjust the height as needed */
+}
+
+p {
+  margin-bottom: 50px;
 }
 
 @media screen and (max-width: 767px) {

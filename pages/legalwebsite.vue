@@ -39,7 +39,7 @@ These Terms do not apply to your access to and use of IKR products. If you sign 
 
 <h2 id="legal2" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36 streg relative">2. Registration and contact forms</h2>
 <p>
-    You may be given the opportunity to contact us or register via an online registration form, enter your email address to receive marketing emails, or to create a user account (“Your Account”) that may allow you to receive information from us and/or to participate in certain features on the Websites. We will use the information you provide in accordance with our Privacy Policy. By doing all of the above and providing your information, you represent and warrant that all information that you provide to us is current, complete and accurate to the best of your knowledge. You agree to maintain and promptly update your registration information on the Websites so that it remains current, complete and accurate. You can also contact us at mail@ikrcg.com regarding your data. You are responsible for obtaining and maintaining all connectivity, computer software, hardware and other equipment needed for access to and use of the Websites and all charges related to the same.
+    You may be given the opportunity to contact us or register via an online registration form, enter your email address to receive marketing emails, or to create a user account (“Your Account”) that may allow you to receive information from us and/or to participate in certain features on the Websites. We will use the information you provide in accordance with our Privacy Policy. By doing all of the above and providing your information, you represent and warrant that all information that you provide to us is current, complete and accurate to the best of your knowledge. You agree to maintain and promptly update your registration information on the Websites so that it remains current, complete and accurate. You can also contact us at mail@ikr.dk regarding your data. You are responsible for obtaining and maintaining all connectivity, computer software, hardware and other equipment needed for access to and use of the Websites and all charges related to the same.
 </p>
 
 <h2 id="legal3" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36 streg relative">3. Use of the Websites</h2>
@@ -95,7 +95,7 @@ You may display, copy and download Content from the Websites solely for your per
 
 <h2 id="contact" class="text-[29px] mt-10 text-[#256c2b] mb-3 pt-36 streg relative">Contact us</h2>
 <p>
-If you have any questions about these Terms, please contact us at mail@ikrcg.com, or send mail to:
+If you have any questions about these Terms, please contact us at mail@ikr.dk, or send mail to:
 <br><br>
 IKR A/S<br>
 Tuse Næs Vej 7A<br>
