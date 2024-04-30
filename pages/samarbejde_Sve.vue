@@ -5,7 +5,7 @@
       <div class="loader"></div>
     </div>
     <main v-else class="flex flex-col justify-center">
-      <SamarbejdeHero_Eng />
+      <SamarbejdeHero_Sve />
       <section class="flex flex-col">
         <div
           class="flex flex-wrap w-full relative mt-20 sm:mt-20 sm:gap-20 gap-10 2xl:gap-40 justify-center"
@@ -66,7 +66,7 @@
         </div>
       </section>
   
-      <SamarbejdeBund_Eng />
+      <SamarbejdeBund_Sve />
       <LogoKarrusel
         class="translate-y-20 border-t-[#2c2c2c] border-[0px] border-b-[#2c2c2c]"
       />
