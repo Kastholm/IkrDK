@@ -29,7 +29,27 @@
 		<div class="slide">
 			<img src="https://i.ibb.co/2K5V3hM/Varbergs.png" height="100" width="250" alt="University College Nord" />
 		</div>
-		
+		<div class="slide">
+			<img src="https://i.ibb.co/MprxNgc/Eslovs.png" height="100" width="90" alt="Esbjerg Kommune" />
+		</div>
+		<div class="slide">
+			<img src="https://i.ibb.co/nBqxPH6/Gislaveds-kommun-Logotyp.jpg" height="100" width="250" alt="Frederikssund Kommune" />
+		</div>
+		<div class="slide">
+			<img src="https://i.ibb.co/kHrk9Wd/Halmstad.png" height="100" width="250" alt="Koebenhavns Professionhoejskole" />
+		</div>
+		<div class="slide">
+			<img src="https://i.ibb.co/1JVbGPt/Mora.png" height="100" width="250" alt="CBS - Copenhagen Business School" />
+		</div>
+		<div class="slide">
+			<img src="https://i.ibb.co/CV17BHf/Norrkoping.png" height="100" width="120" alt="Kriminalforsorgen" />
+		</div>
+		<div class="slide">
+			<img src="https://i.ibb.co/4VWtgFX/Varnamo.gif" height="100" width="250" alt="Naestved Kommune" />
+		</div>
+		<div class="slide">
+			<img src="https://i.ibb.co/jbK29tV/Sjobo.png" height="100" width="190" alt="Soenderborg Kommune" />
+		</div>
 
 
 
