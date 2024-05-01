@@ -58,7 +58,7 @@
         </article>
       </div>
       <Vi-erBund_Sve />
-      <LogoKarrusel
+      <LogoKarrusel_Sve
         class="translate-y-20 border-t-[#2c2c2c] border-[0px] border-b-[#2c2c2c]"
       />
       <div></div>
