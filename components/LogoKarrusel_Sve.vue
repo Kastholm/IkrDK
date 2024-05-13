@@ -30,7 +30,7 @@
 			<img src="https://i.ibb.co/2K5V3hM/Varbergs.png" height="100" width="250" alt="University College Nord" />
 		</div>
 		<div class="slide">
-			<img src="https://i.ibb.co/MprxNgc/Eslovs.png" height="100" width="90" alt="Esbjerg Kommune" />
+			<img src="https://i.ibb.co/MprxNgc/Eslovs.png" height="100" width="60" alt="Esbjerg Kommune" />
 		</div>
 		<div class="slide">
 			<img src="https://i.ibb.co/nBqxPH6/Gislaveds-kommun-Logotyp.jpg" height="100" width="250" alt="Frederikssund Kommune" />

@@ -56,17 +56,17 @@
         class="flex flex-col w-fit items-center sm:text-left text-center sm:m-0 m-auto"
       >
         <div class="flex flex-col">
-          <p class="mt-4 text-[18px]">
-            Tuse Næs Vej 7A,<br />
-            DK-4300 Holbæk
+          <p class="mt-4 text-[18px] max-w-[128px]">
+            Gustav III:s Boulevard,<br />
+            169 73 Solna
           </p>
         </div>
         <div class="flex flex-col mt-1">
-          <a href="tel:+45 88 27 63 33"
+          <a href="tel:+46 850 780 615"
             ><p
               class="mt-4 text-[18px] hover:underline hover:underline-offset-4"
             >
-              +45 88 27 63 33
+            +46 850 780 615
             </p></a
           >
           <a href="mailto:mail@ikr.dk"
