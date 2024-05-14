@@ -39,7 +39,7 @@
         <NuxtLink to="/"
           ><img
             src="https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg"
-            class="absolute left-24 2xl:left-36 h-[90px] w-fit top-3 menuImgTablet"
+            class="absolute left-24 2xl:left-36 h-[90px] max-w-[235px] w-fit top-3 menuImgTablet"
             alt="#"
         /></NuxtLink>
         <div
