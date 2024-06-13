@@ -17,8 +17,8 @@
  <div class="flex justify-end">
     <div class="sm:bg-[#0a3700] bg-[#0a3700] sm:h-[350px] h-[500px] sm:w-[90%] absolute bottom-40 z-20 rounded-sm ">
         <article class="flex flex-col gap-10 justify-center sm:ml-28 ml-5 sm:mt-20 mt-10 text-white">
-        <h1 class=" font-semibold tracking-wider sm:leading-[65px] leading-[50px]">{{ data.title2 }}</h1>
-        <p class=" w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-7">
+        <h1 class=" font-semibold tracking-wider sm:leading-[65px] leading-[50px] tablet-overskrift">{{ data.title2 }}</h1>
+        <p class=" w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 mb-7 tablet-herotext">
           <PortableText
                 :value="data.text1[0]"
                 :components="components"

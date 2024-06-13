@@ -123,7 +123,7 @@
       </div>
   
       <div
-        class="flex w-full flex-wrap relative mt-[100px] gap-10 2xl:gap-40 justify-center"
+        class="flex w-full flex-wrap article-gap relative mt-[100px] gap-10 2xl:gap-40 justify-center"
       >
         <figure
           class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[135px] translate-y-[190px]"
@@ -144,7 +144,7 @@
         </article>
       </div>
       <div
-        class="flex flex-wrap w-full relative mt-36 gap-10 2xl:gap-24 justify-center"
+        class="flex flex-wrap article-gap w-full relative mt-36 gap-10 2xl:gap-24 justify-center"
       >
         <article
           class="sm:w-[40%] w-full flex flex-col gap-5 -translate-y-5 max-w-[90%] sm:mt-0 mt-20"

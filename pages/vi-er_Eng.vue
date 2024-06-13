@@ -5,7 +5,7 @@
       <Vi-erHero_Eng />
   
       <div
-        class="flex w-full relative mt-20 sm:mt-36 gap-16 2xl:gap-40 justify-center flex-wrap"
+        class="flex w-full relative mt-20 sm:mt-36 gap-16 2xl:gap-40 justify-center flex-wrap article-gap-vi-er"
       >
         <figure
           class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[135px]"
@@ -38,7 +38,7 @@
       </div>
   
       <div
-        class="flex w-full relative mt-28 gap-20 2xl:gap-40 justify-center flex-wrap sm:mb-0"
+        class="flex w-full relative mt-28 gap-20 2xl:gap-40 justify-center flex-wrap article-gap-vi-er sm:mb-0"
       >
         <img
           src="https://i.ibb.co/5GcgYV2/Vi-er-team2-75.webp"

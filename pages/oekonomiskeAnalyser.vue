@@ -17,8 +17,8 @@
 useSeoMeta({
   title: 'Hos IKR er analyser vejen til jeres øget økonmisk råderum',
   ogTitle: 'Hos IKR er analyser vejen til jeres øget økonmisk råderum',
-  description: 'IKR giver jer et større økonomisk råderum ved at gennemgå og optimerer jeres firmas aftaler og kontrakter.',
-  ogDescription: 'IKR giver jer et større økonomisk råderum ved at gennemgå og optimerer jeres firmas aftaler og kontrakter.',
+  description: 'Ved at IKR analyserer jeres eksterne aftaler og kontrakter, finder vi vejen frem til optimering af jeres øknomiske råderum.',
+  ogDescription: 'Ved at IKR analyserer jeres eksterne aftaler og kontrakter, finder vi vejen frem til optimering af jeres øknomiske råderum.',
   ogImage: 'https://i.ibb.co/ZWCZJRk/IKR-Main-Logo-600x450-cropped.jpg',
 })
 </script>

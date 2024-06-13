@@ -115,9 +115,14 @@ body, ul, li {
     /* Add any other styles you want for the active link */
   }
 
-    @media screen and (max-width: 1025px) {
-  
+  @media screen and (max-width: 1275px) {
   .respons-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1275px) {
+  .respons-mobil {
     display: none;
   }
 }
@@ -138,14 +143,6 @@ body, ul, li {
 @media only screen and (min-width: 2500px) and (max-width: 3500px) {
   .kontakt-respons {
     transform: translatex(700px)
-  }
-}
-
-
-@media screen and (min-width: 1026px) {
-  
-  .respons-mobil {
-    display: none;
   }
 }
 

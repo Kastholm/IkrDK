@@ -7,7 +7,7 @@
       class="w-full flex justify-center items-center mt-32 2xl:mt-40 relative"
     >
       <div
-        class="bgimg flex flex-col sm:flex-row justify-around 2xl:justify-center items-center max-w-full sm:max-w-full gap-[0px] 2xl:gap-[400px]"
+        class="bgimg flex flex-col sm:flex-row justify-around 2xl:justify-center bund-container-flex-respons items-center max-w-full sm:max-w-full gap-[0px] 2xl:gap-[400px]"
       >
         <div
           class="flex flex-col mb-20 sm:ml-20 sm:mt-0 gap-4 bund-container-respons sm:text-start text-center translate-y-6"

@@ -7,7 +7,7 @@
     <SamarbejdeHero />
     <section class="flex flex-col">
       <div
-        class="flex flex-wrap w-full relative mt-20 sm:mt-20 sm:gap-20 gap-10 2xl:gap-40 justify-center"
+        class="flex flex-wrap w-full article-gap relative mt-20 sm:mt-20 sm:gap-20 gap-10 2xl:gap-40 justify-center"
       >
         <img
           src="https://i.ibb.co/bs8KZ9M/Samarbejde-h-jformat-1.jpg"
@@ -32,7 +32,7 @@
       </div>
 
       <div
-        class="flex flex-wrap w-full relative mt-20 sm:mt-36 gap-10 2xl:gap-40 justify-center"
+        class="flex flex-wrap w-full relative mt-20 sm:mt-36 gap-10 article-gap 2xl:gap-40 justify-center"
       >
         <figure
           class="h-[220px] min-h-[200px] respons w-[200px] bg-[#2c2c2c] clip2 absolute right-0 bottom-0 sm:translate-y-[5px]"

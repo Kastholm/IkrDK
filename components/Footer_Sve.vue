@@ -8,7 +8,7 @@
       <NuxtLink to="/index_Eng"
         ><img
           src="https://i.ibb.co/yqJCFL2/IKR-Inverted-Color-800x600-2-1.png"
-          class="h-[170px]"
+          class="h-[170px] tablet-img-footer"
       /></NuxtLink>
 
       <div class="flex flex-col gap-2 sm:w-fit w-full">
@@ -95,7 +95,7 @@
       <div class="flex flex-col gap-10 items-center sm:w-[280px] w-full">
         <NuxtLink to="kontakt_Eng"
           ><button
-            class="text-white hover:scale-110 transition-all bg-[#2c2c2c] h-[60px] w-[350px] rounded-sm"
+            class="text-white hover:scale-110 transition-all bg-[#2c2c2c] h-[60px] w-[350px] rounded-sm tablet-knap-footer"
           >
             <h5>KONTAKTA OSS</h5>
           </button></NuxtLink

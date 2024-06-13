@@ -10,7 +10,7 @@
     <main class="sm:flex sm:flex-row flex flex-col sm:items-start items-center flex-wrap relative sm:mt-28 ">
       <section class="w-[95vw] sm:w-[55%] h-[600px] relative z-50 sm:mb-0 mb-40">
         <div
-          class="absolute sm:w-[500px] w-full h-[733px] bg-[#256c2b] sm:left-40 container-respons rounded-b-2xl shadow-2xl shadow-[#00000050]"
+          class="absolute sm:w-[500px] w-full h-[733px] bg-[#256c2b] kontakt-faner-tablet sm:left-40 container-respons rounded-b-2xl shadow-2xl shadow-[#00000050]"
         >
           <div
             class="flex flex-col flex-wrap text-white h-full items-center justify-evenly gap-10 -translate-y-4"
@@ -48,7 +48,7 @@
         <Form
           :validation-schema="schema"
           @submit="onSubmit"
-          class="bg-[#256c2b] w-full p-8 rounded-b-3xl sm:rounded-t-none rounded-t-3xl shadow-2xl shadow-[#00000050]"
+          class="bg-[#256c2b] kontakt-faner-tablet w-full p-8 rounded-b-3xl sm:rounded-t-none rounded-t-3xl shadow-2xl shadow-[#00000050]"
         >
           <label for="navn" class="block mb-4 text-white"
             >{{ data.title6 }}

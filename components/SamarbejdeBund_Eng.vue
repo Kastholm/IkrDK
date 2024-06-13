@@ -7,7 +7,7 @@
       class="w-full flex justify-center items-center 2xl:mt-40 sm:mt-0 mt-[120px] relative"
     >
       <div
-        class="bgimg flex flex-col sm:flex-row justify-around 2xl:justify-center items-center max-w-full sm:max-w-full gap-[0px] 2xl:gap-[400px]"
+        class="bgimg flex flex-col sm:flex-row justify-around 2xl:justify-center bund-container-flex-respons items-center max-w-full sm:max-w-full gap-[0px] 2xl:gap-[400px]"
       >
         <div
           class="flex flex-col mb-20 sm:ml-20 sm:mt-0 gap-4 bund-container-respons sm:text-start text-center translate-y-6"
@@ -97,6 +97,41 @@ console.log(data);
   .bgimg {
     gap: 400px;
   }
+}
+
+.kommentar::before {
+  content: "";
+  position: absolute;
+  background-image: url("https://i.ibb.co/3ftYYW3/G-se-jne-260px.png");
+  background-size: contain;
+  transform: translatey(-20px) translatex(-60px);
+  font-size: 40px;
+  height: 60px;
+  width: 60px;
+}
+
+.kommentar2::before {
+  content: "";
+  position: absolute;
+  background-image: url("https://i.ibb.co/3ftYYW3/G-se-jne-260px.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translatey(-10px) translatex(10px);
+  font-size: 40px;
+  height: 40px;
+  width: 40px;
+}
+
+.kommentar3::before {
+  content: "";
+  position: absolute;
+  background-image: url("https://i.ibb.co/3ftYYW3/G-se-jne-260px.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translatey(-20px) translatex(-45px);
+  font-size: 40px;
+  height: 40px;
+  width: 40px;
 }
 
 @media only screen and (max-width: 363px) {

@@ -9,7 +9,7 @@
         <img
           src="https://i.ibb.co/pn0GDzj/troels-christoffer-heidi-ydelser-1.png"
           alt=""
-          class="sm:h-[420px] h-[170px] person-respons absolute bottom-0 z-50 right-0 sm:translate-x-0 tabletPersonYdelser"
+          class="sm:h-[420px] h-[170px] person-respons-ydelser absolute bottom-0 z-50 right-0 sm:translate-x-0 tabletPersonYdelser"
         />
       </div>
       <div class="flex justify-end">
@@ -20,11 +20,11 @@
             class="flex flex-col sm:gap-2 justify-center sm:ml-28 ml-5 sm:mt-8 mt-10 text-white"
           >
             <h1
-              class="font-semibold tracking-wider sm:leading-[65px] leading-[50px] sm:max-w-[900px] sm:mb-0 mb-5"
+              class="tablet-overskrift font-semibold tracking-wider sm:leading-[65px] leading-[50px] sm:max-w-[900px] sm:mb-0 mb-5"
             >
               {{ data.title }}
             </h1>
-            <p class="w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 sm:translate-y mb-7">
+            <p class="tablet-herotext-ydelser w-[90%] sm:max-w-[700px] mt-6 sm:mt-0 sm:translate-y mb-7">
               <PortableText
           :value="data.text1[0]"
           :components="components"

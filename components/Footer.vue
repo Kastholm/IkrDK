@@ -1,7 +1,7 @@
 <template>
   <footer class="block min-h-[200px] sm:mt-40 mt-28 bg-[#256c2b] pt-5 text-white">
     <div class="flex-col gap-10 sm:gap-0 sm:flex-row flex w-full justify-around items-end">
-        <NuxtLink to="/"><img src="https://i.ibb.co/d6cpnRb/IKR-Inverted-Color-2400x1800-1.png" class="h-[150px]"></NuxtLink>
+        <NuxtLink to="/"><img src="https://i.ibb.co/d6cpnRb/IKR-Inverted-Color-2400x1800-1.png" class="h-[150px] tablet-img-footer"></NuxtLink>
         
         <div class="flex flex-col gap-2 sm:w-fit w-full">
          <div class="flex gap-2 flex-col items-center sm:items-start justify-center sm:text-start">
@@ -34,7 +34,7 @@
       </a>
         </div>
         <div class="flex flex-col gap-10 items-center sm:w-[280px] w-full">
-        <NuxtLink to="kontakt"><button class="text-white hover:scale-110 transition-all bg-[#2c2c2c] h-[60px] w-[350px] rounded-sm"><h5>KONTAKT OS</h5></button></NuxtLink>
+        <NuxtLink to="kontakt"><button class="text-white hover:scale-110 transition-all bg-[#2c2c2c] h-[60px] w-[350px] rounded-sm tablet-knap-footer"><h5>KONTAKT OS</h5></button></NuxtLink>
         <a href="https://www.bisnode.dk/om-bisnode/hvad-vi-gor/live-rating-logo-eng/" target="_blank" class=" no-underline">
         <img class="h-[94px]" src="https://merit.soliditet.dk/merit/imageGenerator/display?lang=EN&country=DK&cId=hKnZW3dMD8Pk99j1fyB7CA%3D%3D&cUid=cnJngSjDhuE%3D&imgType=img_273_73_px" oncontextmenu="return false" title="Our company is credit worthy according to Bisnode's credit assessment system that is based on a number of decision rules. This credit rating is updated on a daily basis, and always shows the current rating and date." alt="Our company is credit worthy according to Bisnode's credit assessment system that is based on a number of decision rules. This credit rating is updated on a daily basis, and always shows the current rating and date." id="img_273_73_px">
       </a>

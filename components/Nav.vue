@@ -152,7 +152,7 @@ onUnmounted(() => {
 
 
 <style>
-@media only screen and (min-width: 768px) and (max-width: 1140px) {
+@media only screen and (min-width: 768px) and (max-width: 1325px) {
   .menuGapTablet {
     gap: 20px;
     margin-left: 80px;
@@ -178,8 +178,14 @@ li {
   /* Add any other styles you want for the active link */
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1275px) {
   .respons-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1275px) {
+  .respons-mobil {
     display: none;
   }
 }
@@ -202,11 +208,6 @@ li {
   }
 }
 
-@media screen and (min-width: 1026px) {
-  .respons-mobil {
-    display: none;
-  }
-}
 
 #menuToggle {
   display: block;

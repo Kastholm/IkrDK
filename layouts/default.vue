@@ -247,7 +247,7 @@ label {
 
 /* tablet start */
 
-@media only screen and (min-width: 768px) and (max-width: 1140px) {
+@media only screen and (min-width: 700px) and (max-width: 1200px) {
 
 h1 h2 h3 p {
   min-width: 100vw;
@@ -271,7 +271,7 @@ h1 h2 h3 p {
 }
 
 .tabletPersonViEr{
-  transform: translateX(-50px);
+  transform: translateX(-20px);
   
 }
 
@@ -281,8 +281,32 @@ h1 h2 h3 p {
 }
 
 .kasserTablet {
-  gap: 15px
+  gap: 15px;
+  margin-top: 100px;
 }
+
+.card {
+  width:325px;
+  min-width: 325px;
+  margin: auto;
+}
+
+.bund-container-flex-respons {
+  gap: 0px;
+}
+
+.bund-container-respons {
+  min-width: 650px;
+  margin-left: 10px;
+}
+
+.kommentar::before {
+      display: none;
+    }
+
+    .clip2 {
+      display: none;
+    }
 
 .noWrap {
   flex-wrap: nowrap;
@@ -294,6 +318,56 @@ h1 h2 h3 p {
   max-width: 500px;
 }
 
+.tablet-img-footer {
+  height: 100px;
+}
+
+.tablet-knap-footer {
+  width: 280px;
+}
+
+.article-gap {
+  gap: 0.8rem;
+}
+
+.article-gap-vi-er {
+  gap: 1.5rem;
+}
+
+.kontakt-faner-tablet {
+  width: 420px;
+}
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .tablet-overskrift{
+      font-size: 55px;
+    }
+
+    .tablet-overskrift-vi-er{
+      font-size: 48px;
+    }
+
+    .person-respons {
+      height: 300px;
+    }
+
+    .person-respons-ydelser {
+      height: 250px;
+    }
+
+    .person-respons-vi-er {
+      height: 240px;
+    }
+
+    .tablet-herotext {
+      max-width: 75%;
+    }
+
+    .tablet-herotext-ydelser {
+      max-width: 70%;
+    }
 }
 
 
