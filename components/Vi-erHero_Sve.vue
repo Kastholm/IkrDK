@@ -7,7 +7,7 @@
         class="w-full h-[450px] bg-[#1a5b0b] bg-gradient-header absolute bottom-0"
       >
         <img
-          src="https://i.ibb.co/LN6Z422/Jacob-Henrik-Jesper-VI-ER.png"
+          src="https://i.ibb.co/fxJNPzr/Jacob-Jesper.png"
           alt=""
           class="sm:h-[420px] person-respons-vi-er h-[170px] absolute bottom-0 z-50 right-0 sm:translate-x-0 tabletPersonViEr"
         />
