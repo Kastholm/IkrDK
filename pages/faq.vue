@@ -39,6 +39,7 @@
                     :components="component"
                   />
                 </p>
+                <NuxtLink :to="worker.bulletpointlink">Læs mere</NuxtLink>  
               </div>
             </div>
           </div>
@@ -70,6 +71,7 @@
                     :components="component"
                   />
                 </p>
+                <NuxtLink :to="worker.bulletpointlink">Læs mere</NuxtLink>                    
               </div>
             </div>
           </div>
@@ -101,6 +103,7 @@
                     :components="component"
                   />
                 </p>
+                <NuxtLink :to="worker.bulletpointlink">Læs mere</NuxtLink>  
               </div>
             </div>
           </div>
@@ -132,6 +135,7 @@
                     :components="component"
                   />
                 </p>
+                <NuxtLink :to="worker.bulletpointlink">Læs mere</NuxtLink>  
               </div>
             </div>
           </div>
@@ -163,6 +167,7 @@
                     :components="component"
                   />
                 </p>
+                <NuxtLink :to="worker.bulletpointlink">Læs mere</NuxtLink>  
               </div>
             </div>
           </div>
@@ -190,7 +195,7 @@ const query = groq`*[(_type == "faq") && lang == "Dansk" ][0]`;
 const sanity = useSanity();
 const { data } = useSanityQuery(query);
 import { PortableText } from "@portabletext/vue";
-console.log(data);
+console.log(data,"vsnins");
 
 useSeoMeta({
   title: 'Spørgsmål til optimering og aftalestyring - læs mere her',
