@@ -77,7 +77,12 @@ export default defineType({
                               name: 'bullettext1',
                               title: 'Bulletpoint Tekst',
                               type: 'blockContent',
-                         }
+                         },
+                         {
+                              name: 'bulletpointlink',
+                              title: 'Bulletpoint Link',
+                              type: 'string',
+                         },
                     ]
                }],
           }),
@@ -97,7 +102,13 @@ export default defineType({
                               name: 'bullettext2',
                               title: 'Bulletpoint Tekst',
                               type: 'blockContent',
-                         }
+                         },
+                         {
+                              name: 'bulletpointlink',
+                              title: 'Bulletpoint Link',
+                              type: 'string',
+                         },
+                         
                     ]
                }],
           }),
@@ -137,7 +148,12 @@ export default defineType({
                               name: 'bullettext4',
                               title: 'Bulletpoint Tekst',
                               type: 'blockContent',
-                         }
+                         },
+                         {
+                              name: 'bulletpointlink',
+                              title: 'Bulletpoint Link',
+                              type: 'string',
+                         },
                     ]
                }],
           }),
@@ -157,7 +173,12 @@ export default defineType({
                               name: 'bullettext5',
                               title: 'Bulletpoint Tekst',
                               type: 'blockContent',
-                         }
+                         },
+                         {
+                              name: 'bulletpointlink',
+                              title: 'Bulletpoint Link',
+                              type: 'string',
+                         },
                     ]
                }],
           }),
