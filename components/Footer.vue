@@ -35,8 +35,8 @@
         </div>
         <div class="flex flex-col gap-10 items-center sm:w-[280px] w-full">
         <NuxtLink to="kontakt"><button class="text-white hover:scale-110 transition-all bg-[#2c2c2c] h-[60px] w-[350px] rounded-sm tablet-knap-footer"><h5>KONTAKT OS</h5></button></NuxtLink>
-        <a href="https://www.dnb.com/da-dk/produkter-og-tjenester/live-rating-logo/" target="_blank"><img src="https://ratinglogo.bisnode.com/243981-7808884819580866961.svg"/>
-        </a>
+         <a href="https://www.dnb.com/da-dk/produkter-og-tjenester/live-rating-logo/" target="_blank"><img src="https://ratinglogo.bisnode.com/243981-7808884819580866961.svg" height="200"/>
+         </a>
         </div>     
     </div>
     <div class="h-10"></div>
