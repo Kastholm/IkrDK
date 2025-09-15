@@ -100,24 +100,13 @@
             <h5>KONTAKTA OSS</h5>
           </button></NuxtLink
         >
-        <a
-          href="https://www.bisnode.dk/om-bisnode/hvad-vi-gor/live-rating-logo-eng/"
-          target="_blank"
-          class="no-underline"
-        >
-          <img
-            class="h-[94px]"
-            src="https://merit.soliditet.dk/merit/imageGenerator/display?lang=EN&country=DK&cId=hKnZW3dMD8Pk99j1fyB7CA%3D%3D&cUid=cnJngSjDhuE%3D&imgType=img_273_73_px"
-            oncontextmenu="return false"
-            title="Our company is credit worthy according to Bisnode's credit assessment system that is based on a number of decision rules. This credit rating is updated on a daily basis, and always shows the current rating and date."
-            alt="Our company is credit worthy according to Bisnode's credit assessment system that is based on a number of decision rules. This credit rating is updated on a daily basis, and always shows the current rating and date."
-            id="img_273_73_px"
-          />
-        </a>
+         <a href="https://www.dnb.com/da-dk/produkter-og-tjenester/live-rating-logo/" target="_blank" class=" no-underline">
+        <img class="h-[120px]" src="https://ratinglogo.bisnode.com/243981-7808884819580866961.svg" oncontextmenu="return false" title="Our company is credit worthy according to Bisnode's credit assessment system that is based on a number of decision rules. This credit rating is updated on a daily basis, and always shows the current rating and date." alt="Our company is credit worthy according to Bisnode's credit assessment system that is based on a number of decision rules. This credit rating is updated on a daily basis, and always shows the current rating and date." id="img_273_73_px">
+      </a>
       </div>
     </div>
     <div class="h-10"></div>
-    <p class="flex justify-center text-[15px]">Copyright © 2024 IKR A/S | All rights reserved</p>
+    <p class="flex justify-center text-[15px]">Copyright © 2025 IKR A/S | All rights reserved</p>
   </footer>
 </template>
 
