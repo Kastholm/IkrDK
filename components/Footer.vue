@@ -35,8 +35,9 @@
         </div>
         <div class="flex flex-col gap-10 items-center sm:w-[280px] w-full">
         <NuxtLink to="kontakt"><button class="text-white hover:scale-110 transition-all bg-[#2c2c2c] h-[60px] w-[350px] rounded-sm tablet-knap-footer"><h5>KONTAKT OS</h5></button></NuxtLink>
-         <a href="https://www.dnb.com/da-dk/produkter-og-tjenester/live-rating-logo/" target="_blank"><img src="https://ratinglogo.bisnode.com/243981-7808884819580866961.svg" height="200"/>
-         </a>
+        <a href="https://www.dnb.com/da-dk/produkter-og-tjenester/live-rating-logo/" target="_blank" class=" no-underline">
+        <img class="h-[94px]" src="https://ratinglogo.bisnode.com/243981-7808884819580866961.svg" oncontextmenu="return false" title="Our company is credit worthy according to Bisnode's credit assessment system that is based on a number of decision rules. This credit rating is updated on a daily basis, and always shows the current rating and date." alt="Our company is credit worthy according to Bisnode's credit assessment system that is based on a number of decision rules. This credit rating is updated on a daily basis, and always shows the current rating and date." id="img_273_73_px">
+      </a>
         </div>     
     </div>
     <div class="h-10"></div>
