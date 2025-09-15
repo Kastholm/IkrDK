@@ -29,9 +29,8 @@
          <div class="flex flex-col ">
             <p class="mt-4 text-[18px]">CVR - 27185045</p>
          </div>
-         <a target="_blank" rel="noopener noreferrer" href="https://dk.linkedin.com/company/ikr-a-s" class="h-fit w-fit">
-         <img src="https://i.ibb.co/XpCTQVq/Linked-In-icon-svg-1.png" class="w-10 mt-5">
-      </a>
+         <a href="https://www.dnb.com/da-dk/produkter-og-tjenester/live-rating-logo/" target="_blank"><img src="https://ratinglogo.bisnode.com/243981-7808884819580866961.svg"/>
+         </a>
         </div>
         <div class="flex flex-col gap-10 items-center sm:w-[280px] w-full">
         <NuxtLink to="kontakt"><button class="text-white hover:scale-110 transition-all bg-[#2c2c2c] h-[60px] w-[350px] rounded-sm tablet-knap-footer"><h5>KONTAKT OS</h5></button></NuxtLink>
