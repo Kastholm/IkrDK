@@ -101,7 +101,7 @@
           </button></NuxtLink
         >
         <a href="https://www.dnb.com/da-dk/produkter-og-tjenester/live-rating-logo/" target="_blank" class=" no-underline">
-        <img class="h-[120px]" src="https://ratinglogo.bisnode.com/243981-7808884819580866961.svg" oncontextmenu="return false" title="Our company is credit worthy according to Bisnode's credit assessment system that is based on a number of decision rules. This credit rating is updated on a daily basis, and always shows the current rating and date." alt="Our company is credit worthy according to Bisnode's credit assessment system that is based on a number of decision rules. This credit rating is updated on a daily basis, and always shows the current rating and date." id="img_273_73_px">
+        <img class="h-[120px]" src="https://ratinglogo.bisnode.com/243981-9203982403358798949.svg" oncontextmenu="return false" title="Our company is credit worthy according to Bisnode's credit assessment system that is based on a number of decision rules. This credit rating is updated on a daily basis, and always shows the current rating and date." alt="Our company is credit worthy according to Bisnode's credit assessment system that is based on a number of decision rules. This credit rating is updated on a daily basis, and always shows the current rating and date." id="img_273_73_px">
       </a>
       </div>
     </div>
