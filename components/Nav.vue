@@ -155,7 +155,7 @@ onUnmounted(() => {
 @media only screen and (min-width: 768px) and (max-width: 1325px) {
   .menuGapTablet {
     gap: 20px;
-    margin-left: 80px;
+    margin-left: 0px;
   }
 
   .menuImgTablet {
