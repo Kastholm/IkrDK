@@ -106,7 +106,9 @@
       </div>
     </div>
     <div class="h-10"></div>
-    <p class="flex justify-center text-[15px]">Copyright © 2025 IKR A/S | All rights reserved</p>
+    <p class="flex justify-center text-[15px]">Copyright © <span id="copyright"><script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> IKR A/S | All rights reserved</p>
+
+    
   </footer>
 </template>
 
